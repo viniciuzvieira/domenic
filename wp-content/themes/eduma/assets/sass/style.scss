@@ -1,0 +1,132 @@
+/*!
+Theme Name: Eduma
+Theme URI: http://educationwp.thimpress.com/
+Author: ThimPress
+Author URI: https://thimpress.com
+Description: Premium WordPress LMS theme.
+Version: 4.0.2
+License: Split License
+License URI: https://help.market.envato.com/hc/en-us/articles/202501064-What-is-Split-Licensing-and-the-GPL-
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: eduma
+Domain Path: /languages/
+*/
+
+//Extend plugin use in this theme
+//@import "eduma/extend-plg-miniorange-login";
+//@import "eduma/extend-plg-lp2.0";
+@import "eduma/extend-plg-tp-event";
+//@import "eduma/extend-plg-contact-form-7";
+//@import "eduma/extend-plg-mailchimp";
+//@import "eduma/extend-plugin-tp-chameleon";
+//@import "eduma/extend-plugin-siteorigin-panels-front";
+
+
+// Import variables
+@import "variables";
+// Import style Bootstrap
+@import "bootstrap/bootstrap";
+// Import style awesome
+//@import "awesome/font-awesome";
+// Import Mixins
+@import "mixins/extend";
+@import "mixins/mixins-master";
+// Import reset style
+@import "reset-style/reset-style";
+
+//Special style
+@import "eduma/animate";
+@import "eduma/theme";
+@import "preloading/spinkit";
+
+// Basic styles
+@import "header/toolbar";
+@import "header/main-menu";
+@import "eduma/footer";
+@import "eduma/category";
+@import "eduma/single";
+@import "eduma/search";
+@import "eduma/page";
+
+//Widgets
+@import "widgets/widgets";
+@import "widgets/widget-accordion";
+@import "widgets/widget-collapse";
+@import "widgets/widget-countdown-box";
+@import "widgets/widget-counter-box";
+@import "widgets/widget-course-categories";
+@import "widgets/widget-courses";
+@import "widgets/widget-events";
+@import "widgets/widget-button";
+@import "widgets/widget-gallery-images";
+@import "widgets/widget-google-map";
+@import "widgets/widget-heading";
+@import "widgets/widget-iconbox";
+@import "widgets/widget-list-instructors";
+@import "widgets/widget-list-posts";
+@import "widgets/courses-search";
+@import "widgets/widget-one-instructor";
+@import "widgets/courses-collection";
+@import "widgets/widget-post-carousel";
+@import "widgets/widget-search";
+@import "widgets/widget-social";
+@import "widgets/widget-tabs";
+@import "widgets/widget-team";
+@import "widgets/widget-testimonials";
+@import "widgets/widget-timetable";
+@import "widgets/widget-twitter";
+@import "widgets/widget-video";
+@import "widgets/courses-filter";
+
+// bbPress
+@import "eduma/bbpress-forum";
+
+//buddyPress
+@import "eduma/buddypress";
+
+//New css
+@import "eduma/new_css";
+
+//Other Post types
+@import "eduma/portfolio";
+@import "eduma/our-team";
+@import "eduma/testimonials";
+
+//Woo
+@import "eduma/woocommerce";
+@import "eduma/quickview";
+@import "eduma/mini-cart";
+@import "eduma/login";
+
+//Quiz
+@import "eduma/quiz";
+@import "eduma/jalert";
+
+//Course
+@import "eduma/course-review";
+@import "eduma/courses";
+@import "eduma/course-single";
+@import "eduma/course-profile";
+
+//Event
+@import "eduma/tp-event";
+
+//Form
+@import "eduma/form";
+
+//Effect
+@import "eduma/effect";
+@import "eduma/sidebar-events";
+
+//for LP 2.0
+@import "eduma/style-lp-2.0";
+
+//for LP 3.0
+@import "eduma/style-lp-3.0";
+
+//New demo u3 & u4
+@import "eduma/demo-university-3";
+@import "eduma/demo-university-4";
+
+//Responsive
+@import "eduma/responsive";

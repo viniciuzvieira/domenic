@@ -1,0 +1,194 @@
+/* Theme options css */
+body {
+	font-family: $thim_thim_font_body_font_family;
+	font-size: $thim_thim_font_body_font_size;
+	font-weight: $thim_thim_font_body_font_weight;
+	line-height: $thim_thim_font_body_line_height;
+}
+
+body,
+body .content-pusher,
+body #main-content,
+.wpcf7-form.style-01 .contact-form-content .message textarea,
+.wpcf7-form.style-01 .contact-form-content .email input,
+.wpcf7-form.style-01 .contact-form-content .subject input,
+.wpcf7-form.style-01 .contact-form-content .name input,
+.wpcf7-form.style-02 .contact-form-content .name  input,
+.wpcf7-form.style-02 .contact-form-content .email input,
+.wpcf7-form.style-02 .contact-form-content .message textarea,
+.wpcf7-form.style-02 .contact-form-content .subject input{
+	background: $thim_thim_body_bg_color;
+}
+
+h1 {
+	font-size: $thim_thim_font_h1_font_size;
+	line-height: $thim_thim_font_h1_line_height;
+}
+
+h2 {
+	font-size: $thim_thim_font_h2_font_size;
+	line-height: $thim_thim_font_h2_line_height;
+}
+
+h3 {
+	font-size: $thim_thim_font_h3_font_size;
+	line-height: $thim_thim_font_h3_line_height;
+}
+
+h4 {
+	font-size: $thim_thim_font_h4_font_size;
+	line-height: $thim_thim_font_h4_line_height;
+}
+
+h5 {
+	font-size: $thim_thim_font_h5_font_size;
+	line-height: $thim_thim_font_h5_line_height;
+}
+
+h6 {
+	font-size: $thim_thim_font_h6_font_size;
+	line-height: $thim_thim_font_title_font_style;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: $thim_thim_font_title_font_weight;
+	font-style: $thim_thim_font_title_font_style;
+}
+
+h1, h2, h3, h4, h5, h6,
+.counter-box.number-left .display-percentage,
+.counter-box.number-left .counter-box-content,
+.product-grid .product__title .title,
+.thim-course-grid .course-item .thim-course-content .course-meta > div .course-comments-count,
+.thim-course-grid .course-item .thim-course-content .course-meta > div .course-student,
+#tab-course-review .course-rating .average-rating .rating-box .average-value,
+#tab-reviews .course-rating .average-rating .rating-box .average-value,
+.thim-widget-icon-box .wrapper-box-icon.has_custom_image:not(.overlay) .smicon-read,
+.elementor-widget-thim-icon-box .wrapper-box-icon.has_custom_image:not(.overlay) .smicon-read,
+.learn-press .tab-content .course-wishlist-box span.text,
+.woocommerce-MyAccount-content legend,
+.thim-font-heading,
+.thim-owl-carousel-post.thim-list-posts .read-more{
+	font-family: $thim_thim_font_title_font_family;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+	&:focus {
+		border-color: $thim_thim_body_primary_color !important;
+	}
+}
+
+.loop-pagination li .page-numbers.next:before,
+.pagination li .page-numbers.next:before,
+.learn-press-pagination li .page-numbers.next:before {
+	font-size: $thim_thim_font_body_font_size;
+}
+
+.slider-desc .btn,
+.list-address li,
+.list-info li {
+	font-size: $thim_thim_font_h6_font_size;
+}
+
+body,
+.breadcrumbs-wrapper .woocommerce-breadcrumb,
+.breadcrumbs-wrapper .thim-breadcrumbs,
+.breadcrumbs-wrapper .woocommerce-breadcrumb a,
+.breadcrumbs-wrapper .thim-breadcrumbs a,
+.breadcrumbs-wrapper #breadcrumbs li a,
+.breadcrumbs-wrapper #breadcrumbs li,
+.product-cat li a,
+.quickview .quick-view-detail,
+.filter-controls li a,
+.product-cat li a,
+.woocommerce div.product .woocommerce-review-link,
+.woocommerce div.product .product_meta a,
+.question-hint .quiz-hint-toggle .fa,
+.profile-container .profile-tabs .tab-content .thim-course-grid .cert-profile-view,
+.profile-container .profile-tabs .tab-content .thim-course-grid .cert-profile-view:hover,
+.breadcrumbs-wrapper #breadcrumbs a,
+#buddypress div#item-header .item-meta,
+.thim-widget-portfolio .wapper_portfolio .filters .portfolio-tabs li a.filter,
+.portfolio_container .wapper_portfolio .filters .portfolio-tabs li a.filter{
+	color: $thim_thim_font_body_color;
+}
+
+.one-courses-page-content .row-item .courses-price {
+	font-size: $thim_thim_font_h4_font_size;
+}
+
+.one-courses-page-content .row-item .number-students {
+	font-size: $thim_thim_font_h6_font_size;
+}
+
+.thim-footer-info > div.info-phone .fa {
+	color: $thim_thim_footer_color_text;
+}
+
+.thim-widget-portfolio .wapper_portfolio .portfolio_column .portfolio-hover .mask-content h3,
+.portfolio_container .wapper_portfolio .portfolio_column .portfolio-hover .mask-content h3 {
+	font-size: $thim_thim_font_h3_font_size;
+	font-weight: $thim_thim_font_title_font_weight;
+}
+
+.thim-demo-university-3 .rev-btn,
+.thim-demo-university-4 .rev-btn {
+	font-family: $thim_thim_font_body_font_family;
+}
+
+.thim-right-bg-secondary-color:before,
+.thim-left-full-bg-secondary-color:before,
+.list-event-slider .item-event .event-wrapper .box-time:after,
+.thim-simple-wrapper .navigation div:hover{
+	background: $thim_thim_body_secondary_color;
+}
+
+#colophon.thim-footer-university-4 .copyright-area .text-copyright a,
+#colophon.thim-footer-university-4 .mc4wp-form:after,
+#colophon.thim-footer-university-4 .mc4wp-form.focus-input:after,
+#colophon.thim-footer-university-4 .email a,
+.mc4wp-form .mc4wp-form-fields .newsletter-grad input[type=submit]:hover,
+.thim-footer-info-4 .info .heading {
+	color: $thim_thim_body_secondary_color;
+}
+
+#colophon.thim-footer-university-4 .menu li a:hover,
+#colophon.thim-footer-university-4 .email a:hover,
+.thim-social.style-4 li a:hover,
+#colophon.thim-footer-university-4 .thim-social.style-3 li a:hover {
+	color: $thim_thim_body_secondary_color !important;
+}
+
+.thim-simple-wrapper .pagination .item.active,
+.list-event-slider .item-event .event-wrapper .box-time:before{
+	border-color: $thim_thim_body_secondary_color;
+}
+
+.maintenance_mode {
+	.maintenance-wrap {
+		color: $thim_thim_maintenance_text_color;
+		h1 {
+			color: $thim_thim_maintenance_text_color;
+		}
+	}
+}
+
+.has-text-color {
+	&.has-primary-color {
+		color: $thim_thim_body_primary_color !important;
+	}
+
+	&.has-title-color {
+		color: $thim_thim_font_title_color !important;
+	}
+}
+
+.has-background {
+	&.has-primary-background-color {
+		background-color: $thim_thim_body_primary_color !important;
+	}
+
+	&.has-title-background-color {
+		background-color: $thim_thim_font_title_color !important;
+	}
+}

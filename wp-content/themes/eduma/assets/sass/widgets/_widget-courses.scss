@@ -1,0 +1,95 @@
+// Course List Sidebar
+.widget-area {
+  .thim-course-list-sidebar {
+    .lpr_course {
+      clear: both;
+      margin-bottom: 30px;
+      overflow: hidden;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:not(.has-post-thumbnail){
+        .thim-course-content{
+          width: 100%;
+          float: none;
+        }
+      }
+      &.has-post-thumbnail{
+        padding-top: 0 !important;
+      }
+    }
+    .course-thumbnail {
+      float: left;
+      width: 100px;
+      margin-right: 20px;
+      height: 85px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        margin-top: -8px;
+      }
+    }
+    .thim-course-content {
+      width: calc(100% - 120px);
+      width: -webkit-calc(100% - 120px);
+      width: -moz-calc(100% - 120px);
+      float: right;
+      .course-title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        margin: -4px 0 14px;
+        text-transform: none;
+      }
+    }
+    .course-price {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 12px;
+      label {
+        display: none;
+      }
+      .value {
+        color: #f24c0a;
+        &.free-course {
+          color: #00d637;
+        }
+      }
+
+    }
+  }
+}
+.thim-style-content-new-1 {
+  .widget-area {
+    .thim-course-list-sidebar {
+      .thim-course-content {
+        .course-title {
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+      .course-price {
+        font-size: 16px;
+        font-weight: 500;
+        .course-origin-price {
+          font-weight: 300;
+          font-size: 14px;
+        }
+        .value {
+          color: #2575fc;
+          &.free-course {
+            color: #00d637;
+          }
+        }
+      }
+    }
+  }
+}
+
+.thim-widget-courses,
+.elementor-widget-thim-courses {
+  .course-wishlist-box,
+  .course-readmore {
+    min-height: 1px !important;
+  }
+}

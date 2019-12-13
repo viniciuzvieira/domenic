@@ -1,0 +1,21 @@
+/**
+ * All of the CSS for your admin-specific functionality 
+ *
+ */
+ 
+ 
+.settings_page_simple_restrict_plugin h2 {
+	margin-top: 35px;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+.settings_page_simple_restrict_plugin p {
+    margin-top: 8px;
+}
+.settings_page_simple_restrict_plugin .simple_restrict_setting_one_text_field {
+	width: 100%;
+}
+.settings_page_simple_restrict_plugin p.description#simple_restrict_setting_one {
+    font-size: 12px;
+}

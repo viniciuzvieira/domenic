@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-29 10:50+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: init.php:379
+msgctxt "Post Type General Name"
+msgid "Testimonials"
+msgstr ""
+
+#: init.php:380
+msgctxt "Post Type Singular Name"
+msgid "Testimonial"
+msgstr ""
+
+#: init.php:381
+msgid "Testimonials"
+msgstr ""
+
+#: init.php:382
+msgid "Parent Testimonial:"
+msgstr ""
+
+#: init.php:383
+msgid "All Testimonials"
+msgstr ""
+
+#: init.php:384
+msgid "View Testimonial"
+msgstr ""
+
+#: init.php:385
+msgid "Add New Testimonial"
+msgstr ""
+
+#: init.php:386
+msgid "New Testimonial"
+msgstr ""
+
+#: init.php:387
+msgid "Edit Testimonial"
+msgstr ""
+
+#: init.php:388
+msgid "Update Testimonial"
+msgstr ""
+
+#: init.php:389
+msgid "Search Testimonials"
+msgstr ""
+
+#: init.php:390
+msgid "No Testimonials found"
+msgstr ""
+
+#: init.php:391
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: init.php:398
+msgctxt "URL slug"
+msgid "testimonials"
+msgstr ""
+
+#: init.php:416
+#, php-format
+msgid "Testimonials updated. <a href=\"%s\">View Testimonials</a>"
+msgstr ""
+
+#: init.php:417
+msgid "Custom field updated."
+msgstr ""
+
+#: init.php:418
+msgid "Custom field deleted."
+msgstr ""
+
+#: init.php:419
+msgid "Testimonial updated."
+msgstr ""
+
+#: init.php:420
+#, php-format
+msgid "Testimonial restored to revision from %s"
+msgstr ""
+
+#: init.php:421
+#, php-format
+msgid "Testimonials published. <a href=\"%s\">View Testimonials</a>"
+msgstr ""
+
+#: init.php:422
+msgid "Testimonial saved."
+msgstr ""
+
+#: init.php:423
+#, php-format
+msgid ""
+"Testimonials submitted. <a target=\"_blank\" href=\"%s\">Preview "
+"Testimonials</a>"
+msgstr ""
+
+#: init.php:424
+#, php-format
+msgid ""
+"Testimonials scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Testimonials</a>"
+msgstr ""
+
+#: init.php:424
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: init.php:425
+#, php-format
+msgid ""
+"Testimonials draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"Testimonials</a>"
+msgstr ""
+
+#: init.php:444
+msgid "Regency"
+msgstr ""
+
+#: init.php:451
+msgid "Website URL"
+msgstr ""

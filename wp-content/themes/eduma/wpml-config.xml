@@ -1,0 +1,36 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">thim_course_skill_level</custom-field>
+        <custom-field action="translate">thim_course_language</custom-field>
+        <custom-field action="translate">thim_quote</custom-field>
+        <custom-field action="translate">thim_author</custom-field>
+        <custom-field action="translate">thim_text</custom-field>
+        <custom-field action="translate">thim_mtb_custom_title</custom-field>
+        <custom-field action="translate">thim_subtitle</custom-field>
+        <custom-field action="translate">_lp_duration</custom-field>
+        <custom-field action="translate">_lp_students</custom-field>
+        <custom-field action="translate">_lp_max_students</custom-field>
+        <custom-field action="translate">_lp_retake_count</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">lp_course</custom-type>
+        <custom-type translate="1">lp_lesson</custom-type>
+        <custom-type translate="1">lp_quiz</custom-type>
+        <custom-type translate="1">lp_question</custom-type>
+        <custom-type translate="1">lp_order</custom-type>
+        <custom-type translate="1">lp_certificate</custom-type>
+        <custom-type translate="1">our_team</custom-type>
+        <custom-type translate="1">testimonials</custom-type>
+        <custom-type translate="1">tp_event</custom-type>
+        <custom-type translate="1">revslider</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">course_category</taxonomy>
+        <taxonomy translate="1">course_tag</taxonomy>
+        <taxonomy translate="1">our_team_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="eduma_options">
+        </key>
+    </admin-texts>
+</wpml-config>

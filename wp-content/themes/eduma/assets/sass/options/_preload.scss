@@ -1,0 +1,27 @@
+div#preload{
+	background-color: $thim_thim_preload_style_background;
+}
+.sk-cube-grid .sk-cube,
+.sk-chasing-dots .sk-child,
+.sk-spinner-pulse,
+.sk-three-bounce .sk-child,
+.sk-wandering-cubes .sk-cube,
+.sk-double-bounce .sk-child,
+.sk-rotating-plane,
+.sk-wave .sk-rect,
+.cssload-loader-style-2 .cssload-loader-inner,
+.sk-folding-cube .sk-cube:before{
+	background-color: $thim_thim_preload_style_color;
+}
+.cssload-loader-style-2{
+	border-color: $thim_thim_preload_style_color;
+}
+.cssload-loader-style-1 .cssload-inner.cssload-one{
+	border-bottom-color: $thim_thim_preload_style_color;
+}
+.cssload-loader-style-1 .cssload-inner.cssload-two{
+	border-right-color: $thim_thim_preload_style_color;
+}
+.cssload-loader-style-1 .cssload-inner.cssload-three{
+	border-top-color: $thim_thim_preload_style_color;
+}

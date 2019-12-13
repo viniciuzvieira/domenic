@@ -1,0 +1,415 @@
+/*
+ * Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+ * Extend */
+
+// Adds a browser prefix to the property
+@mixin css3-prefix($property, $value) {
+  -webkit-#{$property}: #{$value};
+  -khtml-#{$property}: #{$value};
+  -moz-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  -o-#{$property}: #{$value};
+  #{$property}: #{$value};
+}
+
+// Clearfix
+@mixin clear() {
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+@mixin clearfix() {
+  //  *zoom:1;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+
+}
+
+// Absolute Center
+@mixin absolute-center() {
+  margin:   auto;
+  position: absolute;
+  top:      0;
+  left:     0;
+  bottom:   0;
+  right:    0;
+}
+
+// Inline block
+@mixin inline-block () {
+  display:        inline-block;
+  *display:       inline;
+  zoom:           1;
+}
+
+// Center Block
+@mixin center-block() {
+  display:      block;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+// Placeholder
+@mixin placeholder($color: $input-color-placeholder) {
+  &:-moz-placeholder {
+    color: $color;
+  }
+  // Firefox 4-18
+  &::-moz-placeholder {
+    color: $color;
+  }
+  // Firefox 19+
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  // Internet Explorer 10+
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  // Safari and Chrome
+}
+
+// Hex2rgba
+@mixin hex2rgba($color, $opacity : 1) {
+  $result: rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Transition
+@mixin transition($properties...) {
+  @if length($properties) >= 1 {
+    @include css3-prefix('transition', $properties);
+  } @else {
+    @include css3-prefix('transition', "all 0.2s ease-in-out 0s");
+  }
+}
+
+// Background Gradient
+@mixin background-gradient($startColor: #3C3C3C, $endColor: #999999) {
+  background-color: $startColor;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor));
+  background-image: -webkit-linear-gradient(top, $startColor, $endColor);
+  background-image:    -moz-linear-gradient(top, $startColor, $endColor);
+  background-image:     -ms-linear-gradient(top, $startColor, $endColor);
+  background-image:      -o-linear-gradient(top, $startColor, $endColor);
+  background-image:         linear-gradient(top, $startColor, $endColor);
+  filter:            progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', endColorStr='#{$endColor}');
+}
+
+// Background Radial
+@mixin background-radial($startColor: #FFFFFF, $startPos: 0%, $endColor: #000000, $endPos:100%) {
+  background: -moz-radial-gradient(center, ellipse cover, $startColor $startPos, $endColor $endPos);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop($startPos,$startColor), color-stop($endPos,$endColor));
+  background: -webkit-radial-gradient(center, ellipse cover, $startColor $startPos,$endColor $endPos);
+  background: -o-radial-gradient(center, ellipse cover, $startColor $startPos,$endColor $endPos);
+  background: -ms-radial-gradient(center, ellipse cover, $startColor $startPos,$endColor $endPos);
+  background: radial-gradient(ellipse at center, $startColor $startPos,$endColor $endPos);
+}
+
+// Background Horizontal
+@mixin background-horizontal($startColor: #3C3C3C, $endColor: #999999) {
+  background-color: $startColor;
+  background-image: -webkit-gradient(linear, left top, right top, from($startColor), to($endColor));
+  background-image: -webkit-linear-gradient(left, $startColor, $endColor);
+  background-image:    -moz-linear-gradient(left, $startColor, $endColor);
+  background-image:     -ms-linear-gradient(left, $startColor, $endColor);
+  background-image:      -o-linear-gradient(left, $startColor, $endColor);
+  background-image:         linear-gradient(left, $startColor, $endColor);
+  filter:            progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', endColorStr='#{$endColor}', gradientType='1');
+}
+
+// Background Gradient Color
+@mixin bw-gradient($color: #F5F5F5, $start: 0, $stop: 255) {
+  background: $color;
+  background: -webkit-gradient(linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb($start,$start,$start)),
+      color-stop(1, rgb($stop,$stop,$stop)));
+  background: -ms-linear-gradient(bottom,
+      rgb($start,$start,$start) 0%,
+      rgb($stop,$stop,$stop) 100%);
+  background: -moz-linear-gradient(center bottom,
+      rgb($start,$start,$start) 0%,
+      rgb($stop,$stop,$stop) 100%);
+  background: -o-linear-gradient(rgb($stop,$stop,$stop),
+      rgb($start,$start,$start));
+}
+
+// Border Color
+@mixin bordered($top-color: #EEE, $right-color: #EEE, $bottom-color: #EEE, $left-color: #EEE) {
+  border-top:    solid 1px $top-color;
+  border-left:   solid 1px $left-color;
+  border-right:  solid 1px $right-color;
+  border-bottom: solid 1px $bottom-color;
+}
+
+// Border Radius
+@mixin rounded($radius: 2px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius:    $radius;
+  border-radius:         $radius;
+}
+
+@mixin border-radius($topright: 0, $bottomright: 0, $bottomleft: 0, $topleft: 0) {
+  -webkit-border-top-right-radius:    $topright;
+  -webkit-border-bottom-right-radius: $bottomright;
+  -webkit-border-bottom-left-radius:  $bottomleft;
+  -webkit-border-top-left-radius:     $topleft;
+  -moz-border-radius-topright:        $topright;
+  -moz-border-radius-bottomright:     $bottomright;
+  -moz-border-radius-bottomleft:      $bottomleft;
+  -moz-border-radius-topleft:         $topleft;
+  border-top-right-radius:            $topright;
+  border-bottom-right-radius:         $bottomright;
+  border-bottom-left-radius:          $bottomleft;
+  border-top-left-radius:             $topleft;
+  @include background-clip(padding-box);
+}
+
+// Drop Shadow
+@mixin drop-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $alpha: 0.1) {
+  -webkit-box-shadow: $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+  -moz-box-shadow:    $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+  box-shadow:         $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
+}
+
+// Box Shadow
+@mixin box-shadow($x: 2px, $y: 2px, $blur: 5px, $color: rgba(0,0,0,.4), $inset: "") {
+  @if ($inset != "") {
+    @include css3-prefix('box-shadow', $inset $x $y $blur $color);
+  } @else {
+    @include css3-prefix('box-shadow', $x $y $blur $color);
+  }
+}
+
+// Insert Box Shadow
+@mixin inset_box_shadow($shadow_x:3px, $shadow_y:3px, $shadow_rad:3px, $shadow_in:3px, $shadow_color:#888) {
+  box-shadow:         inset $shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+  -webkit-box-shadow: inset $shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
+}
+
+// Text Shadow
+@mixin text-shadow($x: 2px, $y: 2px, $blur: 5px, $color: rgba(0,0,0,.4)) {
+  text-shadow: $x $y $blur $color;
+}
+
+// Opacity
+@mixin opacity($opacity: 0.5) {
+  $opacityMultiplied: ($opacity * 100);
+
+  filter:         alpha(opacity=$opacityMultiplied);
+  -ms-filter:     "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + $opacityMultiplied + ")";
+  @include css3-prefix('opacity', $opacity);
+}
+
+// Transition Duration
+@mixin transition-duration($duration: 0.2s) {
+  @include css3-prefix('transition-duration', $duration);
+}
+
+// Transition Delay
+@mixin transition-delay($delay: 0.2s) {
+  @include css3-prefix('transition-delay', $delay);
+}
+
+// Transform
+@mixin transform($params) {
+  @include css3-prefix('transform', $params);
+}
+
+// Transform Origin
+@mixin transform-origin($params) {
+  @include css3-prefix('transform-origin', $params);
+}
+
+// Transform Origin {x,y}
+@mixin transform-origin ($x:center, $y:center) {
+  -webkit-transform-origin: $x $y;
+  -moz-transform-origin:    $x $y;
+  -ms-transform-origin:     $x $y;
+  -o-transform-origin:      $x $y;
+}
+
+// Transform Style
+@mixin transform-style($style: preserve-3d) {
+  @include css3-prefix('transform-style', $style);
+}
+
+// Transform {string}
+@mixin transform($string) {
+  -webkit-transform: $string;
+  -moz-transform:    $string;
+  -ms-transform:     $string;
+  -o-transform:      $string;
+}
+
+// Rotation
+@mixin rotation($deg:5deg) {
+  @include transform(rotate($deg));
+}
+
+// Scale
+
+@mixin scale($x, $y) {
+  @include transform(scale($x, $y));
+}
+
+// ScaleY
+@mixin scaleY($ratio:1.5) {
+  @include transform(scaleY($ratio));
+}
+
+// ScaleX
+@mixin scaleX($ratio:1.5) {
+  @include transform(scaleX($ratio));
+}
+
+// Translate
+@mixin translate ($x, $y:0) {
+  -webkit-transform: translate($x, $y);
+  -moz-transform:    translate($x, $y);
+  -ms-transform:     translate($x, $y);
+  -o-transform:      translate($x, $y);
+}
+
+@mixin translateX ($x) {
+  -webkit-transform: translate($x);
+  -moz-transform:    translate($x);
+  -ms-transform:     translate($x);
+  -o-transform:      translate($x);
+}
+
+// Translate 3D
+@mixin translate3d ($x, $y: 0, $z: 0) {
+  -webkit-transform: translate3d($x, $y, $z);
+  -moz-transform:    translate3d($x, $y, $z);
+  -ms-transform:     translate3d($x, $y, $z);
+  -o-transform:      translate3d($x, $y, $z);
+  transform:         translate3d($x, $y, $z);
+}
+
+// Perspective
+@mixin perspective ($value: 1000) {
+  @include css3-prefix('perspective', $value);
+}
+
+// Skew
+@mixin skew ($deg, $deg2) {
+  -webkit-transform: skew($deg, $deg2);
+  -moz-transform:    skew($deg, $deg2);
+  -ms-transform:     skew($deg, $deg2);
+  -o-transform:      skew($deg, $deg2);
+}
+
+// Animation
+@mixin animation ($name, $duration: 300ms, $delay: 0, $ease: ease) {
+  -webkit-animation: $name $duration $delay $ease;
+  -moz-animation:    $name $duration $delay $ease;
+  -ms-animation:     $name $duration $delay $ease;
+}
+
+// Inner Box shadow
+@mixin inner-shadow($horizontal:0, $vertical:1px, $blur:2px, $alpha: 0.4) {
+  -webkit-box-shadow: inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+  -moz-box-shadow:    inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+  box-shadow:         inset $horizontal $vertical $blur rgba(0, 0, 0, $alpha);
+}
+
+// Box Shadow
+@mixin box-shadow($arguments) {
+  @include css3-prefix('box-shadow', $arguments);
+}
+
+// Box Sizing
+@mixin box-sizing($sizing: border-box) {
+  @include css3-prefix('box-sizing', $sizing);
+}
+
+// User Select
+@mixin user-select($argument: none) {
+  @include css3-prefix('user-select', $argument);
+}
+
+// Background Clip
+@mixin background-clip($argument: padding-box) {
+  @include css3-prefix('background-clip', $argument);
+
+}
+
+// Calculator
+@mixin calc($property, $value) {
+  #{$property}: -webkit-calc(#{$value});
+  #{$property}: -moz-calc(#{$value});
+  #{$property}: calc(#{$value});
+}
+
+// Text Truncate
+@mixin text-truncate() {
+  overflow:      hidden;
+  text-overflow: ellipsis;
+  white-space:   nowrap;
+}
+
+// Backface visibility
+@mixin backface-visibility() {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+  -o-backface-visibility:      hidden;
+  backface-visibility:         hidden;
+}
+
+// Is Translated
+@mixin is-Translated ($width:100%) {
+  width:             $width;
+  margin:            auto;
+  position:          absolute;
+  top:               50%;
+  left:              50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform:         translate(-50%, -50%);
+}
+
+// Keyframes
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+// Updates for small tablets and smart phones in landscape
+$xs: "only screen and (min-width: 30em)";
+$xs-max: "(max-width: 767px)";
+// Updates for tablets in portrait
+$sm: "only screen and (min-width: 768px)";
+$sm-max: "(max-width: 992px)";
+// Updates for tablets in landscape
+$md: "only screen and (min-width: 992px)";
+$md-max: "(max-width: 1199px)";
+// Updates for desktop
+$lg: "only screen and (min-width: 1200px)";
+// Updates for ultra desktop
+$xlg: "only screen and (min-width: 100em)";
+// High resolution screens e.g. Retina
+$retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+

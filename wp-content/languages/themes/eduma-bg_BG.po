@@ -1,0 +1,4863 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-04 13:53+0300\n"
+"PO-Revision-Date: 2017-01-25 10:49+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.2\n"
+"Language: bg_BG\n"
+"Last-Translator: \n"
+
+#: 404.php:15
+msgid "404 "
+msgstr "404"
+
+#: 404.php:15
+msgid "Error!"
+msgstr "ГРЕШКА"
+
+#: 404.php:16
+msgid "Sorry, we can't find the page you are looking for. Please go to "
+msgstr ""
+"За съжаление, не можем да намерим страницата, която търсите. Моля, преминете "
+"към"
+
+#: 404.php:16
+msgid "Home."
+msgstr "Начало"
+
+#: comments.php:34 comments.php:53
+msgid "Comment navigation"
+msgstr "Навигация за коментарите"
+
+#: comments.php:36 comments.php:55
+msgid "&larr; Older Comments"
+msgstr "&larr; По-стари коментари"
+
+#: comments.php:37 comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr "По-нови коментари &rarr;"
+
+#: comments.php:45
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Коментар"
+msgstr[1] "%1$s Коментари"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Коментарите са изключени."
+
+#: comments.php:68
+msgid "Leave A Reply"
+msgstr "Напиши коментар"
+
+#: comments.php:69
+msgid "Post Comment"
+msgstr "Публикувай коментар"
+
+#: comments.php:70 buddypress/activity/entry.php:125
+#: inc/learnpress-functions.php:403
+msgid "Comment"
+msgstr "Коментар"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Няма намерени резултати"
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готови ли сте да публикувате първия си пост? <a href=\"%1$s\">Започнете тук</"
+"a> ."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Съжаляваме, но нищо не е намерено по условията за търсене. Моля, опитайте "
+"отново с различни ключови думи."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Изглежда, че не можем да открием това което търсите. Моля, опитайте отново."
+
+#: content-page.php:14 content-single.php:26
+#: portfolio/type/content-portfolio.php:51 portfolio/type/gallery.php:41
+#: portfolio/type/left-floating-sidebar.php:41
+#: portfolio/type/right-floating-sidebar.php:72
+#: portfolio/type/sidebar-slider.php:62 portfolio/type/vertical-stacked.php:7
+msgid "Pages:"
+msgstr "Страници:"
+
+#: content-search.php:42 content-search.php:82 content-search.php:108
+#: content.php:32 content.php:72 content.php:98
+#: inc/learnpress-functions.php:695 inc/widgets/courses/tpl/grid-v1.php:80
+#: inc/widgets/courses/tpl/grid.php:78
+#: inc/widgets/courses/tpl/megamenu-v1.php:100
+#: inc/widgets/courses/tpl/megamenu.php:85
+#: inc/widgets/courses/tpl/slider-v1.php:69
+#: inc/widgets/courses/tpl/slider.php:81 inc/widgets/icon-box/icon-box.php:199
+#: learnpress/archive-course-content.php:39
+#: learnpress/addons/course-wishlist/wishlist-content.php:9
+#: learnpress/course/thumbnail.php:25
+#: learnpress/profile/user-courses/enrolled-course.php:10
+#: learnpress/profile/user-courses/own-course.php:11
+#: learnpress/profile/user-courses/passed-course.php:10
+msgid "Read More"
+msgstr "Прочетете повече"
+
+#: content-single.php:36
+msgid "Tag:"
+msgstr "Етикет:"
+
+#: content-single.php:52
+msgid "Previous post"
+msgstr "Предишен пост:"
+
+#: content-single.php:67
+msgid "Next post"
+msgstr "Следващ пост"
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr "Главно Меню"
+
+#: functions.php:96 inc/widgets/list-post/list-post.php:91
+msgid "Sidebar"
+msgstr "Странична лента"
+
+#: functions.php:98 inc/tax-meta.php:78 inc/tax-meta.php:99
+#: inc/tax-meta.php:120
+msgid "Right Sidebar"
+msgstr "Дясна колона"
+
+#: functions.php:106 inc/admin/customizer-sections/header-toolbar.php:5
+msgid "Toolbar"
+msgstr "Лента с инструменти"
+
+#: functions.php:108
+msgid "Toolbar Header"
+msgstr "Лента с инструменти на Хедъра"
+
+#: functions.php:116 functions.php:118
+msgid "Menu Right"
+msgstr "Основно меню отдясно"
+
+#: functions.php:126
+msgid "Menu Top"
+msgstr "Меню Top"
+
+#: functions.php:128
+msgid "Menu top only display with header version 2"
+msgstr "Това топ меню се показва само с хедър верия 2"
+
+#: functions.php:136 inc/admin/customizer-sections/footer-options.php:4
+#: inc/admin/customizer-sections/footer.php:3
+msgid "Footer"
+msgstr "Футър"
+
+#: functions.php:138
+msgid "Footer Sidebar"
+msgstr "Странична лента на Футера"
+
+#: functions.php:146
+msgid "Footer Bottom"
+msgstr "Долен футър"
+
+#: functions.php:148
+msgid "Footer Bottom Sidebar"
+msgstr "Странична лента на Футера"
+
+#: functions.php:156 functions.php:158
+#: inc/admin/customizer-sections/footer-copyright.php:3
+msgid "Copyright"
+msgstr "Авторски права"
+
+#: functions.php:167 functions.php:169
+msgid "Sidebar Courses"
+msgstr "Курсове в страничната лента"
+
+#: functions.php:285 inc/widgets/login-form/tpl/base.php:40
+#: woocommerce/myaccount/form-login.php:97
+msgid "Username"
+msgstr "Потребителско име"
+
+#: functions.php:286 inc/widgets/login-form/tpl/base.php:160
+#: woocommerce/myaccount/form-login.php:49
+#: woocommerce/myaccount/form-login.php:113
+msgid "Password"
+msgstr "Парола"
+
+#: bbpress/content-single-topic-lead.php:18
+#: bbpress/content-single-topic-lead.php:90
+msgid "Creator"
+msgstr "Автор"
+
+#: bbpress/content-single-topic-lead.php:22
+#: bbpress/content-single-topic-lead.php:94
+msgid "Topic"
+msgstr "Тема"
+
+#: bbpress/content-statistics.php:17
+msgid "Registered Users"
+msgstr "Регистрирани потребители"
+
+#: bbpress/content-statistics.php:22
+msgid "Forums"
+msgstr "Форуми"
+
+#: bbpress/content-statistics.php:27
+msgid "Topics"
+msgstr "Теми"
+
+#: bbpress/content-statistics.php:32
+msgid "Replies"
+msgstr "Отговори"
+
+#: bbpress/content-statistics.php:37
+msgid "Topic Tags"
+msgstr "Етикети"
+
+#: bbpress/content-statistics.php:44
+msgid "Empty Topic Tags"
+msgstr "Празни етикети на тема"
+
+#: bbpress/content-statistics.php:53
+msgid "Hidden Topics"
+msgstr "Скрити Теми"
+
+#: bbpress/content-statistics.php:64
+msgid "Hidden Replies"
+msgstr "Скрити Отговори"
+
+#: bbpress/form-search.php:14
+msgid "Search for:"
+msgstr "Търсене за:"
+
+#: bbpress/form-search.php:16
+msgid "Search the topic"
+msgstr "Търсене в темата"
+
+#: buddypress/bp-custom.php:18
+msgid "Search"
+msgstr "Търсене"
+
+#: buddypress/activity/activity-loop.php:33
+msgid "Load More"
+msgstr "Зареди още"
+
+#: buddypress/activity/activity-loop.php:47
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr "За съжаление, не е намерена дейност. Моля, опитайте с друг филтър."
+
+#: buddypress/activity/entry.php:59
+msgid "View Conversation"
+msgstr "Преглед на разговора"
+
+#: buddypress/activity/entry.php:67
+#, php-format
+msgid "Comment %s"
+msgstr "Коментар%s"
+
+#: buddypress/activity/entry.php:75
+msgid "Mark as Favorite"
+msgstr "Маркирай като Любим"
+
+#: buddypress/activity/entry.php:75
+msgid "Favorite"
+msgstr "Любим"
+
+#: buddypress/activity/entry.php:79
+msgid "Remove Favorite"
+msgstr "Премахване от любими"
+
+#: buddypress/activity/entry.php:128
+msgid "Post"
+msgstr "Публикация"
+
+#: buddypress/activity/entry.php:129
+msgid "Cancel"
+msgstr "Отмяна"
+
+#: buddypress/activity/index.php:32
+msgid "The public activity for everyone on this site."
+msgstr "Дейността на всички потребители."
+
+#: buddypress/activity/index.php:32 buddypress/members/index.php:30
+#, php-format
+msgid "All Members %s"
+msgstr "Всички Потребители %s"
+
+#: buddypress/activity/index.php:49
+msgid "The activity of my friends only."
+msgstr "Дейността на моите приятели."
+
+#: buddypress/activity/index.php:49 buddypress/members/index.php:33
+#, php-format
+msgid "My Friends %s"
+msgstr "Моите Приятели %s"
+
+#: buddypress/activity/index.php:68
+msgid "The activity of groups I am a member of."
+msgstr "Активност на групите, на които съм член"
+
+#: buddypress/activity/index.php:68
+#, php-format
+msgid "My Groups %s"
+msgstr "Моите групи%s"
+
+#: buddypress/activity/index.php:85
+msgid "The activity I've marked as a favorite."
+msgstr "Дейност маркирана като любима."
+
+#: buddypress/activity/index.php:85
+#, php-format
+msgid "My Favorites %s"
+msgstr "Моите любими %s"
+
+#: buddypress/activity/index.php:100
+msgid "Activity that I have been mentioned in."
+msgstr "Дейност, в която съм споменат."
+
+#: buddypress/activity/index.php:100
+msgid "Mentions"
+msgstr "Споменавания"
+
+#: buddypress/activity/index.php:100
+#, php-format
+msgctxt "Number of new activity mentions"
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] "%s ново"
+msgstr[1] "%s нови"
+
+#: buddypress/activity/index.php:147
+msgid "RSS Feed"
+msgstr "RSS емисии"
+
+#: buddypress/activity/index.php:147
+msgid "RSS"
+msgstr "RSS"
+
+#: buddypress/activity/index.php:159 buddypress/members/single/activity.php:16
+msgid "Show:"
+msgstr "Покажи:"
+
+#: buddypress/activity/index.php:161 buddypress/members/single/activity.php:18
+msgid "&mdash; Everything &mdash;"
+msgstr "&mdash; Всичко &mdash;"
+
+#: buddypress/activity/post-form.php:23
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr "Какво ново в %s, %s?"
+
+#: buddypress/activity/post-form.php:25
+#, php-format
+msgid "What's new, %s?"
+msgstr "Какво ново, %s?"
+
+#: buddypress/activity/post-form.php:35
+msgid "Post Update"
+msgstr "Публикувай Обновяване"
+
+#: buddypress/activity/post-form.php:42
+msgid "Post in"
+msgstr "Публикувай в"
+
+#: buddypress/activity/post-form.php:45
+msgid "My Profile"
+msgstr "Моят Профил"
+
+#: buddypress/members/index.php:88
+msgid "Order By:"
+msgstr "Подреждане по:"
+
+#: buddypress/members/index.php:90
+msgid "Last Active"
+msgstr "Последно активен"
+
+#: buddypress/members/index.php:91
+msgid "Newest Registered"
+msgstr "Най-скоро регистрирани"
+
+#: buddypress/members/index.php:94
+msgid "Alphabetical"
+msgstr "По азбучен ред"
+
+#: buddypress/members/single/members-loop.php:142
+msgid "Sorry, no members were found."
+msgstr "Съжаляваме, няма намерени потребители."
+
+#: inc/custom-functions.php:60 inc/custom-functions.php:1112
+#: inc/learnpress-functions.php:551
+msgid "Home"
+msgstr "Начало"
+
+#: inc/custom-functions.php:63 inc/templates/heading-top.php:237
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/custom-functions.php:68 inc/custom-functions.php:161
+#: inc/templates/heading-top.php:218
+msgid "Events"
+msgstr "Събития"
+
+#: inc/custom-functions.php:112 inc/custom-functions.php:115
+#: inc/custom-functions.php:118 inc/custom-functions.php:125
+#: inc/custom-functions.php:128 inc/custom-functions.php:133
+#: inc/template-tags.php:245
+msgid "Archives"
+msgstr "Архиви"
+
+#: inc/custom-functions.php:144
+msgid "Author"
+msgstr "Автор"
+
+#: inc/custom-functions.php:149
+msgid "Page"
+msgstr "Страница"
+
+#: inc/custom-functions.php:154 inc/learnpress-functions.php:581
+msgid "Search results for:"
+msgstr "Резултати от търсене за:"
+
+#: inc/custom-functions.php:158 inc/template-tags.php:241
+msgid "404 Page"
+msgstr "Страница 404"
+
+#: inc/custom-functions.php:228
+msgid "Your comment is awaiting moderation."
+msgstr "Вашия коментар е в очакване на одобрение."
+
+#: inc/custom-functions.php:236 inc/template-tags.php:187
+#: inc/template-tags.php:304
+msgid "Edit"
+msgstr "Редактирай"
+
+#: inc/custom-functions.php:267
+msgid "Color Sub Title"
+msgstr "Цвят на подзаглавие"
+
+#: inc/custom-functions.php:274
+msgid "No Padding Content"
+msgstr "Няма съдържание в подложката"
+
+#: inc/custom-functions.php:296
+msgid "Thim Widget"
+msgstr "Thim Джаджа"
+
+#: inc/custom-functions.php:314
+msgid "Parallax"
+msgstr "Паралакс"
+
+#: inc/custom-functions.php:317
+msgid "If enabled, the background image will have a parallax effect."
+msgstr "Ако е активирано, фоновото изображение ще има паралакс ефект."
+
+#: inc/custom-functions.php:434
+#: inc/admin/customizer-sections/display-sharing.php:32
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/custom-functions.php:641
+msgid "Lost Password"
+msgstr "Забравена парола"
+
+#: inc/custom-functions.php:641 woocommerce/myaccount/form-login.php:63
+msgid "Lost your password?"
+msgstr "Забравена парола?"
+
+#: inc/custom-functions.php:832
+msgid "Organizers"
+msgstr "Организатори"
+
+#: inc/custom-functions.php:859
+#, fuzzy
+msgid "No members exists. You can create a member data from"
+msgstr ""
+"Няма съществуващи потребители. Можете да създадете база от потребители от"
+
+#: inc/custom-functions.php:865
+msgid "Get Members"
+msgstr "Вземете Потребители"
+
+#: inc/custom-functions.php:876
+msgid ""
+"Hold down the Ctrl (Windows) / Command (Mac) button to select multiple "
+"options."
+msgstr ""
+"Задръжте бутона Ctrl (Windows) / Command (Mac), за да изберете няколко опции."
+
+#: inc/custom-functions.php:885
+msgid "Current Members: "
+msgstr "Всички Потребители:"
+
+#: inc/custom-functions.php:887 inc/widgets/button/button.php:177
+#: inc/widgets/icon-box/icon-box.php:397 inc/widgets/icon-box/icon-box.php:441
+msgid "None"
+msgstr "Нищо"
+
+#: inc/custom-functions.php:962
+msgid "Name"
+msgstr "Име"
+
+#: inc/custom-functions.php:963 inc/widgets/login-form/tpl/base.php:44
+msgid "Email"
+msgstr "Е-поща"
+
+#: inc/custom-functions.php:964
+msgid "Website"
+msgstr "Уеб сайт"
+
+#: inc/custom-functions.php:1324
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Някой е поискал възстановяване на паролата за следният потребител:"
+
+#: inc/custom-functions.php:1326
+#, php-format
+msgid "Username: %s"
+msgstr "Потребителско име: %s"
+
+#: inc/custom-functions.php:1327
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Ако това е грешка, игнорирайте това писмо и всичко ще е наред."
+
+#: inc/custom-functions.php:1328
+msgid "To reset your password, visit the following address:"
+msgstr "За да възстановите паролата си, посетете следния адрес:"
+
+#: inc/custom-functions.php:1393
+msgid "Invalid request."
+msgstr "Невалидна заявка."
+
+#: inc/custom-functions.php:2464
+msgid "Related Items"
+msgstr "Свързани продукти"
+
+#: inc/custom-functions.php:2512 inc/widgets/portfolio/tpl/base.php:295
+msgid "Zoom"
+msgstr "Увеличаване"
+
+#: inc/learnpress-functions.php:124
+msgid "No course found"
+msgstr "Няма намерен курс"
+
+#: inc/learnpress-functions.php:144
+msgid "LearnPress Profile"
+msgstr "LearnPress профил"
+
+#: inc/learnpress-functions.php:150
+msgid "Major"
+msgstr "Специалност"
+
+#: inc/learnpress-functions.php:158
+msgid "Facebook Account"
+msgstr "Facebook профил"
+
+#: inc/learnpress-functions.php:166
+msgid "Twitter Account"
+msgstr "Twitter профил"
+
+#: inc/learnpress-functions.php:174
+msgid "Google Plus Account"
+msgstr "Google+ профил"
+
+#: inc/learnpress-functions.php:182
+msgid "LinkedIn Plus Account"
+msgstr "LinkedIn Plus профил"
+
+#: inc/learnpress-functions.php:190
+msgid "Youtube Account"
+msgstr "Youtube профил"
+
+#: inc/learnpress-functions.php:342
+#, php-format
+msgid "%s stars"
+msgstr "%s звезди"
+
+#: inc/learnpress-functions.php:370
+msgid "Leave A Review"
+msgstr "Остави мнение"
+
+#: inc/learnpress-functions.php:372
+msgid ""
+"Please provide as much detail as you can to justify your rating and to help "
+"others."
+msgstr ""
+"Моля, опишете в детайли Вашите впечатления заедно с оценката си, по този "
+"начин помагате на другите потребители."
+
+#: inc/learnpress-functions.php:376 inc/widgets/accordion/accordion.php:22
+#: inc/widgets/carousel-post/carousel-post.php:62
+#: inc/widgets/course-categories/course-categories.php:25
+#: inc/widgets/courses-searching/courses-searching.php:39
+#: inc/widgets/google-map/google-map.php:18
+#: inc/widgets/icon-box/icon-box.php:22
+#: inc/widgets/list-event/list-event.php:18
+#: inc/widgets/list-post/list-post.php:30
+#: inc/widgets/list-post/list-post.php:65 inc/widgets/social/social.php:20
+#: inc/widgets/tab-event/tab-event.php:17
+msgid "Title"
+msgstr "Заглавие"
+
+#: inc/learnpress-functions.php:382
+msgid "Rating"
+msgstr "Оценка (Рейтинг)"
+
+#: inc/learnpress-functions.php:409
+msgid "Submit Review"
+msgstr "Изпрати Мнение"
+
+#: inc/learnpress-functions.php:454
+msgid "Review"
+msgstr "Мнение"
+
+#: inc/learnpress-functions.php:458
+#, php-format
+msgid "(%1$s review)"
+msgid_plural "(%1$s reviews)"
+msgstr[0] "(%1$s мнение)"
+msgstr[1] "(%1$s мнения)"
+
+#: inc/learnpress-functions.php:458
+msgid "(0 review)"
+msgstr "(0 мнения)"
+
+#: inc/learnpress-functions.php:476
+#: learnpress/course_content-landing_page.php:38
+#: learnpress/course_content-landing_page.php:89
+#: learnpress/course_content-learning_page.php:37
+msgid "Reviews"
+msgstr "Мнения"
+
+#: inc/learnpress-functions.php:479
+msgid "Average Rating"
+msgstr "Средна оценка"
+
+#: inc/learnpress-functions.php:487
+#, php-format
+msgid "%1$s rating"
+msgid_plural "%1$s ratings"
+msgstr[0] "%1$s рейтинг"
+msgstr[1] "%1$s рейтинг"
+
+#: inc/learnpress-functions.php:487
+msgid "0 rating"
+msgstr "0 Рейтинг"
+
+#: inc/learnpress-functions.php:492
+msgid "Detailed Rating"
+msgstr "Подробен рейтинг"
+
+#: inc/learnpress-functions.php:559 inc/learnpress-functions.php:572
+#: inc/learnpress-functions.php:578 inc/learnpress-functions.php:583
+msgid "All courses"
+msgstr "Всички курсове"
+
+#: inc/learnpress-functions.php:598
+msgid "All Courses"
+msgstr "Всички Курсове"
+
+#: inc/learnpress-functions.php:605
+#: learnpress/course/loop-curriculum-quiz.php:11
+msgid "Quiz"
+msgstr "Тест"
+
+#: inc/learnpress-functions.php:626
+msgid "h"
+msgstr "ч"
+
+#: inc/learnpress-functions.php:629
+msgid "m"
+msgstr "м"
+
+#: inc/learnpress-functions.php:682
+msgid "You May Like"
+msgstr "Може да харесате "
+
+#: inc/learnpress-functions.php:752 inc/learnpress-functions.php:803
+msgid "Duration"
+msgstr "Продължителност"
+
+#: inc/learnpress-functions.php:755
+msgid "Course duration"
+msgstr "продължителност на курса"
+
+#: inc/learnpress-functions.php:756
+msgid "50 hours"
+msgstr "50 часа"
+
+#: inc/learnpress-functions.php:759
+msgid "Skill Level"
+msgstr "Ниво на умения"
+
+#: inc/learnpress-functions.php:762
+msgid "A possible level with this course"
+msgstr "Възможно ниво с този курс"
+
+#: inc/learnpress-functions.php:763
+msgid "All level"
+msgstr "Всички нива"
+
+#: inc/learnpress-functions.php:766 inc/learnpress-functions.php:813
+msgid "Language"
+msgstr "Език"
+
+#: inc/learnpress-functions.php:769
+msgid "Language's used for studying"
+msgstr "Език, използван за изучаване"
+
+#: inc/learnpress-functions.php:770
+msgid "English"
+msgstr "Английски"
+
+#: inc/learnpress-functions.php:789
+msgid "Course Features"
+msgstr "Характеристики на курса"
+
+#: inc/learnpress-functions.php:793
+msgid "Lectures"
+msgstr "Лекции"
+
+#: inc/learnpress-functions.php:798
+msgid "Quizzes"
+msgstr "Тестове"
+
+#: inc/learnpress-functions.php:808
+msgid "Skill level"
+msgstr "Ниво на умение"
+
+#: inc/learnpress-functions.php:818 learnpress/course/students.php:10
+msgid "Students"
+msgstr "Ученици"
+
+#: inc/learnpress-functions.php:824
+msgid "Assessments"
+msgstr "Оценки"
+
+#: inc/learnpress-functions.php:825 inc/learnpress-functions.php:1123
+#: inc/widgets/carousel-post/carousel-post.php:44
+#: inc/widgets/carousel-post/carousel-post.php:53
+#: inc/widgets/list-post/list-post.php:51
+#: inc/widgets/login-form/login-form.php:24
+#: inc/widgets/one-course-instructors/one-course-instructors.php:27
+msgid "Yes"
+msgstr "Да"
+
+#: inc/learnpress-functions.php:825
+msgid "Self"
+msgstr "Себе си"
+
+#: inc/learnpress-functions.php:848
+msgid "Courses"
+msgstr "Курсове"
+
+#: inc/learnpress-functions.php:853
+msgid "Quiz Results"
+msgstr "Резултати от теста"
+
+#: inc/learnpress-functions.php:863
+#: learnpress/addons/course-wishlist/button.php:18
+msgid "Wishlist"
+msgstr "Списък с желания"
+
+#: inc/learnpress-functions.php:871
+msgid "This user is not available!"
+msgstr "Този потребител не е на разположение!"
+
+#: inc/learnpress-functions.php:913
+msgid "Hint"
+msgstr "Подсещане"
+
+#: inc/learnpress-functions.php:948 learnpress/quiz/time-counter.php:17
+msgid "Question"
+msgstr "Въпрос"
+
+#: inc/learnpress-functions.php:958
+msgid "You have completed this lesson."
+msgstr "Вие завършихте този урок."
+
+#: inc/learnpress-functions.php:962
+msgid "Complete Lesson"
+msgstr "Завършен Урок"
+
+#: inc/learnpress-functions.php:1022
+msgid "Connect"
+msgstr "﻿Свързване"
+
+#: inc/learnpress-functions.php:1024
+msgid "Forum"
+msgstr "Форум"
+
+#: inc/learnpress-functions.php:1122
+msgid "Certificate"
+msgstr "Удостоверение"
+
+#: inc/learnpress-functions.php:1123
+#: inc/widgets/carousel-post/carousel-post.php:43
+#: inc/widgets/carousel-post/carousel-post.php:52
+#: inc/widgets/counters-box/counters-box.php:57
+#: inc/widgets/gallery-images/gallery-images.php:52
+#: inc/widgets/heading/heading.php:133 inc/widgets/icon-box/icon-box.php:475
+#: inc/widgets/list-post/list-post.php:50
+#: inc/widgets/login-form/login-form.php:23
+#: inc/widgets/one-course-instructors/one-course-instructors.php:26
+#: inc/widgets/our-team/our-team.php:57
+#: inc/widgets/single-images/single-images.php:57
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:132
+msgid "No"
+msgstr "Не"
+
+#: inc/related.php:8
+msgid "You may also like"
+msgstr "Може да харесате "
+
+#: inc/tax-meta.php:15 inc/tax-meta.php:32
+msgid "Category Meta Box"
+msgstr "Категория Meta Box"
+
+#: inc/tax-meta.php:49
+msgid "Course Meta Box"
+msgstr "Курс Meta Box"
+
+#: inc/tax-meta.php:75 inc/tax-meta.php:82 inc/tax-meta.php:96
+#: inc/tax-meta.php:103 inc/tax-meta.php:117 inc/tax-meta.php:124
+msgid "Using in Theme Option"
+msgstr "Използва се в Опциите на темата"
+
+#: inc/tax-meta.php:76 inc/tax-meta.php:97 inc/tax-meta.php:118
+msgid "No Sidebar"
+msgstr "Без странична лента"
+
+#: inc/tax-meta.php:77 inc/tax-meta.php:98 inc/tax-meta.php:119
+msgid "Left Sidebar"
+msgstr "Лява странична лента"
+
+#: inc/tax-meta.php:79 inc/tax-meta.php:100 inc/tax-meta.php:121
+msgid "Custom Layout "
+msgstr "Персонален изглед"
+
+#: inc/tax-meta.php:83 inc/tax-meta.php:104 inc/tax-meta.php:125
+#: inc/admin/customizer-sections/header-mobile.php:39
+#: inc/admin/customizer-sections/header-stickymenu.php:24
+#: inc/widgets/heading/heading.php:52 inc/widgets/icon-box/icon-box.php:53
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:53
+msgid "Custom"
+msgstr "Персонален"
+
+#: inc/tax-meta.php:84 inc/tax-meta.php:105 inc/tax-meta.php:126
+msgid "Custom Heading "
+msgstr "Персонален Хеадинг"
+
+#: inc/tax-meta.php:86 inc/tax-meta.php:107 inc/tax-meta.php:128
+msgid "Background Image Heading"
+msgstr "Фонова картинка за Хеадинг"
+
+#: inc/tax-meta.php:87 inc/tax-meta.php:108 inc/tax-meta.php:129
+msgid "Background Color Heading"
+msgstr "Фонов цвят за Хеадинг"
+
+#: inc/tax-meta.php:88 inc/tax-meta.php:109 inc/tax-meta.php:130
+msgid "Text Color Heading"
+msgstr "Цвят на текста за Хеадинг"
+
+#: inc/tax-meta.php:89 inc/tax-meta.php:110 inc/tax-meta.php:131
+msgid "Color Description Category"
+msgstr "Описание на цвета на Категория"
+
+#: inc/tax-meta.php:90 inc/tax-meta.php:111 inc/tax-meta.php:132
+#: inc/admin/customizer-sections/display-archive.php:32
+#: inc/admin/customizer-sections/display-frontpage.php:32
+#: inc/admin/customizer-sections/display-postpage.php:32
+#: inc/admin/customizer-sections/learnpress-archive.php:29
+#: inc/admin/customizer-sections/learnpress-single.php:29
+#: inc/admin/customizer-sections/portfolio-archive.php:29
+#: inc/admin/customizer-sections/woocommerce-archive.php:29
+#: inc/admin/customizer-sections/woocommerce-single.php:30
+msgid "Hide Title"
+msgstr "Скрий заглавие"
+
+#: inc/tax-meta.php:91 inc/tax-meta.php:112 inc/tax-meta.php:133
+#: inc/admin/customizer-sections/display-archive.php:24
+#: inc/admin/customizer-sections/display-frontpage.php:24
+#: inc/admin/customizer-sections/display-postpage.php:24
+#: inc/admin/customizer-sections/learnpress-archive.php:21
+#: inc/admin/customizer-sections/learnpress-single.php:21
+#: inc/admin/customizer-sections/portfolio-archive.php:21
+msgid "Hide Breadcrumbs"
+msgstr "Скрий пътечките"
+
+#: inc/template-tags.php:42
+msgid "<"
+msgstr "<"
+
+#: inc/template-tags.php:43
+msgid ">"
+msgstr ">"
+
+#: inc/template-tags.php:120
+msgid "Posted by"
+msgstr "Публикувано от"
+
+#: inc/template-tags.php:131 learnpress/course/categories.php:19
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/template-tags.php:138
+msgid "Date"
+msgstr "Дата"
+
+#: inc/template-tags.php:149
+msgid "Comments"
+msgstr "Коментари"
+
+#: inc/template-tags.php:150
+msgid "0 comment"
+msgstr "﻿0 Коментара"
+
+#: inc/template-tags.php:150 inc/template-tags.php:183
+msgid "1 comment"
+msgstr "1 Коментар"
+
+#: inc/template-tags.php:150 inc/template-tags.php:183
+#, php-format
+msgid "% comments"
+msgstr "% comments"
+
+#: inc/template-tags.php:170 inc/template-tags.php:175
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:172
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Публикувано в %1$s"
+
+#: inc/template-tags.php:177
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Тагнато в %1$s"
+
+#: inc/template-tags.php:183
+msgid "Leave a comment"
+msgstr "Оставете коментар"
+
+#: inc/template-tags.php:205 inc/template-tags.php:207
+#: inc/template-tags.php:209 inc/template-tags.php:235
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:211
+#, php-format
+msgid "Year: %s"
+msgstr "Година: %s"
+
+#: inc/template-tags.php:211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Год."
+
+#: inc/template-tags.php:213
+#, php-format
+msgid "Month: %s"
+msgstr "Месец: %s"
+
+#: inc/template-tags.php:213
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:215
+#, php-format
+msgid "Day: %s"
+msgstr "Ден: %s"
+
+#: inc/template-tags.php:215
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:217
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Asides"
+
+#: inc/template-tags.php:219
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Галерии"
+
+#: inc/template-tags.php:221
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Изображения"
+
+#: inc/template-tags.php:223
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Видео"
+
+#: inc/template-tags.php:225
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Цитати"
+
+#: inc/template-tags.php:227
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Линкове"
+
+#: inc/template-tags.php:229
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Статуси"
+
+#: inc/template-tags.php:231
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Аудио"
+
+#: inc/template-tags.php:233
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Разговори"
+
+#: inc/template-tags.php:239
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:243
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Резултати от търсене за: %s"
+
+#: inc/template-tags.php:296
+msgid "(Edit)"
+msgstr "Редактирай"
+
+#: inc/template-tags.php:300
+#, php-format
+msgid "Topic Tag: %s"
+msgstr "Тема Таг: %s"
+
+#: inc/admin/demo-data.php:11
+msgid "Demo 01"
+msgstr "Демо 01"
+
+#: inc/admin/demo-data.php:17
+msgid "Demo 02"
+msgstr "Демо 02"
+
+#: inc/admin/demo-data.php:23
+msgid "Demo 03"
+msgstr "Демо 03"
+
+#: inc/admin/demo-data.php:29
+msgid "Demo Boxed"
+msgstr "Демо Вох"
+
+#: inc/admin/demo-data.php:35
+msgid "Demo RTL"
+msgstr "Демо RTL (текст от дясно наляво)"
+
+#: inc/admin/demo-data.php:41
+msgid "Demo One Course"
+msgstr "Демо Един Курс"
+
+#: inc/admin/demo-data.php:47
+msgid "Demo One Instructor"
+msgstr "Демо Един Инструктор"
+
+#: inc/admin/demo-data.php:53
+msgid "Demo University 1"
+msgstr "Демо Университет 1"
+
+#: inc/admin/demo-data.php:59
+msgid "Demo University 2"
+msgstr "Демо университет 2"
+
+#: inc/admin/plugins-require.php:197
+#: inc/libs/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "Инсталирайте необходимите разширения"
+
+#: inc/admin/plugins-require.php:198
+#: inc/libs/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "Инсталирайте разширенията"
+
+#: inc/admin/plugins-require.php:199
+#: inc/libs/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Инсталират се разширения %s"
+
+#: inc/admin/plugins-require.php:201
+#: inc/libs/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Нещо се обърка с API на разширението."
+
+#: inc/admin/plugins-require.php:202
+#: inc/libs/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Тази тема изисква следното разширение:%1$s."
+msgstr[1] "Тази тема изисква следните разширения:%1$s."
+
+#: inc/admin/plugins-require.php:204
+#: inc/libs/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Тази тема препоръчва следното разширение: %1$s."
+msgstr[1] "Тази тема препоръчва следните разширения: %1$s."
+
+#: inc/admin/plugins-require.php:206
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Съжаляваме, но не разполагате с правилните права за да активирате %s плъгин. "
+"Свържете се с администратора на сайта за помощ."
+msgstr[1] ""
+"Съжаляваме, но не разполагате с правилните права за да активирате %s "
+"плъгините. Свържете се с администратора на сайта за помощ."
+
+#: inc/admin/plugins-require.php:208
+#: inc/libs/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следното необходимо разширение не е активно:%1$s."
+msgstr[1] "Следните необходими разширения не са активни:%1$s."
+
+#: inc/admin/plugins-require.php:210
+#: inc/libs/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следното препоръчително разширение в момента не е активно:%1$s."
+msgstr[1] "Следните препоръчителни разширения в момента не са активни:%1$s."
+
+#: inc/admin/plugins-require.php:212
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Съжаляваме, но не разполагате с правилните права за да активирате %s плъгин. "
+"Свържете се с администратора на сайта за помощ."
+msgstr[1] ""
+"Съжаляваме, но не разполагате с правилните права за да активирате %s "
+"плъгини. Свържете се с администратора на сайта за помощ."
+
+#: inc/admin/plugins-require.php:214
+#: inc/libs/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Следния плъгин трябва да се актуализира до последна версия, за да се осигури "
+"максимална съвместимост с тази тема:%1$s."
+msgstr[1] ""
+"Следните плъгини трябва да се актуализират до последна версия, за да се "
+"осигури максимална съвместимост с тази тема:%1$s."
+
+#: inc/admin/plugins-require.php:216
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Съжаляваме, но не разполагате с права, за да инсталирате %s плъгин. Свържете "
+"се с администратора на сайта за помощ."
+msgstr[1] ""
+"Съжаляваме, но не разполагате с права, за да инсталирате %s плъгини. "
+"Свържете се с администратора на сайта за помощ."
+
+#: inc/admin/plugins-require.php:218
+#: inc/libs/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Започнете инсталация на разширението"
+msgstr[1] "Започнете инсталация на разширенията"
+
+#: inc/admin/plugins-require.php:219
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Активирайте инсталираното разширение"
+msgstr[1] "Активирайте инсталираните разширения"
+
+#: inc/admin/plugins-require.php:220
+#: inc/libs/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Обратно към задължителните разширения за инсталация"
+
+#: inc/admin/plugins-require.php:221
+#: inc/libs/class-tgm-plugin-activation.php:399
+#: inc/libs/class-tgm-plugin-activation.php:3031
+msgid "Plugin activated successfully."
+msgstr "Разширението е активирано успешно."
+
+#: inc/admin/plugins-require.php:222
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Всички разширения са инсталирани и активирани успешно. %s"
+
+#: inc/admin/customizer-sections/custom-css.php:4
+#: inc/admin/customizer-sections/custom-css.php:12
+msgid "Custom CSS"
+msgstr "Потребителски CSS"
+
+#: inc/admin/customizer-sections/custom-css.php:15
+msgid "Put your additional CSS rules here."
+msgstr "Поставете вашите допълнителни CSS правила тук."
+
+#: inc/admin/customizer-sections/display-archive.php:6
+#: inc/admin/customizer-sections/learnpress-archive.php:3
+#: inc/admin/customizer-sections/portfolio-archive.php:3
+msgid "Archive"
+msgstr "Архив"
+
+#: inc/admin/customizer-sections/display-archive.php:12
+#: inc/admin/customizer-sections/woocommerce-archive.php:9
+msgid "Archive Layout"
+msgstr "Изглед Архив"
+
+#: inc/admin/customizer-sections/display-archive.php:27
+#: inc/admin/customizer-sections/display-frontpage.php:27
+#: inc/admin/customizer-sections/display-postpage.php:27
+#: inc/admin/customizer-sections/learnpress-archive.php:24
+#: inc/admin/customizer-sections/learnpress-single.php:24
+#: inc/admin/customizer-sections/portfolio-archive.php:24
+#: inc/admin/customizer-sections/woocommerce-archive.php:24
+msgid "Check this box to hide/show breadcrumbs."
+msgstr "Маркирайте тази отметка, за да скриете / покажете пътечките."
+
+#: inc/admin/customizer-sections/display-archive.php:35
+#: inc/admin/customizer-sections/display-frontpage.php:35
+#: inc/admin/customizer-sections/display-postpage.php:35
+#: inc/admin/customizer-sections/learnpress-archive.php:32
+#: inc/admin/customizer-sections/learnpress-single.php:32
+#: inc/admin/customizer-sections/portfolio-archive.php:32
+#: inc/admin/customizer-sections/woocommerce-archive.php:32
+#: inc/admin/customizer-sections/woocommerce-single.php:33
+msgid "Check this box to hide/show title."
+msgstr "Маркирайте тази отметка, за да скриете / покажите заглавие."
+
+#: inc/admin/customizer-sections/display-archive.php:40
+#: inc/admin/customizer-sections/display-frontpage.php:40
+#: inc/admin/customizer-sections/display-postpage.php:40
+#: inc/admin/customizer-sections/learnpress-archive.php:37
+#: inc/admin/customizer-sections/learnpress-single.php:37
+#: inc/admin/customizer-sections/portfolio-archive.php:37
+#: inc/admin/customizer-sections/woocommerce-archive.php:37
+#: inc/admin/customizer-sections/woocommerce-single.php:38
+msgid "Top Image"
+msgstr "Топ Изображение"
+
+#: inc/admin/customizer-sections/display-archive.php:43
+#: inc/admin/customizer-sections/display-frontpage.php:43
+#: inc/admin/customizer-sections/display-postpage.php:43
+#: inc/admin/customizer-sections/learnpress-archive.php:40
+#: inc/admin/customizer-sections/learnpress-single.php:40
+#: inc/admin/customizer-sections/portfolio-archive.php:40
+#: inc/admin/customizer-sections/woocommerce-archive.php:40
+#: inc/admin/customizer-sections/woocommerce-single.php:41
+msgid "Enter URL or upload a top image file for header."
+msgstr "Въведете URL или качете  файл с изображение за хедъра."
+
+#: inc/admin/customizer-sections/display-archive.php:49
+#: inc/admin/customizer-sections/display-frontpage.php:49
+#: inc/admin/customizer-sections/display-postpage.php:49
+#: inc/admin/customizer-sections/learnpress-archive.php:46
+#: inc/admin/customizer-sections/learnpress-single.php:46
+#: inc/admin/customizer-sections/portfolio-archive.php:46
+#: inc/admin/customizer-sections/woocommerce-archive.php:46
+#: inc/admin/customizer-sections/woocommerce-single.php:47
+msgid "Heading Background Color"
+msgstr "Избери цвят за фоновото заглавие"
+
+#: inc/admin/customizer-sections/display-archive.php:56
+#: inc/admin/customizer-sections/display-frontpage.php:56
+#: inc/admin/customizer-sections/display-postpage.php:56
+#: inc/admin/customizer-sections/learnpress-archive.php:53
+#: inc/admin/customizer-sections/learnpress-single.php:53
+#: inc/admin/customizer-sections/portfolio-archive.php:53
+#: inc/admin/customizer-sections/woocommerce-archive.php:53
+#: inc/admin/customizer-sections/woocommerce-single.php:54
+msgid "Heading Text Color"
+msgstr "Цвят на текста за Хеадинг"
+
+#: inc/admin/customizer-sections/display-archive.php:63
+#: inc/admin/customizer-sections/display-frontpage.php:63
+#: inc/admin/customizer-sections/display-postpage.php:63
+#: inc/admin/customizer-sections/learnpress-archive.php:60
+#: inc/admin/customizer-sections/learnpress-single.php:60
+#: inc/admin/customizer-sections/portfolio-archive.php:60
+#: inc/admin/customizer-sections/woocommerce-archive.php:60
+#: inc/admin/customizer-sections/woocommerce-single.php:60
+msgid "Sub Heading Text Color"
+msgstr "Цвят на текста за подзаглавие"
+
+#: inc/admin/customizer-sections/display-archive.php:70
+#: inc/admin/customizer-sections/display-frontpage.php:77
+#: inc/admin/customizer-sections/display-postpage.php:70
+#: inc/admin/customizer-sections/learnpress-archive.php:67
+#: inc/admin/customizer-sections/learnpress-single.php:67
+#: inc/admin/customizer-sections/portfolio-archive.php:67
+#: inc/admin/customizer-sections/woocommerce-archive.php:68
+#: inc/admin/customizer-sections/woocommerce-single.php:67
+msgid "Sub Title"
+msgstr "Под-заглавие"
+
+#: inc/admin/customizer-sections/display-archive.php:77
+msgid "Excerpt Length"
+msgstr "Дължина на откъса"
+
+#: inc/admin/customizer-sections/display-archive.php:80
+msgid ""
+"Enter the number of words you want to cut from the content to be the excerpt "
+"of search and archive and portfolio page."
+msgstr ""
+"Въведете броя думи, които искате да се включат в откъса, в търсене, архив и "
+"портфолио страници"
+
+#: inc/admin/customizer-sections/display-archive.php:88
+msgid "Show Category"
+msgstr "Покажи Категория"
+
+#: inc/admin/customizer-sections/display-archive.php:91
+#: inc/admin/customizer-sections/display-archive.php:99
+#: inc/admin/customizer-sections/display-archive.php:107
+msgid "show/hidden"
+msgstr "Покажи/скрити"
+
+#: inc/admin/customizer-sections/display-archive.php:96
+msgid "Show Date"
+msgstr "Покажи дата"
+
+#: inc/admin/customizer-sections/display-archive.php:104
+msgid "Show Comment"
+msgstr "Покажи коментар"
+
+#: inc/admin/customizer-sections/display-frontpage.php:6
+msgid "Front Page"
+msgstr "Първа страница"
+
+#: inc/admin/customizer-sections/display-frontpage.php:12
+msgid "Front Page Layout"
+msgstr "Първа страница Изглед"
+
+#: inc/admin/customizer-sections/display-frontpage.php:70
+msgid "Custom Title"
+msgstr "Потребителско заглавие"
+
+#: inc/admin/customizer-sections/display-postpage.php:6
+msgid "Singular"
+msgstr "Единствен"
+
+#: inc/admin/customizer-sections/display-postpage.php:12
+msgid "Singular Layout"
+msgstr "Единствен Изглед"
+
+#: inc/admin/customizer-sections/display-sharing.php:4
+msgid "Sharing"
+msgstr "Споделяне"
+
+#: inc/admin/customizer-sections/display-sharing.php:6
+msgid "Show social sharing button."
+msgstr "Покажи бутон за споделяне."
+
+#: inc/admin/customizer-sections/display-sharing.php:11
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/admin/customizer-sections/display-sharing.php:18
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/admin/customizer-sections/display-sharing.php:25
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/admin/customizer-sections/display.php:4
+msgid "Display"
+msgstr "Монитор"
+
+#: inc/admin/customizer-sections/footer-copyright.php:9
+#: inc/admin/customizer-sections/footer-options.php:24
+#: inc/admin/customizer-sections/header-mainmenu.php:33
+#: inc/admin/customizer-sections/header-mobile.php:13
+#: inc/admin/customizer-sections/header-offcanvas.php:20
+#: inc/admin/customizer-sections/header-stickymenu.php:31
+#: inc/admin/customizer-sections/header-submenu.php:11
+#: inc/admin/customizer-sections/header-toolbar.php:29
+#: inc/admin/metabox-sections/portfolio-background.php:8
+msgid "Background Color"
+msgstr "Цвят на фона"
+
+#: inc/admin/customizer-sections/footer-copyright.php:17
+#: inc/admin/customizer-sections/header-mainmenu.php:41
+#: inc/admin/customizer-sections/header-mobile.php:21
+#: inc/admin/customizer-sections/header-offcanvas.php:28
+#: inc/admin/customizer-sections/header-stickymenu.php:39
+#: inc/admin/customizer-sections/header-submenu.php:27
+#: inc/admin/customizer-sections/header-toolbar.php:37
+msgid "Text Color"
+msgstr "Цвят на текста"
+
+#: inc/admin/customizer-sections/footer-copyright.php:25
+msgid "Copyright Text"
+msgstr "Текст за авторски права"
+
+#: inc/admin/customizer-sections/footer-copyright.php:33
+msgid "Back To Top"
+msgstr "Връщане в началото"
+
+#: inc/admin/customizer-sections/footer-copyright.php:36
+msgid "Show or hide this button."
+msgstr "Показване или скриване на този бутон."
+
+#: inc/admin/customizer-sections/footer-options.php:9
+msgid "Footer Title Color"
+msgstr "Футър Заглавие Цвят"
+
+#: inc/admin/customizer-sections/footer-options.php:16
+msgid "Footer Text Color"
+msgstr "Футър Текст Цвят"
+
+#: inc/admin/customizer-sections/footer-options.php:32
+#: inc/widgets/slider/slider.php:24
+msgid "Background Image"
+msgstr "Снимка на фона"
+
+#: inc/admin/customizer-sections/footer-options.php:38
+#: inc/admin/customizer-sections/styling-pattern.php:57
+msgid "Background Position"
+msgstr "Позиция на Фона"
+
+#: inc/admin/customizer-sections/footer-options.php:42
+#: inc/admin/customizer-sections/styling-pattern.php:61
+msgid "Left Top"
+msgstr "Ляво горе"
+
+#: inc/admin/customizer-sections/footer-options.php:43
+#: inc/admin/customizer-sections/styling-pattern.php:62
+msgid "Left Center"
+msgstr "Ляво център"
+
+#: inc/admin/customizer-sections/footer-options.php:44
+#: inc/admin/customizer-sections/styling-pattern.php:63
+msgid "Left Bottom"
+msgstr "Ляво отдолу"
+
+#: inc/admin/customizer-sections/footer-options.php:45
+#: inc/admin/customizer-sections/styling-pattern.php:64
+msgid "Right Top"
+msgstr "Дясно горе"
+
+#: inc/admin/customizer-sections/footer-options.php:46
+#: inc/admin/customizer-sections/styling-pattern.php:65
+msgid "Right Center"
+msgstr "Дясно център"
+
+#: inc/admin/customizer-sections/footer-options.php:47
+#: inc/admin/customizer-sections/styling-pattern.php:66
+msgid "Right Bottom"
+msgstr "Дясно долу"
+
+#: inc/admin/customizer-sections/footer-options.php:48
+#: inc/admin/customizer-sections/styling-pattern.php:67
+msgid "Center Top"
+msgstr "Център горе"
+
+#: inc/admin/customizer-sections/footer-options.php:49
+#: inc/admin/customizer-sections/styling-pattern.php:68
+msgid "Center Center"
+msgstr "Център център"
+
+#: inc/admin/customizer-sections/footer-options.php:50
+#: inc/admin/customizer-sections/styling-pattern.php:69
+msgid "Center Bottom"
+msgstr "Център долу"
+
+#: inc/admin/customizer-sections/header-logo-options.php:4
+msgid "Header Options"
+msgstr "Опции на Хедъра"
+
+#: inc/admin/customizer-sections/header-logo-options.php:10
+msgid "Margin Top Header"
+msgstr "Отстояние отгоре"
+
+#: inc/admin/customizer-sections/header-logo-options.php:17
+#: inc/admin/customizer-sections/header-logo-options.php:28
+#: inc/admin/customizer-sections/header-logo-options.php:39
+msgid "Unit px."
+msgstr "Размер"
+
+#: inc/admin/customizer-sections/header-logo-options.php:21
+msgid "Margin Top Logo"
+msgstr "Отстояние на Топ Лого"
+
+#: inc/admin/customizer-sections/header-logo-options.php:32
+msgid "Margin Bottom Logo"
+msgstr "Отстояние на Топ Лого отдолу"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:4
+msgid "Main Menu"
+msgstr "Главно меню"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:10
+msgid "Select a Layout"
+msgstr "Изберете Изглед"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:21
+msgid "Header Position"
+msgstr "Позиция на Хедъра"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:25
+#: inc/admin/customizer-sections/header-mobile.php:38
+#: inc/widgets/button/button.php:40
+#: inc/widgets/courses-searching/courses-searching.php:28
+#: inc/widgets/heading/heading.php:51 inc/widgets/icon-box/icon-box.php:52
+#: inc/widgets/icon-box/icon-box.php:428
+#: inc/widgets/list-event/list-event.php:25
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:52
+msgid "Default"
+msgstr "По подразбиране"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:26
+#: inc/widgets/courses-searching/courses-searching.php:29
+#: inc/widgets/icon-box/icon-box.php:429
+msgid "Overlay"
+msgstr "Пласт"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:49
+#: inc/admin/customizer-sections/header-mobile.php:27
+#: inc/admin/customizer-sections/header-stickymenu.php:48
+msgid "Text Hover Color"
+msgstr "Цвят на горния слой"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:67
+#: inc/admin/customizer-sections/header-toolbar.php:20
+#: inc/widgets/heading/heading.php:71 inc/widgets/icon-box/icon-box.php:72
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:74
+msgid "Font Size"
+msgstr "Размер на шрифта"
+
+#: inc/admin/customizer-sections/header-mainmenu.php:76
+#: inc/widgets/button/button.php:69
+msgid "Font Weight"
+msgstr "Дебелина на шрифта"
+
+#: inc/admin/customizer-sections/header-mobile.php:6
+msgid "Mobile Menu"
+msgstr "Мобилно меню"
+
+#: inc/admin/customizer-sections/header-mobile.php:34
+msgid "Config Logo"
+msgstr "Конфигурирай Лого"
+
+#: inc/admin/customizer-sections/header-mobile.php:47
+#: inc/admin/customizer-sections/logo.php:11
+msgid "Logo"
+msgstr "Лого"
+
+#: inc/admin/customizer-sections/header-mobile.php:50
+#: inc/admin/customizer-sections/logo.php:14
+msgid "Upload your logo."
+msgstr "Качи лого"
+
+#: inc/admin/customizer-sections/header-mobile.php:55
+#: inc/admin/customizer-sections/logo.php:19
+msgid "Sticky Logo"
+msgstr "Sticky/плаваща, лепенка/ Лого"
+
+#: inc/admin/customizer-sections/header-mobile.php:58
+#: inc/admin/customizer-sections/logo.php:22
+msgid "Upload your sticky logo."
+msgstr "Качете своето плаващо лого"
+
+#: inc/admin/customizer-sections/header-offcanvas.php:5
+msgid "Off Canvas Sidebar"
+msgstr "Без странична лента"
+
+#: inc/admin/customizer-sections/header-offcanvas.php:12
+msgid "Show / Hide"
+msgstr "Покажи / Скрий"
+
+#: inc/admin/customizer-sections/header-offcanvas.php:36
+#: inc/admin/customizer-sections/header-toolbar.php:48
+msgid "Link Color"
+msgstr "Цвят на връзката"
+
+#: inc/admin/customizer-sections/header-offcanvas.php:44
+#: inc/widgets/button/button.php:134
+#: inc/widgets/counters-box/counters-box.php:31
+#: inc/widgets/slider/slider.php:38
+msgid "Icon"
+msgstr "Икона"
+
+#: inc/admin/customizer-sections/header-offcanvas.php:48
+#, php-format
+msgid ""
+"Enter <a href=\"%s\" target=\"_blank\">FontAwesome</a> icon name. For "
+"example: fa-bars, fa-user."
+msgstr ""
+"Въведете <a href=\"%s\" target=\"_blank\">FontAwesome</a> име икона. "
+"Например: FA-барове, еа-потребител."
+
+#: inc/admin/customizer-sections/header-stickymenu.php:5
+msgid "Sticky Menu"
+msgstr "Плаващо Меню"
+
+#: inc/admin/customizer-sections/header-stickymenu.php:11
+msgid "Sticky On Scroll"
+msgstr "Плаващо Меню"
+
+#: inc/admin/customizer-sections/header-stickymenu.php:12
+msgid "Check to enable a fixed header when scrolling, un-check to disable."
+msgstr ""
+"Проверете, за да се даде възможност за фиксиране на хедъра, когато "
+"превъртате, махнете отметката за деактивиране."
+
+#: inc/admin/customizer-sections/header-stickymenu.php:19
+msgid "Config Sticky Menu"
+msgstr "Конфигурация на плаващо Меню"
+
+#: inc/admin/customizer-sections/header-stickymenu.php:23
+msgid "The same with main menu"
+msgstr "Същото е и с главното меню"
+
+#: inc/admin/customizer-sections/header-submenu.php:5
+msgid "Sub Menu"
+msgstr "Под Меню"
+
+#: inc/admin/customizer-sections/header-submenu.php:19
+msgid "Border Color"
+msgstr "Цвят на рамката"
+
+#: inc/admin/customizer-sections/header-submenu.php:34
+msgid "Text Color Hover"
+msgstr "Цвят на горния слой"
+
+#: inc/admin/customizer-sections/header-toolbar.php:12
+msgid "Show / Hide Toolbar"
+msgstr "Покажи / Скрий Тулбара"
+
+#: inc/admin/customizer-sections/header-topdrawer.php:4
+msgid "Drawer"
+msgstr "Чекмедже"
+
+#: inc/admin/customizer-sections/header-topdrawer.php:10
+msgid "Show / Hide Drawer"
+msgstr "Покажи/Скрий чекмеджето"
+
+#: inc/admin/customizer-sections/header-topdrawer.php:24
+msgid "Drawer Background Color"
+msgstr "Чекмедже Цвят на фона"
+
+#: inc/admin/customizer-sections/header-topdrawer.php:32
+msgid "Drawer Text Color"
+msgstr "Чекмедже Цвят на текста"
+
+#: inc/admin/customizer-sections/header-topdrawer.php:40
+msgid "Drawer Style"
+msgstr "чекмедже Стил"
+
+#: inc/admin/customizer-sections/header-topdrawer.php:59
+msgid "Open / Close Drawer"
+msgstr "Отвори/Затвори чекмеджето"
+
+#: inc/admin/customizer-sections/header.php:50
+msgid "Header"
+msgstr "Хедър"
+
+#: inc/admin/customizer-sections/import-export.php:3
+msgid "Import/Export"
+msgstr "Импортиране/Експортиране"
+
+#: inc/admin/customizer-sections/import-export.php:4
+msgid ""
+"You can export then import settings from one theme to another conveniently "
+"without any problem."
+msgstr ""
+"Можете да експортирате или импортирате настройките от една тема към друга, "
+"без никакъв проблем."
+
+#: inc/admin/customizer-sections/import-export.php:10
+msgid "Import Settings"
+msgstr "Импортирай настройки"
+
+#: inc/admin/customizer-sections/import-export.php:13
+msgid ""
+"Click upload button then choose a JSON file (.json) from your computer to "
+"import settings to this theme."
+msgstr ""
+"Щракнете върху бутона за качване след това изберете JSON файл (.json) от "
+"вашия компютър, за да импортирате настройките на тази тема."
+
+#: inc/admin/customizer-sections/import-export.php:17
+msgid "Export Settings"
+msgstr "Експортиране на настройки"
+
+#: inc/admin/customizer-sections/import-export.php:20
+msgid ""
+"Simply click download button to export all your settings to a JSON file (."
+"json)."
+msgstr ""
+"Просто кликнете върху бутона за сваляне с експортирате всичките си настройки "
+"на JSON файл (.json)."
+
+#: inc/admin/customizer-sections/learnpress-archive.php:9
+#: inc/admin/customizer-sections/learnpress-single.php:9
+#: inc/admin/customizer-sections/portfolio-archive.php:9
+#: inc/admin/customizer-sections/styling-layout.php:3
+#: inc/widgets/button/button.php:159
+#: inc/widgets/course-categories/course-categories.php:29
+#: inc/widgets/list-event/list-event.php:23
+msgid "Layout"
+msgstr "Изглед"
+
+#: inc/admin/customizer-sections/learnpress-archive.php:74
+#: inc/admin/customizer-sections/portfolio-archive.php:74
+msgid "Grid Column"
+msgstr "Решетка Колона"
+
+#: inc/admin/customizer-sections/learnpress-features.php:3
+msgid "Features"
+msgstr "Характеристики на курса"
+
+#: inc/admin/customizer-sections/learnpress-features.php:9
+msgid "One Course ID"
+msgstr "Един Курс ID"
+
+#: inc/admin/customizer-sections/learnpress-features.php:12
+msgid "The one course will be a latest course if you leave this field empty."
+msgstr "Курсът ще е последен, ако оставите това поле празно"
+
+#: inc/admin/customizer-sections/learnpress-single.php:3
+msgid "Single"
+msgstr "Единичен"
+
+#: inc/admin/customizer-sections/learnpress.php:4
+msgid "LearnPress"
+msgstr "ЛърнПрес"
+
+#: inc/admin/customizer-sections/logo.php:27
+msgid "Width Logo"
+msgstr "Ширина Logo"
+
+#: inc/admin/customizer-sections/logo.php:42
+msgid "Favicon"
+msgstr "Favicon"
+
+#: inc/admin/customizer-sections/logo.php:45
+msgid "Upload your favicon."
+msgstr "Качване на favicon."
+
+#: inc/admin/customizer-sections/portfolio.php:4
+msgid "Portfolio"
+msgstr "Консултации"
+
+#: inc/admin/customizer-sections/styling-color.php:3
+msgid "Color"
+msgstr "Цвят"
+
+#: inc/admin/customizer-sections/styling-color.php:11
+msgid "Body Background Color"
+msgstr "Цвят на фона"
+
+#: inc/admin/customizer-sections/styling-color.php:19
+msgid "Primary Color"
+msgstr "Основен Цвят"
+
+#: inc/admin/customizer-sections/styling-color.php:26
+msgid "Button Hover Color"
+msgstr "Цвят на слоя на бутона"
+
+#: inc/admin/customizer-sections/styling-layout.php:8
+msgid "Body Layout"
+msgstr "Изглед на тялото"
+
+#: inc/admin/customizer-sections/styling-layout.php:12
+msgid "Boxed"
+msgstr "Кутии"
+
+#: inc/admin/customizer-sections/styling-layout.php:13
+msgid "Wide"
+msgstr "Широк"
+
+#: inc/admin/customizer-sections/styling-pattern.php:3
+msgid "Pattern"
+msgstr "Шаблон"
+
+#: inc/admin/customizer-sections/styling-pattern.php:10
+msgid "Pattern Background"
+msgstr "Шаблон фоново изображение"
+
+#: inc/admin/customizer-sections/styling-pattern.php:13
+msgid ""
+"Check the box to display a pattern in the background. If checked, select the "
+"pattern from below."
+msgstr ""
+"Поставете отметка в квадратчето, за да се покаже един модел на заден план. "
+"Ако е избрано, изберете модел от по-долу."
+
+#: inc/admin/customizer-sections/styling-pattern.php:18
+msgid "Select Pattern Background"
+msgstr "Шаблон фоново изображение"
+
+#: inc/admin/customizer-sections/styling-pattern.php:36
+msgid "Upload Background"
+msgstr "Качете фоново изображение тук"
+
+#: inc/admin/customizer-sections/styling-pattern.php:39
+msgid "Upload your background."
+msgstr "Качете Вашето фоново изображение тук"
+
+#: inc/admin/customizer-sections/styling-pattern.php:44
+msgid "Repeat Background"
+msgstr "Повтаряне на фона"
+
+#: inc/admin/customizer-sections/styling-pattern.php:75
+msgid "Background Attachment"
+msgstr "Прикачено изображение за фон"
+
+#: inc/admin/customizer-sections/styling-pattern.php:89
+msgid "Background Size"
+msgstr "Размер на Фона"
+
+#: inc/admin/customizer-sections/styling-rtl.php:3
+msgid "Support"
+msgstr "Поддръжка"
+
+#: inc/admin/customizer-sections/styling-rtl.php:9
+msgid "RTL Support"
+msgstr "Поддръжка RTL (текст от дясно наляво)"
+
+#: inc/admin/customizer-sections/styling-rtl.php:12
+#: inc/admin/customizer-sections/styling-rtl.php:20
+#: inc/admin/customizer-sections/utilities.php:11
+msgid "Enable/Disable"
+msgstr "Включва/Изключва"
+
+#: inc/admin/customizer-sections/styling-rtl.php:17
+msgid "Pre-loader"
+msgstr "Пре-зареждане"
+
+#: inc/admin/customizer-sections/styling.php:7
+msgid "Styling"
+msgstr "Оформление"
+
+#: inc/admin/customizer-sections/typography.php:4
+msgid "Typography"
+msgstr "Типография"
+
+#: inc/admin/customizer-sections/typography.php:10
+msgid "Body"
+msgstr "Съдържание"
+
+#: inc/admin/customizer-sections/typography.php:15
+#: inc/admin/customizer-sections/typography.php:43
+#: inc/admin/customizer-sections/typography.php:69
+#: inc/admin/customizer-sections/typography.php:98
+#: inc/admin/customizer-sections/typography.php:128
+#: inc/admin/customizer-sections/typography.php:158
+#: inc/admin/customizer-sections/typography.php:188
+#: inc/admin/customizer-sections/typography.php:218
+msgid "Select Font"
+msgstr "Избор на шрифт"
+
+#: inc/admin/customizer-sections/typography.php:36
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:20
+msgid "Heading"
+msgstr "Заглавието"
+
+#: inc/admin/customizer-sections/typography.php:64
+msgid "H1"
+msgstr "H1"
+
+#: inc/admin/customizer-sections/typography.php:92
+msgid "H2"
+msgstr "H2"
+
+#: inc/admin/customizer-sections/typography.php:122
+msgid "H3"
+msgstr "H3"
+
+#: inc/admin/customizer-sections/typography.php:152
+msgid "H4"
+msgstr "H4"
+
+#: inc/admin/customizer-sections/typography.php:182
+msgid "H5"
+msgstr "H5"
+
+#: inc/admin/customizer-sections/typography.php:212
+msgid "H6"
+msgstr "H6"
+
+#: inc/admin/customizer-sections/utilities.php:3
+msgid "Utilities"
+msgstr "комунални услуги"
+
+#: inc/admin/customizer-sections/utilities.php:8
+msgid "Import Demo Data"
+msgstr "Импортиране на демо"
+
+#: inc/admin/customizer-sections/woocommerce-archive.php:3
+msgid "Category Products"
+msgstr "Категория Продукти"
+
+#: inc/admin/customizer-sections/woocommerce-archive.php:21
+#: inc/admin/customizer-sections/woocommerce-single.php:22
+msgid "Hide Breadcrumbs?"
+msgstr "Скрий пътечките"
+
+#: inc/admin/customizer-sections/woocommerce-setting.php:3
+msgid "Setting"
+msgstr "Настройка"
+
+#: inc/admin/customizer-sections/woocommerce-setting.php:9
+#: inc/widgets/courses/courses.php:62
+msgid "Grid"
+msgstr "Мрежа"
+
+#: inc/admin/customizer-sections/woocommerce-setting.php:20
+msgid "Number Of Products Per Page"
+msgstr "Брой продукти на страница"
+
+#: inc/admin/customizer-sections/woocommerce-setting.php:23
+msgid "Insert the number of posts to display per page."
+msgstr "Въведи брой на публикации да се показват за страница."
+
+#: inc/admin/customizer-sections/woocommerce-setting.php:29
+msgid "Show QuickView"
+msgstr "Покажи Бърз преглед"
+
+#: inc/admin/customizer-sections/woocommerce-single.php:3
+msgid "Product Page"
+msgstr "Страница на продукта"
+
+#: inc/admin/customizer-sections/woocommerce-single.php:10
+msgid "Select Layout Default"
+msgstr "Избери изглед на страницата"
+
+#: inc/admin/customizer-sections/woocommerce-single.php:25
+msgid "Check this box to hide/show Breadcrumbs."
+msgstr "Маркирайте тази отметка, за да скриете / покажете пътечките."
+
+#: inc/admin/customizer-sections/woocommerce.php:4
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/metabox-sections/portfolio-background.php:4
+msgid "Color Hover Portfolio"
+msgstr "Цвят Hover Портфолио"
+
+#: inc/admin/metabox-sections/share-this.php:3
+msgid "Share This and Number Related"
+msgstr "Споделете това и свързани с него"
+
+#: inc/admin/metabox-sections/share-this.php:7
+msgid "Number Related"
+msgstr "Брой свързани"
+
+#: inc/libs/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+"Съжаляваме, но не разполагате с правилните разрешения за инсталиране на%1$s "
+"плъгин."
+msgstr[1] ""
+"Съжаляваме, но не разполагате с правилните права за да активирате %s плъгин. "
+"Свържете се с администратора на сайта за помощ."
+
+#: inc/libs/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Има на разположение за актуализация:%1$s."
+msgstr[1] "Има на разположение актуализация за следните плугини:%1$s."
+
+#: inc/libs/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+"Съжаляваме, но не разполагате с права, за да актуализирате%1$s плъгин."
+msgstr[1] ""
+"Съжаляваме, но не разполагате с права, за да актуализирате%1$s плъгини."
+
+#: inc/libs/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+"Съжаляваме, но не разполагате с правилните разрешения за активиране на%1$s "
+"плъгин."
+msgstr[1] ""
+"Съжаляваме, но не разполагате с права, за да актуализирате%1$s плъгини."
+
+#: inc/libs/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Обновяване на Разширение: %s"
+msgstr[1] "Обновяване на Разширения: %s"
+
+#: inc/libs/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Активиране на разширение"
+msgstr[1] "Активиране на разширения"
+
+#: inc/libs/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Назад към таблото за управление"
+
+#: inc/libs/class-tgm-plugin-activation.php:400
+#: inc/libs/class-tgm-plugin-activation.php:2834
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Следното разширение се активира успешно:"
+msgstr[1] "Следните разширения се активираха успешно:"
+
+#: inc/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Не е предприето действие. Плъгин  %1$s е вече активен."
+
+#: inc/libs/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плъгинът не е активиран. Необходима е по-висока версия на %s за тази тема. "
+"Моля, актуализирайте плъгина."
+
+#: inc/libs/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Всички плъгини са инсталирани и активирани успешно. %1$s"
+
+#: inc/libs/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Отхвърляне на това съобщение"
+
+#: inc/libs/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Моля, свържете се с администратора на сайта за помощ."
+
+#: inc/libs/class-tgm-plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Този плъгин трябва да се актуализира, за да бъде съвместим с вашата тема."
+
+#: inc/libs/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr "Изисква се обновяване"
+
+#: inc/libs/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr "Определете, вместо това, конфигурацията на parent_slug."
+
+#: inc/libs/class-tgm-plugin-activation.php:830
+#: inc/libs/class-tgm-plugin-activation.php:3412
+msgid "Return to the Dashboard"
+msgstr "Върни се в контролния панел"
+
+#: inc/libs/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Дистанционният пакет на плъгина не съдържа папка с желания slug и "
+"преименуването не проработи."
+
+#: inc/libs/class-tgm-plugin-activation.php:937
+#: inc/libs/class-tgm-plugin-activation.php:940
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Моля, свържете се с доставчика на плъгина и го помолете да пакетира плъгина "
+"според указанията на WordPress."
+
+#: inc/libs/class-tgm-plugin-activation.php:940
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Пакетът за дистанционно плъгин се състои от повече от един файл, но "
+"файловете не са опаковани в една папка."
+
+#: inc/libs/class-tgm-plugin-activation.php:1118
+#: inc/libs/class-tgm-plugin-activation.php:2830
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#: inc/libs/class-tgm-plugin-activation.php:1883
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/libs/class-tgm-plugin-activation.php:2169
+msgid "Required"
+msgstr "Изисквано;"
+
+#: inc/libs/class-tgm-plugin-activation.php:2172
+msgid "Recommended"
+msgstr "Препоръчан"
+
+#: inc/libs/class-tgm-plugin-activation.php:2188
+msgid "WordPress Repository"
+msgstr "WordPress Хранилище"
+
+#: inc/libs/class-tgm-plugin-activation.php:2191
+msgid "External Source"
+msgstr "Външен източник"
+
+#: inc/libs/class-tgm-plugin-activation.php:2194
+msgid "Pre-Packaged"
+msgstr "В предварителния пакет"
+
+#: inc/libs/class-tgm-plugin-activation.php:2211
+msgid "Not Installed"
+msgstr "Не е инсталирано"
+
+#: inc/libs/class-tgm-plugin-activation.php:2215
+msgid "Installed But Not Activated"
+msgstr "Инсталиран, но не е активиран"
+
+#: inc/libs/class-tgm-plugin-activation.php:2217
+msgid "Active"
+msgstr "Активен"
+
+#: inc/libs/class-tgm-plugin-activation.php:2223
+msgid "Required Update not Available"
+msgstr "Задължителната актуализация не е достъпна"
+
+#: inc/libs/class-tgm-plugin-activation.php:2226
+msgid "Requires Update"
+msgstr "Изисква обновяване"
+
+#: inc/libs/class-tgm-plugin-activation.php:2229
+msgid "Update recommended"
+msgstr "Препоръчва се обновяване"
+
+#: inc/libs/class-tgm-plugin-activation.php:2237
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/libs/class-tgm-plugin-activation.php:2282
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Всички <span class=\"count\">(%s)</span>"
+msgstr[1] "Всички <span class=\"count\">(%s)</span>"
+
+#: inc/libs/class-tgm-plugin-activation.php:2285
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "За да инсталирате <span class=\"count\">(%s)</span>"
+msgstr[1] "За да инсталирате <span class=\"count\">(%s)</span>"
+
+#: inc/libs/class-tgm-plugin-activation.php:2288
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Налична Актуализация <span class=\"count\">(%s)</span>"
+msgstr[1] "Налична Актуализация <span class=\"count\">(%s)</span>"
+
+#: inc/libs/class-tgm-plugin-activation.php:2291
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "За да активирате <span class=\"count\">(%s)</span>"
+msgstr[1] "За да активирате <span class=\"count\">(%s)</span>"
+
+#: inc/libs/class-tgm-plugin-activation.php:2373
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "Неизвестно"
+
+#: inc/libs/class-tgm-plugin-activation.php:2381
+msgid "Installed version:"
+msgstr "Инсталирана версия:"
+
+#: inc/libs/class-tgm-plugin-activation.php:2389
+msgid "Minimum required version:"
+msgstr "Минимална изисквана версия:"
+
+#: inc/libs/class-tgm-plugin-activation.php:2401
+msgid "Available version:"
+msgstr "Достъпна версия:"
+
+#: inc/libs/class-tgm-plugin-activation.php:2424
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+"Няма плъгини за инсталиране, ъпдейт или активиране.  <a href=\"%1$s\">Назад "
+"към таблото за управление</a>"
+
+#: inc/libs/class-tgm-plugin-activation.php:2438
+msgid "Plugin"
+msgstr "Плъгин"
+
+#: inc/libs/class-tgm-plugin-activation.php:2439
+msgid "Source"
+msgstr "Източник"
+
+#: inc/libs/class-tgm-plugin-activation.php:2440
+msgid "Type"
+msgstr "Вид"
+
+#: inc/libs/class-tgm-plugin-activation.php:2444
+msgid "Version"
+msgstr "Версия"
+
+#: inc/libs/class-tgm-plugin-activation.php:2445
+msgid "Status"
+msgstr "Състояние"
+
+#: inc/libs/class-tgm-plugin-activation.php:2493
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Инсталирайте %2$s"
+
+#: inc/libs/class-tgm-plugin-activation.php:2497
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "Обновете %2$s"
+
+#: inc/libs/class-tgm-plugin-activation.php:2502
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Активирай %2$s"
+
+#: inc/libs/class-tgm-plugin-activation.php:2572
+msgid "Upgrade message from the plugin author:"
+msgstr "Съобщение за обновяване от автора на плъгина:"
+
+#: inc/libs/class-tgm-plugin-activation.php:2605
+msgid "Install"
+msgstr "Инсталиране"
+
+#: inc/libs/class-tgm-plugin-activation.php:2611
+msgid "Update"
+msgstr "Актуализирай"
+
+#: inc/libs/class-tgm-plugin-activation.php:2614
+msgid "Activate"
+msgstr "Активирай"
+
+#: inc/libs/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Не са избрани плъгини за инсталация. Не са предприети действия."
+
+#: inc/libs/class-tgm-plugin-activation.php:2647
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Не са избрани плъгини за обновяване. Не са предприети действия."
+
+#: inc/libs/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be installed at this time."
+msgstr "Не са достъпни плъгини за инсталиране този път."
+
+#: inc/libs/class-tgm-plugin-activation.php:2685
+msgid "No plugins are available to be updated at this time."
+msgstr "Не са достъпни плъгини за обновяване този път."
+
+#: inc/libs/class-tgm-plugin-activation.php:2790
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Не са избрани плъгини за активация. Не е предприето действие."
+
+#: inc/libs/class-tgm-plugin-activation.php:2816
+msgid "No plugins are available to be activated at this time."
+msgstr "Не са достъпни плъгини за активиране този път."
+
+#: inc/libs/class-tgm-plugin-activation.php:3030
+msgid "Plugin activation failed."
+msgstr "Активирането на плъгина се провали."
+
+#: inc/libs/class-tgm-plugin-activation.php:3336
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновяване на плъгин %1$s (%2$d/%3$d)"
+
+#: inc/libs/class-tgm-plugin-activation.php:3338
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Възникна грешка при инсталирането на %1$s: <strong>%2$s</strong>."
+
+#: inc/libs/class-tgm-plugin-activation.php:3339
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Инсталирането на %1$s се провали."
+
+#: inc/libs/class-tgm-plugin-activation.php:3343
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Процесът на инсталиране и активиране започна. Този процес може да отнеме "
+"известно време при някои хостове, така че, моля бъдете търпеливи."
+
+#: inc/libs/class-tgm-plugin-activation.php:3344
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s са инсталирани и активирани успешно."
+
+#: inc/libs/class-tgm-plugin-activation.php:3344
+#: inc/libs/class-tgm-plugin-activation.php:3350
+msgid "Show Details"
+msgstr "Показва детайли"
+
+#: inc/libs/class-tgm-plugin-activation.php:3344
+#: inc/libs/class-tgm-plugin-activation.php:3350
+msgid "Hide Details"
+msgstr "Скриване Детайли"
+
+#: inc/libs/class-tgm-plugin-activation.php:3345
+msgid "All installations and activations have been completed."
+msgstr "Всички инсталации и активации бяха завършени."
+
+#: inc/libs/class-tgm-plugin-activation.php:3346
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Инсталира се и се активира плъгин %1$s (%2$d/%3$d)"
+
+#: inc/libs/class-tgm-plugin-activation.php:3349
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесът на инсталиране започна. Този процес може да отнеме известно време, "
+"моля изчакай."
+
+#: inc/libs/class-tgm-plugin-activation.php:3350
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s са инсталирани успешно."
+
+#: inc/libs/class-tgm-plugin-activation.php:3351
+msgid "All installations have been completed."
+msgstr "Всички инсталации бяха завършени."
+
+#: inc/libs/class-tgm-plugin-activation.php:3352
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Инсталиране на плъгин %1$s (%2$d/%3$d)"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:241
+msgid "Delete this image"
+msgstr "Изтриване на това изображение"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:241
+#: inc/libs/tax-meta-class/Tax-meta-class.php:887
+msgid "Delete"
+msgstr "Изтриване"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:351
+msgid "Cannot delete file. Something's wrong."
+msgstr "Грешка: Файлът не може да бъде изтрит"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:574
+#: inc/libs/tax-meta-class/Tax-meta-class.php:621
+msgid "Remove"
+msgstr "Премахване"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:586
+msgid "Add"
+msgstr "Добавяне"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:883
+msgid "Uploaded files"
+msgstr "Качени файлове"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:894
+msgid "Upload new files"
+msgstr "Качване на нови файлове"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:900
+msgid "Add more files"
+msgstr "Добавете още файлове"
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:955
+msgid "Select a color"
+msgstr "Изберете цвят"
+
+#: inc/templates/heading-top.php:222
+msgid "Our Team"
+msgstr "Нашият екип"
+
+#: inc/templates/heading-top.php:226
+#: inc/widgets/testimonials/testimonials.php:19
+msgid "Testimonials"
+msgstr "Препоръки"
+
+#: inc/widgets/widgets.php:86
+msgid "Extra Class"
+msgstr "Допълнителен Клас"
+
+#: inc/widgets/accordion/accordion.php:12
+msgid "Thim: Accordion"
+msgstr "Thim: акордеон"
+
+#: inc/widgets/accordion/accordion.php:14
+msgid "Add Accordion"
+msgstr "Добави акордеон"
+
+#: inc/widgets/accordion/accordion.php:28
+msgid "Panel List"
+msgstr "панел Списък"
+
+#: inc/widgets/accordion/accordion.php:29
+msgid "Panel"
+msgstr "Панел"
+
+#: inc/widgets/accordion/accordion.php:33
+msgid "Panel Title"
+msgstr "Заглавие на панела"
+
+#: inc/widgets/accordion/accordion.php:39
+msgid "Panel Body"
+msgstr "Тяло на панела"
+
+#: inc/widgets/button/button.php:12
+msgid "Thim: Button"
+msgstr "Thim: Бутон"
+
+#: inc/widgets/button/button.php:14
+msgid "Add Button"
+msgstr "Добави бутон"
+
+#: inc/widgets/button/button.php:23
+msgid "READ MORE"
+msgstr "Прочетете повече"
+
+#: inc/widgets/button/button.php:24
+msgid "Button Text"
+msgstr "Текст на бутона"
+
+#: inc/widgets/button/button.php:29
+msgid "Destination URL"
+msgstr "Целеви URL адрес"
+
+#: inc/widgets/button/button.php:34
+msgid "Open in New Window"
+msgstr "Отвори в нов прозорец"
+
+#: inc/widgets/button/button.php:38 inc/widgets/list-post/list-post.php:87
+msgid "Style"
+msgstr "Стил"
+
+#: inc/widgets/button/button.php:41
+msgid "Custom Style"
+msgstr "Потребителски стил"
+
+#: inc/widgets/button/button.php:51
+msgid "Style Options"
+msgstr "Настройки на стила"
+
+#: inc/widgets/button/button.php:62
+msgid "Font Size "
+msgstr "Размер на шрифта"
+
+#: inc/widgets/button/button.php:65
+msgid "Select font size."
+msgstr "Изберете размер на шрифта."
+
+#: inc/widgets/button/button.php:72 inc/widgets/button/button.php:167
+#: inc/widgets/heading/heading.php:81 inc/widgets/icon-box/icon-box.php:83
+#: inc/widgets/icon-box/icon-box.php:138
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:84
+msgid "Normal"
+msgstr "Нормално"
+
+#: inc/widgets/button/button.php:73 inc/widgets/heading/heading.php:82
+#: inc/widgets/icon-box/icon-box.php:84 inc/widgets/icon-box/icon-box.php:139
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:85
+msgid "Bold"
+msgstr "Получер"
+
+#: inc/widgets/button/button.php:74 inc/widgets/heading/heading.php:83
+#: inc/widgets/icon-box/icon-box.php:85 inc/widgets/icon-box/icon-box.php:140
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:86
+msgid "100"
+msgstr "100"
+
+#: inc/widgets/button/button.php:75 inc/widgets/heading/heading.php:84
+#: inc/widgets/icon-box/icon-box.php:86 inc/widgets/icon-box/icon-box.php:141
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:87
+msgid "200"
+msgstr "200"
+
+#: inc/widgets/button/button.php:76 inc/widgets/heading/heading.php:85
+#: inc/widgets/icon-box/icon-box.php:87 inc/widgets/icon-box/icon-box.php:142
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:88
+msgid "300"
+msgstr "300"
+
+#: inc/widgets/button/button.php:77 inc/widgets/heading/heading.php:86
+#: inc/widgets/icon-box/icon-box.php:88 inc/widgets/icon-box/icon-box.php:143
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:89
+msgid "400"
+msgstr "400"
+
+#: inc/widgets/button/button.php:78 inc/widgets/heading/heading.php:87
+#: inc/widgets/icon-box/icon-box.php:89 inc/widgets/icon-box/icon-box.php:144
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:90
+msgid "500"
+msgstr "500"
+
+#: inc/widgets/button/button.php:79 inc/widgets/heading/heading.php:88
+#: inc/widgets/icon-box/icon-box.php:90 inc/widgets/icon-box/icon-box.php:145
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:91
+msgid "600"
+msgstr "600"
+
+#: inc/widgets/button/button.php:80 inc/widgets/heading/heading.php:89
+#: inc/widgets/icon-box/icon-box.php:91 inc/widgets/icon-box/icon-box.php:146
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:92
+msgid "700"
+msgstr "700"
+
+#: inc/widgets/button/button.php:81 inc/widgets/heading/heading.php:90
+#: inc/widgets/icon-box/icon-box.php:92 inc/widgets/icon-box/icon-box.php:147
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:93
+msgid "800"
+msgstr "800"
+
+#: inc/widgets/button/button.php:82 inc/widgets/heading/heading.php:91
+#: inc/widgets/icon-box/icon-box.php:93 inc/widgets/icon-box/icon-box.php:148
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:94
+msgid "900"
+msgstr "900"
+
+#: inc/widgets/button/button.php:84
+msgid "Select Font Weight"
+msgstr "Дебелина на шрифта"
+
+#: inc/widgets/button/button.php:89
+msgid "Border Width "
+msgstr "Ширина на рамката"
+
+#: inc/widgets/button/button.php:92
+msgid "Enter border width."
+msgstr "Въведете ширина на рамката."
+
+#: inc/widgets/button/button.php:97
+msgid "Select Color:"
+msgstr "Изберете Цвят:"
+
+#: inc/widgets/button/button.php:98
+msgid "Select the color."
+msgstr "Изберете цвят."
+
+#: inc/widgets/button/button.php:102
+msgid "Border Color:"
+msgstr "Цвят на рамката:"
+
+#: inc/widgets/button/button.php:103
+msgid "Select the border color."
+msgstr "Изберете цвят на рамката."
+
+#: inc/widgets/button/button.php:108
+msgid "Background Color:"
+msgstr "Цвят на фона:"
+
+#: inc/widgets/button/button.php:109
+msgid "Select the background color."
+msgstr "Изберете цвят на фона."
+
+#: inc/widgets/button/button.php:114
+msgid "Hover Color:"
+msgstr "Цвят на горния слоя"
+
+#: inc/widgets/button/button.php:115
+msgid "Select the color hover."
+msgstr "Избери цвят за горния слой"
+
+#: inc/widgets/button/button.php:120
+msgid "Hover Border Color:"
+msgstr "Изберете цвят на рамката."
+
+#: inc/widgets/button/button.php:121
+msgid "Select the hover border color."
+msgstr "Изберете цвят на рамката."
+
+#: inc/widgets/button/button.php:126
+msgid "Hover Background Color:"
+msgstr "Цвят на фона"
+
+#: inc/widgets/button/button.php:127
+msgid "Select the hover background color."
+msgstr "Изберете цвят на фона."
+
+#: inc/widgets/button/button.php:140 inc/widgets/icon-box/icon-box.php:270
+#: inc/widgets/icon-box/icon-box.php:299
+msgid "Select Icon:"
+msgstr "Изберете икона"
+
+#: inc/widgets/button/button.php:141 inc/widgets/icon-box/icon-box.php:271
+#: inc/widgets/icon-box/icon-box.php:300
+msgid "Select the icon from the list."
+msgstr "Изберете иконата от списъка."
+
+#: inc/widgets/button/button.php:148
+msgid "Icon Size "
+msgstr "Размер на Иконката"
+
+#: inc/widgets/button/button.php:151 inc/widgets/icon-box/icon-box.php:281
+#: inc/widgets/icon-box/icon-box.php:310
+msgid "Select the icon font size."
+msgstr "Изберете размера на шрифта на иконата."
+
+#: inc/widgets/button/button.php:165
+msgid "Button Size"
+msgstr "Размер на Бутона"
+
+#: inc/widgets/button/button.php:168
+msgid "Medium"
+msgstr "Среден"
+
+#: inc/widgets/button/button.php:169
+msgid "Large"
+msgstr "Голям"
+
+#: inc/widgets/button/button.php:175
+msgid "Rounding"
+msgstr "Закръгляване"
+
+#: inc/widgets/button/button.php:178
+msgid "Very Rounded"
+msgstr "Много закръглен"
+
+#: inc/widgets/carousel-post/carousel-post.php:8
+msgid "Thim: Carousel Posts"
+msgstr "Thim: Въртележката Публикации"
+
+#: inc/widgets/carousel-post/carousel-post.php:10
+msgid "Display Post with Carousel"
+msgstr "Покажете публикацията с Carousel"
+
+#: inc/widgets/carousel-post/carousel-post.php:18
+#: inc/widgets/courses/courses.php:26 inc/widgets/heading/heading.php:19
+#: inc/widgets/testimonials/testimonials.php:18
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:25
+msgid "Heading Text"
+msgstr "текст за заглавие"
+
+#: inc/widgets/carousel-post/carousel-post.php:19
+msgid "Post Carousel"
+msgstr "Ротация на публикации"
+
+#: inc/widgets/carousel-post/carousel-post.php:24
+#: inc/widgets/courses/courses.php:47
+#: inc/widgets/gallery-posts/gallery-posts.php:25
+#: inc/widgets/list-post/list-post.php:35 inc/widgets/our-team/our-team.php:20
+msgid "Select Category"
+msgstr "Избери Категория"
+
+#: inc/widgets/carousel-post/carousel-post.php:30
+msgid "Posts visible"
+msgstr "Видимост на публикация"
+
+#: inc/widgets/carousel-post/carousel-post.php:35
+#: inc/widgets/list-event/list-event.php:32
+msgid "Number posts"
+msgstr "Брой публикации"
+
+#: inc/widgets/carousel-post/carousel-post.php:40
+#: inc/widgets/course-categories/course-categories.php:62
+#: inc/widgets/courses/courses.php:110
+msgid "Show Navigation"
+msgstr "Показване на навигацията"
+
+#: inc/widgets/carousel-post/carousel-post.php:49
+#: inc/widgets/course-categories/course-categories.php:57
+#: inc/widgets/courses/courses.php:105
+#: inc/widgets/one-course-instructors/one-course-instructors.php:23
+msgid "Show Pagination"
+msgstr "Покажи Странициране"
+
+#: inc/widgets/carousel-post/carousel-post.php:58
+#: inc/widgets/carousel-post/carousel-post.php:68
+#: inc/widgets/list-post/list-post.php:61
+#: inc/widgets/list-post/list-post.php:71
+msgid "Order by"
+msgstr "Поръчка по:"
+
+#: inc/widgets/carousel-post/carousel-post.php:60
+#: inc/widgets/courses/courses.php:35 inc/widgets/list-post/list-post.php:63
+msgid "Popular"
+msgstr "Популярни"
+
+#: inc/widgets/carousel-post/carousel-post.php:61
+#: inc/widgets/list-post/list-post.php:64
+msgid "Recent"
+msgstr "Най-новите"
+
+#: inc/widgets/carousel-post/carousel-post.php:63
+#: inc/widgets/list-post/list-post.php:66
+msgid "Random"
+msgstr "Случаен"
+
+#: inc/widgets/carousel-post/carousel-post.php:70
+#: inc/widgets/list-post/list-post.php:73
+msgid "ASC"
+msgstr "ASC"
+
+#: inc/widgets/carousel-post/carousel-post.php:71
+#: inc/widgets/list-post/list-post.php:74
+msgid "DESC"
+msgstr "DESC"
+
+#: inc/widgets/countdown-box/countdown-box.php:9
+msgid "Thim: Countdown Box"
+msgstr "Thim: Countdown Box"
+
+#: inc/widgets/countdown-box/countdown-box.php:11
+msgid "Countdown Box"
+msgstr "Countdown Box"
+
+#: inc/widgets/countdown-box/countdown-box.php:19
+msgid "Text Days"
+msgstr "дни Текстови"
+
+#: inc/widgets/countdown-box/countdown-box.php:20
+msgid "days"
+msgstr "дни"
+
+#: inc/widgets/countdown-box/countdown-box.php:24
+msgid "Text Hours"
+msgstr "Текстови часа"
+
+#: inc/widgets/countdown-box/countdown-box.php:25
+msgid "hours"
+msgstr "часа"
+
+#: inc/widgets/countdown-box/countdown-box.php:29
+msgid "Text Minutes"
+msgstr "Текстови минути"
+
+#: inc/widgets/countdown-box/countdown-box.php:30
+msgid "minutes"
+msgstr "минути"
+
+#: inc/widgets/countdown-box/countdown-box.php:34
+msgid "Text Seconds"
+msgstr "Текстови Seconds"
+
+#: inc/widgets/countdown-box/countdown-box.php:35
+msgid "seconds"
+msgstr "секунди"
+
+#: inc/widgets/countdown-box/countdown-box.php:39
+msgid "Year"
+msgstr "Година"
+
+#: inc/widgets/countdown-box/countdown-box.php:43
+msgid "Month"
+msgstr "Месец"
+
+#: inc/widgets/countdown-box/countdown-box.php:47
+msgid "Day"
+msgstr "Ден"
+
+#: inc/widgets/countdown-box/countdown-box.php:51
+msgid "Hour"
+msgstr "Час"
+
+#: inc/widgets/countdown-box/countdown-box.php:55
+msgid "Style Color"
+msgstr "Цвят на стила"
+
+#: inc/widgets/countdown-box/countdown-box.php:57
+msgid "White"
+msgstr "Бял"
+
+#: inc/widgets/countdown-box/countdown-box.php:58
+msgid "Black"
+msgstr "Черен"
+
+#: inc/widgets/countdown-box/countdown-box.php:63
+#: inc/widgets/heading/heading.php:122
+msgid "Text Align"
+msgstr "Подравняване на текст"
+
+#: inc/widgets/countdown-box/countdown-box.php:65
+#: inc/widgets/heading/heading.php:124 inc/widgets/icon-box/icon-box.php:419
+msgid "Text Left"
+msgstr "Текст отляво"
+
+#: inc/widgets/countdown-box/countdown-box.php:66
+#: inc/widgets/heading/heading.php:125 inc/widgets/icon-box/icon-box.php:421
+msgid "Text Center"
+msgstr "Текст център"
+
+#: inc/widgets/countdown-box/countdown-box.php:67
+#: inc/widgets/heading/heading.php:126 inc/widgets/icon-box/icon-box.php:420
+msgid "Text Right"
+msgstr "Текст отдясно"
+
+#: inc/widgets/counters-box/counters-box.php:9
+msgid "Thim: Counters Box"
+msgstr "Thim: Counters Box"
+
+#: inc/widgets/counters-box/counters-box.php:11
+msgid "Counters Box"
+msgstr "Броячи"
+
+#: inc/widgets/counters-box/counters-box.php:20
+msgid "Counters label"
+msgstr "Етикет на брояч"
+
+#: inc/widgets/counters-box/counters-box.php:25
+msgid "Counters Value"
+msgstr "Стойност на брояч"
+
+#: inc/widgets/counters-box/counters-box.php:35
+msgid "Border Color Icon"
+msgstr "Цвят на рамката на иконата"
+
+#: inc/widgets/counters-box/counters-box.php:40
+msgid "Counters Box Icon"
+msgstr "Икона на брояч"
+
+#: inc/widgets/counters-box/counters-box.php:45
+msgid "Counter Style"
+msgstr "Стил на брояч"
+
+#: inc/widgets/counters-box/counters-box.php:47
+#: inc/widgets/list-post/list-post.php:90
+msgid "Home Page"
+msgstr "Начална страница"
+
+#: inc/widgets/counters-box/counters-box.php:48
+msgid "Page About Us"
+msgstr "За нас"
+
+#: inc/widgets/counters-box/counters-box.php:55
+#: inc/widgets/gallery-images/gallery-images.php:50
+#: inc/widgets/heading/heading.php:131 inc/widgets/icon-box/icon-box.php:473
+#: inc/widgets/our-team/our-team.php:55
+#: inc/widgets/single-images/single-images.php:55
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:130
+msgid "CSS Animation"
+msgstr "CSS Анимация"
+
+#: inc/widgets/counters-box/counters-box.php:58
+#: inc/widgets/gallery-images/gallery-images.php:53
+#: inc/widgets/heading/heading.php:134 inc/widgets/icon-box/icon-box.php:476
+#: inc/widgets/our-team/our-team.php:58
+#: inc/widgets/single-images/single-images.php:58
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:133
+msgid "Top to bottom"
+msgstr "Отгоре надолу"
+
+#: inc/widgets/counters-box/counters-box.php:59
+#: inc/widgets/gallery-images/gallery-images.php:54
+#: inc/widgets/heading/heading.php:135 inc/widgets/icon-box/icon-box.php:477
+#: inc/widgets/our-team/our-team.php:59
+#: inc/widgets/single-images/single-images.php:59
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:134
+msgid "Bottom to top"
+msgstr "Отдолу нагоре"
+
+#: inc/widgets/counters-box/counters-box.php:60
+#: inc/widgets/gallery-images/gallery-images.php:55
+#: inc/widgets/heading/heading.php:136 inc/widgets/icon-box/icon-box.php:478
+#: inc/widgets/our-team/our-team.php:60
+#: inc/widgets/single-images/single-images.php:60
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:135
+msgid "Left to right"
+msgstr "Отляво - надясно"
+
+#: inc/widgets/counters-box/counters-box.php:61
+#: inc/widgets/gallery-images/gallery-images.php:56
+#: inc/widgets/heading/heading.php:137 inc/widgets/icon-box/icon-box.php:479
+#: inc/widgets/our-team/our-team.php:61
+#: inc/widgets/single-images/single-images.php:61
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:136
+msgid "Right to left"
+msgstr "Отдясно - наляво"
+
+#: inc/widgets/counters-box/counters-box.php:62
+#: inc/widgets/gallery-images/gallery-images.php:57
+#: inc/widgets/heading/heading.php:138 inc/widgets/icon-box/icon-box.php:480
+#: inc/widgets/our-team/our-team.php:62
+#: inc/widgets/single-images/single-images.php:62
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:137
+msgid "Appear from center"
+msgstr "Покажи от центъра"
+
+#: inc/widgets/course-categories/course-categories.php:15
+msgid "Thim: Course Categories"
+msgstr "Thim: Категории на Курсовете"
+
+#: inc/widgets/course-categories/course-categories.php:17
+msgid "Show course categories"
+msgstr "Покажи Категории на Курсовете"
+
+#: inc/widgets/course-categories/course-categories.php:31
+#: inc/widgets/courses/courses.php:61
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/widgets/course-categories/course-categories.php:32
+msgid "List Categories"
+msgstr "Списък на категории"
+
+#: inc/widgets/course-categories/course-categories.php:42
+#: inc/widgets/courses/courses.php:90
+msgid "Slider Layout Options"
+msgstr "Настройки изгледа на слайдъра"
+
+#: inc/widgets/course-categories/course-categories.php:52
+msgid "Limit categories"
+msgstr "Гранични категории"
+
+#: inc/widgets/course-categories/course-categories.php:67
+#: inc/widgets/courses/courses.php:115
+msgid "Items Visible"
+msgstr "Предмети Видими"
+
+#: inc/widgets/course-categories/course-categories.php:86
+msgid "List Layout Options"
+msgstr "Списък Настройки на подредбата"
+
+#: inc/widgets/course-categories/course-categories.php:96
+msgid "Show course counts"
+msgstr "Показване на броя на курсовете"
+
+#: inc/widgets/course-categories/course-categories.php:101
+msgid "Show hierarchy"
+msgstr "Показва йерархията"
+
+#: inc/widgets/courses/courses.php:15
+msgid "Thim: Courses"
+msgstr "Thim: Курсове"
+
+#: inc/widgets/courses/courses.php:17
+msgid "Display courses"
+msgstr "Display курсове"
+
+#: inc/widgets/courses/courses.php:27
+msgid "Latest Courses"
+msgstr "Последни Курсове"
+
+#: inc/widgets/courses/courses.php:33
+msgid "Order By"
+msgstr "Поръчка по:"
+
+#: inc/widgets/courses/courses.php:36
+msgid "Latest"
+msgstr "Последни"
+
+#: inc/widgets/courses/courses.php:37
+msgid "Category"
+msgstr "Категория"
+
+#: inc/widgets/courses/courses.php:59
+msgid "Widget Layout"
+msgstr "Изглед на джаджа"
+
+#: inc/widgets/courses/courses.php:63
+msgid "List Sidebar"
+msgstr "Списък Sidebar"
+
+#: inc/widgets/courses/courses.php:64
+msgid "Mega Menu"
+msgstr "Мега Меню"
+
+#: inc/widgets/courses/courses.php:74
+msgid "Limit number course"
+msgstr "Лимит на броя на курсовете"
+
+#: inc/widgets/courses/courses.php:79
+msgid "Text View All Courses"
+msgstr "Текст Виж Всички Курсове"
+
+#: inc/widgets/courses/courses.php:132
+msgid "Grid Layout Options"
+msgstr "Grid Layout Options"
+
+#: inc/widgets/courses/courses.php:148
+#: inc/widgets/gallery-posts/gallery-posts.php:30
+msgid "Columns"
+msgstr "Колони"
+
+#: inc/widgets/courses/tpl/grid-v1.php:96
+#: inc/widgets/courses/tpl/grid-v1.php:97
+#: inc/widgets/courses/tpl/list-sidebar-v1.php:81
+#: inc/widgets/courses/tpl/list-sidebar-v1.php:82
+#: inc/widgets/courses/tpl/megamenu-v1.php:87
+#: inc/widgets/courses/tpl/megamenu-v1.php:88
+#: inc/widgets/courses/tpl/slider-v1.php:85
+#: inc/widgets/courses/tpl/slider-v1.php:86
+msgid "Free"
+msgstr "Безплатно"
+
+#: inc/widgets/courses-searching/courses-searching.php:15
+msgid "Thim: Courses Searching"
+msgstr "Thim: Курсове Търсене"
+
+#: inc/widgets/courses-searching/courses-searching.php:17
+msgid "Search courses"
+msgstr "Търсене на курсове"
+
+#: inc/widgets/courses-searching/courses-searching.php:26
+msgid "Search Layout"
+msgstr "Търсене Layout"
+
+#: inc/widgets/courses-searching/courses-searching.php:40
+msgid "Search Courses"
+msgstr "Търсене на курсове"
+
+#: inc/widgets/courses-searching/courses-searching.php:41
+msgid "Provide the title for search course widget."
+msgstr "Осигурете заглавие за джаджата за търсене в курсовете"
+
+#: inc/widgets/courses-searching/courses-searching.php:49
+#: inc/widgets/icon-box/icon-box.php:115 inc/widgets/slider/slider.php:64
+#: learnpress/course_content-landing_page.php:19
+#: learnpress/course_content-landing_page.php:79
+#: learnpress/course_content-learning_page.php:18
+msgid "Description"
+msgstr "Описание"
+
+#: inc/widgets/courses-searching/courses-searching.php:50
+msgid "Description for search course widget."
+msgstr "Описание на джаджата за търсене в курсовете"
+
+#: inc/widgets/courses-searching/courses-searching.php:51
+msgid "Provide the description for search course widget."
+msgstr "Осигурете описание на джаджата за търсене в курсовете"
+
+#: inc/widgets/courses-searching/courses-searching.php:59
+msgid "What do you want to learn today?"
+msgstr "Какво искате да научите днес?"
+
+#: inc/widgets/courses-searching/courses-searching.php:60
+msgid "Placeholder Input"
+msgstr "Заместител Input"
+
+#: inc/widgets/empty-space/empty-space.php:8
+msgid "Thim: Empty Space"
+msgstr "Thim: празно пространство"
+
+#: inc/widgets/empty-space/empty-space.php:10
+msgid "Add space width custom height"
+msgstr "Добави пространство със собствена височина"
+
+#: inc/widgets/empty-space/empty-space.php:19
+#: inc/widgets/google-map/google-map.php:75
+msgid "Height"
+msgstr "Височина"
+
+#: inc/widgets/empty-space/empty-space.php:21
+msgid "Enter empty space height."
+msgstr "Въведи височина на празното пространство."
+
+#: inc/widgets/gallery-images/gallery-images.php:9
+msgid "Thim: Gallery Images"
+msgstr "Thim: Галерия Снимки"
+
+#: inc/widgets/gallery-images/gallery-images.php:11
+msgid "Add gallery image"
+msgstr "Добави изображнеие"
+
+#: inc/widgets/gallery-images/gallery-images.php:20
+#: inc/widgets/single-images/single-images.php:20
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/widgets/gallery-images/gallery-images.php:21
+#: inc/widgets/single-images/single-images.php:21
+msgid "Select image from media library."
+msgstr "Избери изображение от медийната библиотека."
+
+#: inc/widgets/gallery-images/gallery-images.php:26
+#: inc/widgets/single-images/single-images.php:26
+msgid "Image size"
+msgstr "Размер на изображението"
+
+#: inc/widgets/gallery-images/gallery-images.php:27
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\""
+msgstr ""
+"Въведете размер на изображението. Пример: \"умалените\", \"средно\", \"голям"
+"\", \"пълно\""
+
+#: inc/widgets/gallery-images/gallery-images.php:31
+#: inc/widgets/single-images/single-images.php:31
+msgid "Image Link"
+msgstr "Линк / връзка към снимката"
+
+#: inc/widgets/gallery-images/gallery-images.php:32
+msgid ""
+"Enter URL if you want this image to have a link. These links are separated "
+"by comma (Ex: #,#,#,#)"
+msgstr ""
+"Въведете URL, ако искате тази снимка да има връзка. Тези връзки са разделени "
+"със запетая (Ex: #, #, #, #)"
+
+#: inc/widgets/gallery-images/gallery-images.php:37
+msgid "Visible Item"
+msgstr "Видима точка"
+
+#: inc/widgets/gallery-images/gallery-images.php:41
+#: inc/widgets/single-images/single-images.php:36
+#: inc/widgets/social/social.php:56
+msgid "Link Target"
+msgstr "Цел на връзката"
+
+#: inc/widgets/gallery-images/gallery-images.php:43
+#: inc/widgets/single-images/single-images.php:38
+#: inc/widgets/social/social.php:58
+msgid "Same window"
+msgstr "В същият прозорец"
+
+#: inc/widgets/gallery-images/gallery-images.php:44
+#: inc/widgets/single-images/single-images.php:39
+#: inc/widgets/social/social.php:59
+msgid "New window"
+msgstr "В нов прозорец"
+
+#: inc/widgets/gallery-posts/gallery-posts.php:7
+#: inc/widgets/gallery-posts/tpl/base.php:71
+#: inc/widgets/portfolio/portfolio.php:35
+#: inc/widgets/portfolio/tpl/base.php:151 portfolio/archive-portfolio.php:109
+#: woocommerce/archive-product.php:56
+msgid "All"
+msgstr "Всички"
+
+#: inc/widgets/gallery-posts/gallery-posts.php:15
+msgid "Thim: Gallery Posts "
+msgstr "Thim: Галерия"
+
+#: inc/widgets/gallery-posts/gallery-posts.php:17
+msgid "Display gallery posts"
+msgstr "Покажи публикации в Галерия"
+
+#: inc/widgets/gallery-posts/gallery-posts.php:42
+msgid "Show Filter"
+msgstr "Покажи Филтър"
+
+#: inc/widgets/google-map/google-map.php:7
+msgid "Thim: Google Maps"
+msgstr "Thim: Google Maps"
+
+#: inc/widgets/google-map/google-map.php:9
+msgid "A Google Maps widget."
+msgstr "А Google Maps джаджа."
+
+#: inc/widgets/google-map/google-map.php:22
+msgid "Get Map By"
+msgstr "Вземи карта от"
+
+#: inc/widgets/google-map/google-map.php:24
+#: tp-event/content-single-event.php:67
+msgid "Address"
+msgstr "Адрес"
+
+#: inc/widgets/google-map/google-map.php:25
+#: inc/widgets/google-map/google-map.php:35
+msgid "Coordinates"
+msgstr "Координати:"
+
+#: inc/widgets/google-map/google-map.php:45
+msgid "Lat"
+msgstr "Lat"
+
+#: inc/widgets/google-map/google-map.php:50
+msgid "Lng"
+msgstr "Lng"
+
+#: inc/widgets/google-map/google-map.php:59
+msgid "Map center"
+msgstr "Карта център"
+
+#: inc/widgets/google-map/google-map.php:60
+msgid ""
+"The name of a place, town, city, or even a country. Can be an exact address "
+"too."
+msgstr ""
+"В името на място, град, град, или дори в една страна. Може да бъде точен "
+"адрес също."
+
+#: inc/widgets/google-map/google-map.php:68
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/widgets/google-map/google-map.php:70
+msgid "Set map display options."
+msgstr "Определете картата опции на дисплея."
+
+#: inc/widgets/google-map/google-map.php:79
+msgid "Zoom level"
+msgstr "Увеличение"
+
+#: inc/widgets/google-map/google-map.php:80
+msgid "A value from 0 (the world) to 21 (street level)."
+msgstr "от всички краища на света"
+
+#: inc/widgets/google-map/google-map.php:91
+msgid "Scroll to zoom"
+msgstr "Превъртете, за да я увеличите"
+
+#: inc/widgets/google-map/google-map.php:92
+msgid "Allow scrolling over the map to zoom in or out."
+msgstr "Оставя превъртане върху картата, за да увеличите или намалите мащаба."
+
+#: inc/widgets/google-map/google-map.php:98
+msgid "Draggable"
+msgstr "Влачене"
+
+#: inc/widgets/google-map/google-map.php:99
+msgid "Allow dragging the map to move it around."
+msgstr "Позволява плъзгане по картата, за да я движите."
+
+#: inc/widgets/google-map/google-map.php:105
+msgid "Markers"
+msgstr "Маркери"
+
+#: inc/widgets/google-map/google-map.php:107
+msgid "Use markers to identify points of interest on the map."
+msgstr "Използвайте маркери за идентифициране на точки на интерес на картата."
+
+#: inc/widgets/google-map/google-map.php:112
+msgid "Show marker at map center"
+msgstr "Покажи маркер на картата в центъра"
+
+#: inc/widgets/google-map/google-map.php:117
+msgid "Marker Icon"
+msgstr "Marker Icon"
+
+#: inc/widgets/google-map/google-map.php:118
+msgid "Replaces the default map marker with your own image."
+msgstr "Заменя маркера по подразбиране с ваше изображение."
+
+#: inc/widgets/google-map/google-map.php:123
+msgid "Marker positions"
+msgstr "позиции Маркер"
+
+#: inc/widgets/google-map/google-map.php:124
+msgid "Marker"
+msgstr "Маркер"
+
+#: inc/widgets/google-map/google-map.php:129
+msgid "Place"
+msgstr "Място"
+
+#: inc/widgets/heading/heading.php:8
+msgid "Thim: Heading"
+msgstr "Thim: Наименование"
+
+#: inc/widgets/heading/heading.php:10
+#: inc/widgets/single-images/single-images.php:11
+msgid "Add heading text"
+msgstr "Добавете заглавие текст"
+
+#: inc/widgets/heading/heading.php:20
+msgid "Default value"
+msgstr "Стойност по подразбиране"
+
+#: inc/widgets/heading/heading.php:24
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:31
+msgid "Text Heading color"
+msgstr "Цвят на текста за заглавие"
+
+#: inc/widgets/heading/heading.php:28 inc/widgets/icon-box/icon-box.php:37
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:36
+msgid "Size Heading"
+msgstr "Размер Heading"
+
+#: inc/widgets/heading/heading.php:30 inc/widgets/icon-box/icon-box.php:40
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:39
+msgid "h2"
+msgstr "h2"
+
+#: inc/widgets/heading/heading.php:31 inc/widgets/icon-box/icon-box.php:41
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:40
+msgid "h3"
+msgstr "h3"
+
+#: inc/widgets/heading/heading.php:32 inc/widgets/icon-box/icon-box.php:42
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:41
+msgid "h4"
+msgstr "h4"
+
+#: inc/widgets/heading/heading.php:33 inc/widgets/icon-box/icon-box.php:43
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:42
+msgid "h5"
+msgstr "h5"
+
+#: inc/widgets/heading/heading.php:34 inc/widgets/icon-box/icon-box.php:44
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:43
+msgid "h6"
+msgstr "h6"
+
+#: inc/widgets/heading/heading.php:40
+msgid "Sub Heading"
+msgstr "Под заглавие"
+
+#: inc/widgets/heading/heading.php:44
+msgid "Sub heading color"
+msgstr "Цвят на под заглавие"
+
+#: inc/widgets/heading/heading.php:48 inc/widgets/icon-box/icon-box.php:50
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:49
+msgid "Font Heading"
+msgstr "Шрифт на заглавие"
+
+#: inc/widgets/heading/heading.php:54 inc/widgets/icon-box/icon-box.php:55
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:55
+msgid "Select Font heading."
+msgstr "Изберете Шрифт на заглавие"
+
+#: inc/widgets/heading/heading.php:62
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:64
+msgid "Custom Font Heading"
+msgstr "Потребителски шрифт за заглавие"
+
+#: inc/widgets/heading/heading.php:74 inc/widgets/icon-box/icon-box.php:75
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:77
+msgid "custom font size"
+msgstr "потребителски размер за шрифт"
+
+#: inc/widgets/heading/heading.php:79 inc/widgets/icon-box/icon-box.php:80
+#: inc/widgets/icon-box/icon-box.php:135
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:82
+msgid "Custom Font Weight"
+msgstr "потребителско тегло на шрифта"
+
+#: inc/widgets/heading/heading.php:93 inc/widgets/icon-box/icon-box.php:95
+#: inc/widgets/icon-box/icon-box.php:150
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:96
+msgid "Select Custom Font Weight"
+msgstr "изберете потребителско тегло на шеифта"
+
+#: inc/widgets/heading/heading.php:98
+msgid "Custom Font Style"
+msgstr "Потребителски стил на шрифта"
+
+#: inc/widgets/heading/heading.php:100
+msgid "inherit"
+msgstr "Наследи"
+
+#: inc/widgets/heading/heading.php:101
+msgid "initial"
+msgstr "Първоначално"
+
+#: inc/widgets/heading/heading.php:102
+msgid "italic"
+msgstr "курсивен"
+
+#: inc/widgets/heading/heading.php:103
+msgid "normal"
+msgstr "Нормален"
+
+#: inc/widgets/heading/heading.php:104
+msgid "oblique"
+msgstr "Наклонен"
+
+#: inc/widgets/heading/heading.php:106
+msgid "Select Custom Font Style"
+msgstr "Изберете потребителски стил на шрифта"
+
+#: inc/widgets/heading/heading.php:113 inc/widgets/icon-box/icon-box.php:108
+msgid "Show Separator"
+msgstr "Покажи разделител"
+
+#: inc/widgets/heading/heading.php:118
+msgid "Color Line"
+msgstr "Цвят на линия"
+
+#: inc/widgets/icon-box/icon-box.php:7
+msgid "Thim: Icon Box"
+msgstr "Thim: Кутия на икона"
+
+#: inc/widgets/icon-box/icon-box.php:9
+msgid "Add icon box"
+msgstr "Добави кутия за икона"
+
+#: inc/widgets/icon-box/icon-box.php:17
+msgid "Title Options"
+msgstr "Настройки на Заглавие "
+
+#: inc/widgets/icon-box/icon-box.php:23
+msgid "This is an icon box."
+msgstr "Това е кутия на икона."
+
+#: inc/widgets/icon-box/icon-box.php:24
+msgid "Provide the title for this icon box."
+msgstr "Осигуряване на титлата за тази икона кутия."
+
+#: inc/widgets/icon-box/icon-box.php:33
+msgid "Color Title"
+msgstr "Цвят на Заглавието"
+
+#: inc/widgets/icon-box/icon-box.php:46
+msgid "Select size heading."
+msgstr "Избери размер на Главата"
+
+#: inc/widgets/icon-box/icon-box.php:63
+msgid "Custom Heading Option"
+msgstr "Потребителски настройки на Главата"
+
+#: inc/widgets/icon-box/icon-box.php:100
+msgid "Margin Bottom Value"
+msgstr "Отстояние отдолу"
+
+#: inc/widgets/icon-box/icon-box.php:120
+msgid "Add description"
+msgstr "Добави описание"
+
+#: inc/widgets/icon-box/icon-box.php:121
+msgid ""
+"Write a short description, that will describe the title or something "
+"informational and useful."
+msgstr ""
+"Напиши кратко описание, което ще опише заглавието или нещо информационно и "
+"полезно."
+
+#: inc/widgets/icon-box/icon-box.php:122
+msgid "Provide the description for this icon box."
+msgstr "Осигуряване на описанието за тази икона кутия."
+
+#: inc/widgets/icon-box/icon-box.php:127
+msgid "Custom Font Size"
+msgstr "потребителски размер за шрифт"
+
+#: inc/widgets/icon-box/icon-box.php:130
+msgid "Custom font size"
+msgstr "потребителски размер за шрифт"
+
+#: inc/widgets/icon-box/icon-box.php:154
+msgid "Color Description"
+msgstr "Цвят Описание"
+
+#: inc/widgets/icon-box/icon-box.php:161
+msgid "Link Icon Box"
+msgstr "Link Icon Box"
+
+#: inc/widgets/icon-box/icon-box.php:167
+msgid "Add Link"
+msgstr "Добави линк"
+
+#: inc/widgets/icon-box/icon-box.php:168
+msgid "Provide the link that will be applied to this icon box."
+msgstr "Осигуряване на връзката, която ще се прилага за тази икона кутия."
+
+#: inc/widgets/icon-box/icon-box.php:173
+msgid "Apply link to:"
+msgstr "Връзка към:"
+
+#: inc/widgets/icon-box/icon-box.php:175
+msgid "Complete Box"
+msgstr "Завършете кутията"
+
+#: inc/widgets/icon-box/icon-box.php:176
+msgid "Box Title"
+msgstr "Заглавие на кутия"
+
+#: inc/widgets/icon-box/icon-box.php:177
+msgid "Display Read More"
+msgstr "Прочети още"
+
+#: inc/widgets/icon-box/icon-box.php:179
+msgid "Select whether to use color for icon or not."
+msgstr "Изберете дали да използвате цвят за икона или не."
+
+#: inc/widgets/icon-box/icon-box.php:188
+msgid "Option Button Read More"
+msgstr "Опции на бутона Прочети още"
+
+#: inc/widgets/icon-box/icon-box.php:198
+msgid "Read More Text"
+msgstr "Прочети още (текст)"
+
+#: inc/widgets/icon-box/icon-box.php:200
+msgid "Customize the read more text."
+msgstr "Персонализирайте Прочети още текст."
+
+#: inc/widgets/icon-box/icon-box.php:205
+msgid "Text Color Read More"
+msgstr "Цвят на текста Прочетете още"
+
+#: inc/widgets/icon-box/icon-box.php:206 inc/widgets/icon-box/icon-box.php:226
+msgid "Select whether to use text color for Read More Text or default."
+msgstr ""
+"Изберете дали да се използва цвета на текста за да прочетат повече текст или "
+"по подразбиране."
+
+#: inc/widgets/icon-box/icon-box.php:211
+msgid "Border Color Read More Text:"
+msgstr "Цвят на рамката Прочети още Текст:"
+
+#: inc/widgets/icon-box/icon-box.php:212
+msgid "Select whether to use border color for Read More Text or none."
+msgstr ""
+"Изберете дали да използвате граничен цвят за да прочетат повече текст или "
+"никой."
+
+#: inc/widgets/icon-box/icon-box.php:218
+msgid "Background Color Read More Text:"
+msgstr "Цвят на фона Още Текст:"
+
+#: inc/widgets/icon-box/icon-box.php:219
+msgid "Select whether to use background color for Read More Text or default."
+msgstr ""
+"Изберете дали да използвате цветен фон за да прочетат повече текст или по "
+"подразбиране."
+
+#: inc/widgets/icon-box/icon-box.php:225
+msgid "Text Hover Color Read More"
+msgstr "Текст Hover Color Прочетете още"
+
+#: inc/widgets/icon-box/icon-box.php:232
+msgid "Background Hover Color Read More Text:"
+msgstr "Фонов цвят на  Hover Color Прочетете още Текст:"
+
+#: inc/widgets/icon-box/icon-box.php:233
+msgid ""
+"Select whether to use background color when hover Read More Text or default."
+msgstr ""
+"Изберете дали да използвате цветен фон, когато Hover Още Текст или по "
+"подразбиране."
+
+#: inc/widgets/icon-box/icon-box.php:245
+msgid "Icon to display:"
+msgstr "Икона на дисплея:"
+
+#: inc/widgets/icon-box/icon-box.php:248 inc/widgets/icon-box/icon-box.php:288
+msgid "Font Awesome Icon"
+msgstr "Font Awesome Икона"
+
+#: inc/widgets/icon-box/icon-box.php:249
+msgid "Font 7 stroke Icon"
+msgstr "Font 7 инсулт Икона"
+
+#: inc/widgets/icon-box/icon-box.php:250 inc/widgets/icon-box/icon-box.php:317
+msgid "Custom Image Icon"
+msgstr "Потребителско изображение Икона"
+
+#: inc/widgets/icon-box/icon-box.php:259
+msgid "Font 7 Stroke Icon"
+msgstr "Font 7 Stroke Икона"
+
+#: inc/widgets/icon-box/icon-box.php:278 inc/widgets/icon-box/icon-box.php:307
+msgid "Icon Font Size "
+msgstr "Икона Размер на шрифта"
+
+#: inc/widgets/icon-box/icon-box.php:328
+msgid "Upload Image Icon:"
+msgstr "Качване на изображението Икона:"
+
+#: inc/widgets/icon-box/icon-box.php:329
+msgid "Upload the custom image icon."
+msgstr "Качване на иконата на персонализирано изображение."
+
+#: inc/widgets/icon-box/icon-box.php:339
+msgid "Width Box Icon"
+msgstr "Ширина Box Икона"
+
+#: inc/widgets/icon-box/icon-box.php:344
+msgid "Color Options"
+msgstr "Цвят настройки"
+
+#: inc/widgets/icon-box/icon-box.php:351
+msgid "Select Icon Color:"
+msgstr "Избери цвят на иконата"
+
+#: inc/widgets/icon-box/icon-box.php:352
+msgid "Select the icon color."
+msgstr "Избери цвят на иконата"
+
+#: inc/widgets/icon-box/icon-box.php:356
+msgid "Icon Border Color:"
+msgstr "Цвят на рамката на иконата"
+
+#: inc/widgets/icon-box/icon-box.php:357
+msgid "Select the color for icon border."
+msgstr "Изберете цвета за икона граница."
+
+#: inc/widgets/icon-box/icon-box.php:362
+msgid "Icon Background Color:"
+msgstr "Цвят на фона на иконата"
+
+#: inc/widgets/icon-box/icon-box.php:363
+msgid "Select the color for icon background."
+msgstr "Изберете цвета за икона фон."
+
+#: inc/widgets/icon-box/icon-box.php:368
+msgid "Hover Icon Color:"
+msgstr "Цвят на Шрифта при показалец отгоре"
+
+#: inc/widgets/icon-box/icon-box.php:369
+msgid "Select the color hover for icon."
+msgstr "Изберете цвят изскачащата за икона."
+
+#: inc/widgets/icon-box/icon-box.php:374
+msgid "Hover Icon Border Color:"
+msgstr "Цвят на рамката на повърхностния - Hover слой"
+
+#: inc/widgets/icon-box/icon-box.php:375
+msgid "Select the color hover for icon border."
+msgstr "Изберете цвят изскачащата за икона граница."
+
+#: inc/widgets/icon-box/icon-box.php:381
+msgid "Hover Icon Background Color:"
+msgstr "Цвят на Фона при показалец отгоре"
+
+#: inc/widgets/icon-box/icon-box.php:382
+msgid "Select the color hover for icon background ."
+msgstr "Изберете цвят изскачащата за икона фон."
+
+#: inc/widgets/icon-box/icon-box.php:389
+msgid "Layout Options"
+msgstr "Опции на изгледа"
+
+#: inc/widgets/icon-box/icon-box.php:395
+msgid "Icon Shape"
+msgstr "Икона Shape"
+
+#: inc/widgets/icon-box/icon-box.php:398
+msgid "Circle"
+msgstr "Кръг"
+
+#: inc/widgets/icon-box/icon-box.php:405
+msgid "Box Style:"
+msgstr "Стила на кутията"
+
+#: inc/widgets/icon-box/icon-box.php:408
+msgid "Icon at Left"
+msgstr "Икона ляво"
+
+#: inc/widgets/icon-box/icon-box.php:409
+msgid "Icon at Right"
+msgstr "Икона дясно"
+
+#: inc/widgets/icon-box/icon-box.php:410
+msgid "Icon at Top"
+msgstr "Горе"
+
+#: inc/widgets/icon-box/icon-box.php:412
+msgid ""
+"Select icon position. Icon box style will be changed according to the icon "
+"position."
+msgstr ""
+"Изберете икона позиция. Икона стил кутия ще се променя в зависимост от "
+"позицията на икона."
+
+#: inc/widgets/icon-box/icon-box.php:417
+msgid "Text Align Shortcode:"
+msgstr "Текст Подравнен SHORTCODE:"
+
+#: inc/widgets/icon-box/icon-box.php:426
+msgid "Type Icon Box"
+msgstr "Въведете Икона Box"
+
+#: inc/widgets/icon-box/icon-box.php:430
+msgid "Contact Info"
+msgstr "Информация за контакт"
+
+#: inc/widgets/icon-box/icon-box.php:438
+msgid "Widget Background"
+msgstr "Widget Background"
+
+#: inc/widgets/icon-box/icon-box.php:442
+msgid "Video Background"
+msgstr "Видео Background"
+
+#: inc/widgets/icon-box/icon-box.php:452
+msgid "Select video"
+msgstr "Изберете видео"
+
+#: inc/widgets/icon-box/icon-box.php:453
+msgid ""
+"Select an uploaded video in mp4 format. Other formats, such as webm and ogv "
+"will work in some browsers. You can use an online service such as <a "
+"href='http://video.online-convert.com/convert-to-mp4' target='_blank'>online-"
+"convert.com</a> to convert your videos to mp4."
+msgstr ""
+"Изберете качено видео в mp4 формат. Други формати, като WebM и ogv ще "
+"работят в някои браузъри. Можете да използвате онлайн услуга, като например "
+"<a href='http://video.online-convert.com/convert-to-mp4' "
+"target='_blank'>online-convert.com</a> да конвертирате вашите видео към mp4."
+
+#: inc/widgets/icon-box/icon-box.php:463
+msgid "Select cover image"
+msgstr "Изберете изображение на корицата"
+
+#: inc/widgets/list-event/list-event.php:8
+msgid "Thim: List Events "
+msgstr "Thim: Списък Събития"
+
+#: inc/widgets/list-event/list-event.php:10
+msgid "Display list events"
+msgstr "Показване на списък на събития"
+
+#: inc/widgets/list-event/list-event.php:26
+msgid "Layout 2"
+msgstr "Разпределение 2"
+
+#: inc/widgets/list-event/list-event.php:37
+msgid "Text Link All"
+msgstr "Текст на Връзка Всички"
+
+#: inc/widgets/list-event/list-event.php:38
+msgid "View All"
+msgstr "Виж Всичко"
+
+#: inc/widgets/list-post/list-post.php:7
+msgid "No Image"
+msgstr "Без картинка"
+
+#: inc/widgets/list-post/list-post.php:19
+msgid "Thim: List Posts"
+msgstr "Thim: Списък Публикации"
+
+#: inc/widgets/list-post/list-post.php:21
+msgid "Display list posts"
+msgstr "Показване на списък с публикации"
+
+#: inc/widgets/list-post/list-post.php:31
+msgid "From Blog"
+msgstr "От блог"
+
+#: inc/widgets/list-post/list-post.php:41
+msgid "Select Image Size"
+msgstr "Изберете размер на изображението"
+
+#: inc/widgets/list-post/list-post.php:47
+msgid "Show Description"
+msgstr "Покажи описанието"
+
+#: inc/widgets/list-post/list-post.php:56
+msgid "Number Post"
+msgstr "Брой публикации"
+
+#: inc/widgets/list-post/list-post.php:79
+msgid "Link All Post"
+msgstr "Link All Post"
+
+#: inc/widgets/list-post/list-post.php:83 inc/widgets/our-team/our-team.php:31
+msgid "Text Link"
+msgstr "Текстова връзка"
+
+#: inc/widgets/list-post/list-post.php:89
+msgid "No Style"
+msgstr "Без стил"
+
+#: inc/widgets/login-form/login-form.php:8
+msgid "Thim: Login Form"
+msgstr "Thim: Форма за вход"
+
+#: inc/widgets/login-form/login-form.php:10
+msgid "Add login form"
+msgstr "Добавяне на форма за вход"
+
+#: inc/widgets/login-form/login-form.php:19
+msgid "Captcha"
+msgstr "Captcha"
+
+#: inc/widgets/login-form/login-form.php:20
+msgid "Use captcha in register form"
+msgstr "Използвайте Captcha в регистрационната форма"
+
+#: inc/widgets/login-form/tpl/base.php:6
+#, php-format
+msgid "You have logged in. You better go to <a href=\"%s\">Home</a>"
+msgstr "Вие влязохте успешно. Отидете в <a href=\"%s\">Начало</a>"
+
+#: inc/widgets/login-form/tpl/base.php:12
+msgid "Invalid username or password. Please try again!"
+msgstr "Невалидно потребителско име или парола. Моля опитайте отново!"
+
+#: inc/widgets/login-form/tpl/base.php:18
+msgid "Please enter a username!"
+msgstr "Моля въведете потребителско име!"
+
+#: inc/widgets/login-form/tpl/base.php:21
+msgid "Please type your e-mail address!"
+msgstr "Моля въведете вашия e-mail адрес!"
+
+#: inc/widgets/login-form/tpl/base.php:24
+msgid "This username is already registered. Please choose another one!"
+msgstr ""
+"<strong>ГРЕШКА:</strong> Това потребителско име вече е регистрирано, моля "
+"изберете друго."
+
+#: inc/widgets/login-form/tpl/base.php:27
+msgid "This email is already registered. Please choose another one!"
+msgstr "ГРЕШКА: Този имейл вече е регистриран, моля изберете друг."
+
+#: inc/widgets/login-form/tpl/base.php:30
+msgid "The email address isn't correct. Please try again!"
+msgstr "ГРЕШКА: Имейл адресът не е правилен. Моля опитайте отново!"
+
+#: inc/widgets/login-form/tpl/base.php:33
+msgid "The username is invalid. Please try again!"
+msgstr "Потребителското име е невалидно. Моля опитайте отново!"
+
+#: inc/widgets/login-form/tpl/base.php:36
+#: inc/widgets/login-menu/login-menu.php:24
+#: woocommerce/myaccount/form-login.php:88
+#: woocommerce/myaccount/form-login.php:136
+msgid "Register"
+msgstr "Регистрация"
+
+#: inc/widgets/login-form/tpl/base.php:68
+msgid "Sign up"
+msgstr "Влез в профила"
+
+#: inc/widgets/login-form/tpl/base.php:71
+msgid "Are you a member? "
+msgstr "Имате ли профил?"
+
+#: inc/widgets/login-form/tpl/base.php:71
+#: woocommerce/myaccount/form-login.php:141
+msgid "Login now"
+msgstr "Влизане"
+
+#: inc/widgets/login-form/tpl/base.php:76
+msgid "Your site does not allow users registration."
+msgstr "Сайтът не позволява регистрация на потребители."
+
+#: inc/widgets/login-form/tpl/base.php:84
+msgid "Please enter a username or email!"
+msgstr "Моля въведете потребителско име или имейл!"
+
+#: inc/widgets/login-form/tpl/base.php:87
+msgid "The user does not exist. Please try again!"
+msgstr "Потребителят не съществува. Моля опитайте отново!"
+
+#: inc/widgets/login-form/tpl/base.php:91
+#: woocommerce/myaccount/form-lost-password.php:26
+msgid "Get Your Password"
+msgstr "Получаване на нова парола"
+
+#: inc/widgets/login-form/tpl/base.php:94
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Забравена парола? Моля, въведете потребителско име или имейл адрес. Вие ще "
+"получите линк, за да създадете нова парола по електронна поща."
+
+#: inc/widgets/login-form/tpl/base.php:96
+#: inc/widgets/login-form/tpl/base.php:159
+#: woocommerce/myaccount/form-lost-password.php:34
+msgid "Username or email"
+msgstr "Потребителско име или имейл адрес"
+
+#: inc/widgets/login-form/tpl/base.php:98
+msgid "Reset password"
+msgstr "Възобновяване на забравена парола"
+
+#: inc/widgets/login-form/tpl/base.php:109
+msgid "The key is expired. Please try again!"
+msgstr "Ключът е с изтекъл срок. Моля опитайте отново!"
+
+#: inc/widgets/login-form/tpl/base.php:112
+msgid "The key is invalid. Please try again!"
+msgstr "Ключът е невалиден. Моля опитайте отново!"
+
+#: inc/widgets/login-form/tpl/base.php:115
+msgid "The password is invalid. Please try again!"
+msgstr "Паролата е невалидна. Моля опитайте отново!"
+
+#: inc/widgets/login-form/tpl/base.php:119
+msgid "Change Password"
+msgstr "Промяна на паролата"
+
+#: inc/widgets/login-form/tpl/base.php:124
+#: woocommerce/myaccount/form-lost-password.php:44
+msgid "New password"
+msgstr "Нова парола"
+
+#: inc/widgets/login-form/tpl/base.php:127
+#: woocommerce/myaccount/form-lost-password.php:36
+#: woocommerce/myaccount/form-lost-password.php:47
+msgid "Reset Password"
+msgstr "Възобновяване на забравена парола"
+
+#: inc/widgets/login-form/tpl/base.php:137
+msgid "Registration is successful. Confirmation will be e-mailed to you."
+msgstr "Регистрацията е успешна. Ще получите потвърждение по е-мейл."
+
+#: inc/widgets/login-form/tpl/base.php:142
+msgid "Check your email to get a link to create a new password."
+msgstr ""
+"Проверете вашия е-мейл, за да получите връзка, за да създадете нова парола."
+
+#: inc/widgets/login-form/tpl/base.php:147
+#, php-format
+msgid "Password changed. You can <a href=\"%s\">login</a> now."
+msgstr "Паролата е променена. Сега можете да <a href=\"%s\">влезете</a> ."
+
+#: inc/widgets/login-form/tpl/base.php:154
+msgid "Login with your site account"
+msgstr "Влезте с профила си в сайта"
+
+#: inc/widgets/login-form/tpl/base.php:161
+#: woocommerce/myaccount/form-login.php:57
+msgid "Remember me"
+msgstr "Запомни ме"
+
+#: inc/widgets/login-form/tpl/base.php:162
+#: inc/widgets/login-menu/login-menu.php:19
+#: woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:70
+msgid "Login"
+msgstr "Влизане"
+
+#: inc/widgets/login-form/tpl/base.php:164
+msgid "Not a member yet? "
+msgstr "Имате ли профил?"
+
+#: inc/widgets/login-form/tpl/base.php:164
+#: woocommerce/myaccount/form-login.php:75
+msgid "Register now"
+msgstr "Регистрирайте се сега"
+
+#: inc/widgets/login-menu/login-menu.php:7
+msgid "Thim: Login Menu"
+msgstr "Thim: Вход меню"
+
+#: inc/widgets/login-menu/login-menu.php:9
+msgid "Display Login Menu"
+msgstr "Показване на меню за вход"
+
+#: inc/widgets/login-menu/login-menu.php:18
+msgid "Text Login"
+msgstr "Влезте в профила си"
+
+#: inc/widgets/login-menu/login-menu.php:23
+msgid "Text for Register"
+msgstr "Регистрирайте се сега"
+
+#: inc/widgets/login-menu/login-menu.php:28
+msgid "Text Logout"
+msgstr "Излизане"
+
+#: inc/widgets/login-menu/login-menu.php:29
+msgid "Logout"
+msgstr "Изход от профила"
+
+#: inc/widgets/login-menu/tpl/base.php:3
+msgid "Profile"
+msgstr "Профил"
+
+#: inc/widgets/one-course-instructors/one-course-instructors.php:7
+msgid "Thim: 1 Course Instructors"
+msgstr "Thim: 1 Преподавателите"
+
+#: inc/widgets/one-course-instructors/one-course-instructors.php:9
+msgid "Show carousel slider instructors of one course feature."
+msgstr ""
+
+#: inc/widgets/one-course-instructors/one-course-instructors.php:18
+msgid "Visible instructors"
+msgstr "Видими инструктори"
+
+#: inc/widgets/one-course-instructors/tpl/base.php:6
+msgid "There are no publish courses available yet."
+msgstr "Няма публикувани курсове."
+
+#: inc/widgets/one-course-instructors/tpl/base.php:20
+msgid "Invalid the one course ID."
+msgstr "Невалидно ID за курса"
+
+#: inc/widgets/one-course-instructors/tpl/base.php:27
+#, php-format
+msgid "The one course has not been publish yet. <a href=\"%s\">Edit</a>."
+msgstr "Този курс все още не е публикуван.<a href=\"%s\">Редактирай</a>."
+
+#: inc/widgets/our-team/our-team.php:9
+msgid "Thim: Our Team"
+msgstr "Thim: Нашият Екип"
+
+#: inc/widgets/our-team/our-team.php:26
+msgid "Number Posts"
+msgstr "Брой публикации"
+
+#: inc/widgets/our-team/our-team.php:32
+msgid "Provide the text link that will be applied to box our team."
+msgstr "Предоставя текстов линк, които ще бъдат приложени към нашия екип."
+
+#: inc/widgets/our-team/our-team.php:36
+msgid "Link Join Team"
+msgstr "Присъединете се към Нашият Екип"
+
+#: inc/widgets/our-team/our-team.php:37
+msgid "Provide the link that will be applied to box our team"
+msgstr ""
+"Осигуряване на връзката, която ще бъде приложена към кутийка нашия екип"
+
+#: inc/widgets/our-team/our-team.php:41
+msgid "Enable Link To Member"
+msgstr "Разреши връзката към член"
+
+#: inc/widgets/our-team/our-team.php:46
+msgid "Column"
+msgstr "Колона"
+
+#: inc/widgets/our-team/our-team.php:48
+msgid "2"
+msgstr "2"
+
+#: inc/widgets/our-team/our-team.php:49
+msgid "3"
+msgstr "3"
+
+#: inc/widgets/our-team/our-team.php:50
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:126
+msgid "4"
+msgstr "4"
+
+#: inc/widgets/portfolio/portfolio.php:24
+msgid "Thim: Portfolio"
+msgstr "Thim: Портфолио"
+
+#: inc/widgets/portfolio/portfolio.php:26
+msgid "Thim Widget Portfolio By thimpress.com"
+msgstr "Thim Widget портфейл по thimpress.com"
+
+#: inc/widgets/portfolio/portfolio.php:34
+msgid "Select a category"
+msgstr "Изберете категория"
+
+#: inc/widgets/portfolio/portfolio.php:40
+msgid "Hide Filters?"
+msgstr "Скрий филтри?"
+
+#: inc/widgets/portfolio/portfolio.php:45
+msgid "Select a filter position"
+msgstr "Изберете позиция на филтъра"
+
+#: inc/widgets/portfolio/portfolio.php:48 inc/widgets/slider/slider.php:76
+msgid "Left"
+msgstr "Ляво"
+
+#: inc/widgets/portfolio/portfolio.php:49 inc/widgets/slider/slider.php:78
+msgid "Center"
+msgstr "Център"
+
+#: inc/widgets/portfolio/portfolio.php:50 inc/widgets/slider/slider.php:77
+msgid "Right"
+msgstr "Дясно"
+
+#: inc/widgets/portfolio/portfolio.php:55
+msgid "Select a column"
+msgstr "Изберете колона"
+
+#: inc/widgets/portfolio/portfolio.php:58
+msgid "One"
+msgstr "Едно"
+
+#: inc/widgets/portfolio/portfolio.php:59
+msgid "Two"
+msgstr "Две"
+
+#: inc/widgets/portfolio/portfolio.php:60
+msgid "Three"
+msgstr "Три"
+
+#: inc/widgets/portfolio/portfolio.php:61
+msgid "Four"
+msgstr "Четири"
+
+#: inc/widgets/portfolio/portfolio.php:62
+msgid "Five"
+msgstr "Пет"
+
+#: inc/widgets/portfolio/portfolio.php:67
+msgid "Gutter"
+msgstr "Gutter"
+
+#: inc/widgets/portfolio/portfolio.php:72
+msgid "Select a item size"
+msgstr "Изберете размер на артикул"
+
+#: inc/widgets/portfolio/portfolio.php:75
+msgid "Multigrid"
+msgstr "Multigrid"
+
+#: inc/widgets/portfolio/portfolio.php:76
+msgid "Masonry"
+msgstr "Подредба"
+
+#: inc/widgets/portfolio/portfolio.php:77
+msgid "Same size"
+msgstr "Същия размер"
+
+#: inc/widgets/portfolio/portfolio.php:82
+msgid "Select a paging"
+msgstr "Изберете paging"
+
+#: inc/widgets/portfolio/portfolio.php:85
+msgid "Show All"
+msgstr "Покажи всички"
+
+#: inc/widgets/portfolio/portfolio.php:86
+msgid "Limit Items"
+msgstr "Лимитирани елементи"
+
+#: inc/widgets/portfolio/portfolio.php:87
+msgid "Paging"
+msgstr "страниране на виртуална памет"
+
+#: inc/widgets/portfolio/portfolio.php:88
+msgid "Infinite Scroll"
+msgstr "Безкрайно скролиране"
+
+#: inc/widgets/portfolio/portfolio.php:93
+msgid "Select style items"
+msgstr "Изберете стил елементи"
+
+#: inc/widgets/portfolio/portfolio.php:96
+msgid "Caption Hover Effects 01"
+msgstr "Caption Hover Effects 01"
+
+#: inc/widgets/portfolio/portfolio.php:97
+msgid "Caption Hover Effects 02"
+msgstr "Caption Hover Effects 02"
+
+#: inc/widgets/portfolio/portfolio.php:98
+msgid "Caption Hover Effects 03"
+msgstr "Caption Hover Effects 03"
+
+#: inc/widgets/portfolio/portfolio.php:99
+msgid "Caption Hover Effects 04"
+msgstr "Caption Hover Effects 04"
+
+#: inc/widgets/portfolio/portfolio.php:100
+msgid "Caption Hover Effects 05"
+msgstr "Caption Hover Effects 05"
+
+#: inc/widgets/portfolio/portfolio.php:101
+msgid "Caption Hover Effects 06"
+msgstr "Caption Hover Effects 06"
+
+#: inc/widgets/portfolio/portfolio.php:102
+msgid "Caption Hover Effects 07"
+msgstr "Caption Hover Effects 07"
+
+#: inc/widgets/portfolio/portfolio.php:103
+msgid "Caption Hover Effects 08"
+msgstr "Caption Hover Effects 08"
+
+#: inc/widgets/portfolio/portfolio.php:108
+msgid "Enter a number view"
+msgstr "Покажи брой на гледания"
+
+#: inc/widgets/portfolio/portfolio.php:112
+msgid "Show Read More?"
+msgstr "Покажи Прочети още?"
+
+#: inc/widgets/portfolio/tpl/base.php:311
+#: inc/widgets/portfolio/tpl/base.php:329
+#: inc/widgets/portfolio/tpl/base.php:355
+#: inc/widgets/portfolio/tpl/base.php:367
+#: inc/widgets/portfolio/tpl/base.php:400 portfolio/archive-portfolio.php:167
+msgid "View More"
+msgstr "Виж още"
+
+#: inc/widgets/single-images/single-images.php:9
+msgid "Thim: Single Image"
+msgstr "Thim: Единично изображение"
+
+#: inc/widgets/single-images/single-images.php:27
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+"Въведи размер за изображението. Примерно: \"thumbnail\", \"medium\", \"large"
+"\", \"full\" или друг размер дефиниран в темата. Алтернативно въвеждане на "
+"размери за изображение в пиксели: 200x100 (Широчина x Височина). Остави "
+"празно за да използваш оригиналния \"thumbnail\" размер."
+
+#: inc/widgets/single-images/single-images.php:32
+msgid "Enter URL if you want this image to have a link."
+msgstr "Въведи URL адрес, ако искаш към снимка да има препратка."
+
+#: inc/widgets/single-images/single-images.php:44
+msgid "Image alignment"
+msgstr "Подравняване на изображението"
+
+#: inc/widgets/single-images/single-images.php:45
+msgid "Select image alignment."
+msgstr "Избери подравняване на изображението."
+
+#: inc/widgets/single-images/single-images.php:47
+msgid "Align Left"
+msgstr "Подравнено в ляво"
+
+#: inc/widgets/single-images/single-images.php:48
+msgid "Align Right"
+msgstr "Подравнено в дяно"
+
+#: inc/widgets/single-images/single-images.php:49
+msgid "Align Center"
+msgstr "подравни в центъра"
+
+#: inc/widgets/slider/slider.php:7
+msgid "Thim: Slider"
+msgstr "Thim: Slider"
+
+#: inc/widgets/slider/slider.php:9
+msgid "Thim Slider"
+msgstr "Thim: Slider"
+
+#: inc/widgets/slider/slider.php:18
+msgid "Slider Frames"
+msgstr "Slider рамки"
+
+#: inc/widgets/slider/slider.php:19
+msgid "Frame"
+msgstr "Рамка"
+
+#: inc/widgets/slider/slider.php:28
+msgid "Color Overlay images"
+msgstr "Цвят за наслагване на изображение"
+
+#: inc/widgets/slider/slider.php:32
+msgid "Content Slider"
+msgstr "Съдържание на Slider"
+
+#: inc/widgets/slider/slider.php:42
+msgid "Heading Slider"
+msgstr "Заглавие на Slider"
+
+#: inc/widgets/slider/slider.php:47
+msgid "Custom Font Size Title"
+msgstr "Заглавие на размер на шрифт по избор"
+
+#: inc/widgets/slider/slider.php:53
+msgid "Heading Color Title"
+msgstr "Главен цвят на заглавие"
+
+#: inc/widgets/slider/slider.php:58
+msgid "line bottom"
+msgstr "ред отдолу"
+
+#: inc/widgets/slider/slider.php:70
+msgid "Description Color"
+msgstr "Цвят описание:"
+
+#: inc/widgets/slider/slider.php:74
+msgid "Content Align:"
+msgstr "Подравняване на съдържанието:"
+
+#: inc/widgets/slider/slider.php:87
+msgid "Animation Speed"
+msgstr "Скорост на анимиране"
+
+#: inc/widgets/slider/slider.php:88
+msgid "Animation speed in milliseconds."
+msgstr "Скорост на анимирането в милисекунди"
+
+#: inc/widgets/slider/slider.php:93
+msgid "Timeout"
+msgstr "Време на изчакване"
+
+#: inc/widgets/slider/slider.php:94
+msgid "How long each slide is displayed for in milliseconds."
+msgstr "Колко дълго всеки слайд се показва за в милисекунди."
+
+#: inc/widgets/slider/slider.php:99
+msgid "Full Screen"
+msgstr "Цял екран"
+
+#: inc/widgets/slider/slider.php:103
+msgid "Icon Scroll"
+msgstr "Икона за превъртане"
+
+#: inc/widgets/slider/slider.php:105
+msgid "Show"
+msgstr "Покажи"
+
+#: inc/widgets/slider/slider.php:106
+msgid "Hide"
+msgstr "Скрий"
+
+#: inc/widgets/slider/slider.php:116
+msgid "Text Before Arrow"
+msgstr "Текст преди стрелка"
+
+#: inc/widgets/slider/slider.php:121
+msgid "Getting started"
+msgstr "Нека да започнем"
+
+#: inc/widgets/slider/slider.php:125
+msgid "ID"
+msgstr "ID"
+
+#: inc/widgets/slider/slider.php:130
+msgid "id section scoll"
+msgstr "id section scoll"
+
+#: inc/widgets/social/social.php:9
+msgid "Thim: Social Links"
+msgstr "Thim: Социални връзки"
+
+#: inc/widgets/social/social.php:11
+msgid "Social Links"
+msgstr "Социални мрежи"
+
+#: inc/widgets/social/social.php:24
+msgid "Facebook Url"
+msgstr "Facebook линк"
+
+#: inc/widgets/social/social.php:28
+msgid "Twitter Url"
+msgstr "Twitter линк"
+
+#: inc/widgets/social/social.php:32
+msgid "Google Url"
+msgstr "Google+ линк"
+
+#: inc/widgets/social/social.php:36
+msgid "Dribble Url"
+msgstr "Dribble линк"
+
+#: inc/widgets/social/social.php:40
+msgid "Linked in Url"
+msgstr "Linked in линк"
+
+#: inc/widgets/social/social.php:44
+msgid "Pinterest Url"
+msgstr "Pinterest линк"
+
+#: inc/widgets/social/social.php:48
+msgid "Instagram Url"
+msgstr "Instagram линк"
+
+#: inc/widgets/social/social.php:52
+msgid "Youtube Url"
+msgstr "Youtube линк"
+
+#: inc/widgets/tab/tab.php:8
+msgid "Thim: Tab"
+msgstr "Thim: Табулатор"
+
+#: inc/widgets/tab/tab.php:10
+msgid "Add tab"
+msgstr "Добави  табулатор"
+
+#: inc/widgets/tab/tab.php:19 inc/widgets/tab/tab.php:20
+msgid "Tab"
+msgstr "Табулатор"
+
+#: inc/widgets/tab/tab.php:24 inc/widgets/tab/tab.php:25
+msgid "Tab Title"
+msgstr "Заглавие на Табулатора"
+
+#: inc/widgets/tab/tab.php:46
+msgid "Content"
+msgstr "Съдържание"
+
+#: inc/widgets/tab-event/tab-event.php:7
+msgid "Thim: Tab events "
+msgstr "Thim: Табулатор Събития"
+
+#: inc/widgets/tab-event/tab-event.php:9
+msgid "Show all event with tab"
+msgstr "Покажи всички събития с табулатор"
+
+#: inc/widgets/tab-event/tpl/base.php:91 tp-event/archive-event.php:128
+msgid "Happening"
+msgstr "Текущи"
+
+#: inc/widgets/tab-event/tpl/base.php:92 tp-event/archive-event.php:129
+msgid "Upcoming"
+msgstr "Предстоящи"
+
+#: inc/widgets/tab-event/tpl/base.php:93 tp-event/archive-event.php:130
+msgid "Expired"
+msgstr "Изтекли"
+
+#: inc/widgets/testimonials/testimonials.php:7
+msgid "Thim: Testimonials"
+msgstr "Thim: препоръки"
+
+#: inc/widgets/testimonials/testimonials.php:24
+msgid "Limit Posts"
+msgstr "Гранични постове"
+
+#: inc/widgets/testimonials/testimonials.php:29
+msgid "Item visible"
+msgstr "Елемент видими"
+
+#: inc/widgets/testimonials/testimonials.php:30
+msgid "Enter odd number"
+msgstr "Въведете нечетно число"
+
+#: inc/widgets/testimonials/testimonials.php:35
+msgid "Auto play"
+msgstr "Автоматично възпроизвеждане"
+
+#: inc/widgets/testimonials/testimonials.php:40
+msgid "Mousewheel Scroll"
+msgstr "Превъртане с мишката"
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:9
+msgid "Thim: Recent Comments"
+msgstr "Thim: Последни коментари"
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:26
+msgid "Recent Comments"
+msgstr "Последни коментари"
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:106
+msgid "Config Color"
+msgstr "Config цвят"
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:112
+msgid "Title Color"
+msgstr "Цвят на заглавието"
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:118
+msgid "Meta color"
+msgstr "Мета цвят"
+
+#: inc/widgets/thim-recent-comments/thim-recent-comments.php:125
+msgid "Number Comments"
+msgstr "Брой коментари"
+
+#: inc/widgets/video/video.php:9
+msgid "Thim: Video"
+msgstr "Thim: видео"
+
+#: inc/widgets/video/video.php:11
+msgid "A video player widget."
+msgstr "Видео плейър джаджа."
+
+#: inc/widgets/video/video.php:19
+msgid "Width video"
+msgstr "Ширина на видеото"
+
+#: inc/widgets/video/video.php:20
+#, php-format
+msgid "Enter width video. Example 100% or 600. "
+msgstr "Enter width video. Example 100% or 600. "
+
+#: inc/widgets/video/video.php:24
+msgid "Height video"
+msgstr "Височина на видеото"
+
+#: inc/widgets/video/video.php:25
+#, php-format
+msgid "Enter height video. Example 100% or 600."
+msgstr "Enter height video. Example 100% or 600."
+
+#: inc/widgets/video/video.php:29
+msgid "Vimeo Video ID"
+msgstr "Vimeo Видео ID"
+
+#: inc/widgets/video/video.php:30
+msgid ""
+"Enter vimeo video ID . Example if link video https://player.vimeo.com/"
+"video/61389324 then video ID is 61389324 "
+msgstr ""
+"Въведете Vimeo видео ID. Пример ако линка е https://player.vimeo.com/"
+"video/61389324 след \"video\" ID е 61389324"
+
+#: inc/widgets/video/tpl/default.php:31
+msgid "Watch the video"
+msgstr "Гледайте видео"
+
+#: learnpress/archive-course.php:18
+msgid "There are no available courses!"
+msgstr "Няма налични курсове!"
+
+#: learnpress/archive-course.php:21
+msgid "Showing only one result"
+msgstr "Показване само на един резултат"
+
+#: learnpress/archive-course.php:31
+#, php-format
+msgid "Showing last course of %s results"
+msgstr "Показване на резултатите от последния курс %s"
+
+#: learnpress/archive-course.php:36
+#, php-format
+msgid "Showing %s-%s of %s results"
+msgstr "Показване на %s-%s от %s резултати"
+
+#: learnpress/archive-course.php:57
+msgid "Search the course"
+msgstr "Търсене в курса"
+
+#: learnpress/course_content-landing_page.php:25
+#: learnpress/course_content-landing_page.php:82
+#: learnpress/course_content-learning_page.php:24
+msgid "Curriculum"
+msgstr "Учебна програма"
+
+#: learnpress/course_content-landing_page.php:31
+#: learnpress/course_content-landing_page.php:85
+#: learnpress/course_content-learning_page.php:30
+msgid "Instructors"
+msgstr "Инструктори"
+
+#: learnpress/course_content.php:31
+msgid "Enrolled"
+msgstr "Записани"
+
+#: learnpress/addons/course-wishlist/user-wishlist.php:4
+msgid "Favorite courses"
+msgstr "Любими курсове"
+
+#: learnpress/addons/course-wishlist/user-wishlist.php:19
+msgid "No courses in your wishlist!"
+msgstr "Няма курсове в списъка Ви с желания!"
+
+#: learnpress/course/course-result.php:12 learnpress/quiz/percentage.php:11
+#, php-format
+msgid "You have passed this course with %.2f%% of total"
+msgstr "Вие сте преминали този курс с% .2f %% от общия"
+
+#: learnpress/course/course-result.php:15 learnpress/quiz/percentage.php:14
+#, php-format
+msgid ""
+"Sorry, you have not passed this course. This course required you pass %.2f%% "
+"but your result is only %.2f%%"
+msgstr ""
+"Съжаляваме, не сте преминали този курс. Този курс изисква да преминете% .2f "
+"%% но вашият резултат е само% .2f %%"
+
+#: learnpress/course/curriculum.php:27
+msgid "Curriculum is empty"
+msgstr "Учебната програма е празна"
+
+#: learnpress/course/enroll-button.php:15
+msgid "Take this course"
+msgstr "Запишете се за този курс"
+
+#: learnpress/course/enroll-button.php:15
+msgid "Processing"
+msgstr "Обработва се"
+
+#: learnpress/course/instructor.php:13
+msgid "Teacher"
+msgstr "Преподавател"
+
+#: learnpress/course/loop-curriculum-lesson.php:11
+msgid "Lecture"
+msgstr "Лекция"
+
+#: learnpress/course/loop-curriculum-lesson.php:22
+msgid "Preview"
+msgstr "Преглед"
+
+#: learnpress/course/loop-curriculum-lesson.php:27
+#: learnpress/course/loop-curriculum-quiz.php:20
+msgid "Completed"
+msgstr "Завършено"
+
+#: learnpress/course/loop-curriculum-lesson.php:33
+#: learnpress/course/loop-curriculum-quiz.php:25
+msgid "Locked"
+msgstr "Заключена"
+
+#: learnpress/course/loop-curriculum-quiz.php:28
+msgid "questions"
+msgstr "Въпроси"
+
+#: learnpress/course/payment-form.php:31
+msgid "Check out"
+msgstr "Плащане"
+
+#: learnpress/global/become-teacher-form.php:12
+msgid "Register to become a teacher"
+msgstr "Регистрирайте се да станете учител"
+
+#: learnpress/global/become-teacher-form.php:14
+#, php-format
+msgid "You have to <a href=\"%s\">login</a> to fill out this form"
+msgstr "Трябва да <a href=\"%s\">се логнете</a> за да попълните тази форма"
+
+#: learnpress/profile/quiz-content.php:12 learnpress/quiz/result.php:13
+msgid "Correct"
+msgstr "Правилен"
+
+#: learnpress/profile/quiz-content.php:16 learnpress/quiz/result.php:17
+msgid "Incorrect"
+msgstr "Неправилен"
+
+#: learnpress/profile/quiz-content.php:20 learnpress/quiz/result.php:21
+msgid "Skipped"
+msgstr "Пропуснат"
+
+#: learnpress/profile/quiz-content.php:24 learnpress/quiz/result.php:25
+msgid "Points"
+msgstr "Точки"
+
+#: learnpress/profile/user-courses.php:4
+msgid "Learning courses"
+msgstr "Курсове за обучение"
+
+#: learnpress/profile/user-courses.php:15
+#: learnpress/profile/user-quizzes.php:27
+msgid "You have not taken any courses yet!"
+msgstr "Вие нямате завършени курсове!"
+
+#: learnpress/profile/user-courses.php:22
+msgid "Finished courses"
+msgstr "Завършени курсове"
+
+#: learnpress/profile/user-courses.php:34
+msgid "You have not finished any courses yet!"
+msgstr "Вие нямате завършени курсове!"
+
+#: learnpress/profile/user-courses.php:43
+msgid "Own courses"
+msgstr "Собствени курсове"
+
+#: learnpress/profile/user-courses.php:54
+msgid "You don't have got any published courses yet!"
+msgstr "Вие нямате публикувани курсове!"
+
+#: learnpress/profile/user-quizzes.php:22
+msgid "You have not finished any quizzes yet!"
+msgstr "Вие нямате завършени тестове!"
+
+#: learnpress/profile/user-courses/own-course.php:22
+msgid " students passed"
+msgstr "преминали ученици"
+
+#: learnpress/profile/user-courses/own-course.php:24
+msgid " student passed"
+msgstr "преминал ученик"
+
+#: learnpress/quiz/nav.php:12
+msgid "Back"
+msgstr "Назад"
+
+#: learnpress/quiz/nav.php:13 woocommerce/loop/pagination.php:37
+msgid "Next"
+msgstr "Следващa"
+
+#: learnpress/quiz/no-preview-message.php:1
+msgid "Sorry! You have not permission to view this quiz!"
+msgstr "Съжаляваме, нямате разрешение за достъп до тази страница."
+
+#: learnpress/quiz/no-question.php:2
+msgid "No question in this quiz!"
+msgstr "Няма въпрос в този тест"
+
+#: learnpress/quiz/result.php:9
+msgid "Your result"
+msgstr "Вашият резултат"
+
+#: learnpress/quiz/result.php:48
+msgid "Review your answers"
+msgstr "Прегледайте вашите отговори"
+
+#: learnpress/quiz/time-counter.php:17
+msgid "Questions"
+msgstr "Въпроси"
+
+#: learnpress/quiz/time-counter.php:22
+msgid "Time"
+msgstr "Време"
+
+#: learnpress/quiz/time-counter.php:24
+msgid "(h:m:s)"
+msgstr "(ч:м:с)"
+
+#: our-team/archive-our-team.php:1 testimonials/archive-testimonials.php:1
+msgid "The theme has not supported archive template yet."
+msgstr "Темата все още не е поддържа архив шаблон."
+
+#: our-team/single-our-team.php:62
+msgid "Other Member"
+msgstr "Други членове"
+
+#: portfolio/type/content-portfolio.php:44
+msgid "Link project:"
+msgstr "Адрес на проекта:"
+
+#: portfolio/type/gallery.php:66 portfolio/type/right-floating-sidebar.php:66
+#: portfolio/type/sidebar-slider.php:55 portfolio/type/vertical-stacked.php:32
+msgid "Link project"
+msgstr "Адрес на проекта"
+
+#: portfolio/type/left-floating-sidebar.php:11
+msgid "PROJECT DESCRIPTION"
+msgstr "Описание на проекта"
+
+#: portfolio/type/left-floating-sidebar.php:35
+msgid "Project URL"
+msgstr "Адрес на проекта"
+
+#: portfolio/type/right-floating-sidebar.php:43
+#: portfolio/type/sidebar-slider.php:33
+msgid "Project description"
+msgstr "Описание на проекта"
+
+#: tp-event/content-single-event.php:49
+msgid "Start Time"
+msgstr "Начало:"
+
+#: tp-event/content-single-event.php:58
+msgid "Finish Time"
+msgstr "Край:"
+
+#: tp-event/content-single-event.php:78
+msgid "Who come with us?"
+msgstr "Кой дойде при нас?"
+
+#: woocommerce/content-single-product-lightbox.php:75
+msgid "View Detail"
+msgstr "Виж страница с детайли"
+
+#: woocommerce/loop/pagination.php:36
+msgid "Prev"
+msgstr "Предишна"
+
+#: woocommerce/myaccount/form-login.php:43
+msgid "Username or email address"
+msgstr "Потребителско име или имейл адрес"
+
+#: woocommerce/myaccount/form-login.php:74
+msgid "Not a member yet?"
+msgstr "Имате ли профил?"
+
+#: woocommerce/myaccount/form-login.php:105
+msgid "Email address"
+msgstr "Електронна поща"
+
+#: woocommerce/myaccount/form-login.php:120
+msgid "Anti-spam"
+msgstr "Анти спам"
+
+#: woocommerce/myaccount/form-login.php:140
+msgid "Are you a member?"
+msgstr "Имате ли профил?"
+
+#: woocommerce/myaccount/form-lost-password.php:36
+#: woocommerce/myaccount/form-lost-password.php:47
+msgid "Save"
+msgstr "Запази"
+
+#: woocommerce/myaccount/form-lost-password.php:41
+msgid "Enter a new password below."
+msgstr "Въведете нова парола отдолу."
+
+#: woocommerce/myaccount/form-lost-password.php:45
+msgid "Re-enter new password"
+msgstr "Потвърдете паролата"
+
+#: woocommerce/single-product/rating.php:35
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Оценка %s от 5"
+
+#: woocommerce/single-product/rating.php:40
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s оценки на клиенти"
+msgstr[1] "%s оценки на клиенти"
+
+#: woocommerce/single-product/related.php:49
+msgid "Related Products"
+msgstr "Свързани продукти"
+
+#: woocommerce/single-product/review.php:39
+msgid "Your comment is awaiting approval"
+msgstr "Коментарът ви очаква одобрение"
+
+#: woocommerce/single-product/review.php:49
+msgid "verified owner"
+msgstr "Собственик"
+
+#: woocommerce/single-product/review.php:59
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Оценено на %d от 5"
+
+#: woocommerce/single-product/up-sells.php:51
+msgid "You may also like&hellip;"
+msgstr "Може да харесате и&hellip;"
+
+#: woocommerce/single-product/tabs/description.php:22
+msgid "Product Description"
+msgstr "Информация за продукта"

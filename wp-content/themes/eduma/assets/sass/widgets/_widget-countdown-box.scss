@@ -1,0 +1,171 @@
+/** Countdown box **/
+.counter-group {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  .thim-widget-countdown-box .text-center & {
+    text-align: center;
+  }
+  &:after {
+    clear: both;
+  }
+  .counter-block {
+    display: inline-block;
+    margin-right: 30px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    &:last-child {
+      margin-right: 0;
+    }
+    .color-black & {
+      border-color: #000;
+    }
+    .counter {
+      position: relative;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      height: 50px;
+      width: 60px;
+
+      overflow: hidden;
+      display: block;
+      color: #fff;
+      margin: 14px 20px 0px;
+      .color-black & {
+        color: #000;
+      }
+      .number {
+        padding: 1%;
+        width: 46%;
+        height: 98%;
+        position: absolute;
+        background: none;
+        font-size: inherit;
+        font-family: inherit;
+        top: -10000px;
+        &.tens {
+          left: 0;
+        }
+        &.units {
+          left: 50%;
+        }
+        &.hundreds {
+          display: none;
+        }
+        &.show {
+          top: 0;
+          z-index: 2;
+          &.hundreds {
+            top: -100%;
+          }
+        }
+        &.hidden-down {
+          top: 100%;
+        }
+        &.hidden-up {
+          top: -100%;
+          z-index: 100;
+        }
+      }
+      &.with-hundreds {
+        margin: 14px 6px 0;
+        width: 85px;
+        .number {
+          width: 30.66%;
+          &.tens {
+            left: 33.33%;
+          }
+          &.units {
+            left: 66.66%;
+          }
+          &.hundreds {
+            display: block;
+            left: 0;
+          }
+        }
+      }
+    }
+    .counter-caption {
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 20px;
+      display: block;
+      color: #fff;
+      text-align: center;
+      .color-black & {
+        color: #000;
+      }
+    }
+  }
+}
+.ClassyCountdown-wrapper > div {
+  display: inline-block;
+  position: relative;
+  width: calc(25% - 30px);
+  margin: 10px;
+  position: relative;
+  &:before {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    content: "";
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+  }
+}
+.ClassyCountdown-wrapper .ClassyCountdown-value {
+  width: 100%;
+  //line-height: 1em;
+  position: absolute;
+  line-height: 30px;
+  top: 50%;
+  text-align: center;
+  left: 0;
+  display: block;
+  > div {
+    font-size: 50px!important;
+    font-weight: 300!important;
+  }
+  span {
+    font-size: 14px!important;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 20px;
+    color: #bbbbbb;
+  }
+}
+.thim_countdown_pie {
+  &.style_white_wide {
+    max-width: 600px;
+  }
+  &.style_black_wide {
+    .ClassyCountdown-wrapper {
+      > div {
+        width: calc(25% - 20px);
+        &:before {
+          display: none;
+        }
+      }
+      .ClassyCountdown-value {
+        line-height: 13px;
+        margin-top: -15px!important;
+        > div {
+          font-size: 28px!important;
+        }
+        span {
+          font-size: 10px!important;
+          color: #808080;
+        }
+      }
+    }
+  }
+}

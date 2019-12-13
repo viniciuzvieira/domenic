@@ -1,0 +1,905 @@
+/** cart course **/
+table.learn-press-cart-table{
+    .course-price,
+    .course-total{
+        width: 10%;
+    }
+    thead{
+        tr{
+
+            th{
+                border: 1px solid #eee;
+                text-align: center;
+                padding: 10px 15px;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                border: 1px solid #eee;
+            }
+        }
+        .cart_item{
+            td{
+                padding: 10px 15px;
+                vertical-align: middle;
+            }
+            .course-price,.course-quantity,.course-total{
+               text-align: center;
+            }
+            .course-remove{
+                a{
+                    display: block;
+                    font-size: 1.5em;
+                    height: 1em;
+                    width: 1em;
+                    text-align: center;
+                    line-height: 1;
+                    border-radius: 100%;
+                    color: red !important;
+                    text-decoration: none;
+                    font-weight: 700;
+                    border: 0;
+                    &:hover{
+                        color: #fff !important;
+                        background-color: red;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+.lp-cart{
+    .cart_totals{
+        width: 50%;
+        float: right;
+        h2{
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+        table{
+            th,td{
+                padding: 20px;
+                border: 1px solid #eee;
+            }
+            .subtotal,.total{
+                border-right: none;
+            }
+            .subtotal-price,.total-price{
+                border-left: none;
+            }
+        }
+        .checkout-button{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .lp-cart{
+        table.learn-press-cart-table{
+            .course-thumbnail{
+                display: none;
+            }
+        }
+        .cart_totals{
+            width: 100%;
+        }
+
+    }
+}
+@media screen and (max-width: 360px){
+    .lp-cart{
+        table.learn-press-cart-table{
+            .course-price{
+                display: none;
+            }
+        }
+    }
+}
+/** checkout course **/
+
+#learn-press-checkout-user-form{
+    text-align: center;
+    margin-bottom: 80px;
+    #learn-press-checkout-user-login{
+        ul.form-fields{
+            list-style-type: none;
+            margin: 0;
+            li{
+                label{
+                    display: none;
+                }
+                input{
+                    padding: 0px 20px;
+                    border: 1px solid #e5e5e5;
+                    color: #999 !important;
+                    width: 50%;
+                    margin: 0;
+                    margin-bottom: 20px;
+                    height: 40px
+                }
+                button{
+                    width: 50%;
+                }
+            }
+        }
+    }
+    #learn-press-checkout-user-register{
+        .form-content{
+            a{
+                padding: 5px 25px;
+                font-weight: 700;
+                display: inline-block;
+                position: relative;
+                margin-top: 10px;
+                line-height: 30px;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+#order_review{
+    h3{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .title{
+        text-transform: uppercase;
+    }
+    .learn-press-checkout-review-order-table{
+        th{
+            padding: 10px 15px;
+            border: 1px solid #eee;
+        }
+        td{
+            padding: 10px 15px;
+            border: 1px solid #eee;
+        }
+        tfoot{
+            th{
+                text-align: right;
+                border: 1px solid #eee;
+                border-right: none;
+            }
+            td{
+                border-left: none;
+            }
+        }
+        margin-bottom: 80px;
+    }
+
+    textarea{
+        width: 100%;
+        height: 100px;
+        border: 1px solid #eee;
+        padding: 10px 15px;
+        margin-bottom: 80px;
+    }
+
+}
+#learn-press-payment{
+    ul.payment-methods{
+        margin: 0;
+        list-style-type: none;
+        margin-bottom: 15px;
+    }
+    .place-order-action{
+        margin-bottom: 15px;
+        input.button{
+            margin-top: 10px;
+            height: 40px;
+            padding: 0 25px;
+            font-weight: 700;
+            font-size: 13px;
+            text-transform: uppercase;
+            border: none;
+        }
+    }
+}
+
+//account event table
+.list-book-event{
+    thead,tbody{
+        th,td{
+            border: 1px solid #eee;
+            padding: 10px 15px;
+        }
+        .quantity{
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 460px){
+    .list-book-event{
+        .id,.type,.method{
+            display: none;
+        }
+    }
+}
+
+.account-event{
+    .message{
+        margin-bottom: 30px;
+    }
+}
+.message{
+    &.event_auth_book_success{
+        color: #3c763d;
+        background: #dff0d8;
+    }
+}
+//fix ie revolution slider
+.textwidget {
+    .rev_slider_wrapper.fullscreen-container{
+        overflow: hidden !important;
+    }
+}
+//fix responsive
+@media screen and (max-width: 550px){
+    table.learn-press-cart-table{
+        tbody{
+            .cart_item{
+                td{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+}
+
+//new shop display
+.thim-product-switch-wrap{
+    .woocommerce-result-count{
+        display: inline-block;
+        line-height: 38px;
+        font-size: 13px;
+        color: #999;
+        margin-left: 15px;
+    }
+    form.woocommerce-ordering{
+        select{
+            font-size: 13px;
+            color: #999;
+            line-height: 20px;
+            padding: 6px 0 6px 10px;
+            border-radius: 0;
+            width: 100%;
+            height: 34px;
+            border: 1px solid #e5e5e5;
+            outline: none;
+        }
+    }
+}
+ul.product-grid{
+    li.product{
+        .product__title{
+            .description{
+                display: none;
+            }
+        }
+    }
+}
+.thim-product-list{
+    ul.product-grid{
+        padding: 0 15px;
+        li.product{
+            width: 100%;
+            clear: both;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 40px 0px;
+            &:first-child{
+                padding-top: 0;
+            }
+            &:last-child{
+                border-bottom: 0;
+            }
+            .content__product{
+                border-bottom: none;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+            .product_thumb{
+                max-width: 270px;
+                margin-right: 30px;
+                height: auto;
+                float: left;
+                margin-bottom: 0;
+            }
+            .product__title{
+                width: calc(100% - 300px);
+                width: -webkit-calc(100% - 300px);
+                width: -moz-calc(100% - 300px);
+                float: right;
+                padding-right: 0;
+                margin-top: 0;
+                .title{
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    margin: 3px 0 2px;
+                    text-transform: none;
+                }
+                .description{
+                    margin: 30px 0 30px;
+                    height: 75px;
+                    line-height: 25px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                }
+                .price{
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 25px;
+                    display: inline-block;
+                }
+                .added_to_cart,
+                .ajax_add_to_cart,
+                a.add_to_cart_button{
+                    position: relative;
+                    float: right;
+                    font-size: 13px !important;
+                    width: auto;
+                    line-height: 40px;
+                    padding: 0 25px;
+                }
+                a.add_to_cart_button{
+                    &:before{
+                        display: none;
+                    }
+                }
+                .description{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+//Shop price filter
+.site-main{
+    .woof_products_top_panel,.woof_sid_auto_shortcode,.woof_show_auto_form{
+        display: none!important;
+    }
+}
+
+aside{
+    .woof_container_inner{
+        h4{
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+    }
+    .woof_container_color{
+        .woof_list{
+            li{
+                input[type=radio][name=pa_color] {
+                    border: 0;
+                }
+                input[type="radio"]:checked:before{
+                    background-color: #fff;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    .woof_container_size{
+        .woof_list{
+            li{
+                input[type="radio"]:checked:before{
+                    margin: 3px;
+                }
+            }
+        }
+
+    }
+    .woof_sid{
+        .woof_reset_search_form {
+            height: 26px;
+            text-transform: uppercase;
+            font-size: 10px;
+            font-weight: 700;
+            border-radius: 0;
+            padding: 0 10px;
+            text-align: center;
+            line-height: 26px;
+            background-color: #ebe9eb;
+        }
+        .woof_submit_search_form{
+            display: none;
+        }
+    }
+}
+
+.widget-area{
+    aside.WOOF_Widget{
+        padding: 0;
+        &:before{
+            display: none;
+        }
+        &:after{
+            display: none;
+        }
+        .woof_container{
+            position: relative;
+            margin-bottom: 50px;
+            padding: 0;
+            .woof_container_inner{
+                padding: 0 20px;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 3px;
+                    height: 36px;
+                    z-index: 3;
+                }
+                &:after{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 1px;
+                    background: #e5e5e5;
+                }
+            }
+            .woof_container_inner.woof_container_inner_color,
+            .woof_container_inner.woof_container_inner_size{
+                ul{
+                    li{
+                        margin: 0 !important;
+                        padding: 20px 0 0 0 !important;
+                        line-height: 100%;
+                        label{
+                            padding: 0;
+                        }
+                        img{
+                            margin-bottom: 5px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+        .woof_container.woof_container_size{
+            margin-bottom: 0px;
+        }
+
+        .woof_submit_search_form_container{
+            margin: 0;
+            .woof_reset_search_form{
+                float: left !important;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+div.woof_info_popup {
+    top:           0;
+    left:          0;
+    width:         100%;
+    height:        100%;
+    border:        0;
+    border-radius: 0;
+    color:         transparent;
+    &:before {
+        content:           '\f110';
+        font-family:       FontAwesome;
+        -webkit-animation: fa-spin 1s infinite steps(8);
+        animation:         fa-spin 1s infinite steps(8);
+        color:             #fff;
+        position:          relative;
+        top:               50%;
+        left:              50%;
+        width:             20px;
+        height:            20px;
+        line-height:       20px;
+        text-align:        center;
+        margin-left:       -10px;
+        margin-top:        -10px;
+    }
+}
+
+//responsive landing page
+@media (max-width: 767px){
+    .landing-image{
+        .image-link{
+            height: 300px;
+            .image{
+                background-size: 100%;
+            }
+        }
+    }
+}
+
+//membership pro
+.pmpro-has-access{
+    .pmpro_submit{
+        margin-left: 0 !important;
+    }
+    .pmpro_error{
+        color: #a94442;
+        background: #f2dede;
+    }
+    .pmpro_thead-name{
+        text-transform: uppercase;
+    }
+    .pmpro_thead-msg{
+        text-transform: lowercase;
+    }
+    ul{
+        //margin: 0;
+        list-style-type: none;
+    }
+    .entry-content {
+        ul {
+            list-style: inherit;
+        }
+    }
+    .navigation,
+    .pmpro_actionlinks{
+        a{
+            font-weight: bold;
+            font-size: 15px;
+            padding: 0;
+            margin: 0 10px;
+            line-height: 30px;
+            &:first-child{
+                margin-left: 0;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    input.pmpro_btn,
+    a.pmpro_btn{
+        border: none;
+        padding: 5px 25px;
+        border-radius: 0;
+        text-transform: uppercase;
+        outline: none;
+        line-height: 30px;
+    }
+    table.pmpro_invoice{
+        margin-top: 40px;
+    }
+    table.pmpro_invoice,
+    table#pmpro_levels_table,
+    #pmpro_account-membership,
+    #pmpro_account-invoices,
+    #pmpro_cancel,
+    #pmpro_invoices_table{
+        thead{
+            tr{
+                th{
+                    border: 1px solid #eee;
+                    text-align: center;
+                    padding: 10px 15px;
+                }
+            }
+        }
+        tbody{
+            .odd{
+                td{
+                    background-color: transparent;
+                }
+            }
+            .active{
+                td{
+                    background-color: #eee;
+                }
+            }
+            tr{
+                td{
+                    text-transform: capitalize;
+                    text-align: center;
+                    padding: 10px 15px;
+                    border: 1px solid #eee;
+                }
+            }
+        }
+    }
+    table#pmpro_levels_table{
+        tbody{
+            tr{
+                td{
+                    .pmpro_btn{
+                        border-radius: 0;
+                        border: none;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    #pmpro_account-profile{
+        ul{
+            margin: 0;
+            li{
+                list-style-type: none;
+            }
+        }
+        .pmpro_actionlinks{
+            margin-top: 30px;
+        }
+    }
+    #pmpro_cancel{
+        hr{
+            display: none;
+        }
+        h3{
+            margin: 0 0 30px 0;
+            text-transform: uppercase;
+        }
+    }
+    #pmpro_account{
+        .pmpro_box{
+            margin-top: 0;
+            h3{
+                margin: 20px 0 30px 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+    #pmpro_billing_address_fields,
+    #pmpro_payment_information_fields{
+        thead{
+            th{
+                text-transform: uppercase;
+            }
+        }
+        tbody{
+            label{
+                font-weight: 400;
+                font-size: 15px;
+                text-align: left;
+                width: 175px;
+            }
+            select,input{
+                border-radius: 0;
+                border: 1px solid #eee;
+                padding: 7px 10px;
+                height: 40px;
+                max-width: 230px;
+                outline: none;
+                margin: 0;
+            }
+            select{
+                font-size: 15px;
+            }
+            #ExpirationMonth,#ExpirationYear{
+                width: calc(15% - 3.5px);
+                width: -webkit-calc(15% - 3.5px);
+                width: -moz-calc(15% - 3.5px);
+            }
+            #ExpirationMonth + .pmpro_asterisk{
+                display: none;
+            }
+            .pmpro_error{
+                border-color: #a00;
+                background-color: transparent;
+            }
+        }
+        abbr{
+            color: red;
+            font-weight: 700;
+            border: 0;
+        }
+    }
+    #pmpro_pricing_fields,
+    #pmpro_billing_address_fields,
+    #pmpro_payment_information_fields{
+        thead{
+            tr{
+                th{
+                    border: 1px solid #eee;
+                    padding: 10px 15px;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    padding: 10px 15px;
+                    border: 1px solid #eee;
+                }
+            }
+        }
+    }
+}
+
+#pmpro_account #pmpro_account-membership{
+    padding-top: 0;
+    >h3{
+        margin-top: 0;
+    }
+}
+
+.pmpro_message{
+    color: #31708f;
+    border: 0;
+    border-radius: 0;
+    line-height: 20px;
+    padding: 10px 15px;
+    font-size: 13px;
+    background: #d9edf7;
+}
+
+//addon membership
+.lp_pmpro_courses_by_level{
+    .level-wrap{
+        margin-bottom: 50px;
+        border: 1px solid #EEEEEE;
+        text-align: center;
+        @include transition(all 0.3s ease-in-out);
+        position: relative;
+        &.feature{
+            &:before{
+                background: url(images/pricing-featured.png) no-repeat top right;
+                content: '';
+                position: absolute;
+                width: 51px;
+                height: 51px;
+                top: -3px;
+                right: -3px;
+            }
+
+        }
+        header{
+            text-align: center;
+            .lp_pmpro_title_level{
+                text-transform: uppercase;
+                margin: 0;
+                position: relative;
+                text-align: center;
+                font-size: 18px;
+                color: #FFF;
+                line-height: 62px;
+                padding: 10px 30px;
+                overflow: hidden;
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: -70px;
+                    left: -50px;
+                    right: -50px;
+                    bottom: 0;
+                    z-index: -1;
+                    border-radius: 0 0 50% 50%;
+                    background: #ffb606;
+                }
+            }
+            .lp_pmpro_price_level{
+                text-align: center;
+                padding: 35px 30px 30px;
+                .price{
+                    font-size: 40px;
+                    font-weight: 400;
+                    line-height: 50px;
+                    margin: 0;
+                }
+                .expired{
+                    color: #999;
+                    line-height: 25px;
+                    margin: 0;
+                }
+            }
+        }
+        footer{
+            padding: 25px 30px 40px;
+            text-align: center;
+            a{
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 30px;
+                display: inline-block;
+                padding: 5px 25px;
+            }
+        }
+        main{
+            padding: 0 30px;
+        }
+
+        ul{
+            padding: 0;
+            li{
+                padding: 12px 0;
+                border-top: 1px solid #eee;
+                a{
+                    line-height: 25px;
+                    color: #999;
+                    display: block;
+                }
+            }
+        }
+        &:hover{
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+        }
+    }
+    .navigation{
+        clear: both;
+    }
+}
+
+body #pmpro_account .pmpro_box{
+    border-top: 0;
+}
+
+form.pmpro_form{
+    .pmpro_message{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    table{
+        margin-bottom: 60px;
+    }
+    .pmpro_submit{
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+body{
+    form.pmpro_form .input,
+    form.pmpro_form textarea,
+    form.pmpro_form select{
+        border-color: #eee;
+    }
+    table, td, tr{
+        border-color: #eee;
+    }
+}
+
+.user-info .edit-profile{
+    text-align: center;
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+#learn-press-checkout-user-form{
+    .title{
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+}
+#learn-press-payment{
+    h3{
+        text-transform: uppercase;
+    }
+}
+.tc-megamenu-wrapper > .vc_row {
+    display: flex;
+}
+.tc-megamenu-wrapper > .vc_row > .vc_column_container:last-child:after {
+    display: none;
+}
+.tc-megamenu-wrapper > .vc_row > .vc_column_container:after {
+    content: '';
+    top: 7px;
+    bottom: 5px;
+    width: 1px;
+    position: absolute;
+    background: #eee;
+    right: 1px;
+    min-height: 360px;
+}

@@ -1,0 +1,2 @@
+2019-11-18T13:40:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.2.3-0\apps\wordpress\htdocs\wp-includes\class.wp-dependencies.php on line 343
+

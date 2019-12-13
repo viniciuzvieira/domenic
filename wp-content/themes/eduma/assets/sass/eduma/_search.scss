@@ -1,0 +1,45 @@
+/**
+ * Search
+ * -----------------------------------------------------------------------------
+ */
+.search-results {
+    .content-archive {
+        article {
+            .content-inner {
+                display:       inline-block;
+                width:         100%;
+                border-bottom: 1px solid #e1e8ed;
+                padding:       20px 0;
+                .post-formats-wrapper {
+                    float:        left;
+                    margin-right: 20px;
+                }
+
+                .entry-content {
+                    header {
+                        h3 {
+                            margin: 0 0 10px 0;
+                        }
+                    }
+                }
+            }
+            &:first-child {
+                .content-inner {
+                    padding-top: 0;
+                }
+            }
+            &:last-child {
+                .content-inner {
+                    border-bottom: none;
+                }
+            }
+            &:after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+        }
+    }
+
+}
+/* End Search */

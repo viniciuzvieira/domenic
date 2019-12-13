@@ -1,0 +1,91 @@
+.tc-box {
+	background-color: #fff;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+	margin-bottom: 2em;
+	min-height: 1em;
+
+	&.locked {
+		color: #999;
+		position: relative;
+
+		.box-title, button {
+			color: #bbb;
+		}
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 10;
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	.tc-box-header {
+		border-bottom: 1px solid #eee;
+		box-shadow: 1px 0 1px 1px rgba(0, 0, 0, 0.1);
+		position: relative;
+		z-index: 1;
+		background-color: #fff;
+
+		.tc-box-status {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 4.2em;
+			height: 4.2em;
+			z-index: 9;
+			text-align: center;
+
+			&.lock {
+				color: #F44336;
+			}
+
+			&.unlock {
+				color: #4CAF50;
+			}
+
+			span {
+				font-size: 40px;
+				display: block;
+				line-height: 1;
+				width: 100%;
+				height: 100%;
+
+				&:before {
+					line-height: 1.6em;
+				}
+			}
+		}
+
+		.box-title {
+			margin: 0;
+			padding: 0 5em 0 1em;
+			height: 3.5em;
+			line-height: 3.5em;
+			font-size: 1.2em;
+			font-weight: 600;
+			z-index: 1;
+		}
+	}
+
+	.tc-box-body {
+		padding: 1em;
+		position: relative;
+
+		.video {
+			margin-bottom: 1em;
+		}
+	}
+
+	.tc-box-footer {
+		position: relative;
+		padding: 1em;
+		min-height: 1px;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+}

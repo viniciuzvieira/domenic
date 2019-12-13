@@ -1,0 +1,23 @@
+#wpwrap {
+	.rwmb-tabs-box {
+		.rwmb-tab-nav {
+			li {
+				font-size: 1.15em;
+				padding: 10px 20px;
+
+				&.rwmb-tab-active {
+					background-color: #fff;
+				}
+
+				a {
+					color: #444;
+				}
+			}
+		}
+
+		.rwmb-tab-panel {
+			padding: 30px 20px;
+			background-color: #fff;
+		}
+	}
+}

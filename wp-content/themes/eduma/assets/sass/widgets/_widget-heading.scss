@@ -1,0 +1,82 @@
+/**  Widget Thim Heading  **/
+.sc_heading {
+	position: relative;
+	margin: 0;
+	margin-bottom: 30px;
+	padding-top: 42px;
+	padding-bottom: 19px;
+
+	.title {
+		line-height: 40px;
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0;
+		margin-bottom: 2px;
+	}
+
+	.sub-heading {
+		font-size: 15px;
+		font-weight: 400;
+		margin: 0;
+		line-height: 30px;
+		color: #999;
+	}
+
+	.line {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 1px;
+		background-color: #333;
+		width: 35px;
+	}
+
+	&.text-left {
+		.line {
+			left: 0;
+			right: auto;
+		}
+	}
+
+	&.text-center {
+		.line {
+			right: 0;
+			margin: auto;
+		}
+	}
+
+	&.text-right {
+		right: 0;
+		left: auto;
+	}
+
+	&.clone_title {
+		.title {
+			text-transform: capitalize;
+			position: relative;
+			z-index: 1;
+			display: inline-block;
+		}
+
+		.clone {
+
+			font-size: 80px;
+			line-height: 80px;
+			font-weight: 700;
+			width: 100%;
+			opacity: 0.05;
+			position: absolute;
+			bottom: 22px;
+			color: #333333;
+			text-transform: capitalize;
+			left: 10px;
+		}
+
+		&.text-center {
+			.clone {
+				left: 50%;
+				@include translate(-50%, 0);
+			}
+		}
+	}
+}

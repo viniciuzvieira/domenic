@@ -1,0 +1,15 @@
+/**
+ * _widgets.css
+ *
+ * Style for the theme's widgets using customize's variables
+ *
+ * Index
+ * - Courses Filter
+ */
+
+/**
+ * Course Filter
+ */
+aside.widget_course-filters .filter-title::after {
+	background-color: $thim_thim_body_primary_color;
+}

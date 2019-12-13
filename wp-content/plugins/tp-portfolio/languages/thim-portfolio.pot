@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-20 14:52+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/class-tp-post-types.php:40
+msgctxt "General Name"
+msgid "Projects"
+msgstr ""
+
+#: inc/class-tp-post-types.php:41
+msgctxt "Singular Name"
+msgid "Project"
+msgstr ""
+
+#: inc/class-tp-post-types.php:42
+msgid "Portfolio"
+msgstr ""
+
+#: inc/class-tp-post-types.php:43
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: inc/class-tp-post-types.php:44
+msgid "All Projects"
+msgstr ""
+
+#: inc/class-tp-post-types.php:45
+msgid "View Project"
+msgstr ""
+
+#: inc/class-tp-post-types.php:46
+msgid "Add New Project"
+msgstr ""
+
+#: inc/class-tp-post-types.php:47
+msgid "New Project"
+msgstr ""
+
+#: inc/class-tp-post-types.php:48
+msgid "Edit Project"
+msgstr ""
+
+#: inc/class-tp-post-types.php:49
+msgid "Update Portfolio"
+msgstr ""
+
+#: inc/class-tp-post-types.php:50
+msgid "Search Projects"
+msgstr ""
+
+#: inc/class-tp-post-types.php:51
+msgid "No Projects found"
+msgstr ""
+
+#: inc/class-tp-post-types.php:52
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: inc/class-tp-post-types.php:71
+msgctxt "Taxonomy General Name"
+msgid "Project Types"
+msgstr ""
+
+#: inc/class-tp-post-types.php:72
+msgctxt "Taxonomy Singular Name"
+msgid "Project Type"
+msgstr ""
+
+#: inc/class-tp-post-types.php:73
+msgid "Project Types"
+msgstr ""
+
+#: inc/class-tp-post-types.php:74
+msgid "All Project Types"
+msgstr ""
+
+#: inc/class-tp-post-types.php:75
+msgid "Parent Project Type"
+msgstr ""
+
+#: inc/class-tp-post-types.php:76
+msgid "Parent Project Type:"
+msgstr ""
+
+#: inc/class-tp-post-types.php:77
+msgid "New Project Type Name"
+msgstr ""
+
+#: inc/class-tp-post-types.php:78
+msgid "Add New Project Type"
+msgstr ""
+
+#: inc/class-tp-post-types.php:79
+msgid "Edit Project Type"
+msgstr ""
+
+#: inc/class-tp-post-types.php:80
+msgid "Update Project Type"
+msgstr ""
+
+#: inc/class-tp-post-types.php:81
+msgid "Separate Project Types with commas"
+msgstr ""
+
+#: inc/class-tp-post-types.php:82
+msgid "Search Project Types"
+msgstr ""
+
+#: inc/class-tp-post-types.php:83
+msgid "Add or remove Project Types"
+msgstr ""
+
+#: inc/class-tp-post-types.php:84
+msgid "Choose from the most used Project Types"
+msgstr ""
+
+#: inc/class-tp-post-types.php:110
+#, php-format
+msgid "Portfolio updated. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: inc/class-tp-post-types.php:111
+msgid "Custom field updated."
+msgstr ""
+
+#: inc/class-tp-post-types.php:112
+msgid "Custom field deleted."
+msgstr ""
+
+#: inc/class-tp-post-types.php:113
+msgid "Portfolio updated."
+msgstr ""
+
+#: inc/class-tp-post-types.php:114
+#, php-format
+msgid "Portfolio restored to revision from %s"
+msgstr ""
+
+#: inc/class-tp-post-types.php:115
+#, php-format
+msgid "Portfolio published. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: inc/class-tp-post-types.php:116
+msgid "Portfolio saved."
+msgstr ""
+
+#: inc/class-tp-post-types.php:117
+#, php-format
+msgid ""
+"Portfolio submitted. <a target=\"_blank\" href=\"%s\">Preview Portfolio</a>"
+msgstr ""
+
+#: inc/class-tp-post-types.php:118
+#, php-format
+msgid ""
+"Portfolio scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Portfolio</a>"
+msgstr ""
+
+#: inc/class-tp-post-types.php:118
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: inc/class-tp-post-types.php:119
+#, php-format
+msgid ""
+"Portfolio draft updated. <a target=\"_blank\" href=\"%s\">Preview Portfolio</"
+"a>"
+msgstr ""
+
+#: inc/class-tp-post-types.php:135
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/class-tp-post-types.php:139
+msgid "Multigrid Size"
+msgstr ""
+
+#: inc/class-tp-post-types.php:142
+msgid "This config will working for portfolio layout style."
+msgstr ""
+
+#: inc/class-tp-post-types.php:153
+msgid "Portfolio Type"
+msgstr ""
+
+#: inc/class-tp-post-types.php:157
+msgid "Image"
+msgstr ""
+
+#: inc/class-tp-post-types.php:158
+msgid "Slider"
+msgstr ""
+
+#: inc/class-tp-post-types.php:159 inc/class-tp-post-types.php:174
+msgid "Video"
+msgstr ""
+
+#: inc/class-tp-post-types.php:160
+msgid "Left Floating Sidebar"
+msgstr ""
+
+#: inc/class-tp-post-types.php:161
+msgid "Right Floating Sidebar"
+msgstr ""
+
+#: inc/class-tp-post-types.php:162
+msgid "Gallery"
+msgstr ""
+
+#: inc/class-tp-post-types.php:163
+msgid "Sidebar Slider"
+msgstr ""
+
+#: inc/class-tp-post-types.php:164
+msgid "Vertical Stacked"
+msgstr ""
+
+#: inc/class-tp-post-types.php:165
+msgid "Page Builder"
+msgstr ""
+
+#: inc/class-tp-post-types.php:186
+msgid "Video URL or own Embedd Code<br />(Audio Embedd Code is possible, too)"
+msgstr ""
+
+#: inc/class-tp-post-types.php:188
+msgid ""
+"Just paste the ID of the video (E.g. http://www.youtube.com/watch?"
+"v=<strong>GUEZCxBcM78</strong>) you want to show, or insert own Embed Code. "
+"<br />This will show the Video <strong>INSTEAD</strong> of the Image Slider."
+"<br /><strong>Of course you can also insert your Audio Embedd Code!</"
+"strong><br /><br /><strong>Notice:</strong> The Preview Image will be the "
+"Image set as Featured Image.."
+msgstr ""
+
+#: inc/class-tp-post-types.php:197 inc/class-tp-post-types.php:206
+msgid "Upload Image"
+msgstr ""
+
+#: inc/class-tp-post-types.php:198 inc/class-tp-post-types.php:207
+msgid ""
+"Upload up images for a slideshow - or only one to display a single image. "
+"<br /><br /><strong>Notice:</strong> The Preview Image will be the Image set "
+"as Featured Image."
+msgstr ""
+
+#: inc/functions.php:72
+msgid "VIEW OTHER RELATED ITEMS"
+msgstr ""
+
+#: libraries/meta-boxes/thim-meta-box.php:434
+#: libraries/meta-boxes/thim-meta-box.php:531
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: templates/archive-portfolio.php:173
+msgid "All"
+msgstr ""
+
+#: templates/single-portfolio.php:85
+#: templates/type/right-floating-sidebar.php:43
+#: templates/type/sidebar-slider.php:42
+msgid "Project description"
+msgstr ""
+
+#: templates/type/content-portfolio.php:51 templates/type/gallery.php:41
+#: templates/type/left-floating-sidebar.php:41
+#: templates/type/right-floating-sidebar.php:72
+#: templates/type/sidebar-slider.php:71 templates/type/vertical-stacked.php:13
+msgid "Pages:"
+msgstr ""
+
+#: templates/type/left-floating-sidebar.php:35
+msgid "Project URL"
+msgstr ""

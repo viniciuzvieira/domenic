@@ -1,0 +1,72 @@
+.tc-documentation-wrapper {
+	.list-boxes {
+		margin-bottom: -20px;
+	}
+
+	.box {
+		margin-bottom: 20px;
+		position: relative;
+
+		&:last-child {
+			margin-bottom: 30px;
+		}
+
+		&:after {
+			content: '';
+			clear: both;
+			display: table;
+		}
+
+		.description {
+			font-style: normal;
+		}
+
+		.left {
+			position: absolute;
+			top: 0;
+			left: 0;
+			line-height: 2em;
+
+			span {
+				font-size: 40px;
+				display: block;
+				color: #777;
+				position: relative;
+				top: 5px;
+			}
+		}
+
+		.right {
+			padding-left: 55px;
+
+			h3 {
+				line-height: 30px;
+				margin: 0;
+				font-size: 1.1em;
+				font-weight: 500;
+			}
+
+			> a {
+				float: right;
+				font-size: 12px;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+					&:after{
+						text-decoration: none;
+					}
+				}
+
+				&:after {
+					content: "\f139";
+					font-family: Dashicons;
+					position: relative;
+					top: 0;
+					vertical-align: middle;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

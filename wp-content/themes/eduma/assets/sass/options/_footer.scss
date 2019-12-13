@@ -1,0 +1,72 @@
+/*== Footer ==*/
+footer#colophon {
+	background: $thim_thim_footer_bg_color;
+	&.footer-bg-image{
+		background-repeat: $thim_thim_footer_bg_repeat;
+		background-position: $thim_thim_footer_bg_position;
+		background-size: $thim_thim_footer_bg_size;
+		background-attachment: $thim_thim_footer_bg_attachment;
+		background-image: url($thim_thim_footer_background_img);
+	}
+}
+
+footer#colophon .footer,
+footer#colophon .footer .thim-footer-location .info .fa {
+  color: $thim_thim_footer_color_text;
+}
+
+footer#colophon .footer .thim-footer-location .social a,
+footer#colophon .footer a,
+footer#colophon .copyright-area .text-copyright a,
+.thim-social li a{
+	color: $thim_thim_footer_color_link;
+}
+footer#colophon.thim-footer-new-eduma .copyright-area .text-copyright a {
+	color: $thim_thim_body_primary_color;
+}
+footer#colophon .footer .thim-footer-location .social a:hover,
+footer#colophon .footer a:hover,
+.thim-social li a:hover{
+  color: $thim_thim_footer_color_hover!important;
+}
+
+footer#colophon .footer .thim-footer-location .social a,
+.thim-social li a {
+	border-color: $thim_thim_footer_color_text;
+}
+
+
+footer#colophon .footer .widget-title,
+footer#colophon .footer .elementor-widget-wp-widget-text .elementor-widget-container >h3,
+footer#colophon .footer .elementor-widget-wp-widget-text .elementor-widget-container >h5,
+.thim-demo-university-3 .footer_widget .elementor-widget-wp-widget-text .elementor-widget-container >h3,
+footer#colophon.thim-footer-new-eduma .footer .elementor-widget-wp-widget-text .elementor-widget-container >h3,
+.thim-demo-university-4 .footer_widget .elementor-widget-wp-widget-text .elementor-widget-container >h3,
+footer#colophon.thim-footer-new-eduma .footer .elementor-widget-wp-widget-text .elementor-widget-container >h5,
+.thim-demo-university-4 .footer_widget .elementor-widget-wp-widget-text .elementor-widget-container >h5,
+.thim-demo-university-3 .footer_widget .elementor-widget-wp-widget-text .elementor-widget-container >h5{
+	color: $thim_thim_footer_color_title;
+}
+
+footer#colophon .footer .thim-footer-location .info a{
+	color: $thim_thim_footer_color_link;
+}
+
+footer#colophon .footer a:hover{
+	color: $thim_thim_footer_color_hover;
+}
+
+//Copyright options
+footer#colophon .copyright-area {
+	background: $thim_thim_copyright_bg_color;
+}
+
+footer#colophon .copyright-area .copyright-content {
+	border-top-color: $thim_thim_copyright_border_color;
+}
+
+footer#colophon .copyright-area,
+footer#colophon .copyright-area ul li a,
+footer#colophon .copyright-area ul li a:hover{
+	color: $thim_thim_copyright_text_color;
+}

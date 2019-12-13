@@ -1,0 +1,51 @@
+.thim-course-filter-wrapper {
+	border: solid 1px #e5e5e5;
+
+	&::before, &::after {
+		display: none;
+	}
+}
+
+form.thim-course-filter {
+	margin-bottom: 20px;
+
+	label {
+		cursor: pointer;
+		font-size: 13px;
+
+		span {
+			display: inline-block;
+		}
+	}
+
+	ul {
+		margin: 0;
+	}
+
+	&::before, &::after{
+		content: none;
+	}
+
+	form.thim-course-filter {
+		margin-bottom: 20px;
+	}
+
+	.filter-title {
+		position: relative;
+		margin-bottom: 20px;
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+			width: 36px;
+			height: 3px;
+		}
+	}
+
+	.filter-submit {
+		text-align: center;
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,248 @@
+.thim-carousel-list-instructors {
+	margin-bottom: -160px;
+	.instructor-item {
+		padding-bottom: 30px;
+		padding-right: 20px;
+		padding-left: 20px;
+		.avatar_item {
+			@include transition();
+		}
+		.wrap-item {
+			background-color: #FFF;
+			box-shadow: 6px 4px 18px rgba(0, 0, 0, 0.08);
+			text-align: center;
+			position: relative;
+			padding-bottom: 155px;
+			overflow: hidden;
+			&:hover {
+
+				.instructor-info {
+					bottom: 0;
+				}
+
+				.avatar_item {
+					@include transform(translate(0, -25px));
+				}
+			}
+		}
+		.job {
+			display: none;
+		}
+		.name {
+			margin-bottom: 7px;
+			margin-top: 25px;
+			font-size: 22px;
+			font-weight: 300;
+			a {
+				&:hover {
+					color: #333;
+				}
+			}
+		}
+		.description {
+			font-size: 16px;
+			line-height: 26px;
+			margin-bottom: 40px;
+		}
+		.info_ins {
+			margin: 0 30px;
+			padding: 15px 0;
+			border-top: 1px solid #eee;
+			color: #999;
+			.reviews {
+				text-align: left;
+			}
+			.students {
+				text-align: right;
+			}
+			span {
+				font-size: 22px;
+				margin-right: 5px;
+			}
+			> .row {
+				margin-right: 0;
+				margin-left: 0;
+				> div {
+					padding: 0;
+				}
+			}
+		}
+		.instructor-info {
+			position: absolute;
+			bottom: -60px;
+			left: 0;
+			right: 0;
+			padding: 0;
+			background-color: #FFF;
+			@include transition();
+		}
+		.description {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.owl-controls {
+		.owl-buttons {
+			> div {
+				position: absolute;
+				top: 50%;
+				width: 50px;
+				line-height: 50px;
+				height: auto;
+				margin: 0;
+				border: none;
+				margin-top: -25px;
+				border-radius: 50%;
+				background-color: rgba(255, 255, 255, 0.7);
+				@include transition();
+				i {
+					line-height: 50px;
+					font-size: 16px;
+					color: #FFF;
+					&:before {
+						font-family: 'Linearicons';
+					}
+				}
+				&.owl-prev {
+					left: -70px;
+					i {
+						&:before {
+							content: "\e93b";
+						}
+					}
+				}
+				&.owl-next {
+					right: -70px;
+					i {
+						&:before {
+							content: "\e93c";
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.thim-instructors-new {
+	.instructor-item {
+		position: relative;
+		padding-right: 55px;
+		padding-left: 55px;
+		.instructor-image {
+			text-align: right;
+		}
+		.instructor-info {
+			position: absolute;
+			width: 550px;
+			left: 60px;
+			background-color: #fff;
+			top: 50%;
+			padding: 50px 30px;
+			-ms-transform: translate(0, -50%); /* IE 9 */
+			-webkit-transform: translate(0, -50%); /* Safari */
+			transform: translate(0, -50%);
+			box-shadow: 12px 2px 28px rgba(0, 0, 0, 0.12);
+			h4 {
+				text-transform: uppercase;
+				font-size: 26px;
+				margin-bottom: 20px;
+				font-weight: 400;
+				margin-top: 0;
+				a {
+					color: #333;
+				}
+			}
+			.des {
+				color: grey;
+				font-size: 16px;
+				line-height: 26px;
+			}
+			.list-courses {
+				> h3 {
+					font-size: 18px;
+					font-weight: 400;
+					color: #333;
+				}
+				.course-instructor {
+					margin-top: 22px;
+					border: 1px solid #eee;
+					@include transition();
+					&:hover {
+						box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.1);
+					}
+					img {
+						display: inline-block;
+						width: 100px;
+						margin-right: 20px;
+					}
+					h5 {
+						font-weight: 400;
+						font-size: 16px;
+						display: inline-block;
+						width: calc(100% - 120px);
+						a {
+							color: #333;
+						}
+					}
+					&:hover {
+						h5 {
+							a {
+								color: #3b93f7;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.owl-controls {
+		position: absolute;
+		bottom: 20px;
+		right: 75px;
+		.owl-buttons {
+			> div {
+				width: 40px;
+				line-height: 37px;
+				height: auto;
+				margin: 0;
+				margin-left: 10px;
+				border: 1px solid #d6d6d6;
+				color: #d6d6d6;
+				border-radius: 50%;
+				box-shadow: 8px 0 12px rgba(0, 0, 0, 0.08);
+				background-color: rgba(255, 255, 255, 0.7);
+				@include transition();
+				i {
+					line-height: 37px;
+					font-size: 16px;
+					color: #d6d6d6;
+					&:before {
+						font-family: 'Linearicons';
+					}
+				}
+				&.owl-prev {
+					i {
+						&:before {
+							content: "\e93b";
+						}
+					}
+				}
+				&.owl-next {
+					i {
+						&:before {
+							content: "\e93c";
+						}
+					}
+				}
+				&:hover {
+					background-color: #3b93f7;
+					border-color: #3b93f7;
+					i {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}

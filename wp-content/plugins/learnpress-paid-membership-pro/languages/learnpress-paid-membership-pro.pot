@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-31 09:03+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: learnpress-paid-membership-pro.php:184
+#: inc/classes/setting-membership.php:14
+msgid "Memberships"
+msgstr ""
+
+#: learnpress-paid-membership-pro.php:242
+msgid "Course Memberships"
+msgstr ""
+
+#: learnpress-paid-membership-pro.php:246
+msgid "Select Membership Levels"
+msgstr ""
+
+#: learnpress-paid-membership-pro.php:251
+msgid "Select membership levels"
+msgstr ""
+
+#: learnpress-paid-membership-pro.php:328
+#, php-format
+msgid ""
+"<strong>Paid Membership Pro</strong> addon version %s requires LearnPress "
+"version %s or higher"
+msgstr ""
+
+#: inc/order.php:142
+msgid "Membership"
+msgstr ""
+
+#: inc/order.php:717
+msgid "Order on"
+msgstr ""
+
+#: inc/order.php:722
+msgid "Memberships Level"
+msgstr ""
+
+#: inc/classes/setting-membership.php:28
+msgid "Settings"
+msgstr ""
+
+#: inc/classes/setting-membership.php:45
+msgid "Paid Memberships Pro add-on for LearnPress"
+msgstr ""
+
+#: inc/classes/setting-membership.php:49
+msgid "Always buy the course through membership"
+msgstr ""
+
+#: inc/classes/setting-membership.php:55
+msgid "Button Buy Course"
+msgstr ""
+
+#: inc/classes/setting-membership.php:61
+msgid "Button Buy Membership"
+msgstr ""
+
+#: inc/pmpro-admin/tmp/edit.php:9
+msgid "Courses Settings"
+msgstr ""
+
+#: inc/pmpro-admin/tmp/edit.php:13
+msgid "Courses"
+msgstr ""
+
+#: templates/pages/billing.php:28
+#, php-format
+msgid "Logged in as <strong>%s</strong>."
+msgstr ""
+
+#: templates/pages/billing.php:30
+msgid "logout"
+msgstr ""
+
+#: templates/pages/billing.php:34 templates/pages/cancel.php:52
+#: templates/pages/invoice.php:118
+msgid "Level"
+msgstr ""
+
+#: templates/pages/billing.php:36
+msgid "Membership Fee"
+msgstr ""
+
+#: templates/pages/billing.php:40
+#, php-format
+msgid "%s every %d %s."
+msgstr ""
+
+#: templates/pages/billing.php:42
+#, php-format
+msgid "%s per %s."
+msgstr ""
+
+#: templates/pages/billing.php:52
+msgid "Duration"
+msgstr ""
+
+#: templates/pages/billing.php:63
+msgid ""
+"Your payment subscription is managed by PayPal. Please <a href=\"http://www."
+"paypal.com\">login to PayPal here</a> to update your billing information."
+msgstr ""
+
+#: templates/pages/billing.php:84 templates/pages/checkout.php:327
+#: templates/pages/confirmation.php:78 templates/pages/invoice.php:55
+msgid "Billing Address"
+msgstr ""
+
+#: templates/pages/billing.php:91 templates/pages/checkout.php:334
+msgid "First Name"
+msgstr ""
+
+#: templates/pages/billing.php:95 templates/pages/checkout.php:338
+msgid "Last Name"
+msgstr ""
+
+#: templates/pages/billing.php:99 templates/pages/checkout.php:342
+msgid "Address 1"
+msgstr ""
+
+#: templates/pages/billing.php:103 templates/pages/checkout.php:346
+msgid "Address 2"
+msgstr ""
+
+#: templates/pages/billing.php:105
+msgid "optional"
+msgstr ""
+
+#: templates/pages/billing.php:113 templates/pages/checkout.php:355
+msgid "City"
+msgstr ""
+
+#: templates/pages/billing.php:117 templates/pages/checkout.php:359
+msgid "State"
+msgstr ""
+
+#: templates/pages/billing.php:121 templates/pages/checkout.php:363
+msgid "Postal Code"
+msgstr ""
+
+#: templates/pages/billing.php:128 templates/pages/checkout.php:370
+msgid "City, State Zip"
+msgstr ""
+
+#: templates/pages/billing.php:173 templates/pages/checkout.php:415
+msgid "Country"
+msgstr ""
+
+#: templates/pages/billing.php:196 templates/pages/checkout.php:438
+msgid "Phone"
+msgstr ""
+
+#: templates/pages/billing.php:209 templates/pages/checkout.php:232
+#: templates/pages/checkout.php:453
+msgid "E-mail Address"
+msgstr ""
+
+#: templates/pages/billing.php:213 templates/pages/checkout.php:461
+msgid "Confirm E-mail"
+msgstr ""
+
+#: templates/pages/billing.php:240
+msgid "Credit Card Information"
+msgstr ""
+
+#: templates/pages/billing.php:241
+#, php-format
+msgid "We accept %s"
+msgstr ""
+
+#: templates/pages/billing.php:262 templates/pages/checkout.php:517
+msgid "Card Type"
+msgstr ""
+
+#: templates/pages/billing.php:305 templates/pages/checkout.php:560
+msgid "Card Number"
+msgstr ""
+
+#: templates/pages/billing.php:310 templates/pages/checkout.php:565
+msgid "Expiration Date"
+msgstr ""
+
+#: templates/pages/billing.php:346 templates/pages/checkout.php:594
+msgid "CVV"
+msgstr ""
+
+#: templates/pages/billing.php:350 templates/pages/checkout.php:598
+msgid "what's this?"
+msgstr ""
+
+#: templates/pages/billing.php:396
+msgid "Update"
+msgstr ""
+
+#: templates/pages/billing.php:397 templates/pages/cancel.php:76
+msgid "Cancel"
+msgstr ""
+
+#: templates/pages/billing.php:413
+msgid ""
+"This subscription is not recurring. So you don't need to update your billing "
+"information."
+msgstr ""
+
+#: templates/pages/cancel.php:30
+msgid "Are you sure you want to cancel your membership?"
+msgstr ""
+
+#: templates/pages/cancel.php:35
+#, php-format
+msgid "Are you sure you want to cancel your %s membership?"
+msgid_plural "Are you sure you want to cancel your %s memberships?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/pages/cancel.php:40
+msgid "Yes, cancel this membership"
+msgstr ""
+
+#: templates/pages/cancel.php:41
+msgid "No, keep this membership"
+msgstr ""
+
+#: templates/pages/cancel.php:48
+msgid "My Memberships"
+msgstr ""
+
+#: templates/pages/cancel.php:53 templates/pages/confirmation.php:102
+#: templates/pages/invoice.php:79
+msgid "Expiration"
+msgstr ""
+
+#: templates/pages/cancel.php:85
+msgid "Cancel All Memberships"
+msgstr ""
+
+#: templates/pages/cancel.php:93
+msgid "Click here to go to the home page."
+msgstr ""
+
+#: templates/pages/checkout.php:33
+msgid ""
+"Almost done. Review the membership information and pricing below then "
+"<strong>click the \"Complete Payment\" button</strong> to finish your order."
+msgstr ""
+
+#: templates/pages/checkout.php:40 templates/pages/confirmation.php:59
+#: templates/pages/confirmation.php:81 templates/pages/confirmation.php:134
+#: templates/pages/invoice.php:29 templates/pages/invoice.php:58
+msgid "Membership Level"
+msgstr ""
+
+#: templates/pages/checkout.php:42
+msgid "change"
+msgstr ""
+
+#: templates/pages/checkout.php:51
+#, php-format
+msgid "You have selected the <strong>%s</strong> membership level."
+msgstr ""
+
+#: templates/pages/checkout.php:70
+#, php-format
+msgid ""
+"<p class=\"pmpro_level_discount_applied\">The <strong>%s</strong> code has "
+"been applied to your order.</p>"
+msgstr ""
+
+#: templates/pages/checkout.php:82
+msgid "Click here to change your discount code"
+msgstr ""
+
+#: templates/pages/checkout.php:85
+msgid "Do you have a discount code?"
+msgstr ""
+
+#: templates/pages/checkout.php:86
+msgid "Click here to enter your discount code"
+msgstr ""
+
+#: templates/pages/checkout.php:90 templates/pages/checkout.php:101
+#: templates/pages/checkout.php:605 templates/pages/confirmation.php:68
+#: templates/pages/invoice.php:38
+msgid "Discount Code"
+msgstr ""
+
+#: templates/pages/checkout.php:103 templates/pages/checkout.php:607
+msgid "Apply"
+msgstr ""
+
+#: templates/pages/checkout.php:189
+msgid "Account Information"
+msgstr ""
+
+#: templates/pages/checkout.php:190
+msgid "Already have an account?"
+msgstr ""
+
+#: templates/pages/checkout.php:191
+msgid "Log in here"
+msgstr ""
+
+#: templates/pages/checkout.php:199
+msgid "Username"
+msgstr ""
+
+#: templates/pages/checkout.php:208
+msgid "Password"
+msgstr ""
+
+#: templates/pages/checkout.php:216
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/pages/checkout.php:240
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: templates/pages/checkout.php:257
+msgid "Full Name"
+msgstr ""
+
+#: templates/pages/checkout.php:259
+msgid "LEAVE THIS BLANK"
+msgstr ""
+
+#: templates/pages/checkout.php:282
+#, php-format
+msgid ""
+"You are logged in as <strong>%s</strong>. If you would like to use a "
+"different account for this membership, <a href=\"%s\">log out now</a>."
+msgstr ""
+
+#: templates/pages/checkout.php:298
+msgid "Choose your Payment Method"
+msgstr ""
+
+#: templates/pages/checkout.php:307
+msgid "Check Out with a Credit Card Here"
+msgstr ""
+
+#: templates/pages/checkout.php:311
+msgid "Check Out with PayPal"
+msgstr ""
+
+#: templates/pages/checkout.php:495
+msgid "Payment Information"
+msgstr ""
+
+#: templates/pages/checkout.php:496
+#, php-format
+msgid "We Accept %s"
+msgstr ""
+
+#: templates/pages/checkout.php:678
+#, php-format
+msgid "I agree to the %s"
+msgstr ""
+
+#: templates/pages/checkout.php:698
+msgid "Complete Payment"
+msgstr ""
+
+#: templates/pages/checkout.php:710
+msgid "Submit and Check Out"
+msgstr ""
+
+#: templates/pages/checkout.php:712
+msgid "Submit and Confirm"
+msgstr ""
+
+#: templates/pages/checkout.php:723
+msgid "Processing..."
+msgstr ""
+
+#: templates/pages/confirmation.php:11
+msgid ""
+"Your payment has been submitted. Your membership will be activated shortly."
+msgstr ""
+
+#: templates/pages/confirmation.php:13
+#, php-format
+msgid "Thank you for your membership to %s. Your %s membership is now active."
+msgstr ""
+
+#: templates/pages/confirmation.php:29
+#, php-format
+msgid ""
+"Below are details about your membership account and a receipt for your "
+"initial membership invoice. A welcome email with a copy of your initial "
+"membership invoice has been sent to %s."
+msgstr ""
+
+#: templates/pages/confirmation.php:50 templates/pages/invoice.php:20
+#, php-format
+msgid "Invoice #%s on %s"
+msgstr ""
+
+#: templates/pages/confirmation.php:52 templates/pages/invoice.php:22
+msgid "Print"
+msgstr ""
+
+#: templates/pages/confirmation.php:56 templates/pages/confirmation.php:131
+#: templates/pages/invoice.php:26
+msgid "Account"
+msgstr ""
+
+#: templates/pages/confirmation.php:63 templates/pages/invoice.php:33
+msgid "Membership Expires"
+msgstr ""
+
+#: templates/pages/confirmation.php:80 templates/pages/invoice.php:57
+msgid "Payment Method"
+msgstr ""
+
+#: templates/pages/confirmation.php:82 templates/pages/invoice.php:59
+#: templates/pages/invoice.php:119
+msgid "Total Billed"
+msgstr ""
+
+#: templates/pages/confirmation.php:100 templates/pages/invoice.php:77
+msgid "ending in"
+msgstr ""
+
+#: templates/pages/confirmation.php:118
+#, php-format
+msgid ""
+"Below are details about your membership account. A welcome email has been "
+"sent to %s."
+msgstr ""
+
+#: templates/pages/confirmation.php:137
+msgid "Pending"
+msgstr ""
+
+#: templates/pages/confirmation.php:146 templates/pages/invoice.php:151
+msgid "View Your Membership Account &rarr;"
+msgstr ""
+
+#: templates/pages/confirmation.php:148
+msgid ""
+"If your account is not activated within a few minutes, please contact the "
+"site owner."
+msgstr ""
+
+#: templates/pages/course-notice.php:26
+msgid "Buy Membership"
+msgstr ""
+
+#: templates/pages/invoice.php:88
+msgid "Subtotal"
+msgstr ""
+
+#: templates/pages/invoice.php:90
+msgid "Tax"
+msgstr ""
+
+#: templates/pages/invoice.php:93
+msgid "Coupon"
+msgstr ""
+
+#: templates/pages/invoice.php:96
+msgid "Total"
+msgstr ""
+
+#: templates/pages/invoice.php:116
+msgid "Date"
+msgstr ""
+
+#: templates/pages/invoice.php:117
+msgid "Invoice #"
+msgstr ""
+
+#: templates/pages/invoice.php:144
+msgid "No invoices found."
+msgstr ""
+
+#: templates/pages/invoice.php:155
+msgid "&larr; View All Invoices"
+msgstr ""
+
+#: templates/pages/levels.php:37
+msgid "Free"
+msgstr ""
+
+#: templates/pages/levels.php:51
+msgid "Number of courses"
+msgstr ""
+
+#: templates/pages/levels.php:107
+msgid "GET IT NOW"
+msgstr ""
+
+#: templates/pages/levels.php:113
+msgid "Renew"
+msgstr ""
+
+#: templates/pages/levels.php:117
+msgid "Your Level"
+msgstr ""

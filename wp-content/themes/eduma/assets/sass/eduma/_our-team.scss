@@ -1,0 +1,125 @@
+article.our_team{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    .image{
+        width: 200px;
+        float: left;
+        img{
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+    }
+    .content{
+        float: left;
+        width: calc(100% - 470px);
+        width: -webkit-calc(100% - 470px);
+        width: -moz-calc(100% - 470px);
+        padding: 0 30px;
+        .title{
+            margin: 0;
+            font-size: 20px;
+        }
+        .regency{
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 700;
+            color: #999;
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .extra-info{
+        border-left: 1px solid #eee;
+        width: 270px;
+        float: left;
+        padding: 45px 0 50px 30px;
+
+        .email,.phone{
+            a{
+                color: #666;
+                &:hover{
+                    color: #666;
+                    text-decoration: underline;
+                }
+            }
+            margin-bottom: 25px;
+            .fa{
+                margin-right: 8px;
+            }
+        }
+        .thim-social{
+            margin: 0;
+            padding-top: 5px;
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+        }
+    }
+}
+.thim-other-member{
+    position: relative;
+    .thim-carousel-wrapper:not(.has-next-slider){
+        .owl-carousel .owl-item{
+            float: none;
+            display: inline-block;
+        }
+    }
+    &.wrapper-lists-our-team{
+        margin-bottom: 0;
+        .our-team-item{
+            margin-bottom: 0;
+        }
+    }
+    .box-title{
+        text-transform: uppercase;
+        line-height: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 70px 0 50px;
+    }
+    .owl-controls{
+        margin-top: 25px;
+    }
+    .owl-buttons{
+        .owl-prev,
+        .owl-next{
+            border: 1px solid #666;
+            width: 30px;
+            height: 30px;
+            line-height: 28px;
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            left: 0;
+            text-align: center;
+            @include transition(all .3s ease-in-out);
+            @include opacity(0);
+            @include translate(10px, 0);
+            .fa{
+                font-size: 8px;
+                color: #666;
+                line-height: 28px;
+                display: block;
+            }
+        }
+        .owl-next{
+            left: auto;
+            right: 0;
+            @include translate(-10px, 0);
+        }
+    }
+    &:hover{
+        .owl-buttons{
+            .owl-prev,
+            .owl-next{
+                @include opacity(1);
+                @include translate(0,0);
+            }
+        }
+    }
+}

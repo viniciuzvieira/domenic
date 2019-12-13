@@ -1,0 +1,142 @@
+
+.widget-area.sidebar-events{
+    .widget_book-event{
+        padding: 0;
+        &:before,
+        &:after{
+            display: none;
+        }
+        ul{
+            li{
+                text-transform: none;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 52px;
+                clear: both;
+                border-bottom: 1px solid #eee;
+                overflow: hidden;
+                .label{
+                    display: inline-block;
+                }
+                .value{
+                    display: inline-block;
+                    font-weight: 700;
+                    float: right;
+                }
+                input[type="number"] {
+                    width: 55px;
+                    line-height: 30px;
+                    border: 1px solid #eee;
+                    padding: 0 0 0 10px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+                &.event-cost{
+                    .value{
+                        font-size: 18px;
+                    }
+                    .free{
+                        color: #54b551;
+                    }
+                }
+                &.event-payment{
+                    .value{
+                        float: none;
+                        display: block;
+                    }
+                    label{
+                        margin-bottom: 0;
+                        &[for=payment_method_woo_payment]{
+                            img{
+                                padding: 0 15px 0 15px;
+                            }
+                        }
+                    }
+                }
+                input[type=radio],
+                input[type=checkbox]{
+                    border-color: #ccc;
+                }
+            }
+        }
+        .event_register_foot{
+            text-align: center;
+            padding: 40px 0;
+            .event_register_submit{
+                &.event-register-loading{
+                    position: relative;
+                    @include opacity(0.7);
+                    &:before{
+                        line-height: 40px;
+                        top: 0;
+                        right: 0;
+                        content: "\f110";
+                        font-family: FontAwesome;
+                        left: 0;
+                        margin: auto;
+                        -webkit-animation: fa-spin 1s infinite steps(8);
+                        animation: fa-spin 1s infinite steps(8);
+                        color: #fff;
+                        vertical-align: top;
+                        -webkit-font-smoothing: antialiased;
+                        font-weight: 400;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+
+        .event_auth_register_message_error{
+            color: #a94442;
+            background: #f2dede;
+            margin: 20px 0 0;
+            border: 0;
+            text-align: center;
+            border-radius: 0;
+            line-height: 20px;
+            padding: 10px 0;
+            font-size: 13px;
+        }
+    }
+    .book-title{
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 72px;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        &:before{
+            content: '';
+            position: absolute;
+            left: 50%;
+            right: 0;
+            bottom: -10px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            margin-left: -10px;
+        }
+    }
+    .event_register_area{
+        padding: 16px 20px 0;
+        border: 1px solid #eee;
+        border-top: 0;
+
+        ul {
+            margin: 0;
+        }
+
+        .event_auth_payment_methods {
+            display: flex;
+            align-items: center;
+
+            > input[type=radio] {
+                margin-right: 10px;
+            }
+        }
+    }
+}

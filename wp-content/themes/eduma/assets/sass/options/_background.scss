@@ -1,0 +1,12 @@
+body.boxed-area{
+	&.bg-boxed-image{
+		background-repeat: $thim_thim_bg_repeat;
+		background-position: $thim_thim_bg_position;
+		background-attachment: $thim_thim_bg_attachment;
+		background-size: $thim_thim_bg_size;
+		background-image: url($thim_thim_bg_upload);
+	}
+	&.bg-boxed-pattern{
+		background-image: url($thim_thim_bg_pattern);
+	}
+}

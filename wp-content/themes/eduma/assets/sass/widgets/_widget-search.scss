@@ -1,0 +1,68 @@
+/* search */
+.search-form {
+  position: relative;
+  line-height: 42px;
+  border: none;
+  &:after {
+    content: "\f002";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+  }
+  label {
+    width: 100%;
+    display: inline-block;
+    font-weight: normal;
+    margin: 0;
+    .screen-reader-text {
+      display: none
+    }
+    .search-field {
+      line-height: 40px;
+      background: #fff;
+      height: 42px;
+      padding: 0 60px 0 15px;
+      font-size: 13px;
+      width: 100%;
+      border: 1px solid #eee;
+      @include transition(all 0.3s ease-in-out);
+    }
+    .search-submit {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .search-submit {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    z-index: 2;
+    background: transparent;
+    border-radius: 0;
+    line-height: 42px;
+    height: 42px;
+    color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-indent: -9999px;
+    &:hover{
+      color: transparent;
+      background: transparent;
+    }
+  }
+}
+
+/* Blog Search */
+.widget.thim_search_widget {
+  a.widget-search-form {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,58 @@
+#popup_container {
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #fff;
+	-webkit-box-shadow: 0 0px 10px rgba(0,0,0,.5);
+	box-shadow: 0 0px 10px rgba(0,0,0,.5);
+	border-radius: 0;
+	text-align: center;
+	body.single-lp_quiz &{
+		display: none;
+	}
+	a.close {
+		position: absolute;
+		top: 5px;
+		right: 15px;
+		color: #333;
+	}
+}
+
+#popup_title {
+	border-radius: 0;
+	padding: 0 20px;
+	margin-top: 0;
+	line-height: 50px;
+	font-size: 20px;
+	text-transform: none;
+}
+
+#popup_content {
+	margin: 0;
+	position: relative;
+	padding: 20px;
+	border: 0;
+	border-radius: 0;
+}
+
+#popup_panel {
+	text-align: center;
+	margin-top: 20px;
+	#popup_ok,
+	#popup_cancel{
+		border: none;
+		padding: 5px 0px;
+		line-height: 30px;
+		height: 40px;
+		background: #111;
+		color: #fff;
+		border-radius: 0;
+		font-size: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 0 5px;
+		display: inline-block;
+		min-width: 90px;
+		text-align: center;
+		@include transition(all 0.3s);
+	}
+}

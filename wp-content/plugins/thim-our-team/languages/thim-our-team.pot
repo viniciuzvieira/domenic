@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-29 10:31+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: thim-our-team.php:307
+msgctxt "Post Type General Name"
+msgid "Our Team"
+msgstr ""
+
+#: thim-our-team.php:308
+msgctxt "Post Type Singular Name"
+msgid "Our Team"
+msgstr ""
+
+#: thim-our-team.php:309
+msgid "Our Team"
+msgstr ""
+
+#: thim-our-team.php:310
+msgid "Parent Our Team:"
+msgstr ""
+
+#: thim-our-team.php:311
+msgid "All Members"
+msgstr ""
+
+#: thim-our-team.php:312
+msgid "View Member"
+msgstr ""
+
+#: thim-our-team.php:313
+msgid "Add New Member"
+msgstr ""
+
+#: thim-our-team.php:314
+msgid "New Member"
+msgstr ""
+
+#: thim-our-team.php:315
+msgid "Edit Member"
+msgstr ""
+
+#: thim-our-team.php:316
+msgid "Update Member"
+msgstr ""
+
+#: thim-our-team.php:317
+msgid "Search Members"
+msgstr ""
+
+#: thim-our-team.php:318
+msgid "No team member found"
+msgstr ""
+
+#: thim-our-team.php:319
+msgid "No team member found in Trash"
+msgstr ""
+
+#: thim-our-team.php:326
+msgctxt "URL slug"
+msgid "our_team"
+msgstr ""
+
+#: thim-our-team.php:341
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: thim-our-team.php:342
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: thim-our-team.php:343
+msgid "Categories"
+msgstr ""
+
+#: thim-our-team.php:344
+msgid "All Categories"
+msgstr ""
+
+#: thim-our-team.php:345
+msgid "Parent Category"
+msgstr ""
+
+#: thim-our-team.php:346
+msgid "Parent Category:"
+msgstr ""
+
+#: thim-our-team.php:347
+msgid "New Category Name"
+msgstr ""
+
+#: thim-our-team.php:348
+msgid "Add New Category"
+msgstr ""
+
+#: thim-our-team.php:349
+msgid "Edit Category"
+msgstr ""
+
+#: thim-our-team.php:350
+msgid "Update Category"
+msgstr ""
+
+#: thim-our-team.php:351
+msgid "Separate categories with commas"
+msgstr ""
+
+#: thim-our-team.php:352
+msgid "Search categories"
+msgstr ""
+
+#: thim-our-team.php:353
+msgid "Add or remove categories"
+msgstr ""
+
+#: thim-our-team.php:354
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: thim-our-team.php:379
+#, php-format
+msgid "Our Team updated. <a href=\"%s\">View Our Team</a>"
+msgstr ""
+
+#: thim-our-team.php:380
+msgid "Custom field updated."
+msgstr ""
+
+#: thim-our-team.php:381
+msgid "Custom field deleted."
+msgstr ""
+
+#: thim-our-team.php:382
+msgid "Our Team updated."
+msgstr ""
+
+#: thim-our-team.php:383
+#, php-format
+msgid "Our Team restored to revision from %s"
+msgstr ""
+
+#: thim-our-team.php:384
+#, php-format
+msgid "Our Team published. <a href=\"%s\">View Our Team</a>"
+msgstr ""
+
+#: thim-our-team.php:385
+msgid "Our Team saved."
+msgstr ""
+
+#: thim-our-team.php:386
+#, php-format
+msgid ""
+"Our Team submitted. <a target=\"_blank\" href=\"%s\">Preview Our Team</a>"
+msgstr ""
+
+#: thim-our-team.php:387
+#, php-format
+msgid ""
+"Our Team scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Our Team</a>"
+msgstr ""
+
+#: thim-our-team.php:387
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: thim-our-team.php:388
+#, php-format
+msgid ""
+"Our Team draft updated. <a target=\"_blank\" href=\"%s\">Preview Our Team</a>"
+msgstr ""
+
+#: thim-our-team.php:407
+msgid "Regency"
+msgstr ""
+
+#: thim-our-team.php:414
+msgid "Facebook URL"
+msgstr ""
+
+#: thim-our-team.php:421
+msgid "Twitter URL"
+msgstr ""
+
+#: thim-our-team.php:428
+msgid "Skype URL"
+msgstr ""
+
+#: thim-our-team.php:435
+msgid "Dribbble URL"
+msgstr ""
+
+#: thim-our-team.php:441
+msgid "Linked In URL"
+msgstr ""
+
+#: thim-our-team.php:447
+msgid "Phone"
+msgstr ""
+
+#: thim-our-team.php:453
+msgid "Email"
+msgstr ""

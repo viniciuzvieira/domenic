@@ -1,0 +1,43 @@
+#redirect-template-page{padding: 10px;}
+.rrw_template_block{border:1px solid rgba(74,55,55,.12);width:100%;margin-top:20px;padding-bottom:40px;border-radius:4px}
+.rrw_note {
+    display: block;
+    padding: 10px 0 5px;
+}
+.block_urls {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+span.delete_current_url:hover {
+    border: 1px solid grey;
+    background: #DFDFDF;
+    color: red;
+}
+.delete_delay_block, .urlrrw_div {
+    
+    margin-left: 40px;
+    width: 80%;
+    border: 1px solid rgba(74, 55, 55, .12);
+    border-radius: 4px;
+    padding: 10px 10px 10px 16px;
+    /*display: inline-flex;*/
+}
+ul.options li {
+    background: #def url(../cross_bright.png) no-repeat 98% center;
+    margin: 1px;
+    padding: 0.1em 0.3em;
+    cursor: pointer;
+    color: #46a;
+    font-weight: bold;
+    border: solid 1px #cde;
+}
+ul.options {
+    list-style-type: none;
+    width: 15em;
+    margin: 0.3em 0;
+    padding: 0;
+}
+
+.error-msg {
+    color: red;
+}

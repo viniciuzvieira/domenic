@@ -1,0 +1,57 @@
+//Timetable widget
+.thim-widget-timetable{
+  .widget-title{
+    body &{
+      text-align: center;
+      background: #212121;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: none;
+      margin-bottom: 2px;
+      line-height: 30px;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+  }
+  .timetable-item{
+    padding: 10px 16px;
+    margin-bottom: 2px;
+    .title{
+      font-size: 14px;
+      line-height: 20px;
+      margin: 0;
+      font-weight: 400;
+    }
+    .time{
+      font-size: 13px;
+      @include opacity(0.75);
+      line-height: 20px;
+      margin-bottom: 8px;
+    }
+    .location,
+    .teacher{
+      font-size: 11px;
+      @include opacity(0.6);
+      line-height: 15px;
+    }
+    .teacher{
+    }
+    &.light{
+      color: #fff;
+      .title{
+        color: #fff;
+      }
+    }
+    &.dark{
+
+    }
+
+    &:hover{
+      .location,
+      .teacher{
+        @include opacity(1);
+      }
+    }
+  }
+}

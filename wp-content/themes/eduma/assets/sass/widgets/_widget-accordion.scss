@@ -1,0 +1,88 @@
+/** Widget Thim Accordion **/
+.thim-widget-accordion {
+  .widget-title {
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding-bottom: 22px;
+    margin-bottom: 46px;
+    text-transform: none;
+    &:after {
+      content: '';
+      width: 35px;
+      height: 1px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background: #333;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .panel-title {
+    border: 1px solid #e5e5e5;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 25px;
+    a {
+      line-height: 30px;
+      display: block;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 0 10px 0 15px;
+      position: relative;
+      color: #666;
+      &:before {
+        width: 5px;
+        height: 5px;
+        content: '';
+        background: #666;
+        border-radius: 50%;
+        position: absolute;
+        top: 13px;
+        left: 0;
+        margin: auto;
+      }
+      &:after {
+        content: '\f0d7';
+        color: #ffb606;
+        font-size: 15px;
+        font-family: FontAwesome;
+        line-height: 30px;
+        height: 30px;
+        float: right;
+        top: 0;
+        position: absolute;
+        right: 10px;
+      }
+      &.collapsed {
+        &:before {
+
+        }
+        &:after {
+          content: '\f0da';
+          color: #333;
+        }
+
+      }
+    }
+  }
+  .panel-collapse {
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    padding: 0;
+    .panel-body {
+      padding: 13px 25px 23px;
+    }
+    p {
+      margin-bottom: 5px;
+    }
+    &.in {
+
+    }
+  }
+  .panel-default {
+    margin-bottom: 6px;
+  }
+}

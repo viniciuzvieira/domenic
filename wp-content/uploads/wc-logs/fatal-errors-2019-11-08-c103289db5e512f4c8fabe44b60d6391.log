@@ -1,0 +1,8 @@
+2019-11-08T16:53:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.2.3-0\apps\wordpress\htdocs\wp-includes\class.wp-dependencies.php on line 345
+
+2019-11-08T16:55:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.2.3-0\apps\wordpress\htdocs\wp-includes\class.wp-dependencies.php on line 343
+
+2019-11-08T16:55:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.2.3-0\apps\wordpress\htdocs\wp-includes\class.wp-dependencies.php on line 345
+
+2019-11-08T16:58:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Bitnami\wordpress-5.2.3-0\apps\wordpress\htdocs\wp-includes\class.wp-dependencies.php on line 345
+

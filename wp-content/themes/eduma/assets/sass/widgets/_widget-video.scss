@@ -1,0 +1,147 @@
+.thim-video-box{
+	text-align: center;
+	.video-container{
+		position: relative;
+		width: 750px;
+		height: 431px;
+		margin: auto;
+		padding: 25px 85px 50px;
+		background: url(images/imac-bg.png) no-repeat top left;
+		background-size: cover;
+		max-width: 100%;
+		.video{
+			overflow: hidden;
+			width: 100%;
+			border: 4px solid #0c0d11;
+			border-radius: 4px;
+			position: relative;
+			max-height: 363px;
+			height: 363px;
+			iframe{
+				max-height: 100%;
+			}
+		}
+		.video-button{
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 30px;
+			height: 30px;
+			margin: auto;
+			z-index: 11;
+			font-size: 50px;
+			cursor: pointer;
+			display: none;
+		}
+	}
+}
+
+.thim-video-popup{
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: #143056;
+		@include opacity(0.85);
+	}
+	.video-info{
+		text-align: center;
+		position: relative;
+		padding: 125px 30px 115px;
+		&:hover{
+			.button-popup{
+				color: #fff;
+				border-color: #fff;
+			}
+		}
+	}
+	.video-title{
+		color: #fff;
+		font-size: 22px;
+		line-height: 1.6;
+		font-weight: 600;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.video-description{
+		font-size: 14px;
+		line-height: 1.6;
+		font-weight: 400;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	.button-popup{
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		border-radius: 50%;
+		height: 52px;
+		width: 52px;
+		line-height: 50px;
+		color: rgba(255, 255, 255, 0.4);
+		display: inline-block;
+		font-size: 17px;
+		.fa{
+			line-height: 52px;
+		}
+	}
+
+	.video-title,
+	.video-description,
+	.button-popup {
+		min-height: 1px !important;
+	}
+
+	&.image-layout {
+		display: inline-block;
+		.video-info {
+			position: absolute;
+			padding: 0;
+			top: 50%;
+			left: 50%;
+			@include translate(-50%,-50%);
+		}
+		.button-popup {
+			width: 75px;
+			line-height: 75px;
+			height: 75px;
+			position: relative;
+			border: none;
+			color: #fff;
+			overflow: hidden;
+			font-size: 32px;
+			&:before {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				content: "";
+				left: 0;
+				top: 0;
+				opacity: 0.9;
+				//background-color: #2ec4b6;
+				z-index: -1;
+				@include transition();
+			}
+			&:hover {
+				&:before {
+					opacity: 1;
+				}
+			}
+		}
+		&:before {
+			display: none;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.elementor-12 .width-68.elementor-element.elementor-element-5dcce16 {
+		width: 68%;
+	}
+	.elementor-12 .width-43.elementor-element.elementor-element-ef7f256 {
+		width: 43%
+	}
+}

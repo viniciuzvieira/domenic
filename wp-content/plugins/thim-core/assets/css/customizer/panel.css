@@ -1,0 +1,95 @@
+#customize-info .accordion-section-title {
+    text-align: center;
+}
+
+#customize-theme-controls .customize-control-kirki input {
+    font-size: 14px;
+}
+
+.thim-customize-accordion {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.customize-control-kirki-accordion {
+    margin-bottom: 0;
+}
+
+.customize-control-kirki.init-hide {
+    display: none !important;
+}
+
+button.accordion {
+    background-color: #fff;
+    color: #555555;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: block;
+    font-weight: 500;
+    line-height: 21px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+button.accordion.active {
+    margin-bottom: 20px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #f5f5f5;
+}
+
+button.accordion:after {
+    content: '\f347';
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    font-family: Dashicons;
+}
+
+button.accordion.active:after {
+    content: "\f343";
+}
+
+ul li.customize-control a.tooltip.hint--left {
+    right: 0;
+}
+
+ul li.customize-control a.tooltip {
+    text-decoration: none;
+}
+
+a.kirki-reset-section {
+    top: 36px;
+    right: 23px;
+    text-decoration: none;
+}
+
+#sub-accordion-section-tc-theme-documentation .kirki-reset-section {
+    display: none;
+}
+
+#accordion-section-tc-theme-documentation .accordion-section-title {
+    font-weight: bold;
+    color: #0073aa;
+}
+
+#sub-accordion-section-tc-theme-notice-php-version .kirki-reset-section {
+    display: none;
+}
+
+#accordion-section-tc-theme-notice-php-version .accordion-section-title {
+    font-weight: 600;
+    color: #F44336;
+}
+
+#customize-theme-controls .customize-control-kirki-switch label,
+#customize-theme-controls .customize-control-kirki-switch label:after
+{
+    border-radius: 3px;
+}

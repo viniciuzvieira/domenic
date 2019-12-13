@@ -1,0 +1,263 @@
+/** categories course **/
+.thim-carousel-course-categories {
+	overflow: hidden;
+	width: 100%;
+	.item {
+		position: relative;
+		display: inline-block;
+		padding: 0 10px;
+		.image {
+			overflow: hidden;
+			img {
+				width: 100%;
+				@include transition(all 0.4s ease-in-out);
+			}
+			a {
+				display: block;
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					right: 10px;
+					bottom: 0;
+					left: 10px;
+					background: rgba(0, 0, 0, 0.4);
+					z-index: 2;
+				}
+			}
+
+		}
+		&:hover {
+			.image img {
+				@include scale(1.05, 1.05);
+			}
+		}
+		.title {
+			z-index: 3;
+			font-size: 16px;
+			font-weight: 700;
+			position: absolute;
+			top: 50%;
+			@include translate(0, -50%);
+			text-transform: uppercase;
+			text-align: center;
+			overflow: hidden;
+			line-height: 25px;
+			text-overflow: ellipsis;
+			left: 10px;
+			right: 10px;
+			padding: 0 10px;
+			margin: 0;
+			white-space: nowrap;
+			color: #fff;
+			a {
+				color: #fff;
+				display: inline-block;
+				line-height: 25px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				width: 100%;
+				white-space: nowrap;
+			}
+		}
+	}
+
+	.thim-course-slider {
+		margin: 0 -10px;
+		width: auto;
+		white-space: nowrap;
+		.owl-buttons {
+			.owl-prev,
+			.owl-next {
+				font-size: 8px;
+				background: rgba(255, 255, 255, 0.8);
+				position: absolute;
+				top: 0;
+				bottom: 7px;
+				left: 10px;
+				width: 35px;
+				text-align: center;
+				max-height: 100px;
+				border: 0;
+				@include opacity(0);
+				cursor: pointer;
+				@include transition(all 0.3s);
+				@include translate(-10px, 0);
+				.fa {
+					width: 35px;
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					text-align: center;
+					margin: auto;
+					height: 30px;
+					line-height: 30px;
+					left: 0;
+				}
+			}
+			.owl-next {
+				left: auto;
+				right: 10px;
+				@include translate(10px, 0);
+			}
+		}
+		&:hover {
+			.owl-buttons {
+				.owl-prev,
+				.owl-next {
+					@include translate(0, 0);
+					@include opacity(1);
+					.fa {
+						right: 0;
+						left: auto;
+					}
+				}
+				.owl-next {
+				}
+			}
+		}
+	}
+}
+
+.thim-carousel-course-categories-tabs {
+	.thim-course-slider {
+		margin-bottom: 45px;
+		position: relative;
+		&:after {
+			border-bottom: 1px solid #EEE;
+			position: absolute;
+			content: "";
+			bottom: 15px;
+			width: 100%;
+			height: 1px;
+			left: 0;
+			z-index: -1;
+		}
+		.item {
+			text-align: center;
+			position: relative;
+			height: 150px;
+			cursor: pointer;
+			margin-bottom: 15px;
+			z-index: 3;
+			border-bottom: 1px solid #EEEEEE;
+			.icon {
+				font-size: 60px;
+			}
+			.title {
+				font-size: 16px;
+				max-width: 110px;
+				margin: 15px auto;
+				a {
+					text-transform: uppercase;
+					color: #333333;
+				}
+			}
+			&.active {
+				&:after {
+					position: absolute;
+					bottom: -11px;
+					width: 20px;
+					height: 20px;
+					margin-left: -10px;
+					content: "";
+					background-color: #ffffff;
+					left: 50%;
+					border-right: 1px solid #2575fc;
+					border-bottom: 1px solid #2575fc;
+					-ms-transform: rotate(45deg);
+					-webkit-transform: rotate(45deg);
+					transform: rotate(45deg);
+					z-index: 2;
+				}
+			}
+		}
+	}
+	.content_items {
+		max-width: 1170px;
+		margin-right: auto;
+		margin-left: auto;
+		.item_content {
+			display: none;
+			font-size: 16px;
+			max-width: 1170px;
+			margin-left: auto;
+			margin-right: auto;
+			color: #808080;
+			@include transition();
+			.fleft {
+				float: left;
+				margin-right: 50px;
+			}
+			.content {
+				padding-top: 30px;
+				h4 {
+					font-weight: 500;
+				}
+			}
+			&.active {
+				display: block;
+			}
+			.view_all_courses {
+				display: inline-block;
+				border-radius: 25px;
+				border: 1px solid;
+				padding: 0 30px;
+				margin-top: 30px;
+				line-height: 40px;
+				@include transition();
+				i {
+					position: relative;
+					top: 2px;
+				}
+				&:hover {
+					color: #FFFFFF;
+				}
+			}
+		}
+	}
+	.owl-controls {
+		.owl-buttons {
+			> div {
+				position: absolute;
+				top: 50%;
+				margin-top: -30px;
+				width: 40px;
+				line-height: 40px;
+				height: 40px;
+				border-color: #cccccc;
+				border-radius: 50%;
+				box-shadow: 6px 4px 18px rgba(0, 0, 0, 0.08);
+				i {
+					line-height: 40px;
+					color: #cccccc;
+					&:before {
+						font-family: 'Linearicons';
+						font-size: 16px;
+					}
+					&.fa-chevron-left {
+						&:before {
+							content: "\e93b";
+						}
+					}
+					&.fa-chevron-right {
+						&:before {
+							content: "\e93c";
+						}
+					}
+				}
+				&.owl-prev {
+					right: 100%;
+				}
+				&.owl-next {
+					left: 100%;
+				}
+				&:hover {
+					i {
+						color: #FFFFFF;
+					}
+				}
+			}
+		}
+	}
+}

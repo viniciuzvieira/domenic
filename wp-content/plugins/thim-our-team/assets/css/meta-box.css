@@ -1,0 +1,34 @@
+.thim-label {
+	width: 24%;
+}
+
+.thim-input {
+	width: 74%;
+}
+
+.thim-field {
+	margin-bottom: 20px;
+}
+
+.thim-field:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.thim-label, .thim-input {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+.thim-input .desc {
+	font-size: 13px;
+	font-style: italic;
+}
+
+/* Textarea */
+.thim-input textarea {
+	width: 100%;
+	height: 120px;
+}
