@@ -77,17 +77,6 @@ if( version_compare(WPEMS_VER, '2.1.5', '>=') ) {
 			<?php endif; ?>
         </ul>
 
-        <?php if(empty($payments)) { ?>
-            <p class="event_auth_register_message_error">
-                <?php echo esc_html__( 'You must set payment setting!', 'eduma' ); ?>
-            </p>
-        <?php }?>
-
-
-        <!--Hide payment option when cost is 0-->
-
-        <!--End hide payment option when cost is 0-->
-
         <div class="event_register_foot">
             <input type="hidden" name="event_id" value="<?php echo esc_attr( get_the_ID() ); ?>"/>
             <input type="hidden" name="action" value="event_auth_register"/>
@@ -104,7 +93,7 @@ if( version_compare(WPEMS_VER, '2.1.5', '>=') ) {
 						<?php echo esc_html__( 'You must login to our site to book this event!', 'eduma' ); ?>
                     </p>
 				<?php } else { ?>
-                    <button type="submit" class="event_register_submit event_auth_button" <?php echo $payments ? '' : 'disabled="disabled"' ?>><?php esc_html_e( 'Book Now', 'eduma' ); ?></button>
+                    <button type="submit" class="event_register_submit event_auth_button"><?php esc_html_e( 'Book Now', 'eduma' ); ?></button>
 				<?php } ?>
 			<?php endif ?>
 
