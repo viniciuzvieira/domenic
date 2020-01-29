@@ -36,7 +36,7 @@ if ( $display_year ) {
 		<div class="meta">
 			<div class="time">
 				<i class="fa fa-clock-o"></i>
-				<?php echo esc_html( $time_start ) . ' - ' . esc_html( $time_end ); ?>
+				<a href="<?php echo esc_url( get_permalink( get_the_ID() ) ); ?>"><?php echo esc_html( $time_start ) . ' - ' . esc_html( $time_end ); ?></a>
 			</div>
 
 			<?php if ( $location ): ?>
