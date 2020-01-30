@@ -238,6 +238,9 @@ if ( ! function_exists( 'wpems_add_property_countdown' ) ) {
 		$end          = wpems_event_end( 'Y-m-d H:i', $post );
 		if ( $current_time < strtotime( $start ) ) {
 			return wpems_event_start( $format, $post, $l10 );
+		}
+		else if ($format == 'l')	{
+			return date_format('l', $start);
 		} else {
 			return wpems_event_end( $format, $post, $l10 );
 		}
