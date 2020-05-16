@@ -267,8 +267,6 @@ if ( ! class_exists( 'Thim_Login_Popup_Widget' ) ) {
 				</div>
 				<?php
 			} else {
-				echo '<script>console.log("teste1")</script>';
-
 				?>
 				<div id="thim-popup-login">
 					<div class="popup-login-wrapper">
@@ -286,43 +284,32 @@ if ( ! class_exists( 'Thim_Login_Popup_Widget' ) ) {
 									<form name="loginpopopform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
 
 										<?php do_action( 'thim_before_login_form' ); ?>
-
-										<p class="login-username">
-											<input type="text" name="log" placeholder="<?php esc_html_e( 'Username or email', 'eduma' ); ?>" class="input required" value="" size="20" />
-										</p>
-										<p class="login-password">
-											<input type="password" name="pwd" placeholder="<?php esc_html_e( 'Password', 'eduma' ); ?>" class="input required" value="" size="20" />
-										</p>
-
-										<?php
-										/**
-										 * Fires following the 'Password' field in the login form.
-										 *
-										 * @since 2.1.0
-										 */
-										do_action( 'login_form' );
-										?>
-
-										<?php if ( ! empty( $instance['captcha'] ) ): ?>
-											<p class="thim-login-captcha">
-												<?php
-												$value_1 = rand( 1, 9 );
-												$value_2 = rand( 1, 9 );
-												?>
-												<input type="text" data-captcha1="<?php echo esc_attr( $value_1 ); ?>" data-captcha2="<?php echo esc_attr( $value_2 ); ?>" placeholder="<?php echo esc_attr( $value_1 . ' &#43; ' . $value_2 . ' &#61;' ); ?>" class="captcha-result required" />
-											</p>
-										<?php endif; ?>
-
-										<?php echo '<a class="lost-pass-link" href="' . thim_get_lost_password_url() . '" title="' . esc_attr__( 'Lost Password', 'eduma' ) . '">' . esc_html__( 'Lost your password?', 'eduma' ) . '</a>'; ?>
-										<p class="forgetmenot login-remember">
-											<label for="popupRememberme"><input name="rememberme" type="checkbox" value="forever" id="popupRememberme" /> <?php esc_html_e( 'Remember Me', 'eduma' ); ?>
-											</label></p>
-										<p class="submit login-submit">
-											<input type="submit" name="wp-submit" class="button button-primary button-large" value="<?php esc_attr_e( 'Login', 'eduma' ); ?>" />
-											<input type="hidden" name="redirect_to" value="<?php echo esc_url( $login_redirect ); ?>" />
-											<input type="hidden" name="testcookie" value="1" />
-										</p>
-
+											<button type="button" class="button button-small">8:00 AM</button>
+											<button type="button" class="button button-small">8:30 AM</button>
+											<button type="button" class="button button-small">9:00 AM</button>
+											<button type="button" class="button button-small">9:30 AM</button>
+											<button type="button" class="button button-small">10:00 AM</button>
+											<button type="button" class="button button-small">10:30 AM</button>
+											<button type="button" class="button button-small">11:00 AM</button>
+											<button type="button" class="button button-small">11:30 AM</button>
+											<button type="button" class="button button-small">12:00 PM</button>
+											<button type="button" class="button button-small">12:30 PM</button>
+											<button type="button" class="button button-small">1:00 PM</button>
+											<button type="button" class="button button-small">1:30 PM</button>
+											<button type="button" class="button button-small">2:00 PM</button>
+											<button type="button" class="button button-small">2:30 PM</button>
+											<button type="button" class="button button-small">3:00 PM</button>
+											<button type="button" class="button button-small">3:30 PM</button>
+											<button type="button" class="button button-small">4:00 PM</button>
+											<button type="button" class="button button-small">4:30 PM</button>
+											<button type="button" class="button button-small">5:00 PM</button>
+											<button type="button" class="button button-small">5:30 PM</button>
+											<button type="button" class="button button-small">6:00 PM</button>
+											<button type="button" class="button button-small">6:30 PM</button>
+											<button type="button" class="button button-small">7:00 PM</button>
+											<button type="button" class="button button-small">7:30 PM</button>
+											<button type="button" class="button button-small">8:00 PM</button>
+											<button type="button" class="button button-small">8:30 PM</button>
 										<?php do_action( 'thim_after_login_form' ); ?>
 
 									</form>
