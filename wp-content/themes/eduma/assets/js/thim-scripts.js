@@ -142,6 +142,43 @@
                 }
             });
 
+            $('.eventDay').on('click', function(event) {
+                event.preventDefault();
+
+                let $popup = $('#thim-popup-login');
+                $('body').addClass('thim-popup-active');
+                $popup.addClass('active');
+                if ($(this).hasClass('eventDay')) {
+                    $popup.addClass('sign-in');
+                    
+                } else {
+                    $popup.addClass('sign-up');
+                }
+
+                $('#teacher').change(function(){ 
+                    var value = $(this).val();
+                                            
+                    value = "button.button.button-small.buttonTime." + value;
+
+                    var arr = new Array();
+                    $('#teacher option').each(function(){
+                    arr.push($(this).val());
+                    });
+                    
+                    var i;
+                    var classTeacher;
+                    for (i = 0; i < arr.length; ++i) {
+                        arr[i];
+
+                        classTeacher = "." + arr[i];
+                        
+                        document.querySelector(classTeacher).style.display='none';
+                    }
+
+                    document.querySelector(value).style.display='block';
+                });
+            });
+
             $('#thim-popup-login .link-bottom a').on('click', function(e) {
                 e.preventDefault();
 

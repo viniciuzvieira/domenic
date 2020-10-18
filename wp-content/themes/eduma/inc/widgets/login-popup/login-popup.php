@@ -1,4 +1,9 @@
 <?php
+/**
+ *
+ * @global wpdb $wpdb WordPress database abstraction object.
+ *
+ */
 
 if ( ! class_exists( 'Thim_Login_Popup_Widget' ) ) {
 	class Thim_Login_Popup_Widget extends Thim_Widget {
@@ -284,35 +289,34 @@ if ( ! class_exists( 'Thim_Login_Popup_Widget' ) ) {
 									<form name="loginpopopform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
 
 										<?php do_action( 'thim_before_login_form' ); ?>
-											<button type="button" class="button button-small">8:00 AM</button>
-											<button type="button" class="button button-small">8:30 AM</button>
-											<button type="button" class="button button-small">9:00 AM</button>
-											<button type="button" class="button button-small">9:30 AM</button>
-											<button type="button" class="button button-small">10:00 AM</button>
-											<button type="button" class="button button-small">10:30 AM</button>
-											<button type="button" class="button button-small">11:00 AM</button>
-											<button type="button" class="button button-small">11:30 AM</button>
-											<button type="button" class="button button-small">12:00 PM</button>
-											<button type="button" class="button button-small">12:30 PM</button>
-											<button type="button" class="button button-small">1:00 PM</button>
-											<button type="button" class="button button-small">1:30 PM</button>
-											<button type="button" class="button button-small">2:00 PM</button>
-											<button type="button" class="button button-small">2:30 PM</button>
-											<button type="button" class="button button-small">3:00 PM</button>
-											<button type="button" class="button button-small">3:30 PM</button>
-											<button type="button" class="button button-small">4:00 PM</button>
-											<button type="button" class="button button-small">4:30 PM</button>
-											<button type="button" class="button button-small">5:00 PM</button>
-											<button type="button" class="button button-small">5:30 PM</button>
-											<button type="button" class="button button-small">6:00 PM</button>
-											<button type="button" class="button button-small">6:30 PM</button>
-											<button type="button" class="button button-small">7:00 PM</button>
-											<button type="button" class="button button-small">7:30 PM</button>
-											<button type="button" class="button button-small">8:00 PM</button>
-											<button type="button" class="button button-small">8:30 PM</button>
+										<?php
+										 global $wpdb;
+										 // Shortcodes RETURN content, so store in a variable to return
+										 $contentSelect = '<select id="teacher" name="orderby" class="orderby">';
+										 $resultsSelect = $wpdb->get_results( ' SELECT * FROM wp_classes WHERE student_id is null' );
+
+										 foreach ( $resultsSelect AS $rowSelect ) {
+											 // Modify these to match the database structure
+											 $contentSelect .= '<option value="' . str_replace(' ', '', $rowSelect->class_teacher_name) .'">' . $rowSelect->class_teacher_name . '</option>';
+										 }
+										 
+										 $contentSelect .= '</select>';
+
+										 foreach ( $resultsSelect AS $rowSelect ) {
+											$contentButton .= '<button style="display: none;" type="button" class="button button-small buttonTime ' . str_replace(' ', '', $rowSelect->class_teacher_name) .  '">' . $rowSelect->class_time_day . '</button>';
+										}
+
+										 // return the table
+										 echo $contentSelect;
+										 echo $contentButton;
+
+										?>
+
 										<?php do_action( 'thim_after_login_form' ); ?>
 
 									</form>
+
+		
 									<?php
 
 									if ( $registration_enabled ) {
@@ -321,7 +325,7 @@ if ( ! class_exists( 'Thim_Login_Popup_Widget' ) ) {
 									?>
 								</div>
 
-											$registration_enabled = get_option( 'users_can_register' );
+								<?php $registration_enabled = get_option( 'users_can_register' );
 				?>
 				<div id="thim-popup-login">
 					<div class="popup-login-wrapper">
