@@ -145,6 +145,9 @@
             $('.eventDay').on('click', function(event) {
                 event.preventDefault();
 
+                var monthClass = document.getElementById('monthClass').innerHTML;
+                var dayClass = '2';
+
                 let $popup = $('#thim-popup-login');
                 $('body').addClass('thim-popup-active');
                 $popup.addClass('active');
@@ -166,8 +169,8 @@
                     });
                     
                     var i;
-                    var classTeacher;
-                    for (i = 0; i < arr.length; ++i) {
+                    var classTeacher = '';
+                    for (i = 1; i < arr.length; ++i) {
                         arr[i];
 
                         classTeacher = "." + arr[i];

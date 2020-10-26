@@ -108,16 +108,236 @@ th.month {
    
 </style>
 
-<div class="thim-login-popup"><a class="login js-show-popup">teste</a></div>
+<?php
 
-<div class="title">March 2020</div>
-<table border="1">
-<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
-<tr><td class="eventDay"><span class="date">1</span></td><td class="eventDay"><span class="date">2</span></td><td class="eventDay"><span class="date">3</span></td><td class="eventDay"><span class="date">4</span></td><td class="eventDay"><span class="date">5</span></td><td class="eventDay"><span class="date">6</span></td><td class="eventDay"><span class="date">7</span></td></tr>
-<tr><td class="eventDay"><span class="date">8</span></td><td class="eventDay"><span class="date">9</span></td><td class="eventDay"><span class="date">10</span></td><td class="eventDay"><span class="date">11</span></td><td class="eventDay"><span class="date">12</span></td><td class="eventDay"><span class="date">13</span></td class="eventDay"><td><span class="date">14</span></td></tr>
-<tr><td class="eventDay"><span class="date">15</span></td><td class="eventDay"><span class="date">16</span></td><td class="eventDay"><span class="date">17</span></td><td class="eventDay"><span class="date">18</span></td><td class="eventDay"><span class="date">19</span></td><td class="eventDay"><span class="date">20</span></td><td class="eventDay"><span class="date">21</span></td></tr>
-<tr><td class="eventDay"><span class="date">22</span></td><td class="eventDay"><span class="date">23</span></td><td class="eventDay"><span class="date">24</span></td><td class="eventDay"><span class="date">25</span></td><td class="eventDay"><span class="date">26</span></td><td class="eventDay"><span class="date">27</span></td><td class="eventDay"><span class="date">28</span></td></tr>
-<tr><td class="eventDay"><span class="date">29</span></td><td class="eventDay"><span class="date">30</span></td><td class="eventDay"><span class="date">31</span></td><td class="eventDay"><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td ><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+    global $wpdb;
+    global $daySelect;
+    global $monthSelect;
+    
+    $Sunday = 'Sunday';
+    $Monday = 'Monday';
+    $Tuesday = 'Tuesday';
+    $Wednesday = 'Wednesday';
+    $Thursday = 'Thursday';
+    $Friday = 'Friday';
+    $Saturday = 'Saturday';
+
+    $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes ORDER BY class_day ASC');
+
+    $daysTeachers = $wpdb->get_results('SELECT 
+                                            DAY(A.class_day) AS class_day, 
+                                            B.class_teacher_name AS class_teacher_name
+                                        FROM
+                                            wp_classes AS A
+                                        INNER JOIN
+                                            wp_classes AS B
+                                        ON
+                                            A.class_day = B.class_day
+                                        AND A.class_teacher_name <> B.class_teacher_name
+                                        ORDER BY A.class_day ASC');
+
+    $firstDay = $wpdb->get_row('SELECT DAY(class_day), DAYNAME(class_day) AS class_week, MONTHNAME(class_day) AS class_month, student_id FROM wp_classes WHERE DAY(class_day) = 1');
+
+    $lastDay = $wpdb->get_row('SELECT MAX(DAY(class_day)) FROM wp_classes');
+
+    $buildFirstDay = '';
+    $concTeachers = '';
+    $counter = 0;
+    $daysRemaining = 0;
+
+    foreach ( $daySelect AS $rowSelect ) {
+        $listTeachers = array();
+        if($counter == 0){
+            foreach ( $daysTeachers AS $rowTeachers ) {
+                if(($rowSelect->class_day == $rowTeachers->class_day) && 
+                    (in_array($rowTeachers->class_teacher_name, $listTeachers) == false)){
+                        array_push($listTeachers, $rowTeachers->class_teacher_name);
+                        $concTeachers .= str_replace(' ', '-', $rowTeachers->class_teacher_name) . ' ';
+                } else {
+                    $counter++;
+                    break;
+                }
+            }
+        } else {
+            break;
+        }   
+    }
+
+    $buildFirstDay = '<td class="eventDay"><span class="date day1"><a class="' . $concTeachers . '"></a>1</span></td>';
+
+    $contentSchedule = '<div id="monthClass" class="title">' . $firstDay->class_month . '</div>';
+    $contentSchedule.= '<table border="1">
+                        <tr>
+                            <th>Sunday</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                        </tr>
+                        <tr>';
+        
+            if ($firstDay->class_week == $Sunday){
+                $daysRemaining = 6;
+                $contentSchedule = $buildFirstDay;
+            }
+            
+            if ($firstDay->class_week == $Monday) {
+                $daysRemaining = 5;
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= $buildFirstDay;
+            }  
+            
+            if ($firstDay->class_week == $Tuesday) {
+                $daysRemaining = 4;
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= $buildFirstDay;
+            } 
+            
+            if ($firstDay->class_week == $Wednesday) {
+                $daysRemaining = 3;
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= $buildFirstDay;
+            } 
+            
+            if ($firstDay->class_week == $Thursday) {
+                $daysRemaining = 2;
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= $buildFirstDay;
+            }
+            
+            if ($firstDay->class_week == $Friday) {
+                $daysRemaining = 1;
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= $buildFirstDay;
+            } 
+            
+            if ($firstDay->class_week == $Saturday) {
+                $daysRemaining = 0;
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Sunday
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Monday
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Tuesday
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Wednesday
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Thursday
+                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Friday
+                $contentSchedule .= $buildFirstDay;
+            }
+            
+            //First Week
+            foreach ( $daySelect AS $rowSelect ) {
+                $concTeachers = '';
+                $moreTeachers = false;
+                if($daysRemaining > 0) {  
+                    $listTeachers = array();
+                    if ($rowSelect->class_day > 1){
+                        foreach ( $daysTeachers AS $rowTeachers ) {
+                            if(($rowSelect->class_day == $rowTeachers->class_day) && 
+                                (in_array($rowTeachers->class_teacher_name, $listTeachers) == false)){
+                                    $moreTeachers = true;
+                                    array_push($listTeachers, $rowTeachers->class_teacher_name);
+                                    $concTeachers .= str_replace(' ', '-', $rowTeachers->class_teacher_name) . ' ';
+                            }
+                        }
+                        if((in_array($rowSelect->class_teacher_name, $listTeachers) == false) && ($moreTeachers == false)){
+                             array_push($listTeachers, $rowSelect->class_teacher_name);
+                             $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
+                        }
+                        $contentSchedule .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                        $daysRemaining--;
+                    }
+                } else {
+                    break;
+                }
+            }
+
+            //Second Week
+            $contentSchedule .= '</tr><tr>';
+            $daysRemaining = 7;
+            $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes WHERE DAY(class_day) BETWEEN 8 AND 14 ORDER BY class_day ASC');
+
+            foreach ( $daySelect AS $rowSelect ) {
+                $concTeachers = '';
+                $moreTeachers = false;
+                if($daysRemaining > 0) {  
+                    $listTeachers = array();
+                    if ($rowSelect->class_day > 1){
+                        foreach ( $daysTeachers AS $rowTeachers ) {
+                            if(($rowSelect->class_day == $rowTeachers->class_day) && 
+                                (in_array($rowTeachers->class_teacher_name, $listTeachers) == false)){
+                                    $moreTeachers = true;
+                                    array_push($listTeachers, $rowTeachers->class_teacher_name);
+                                    $concTeachers .= str_replace(' ', '-', $rowTeachers->class_teacher_name) . ' ';
+                            }
+                        }
+                        if((in_array($rowSelect->class_teacher_name, $listTeachers) == false) && ($moreTeachers == false)){
+                             array_push($listTeachers, $rowSelect->class_teacher_name);
+                             $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
+                        }
+                        $contentSchedule .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                        $daysRemaining--;
+                    }
+                } else {
+                    break;
+                }
+            }
+
+?>
+   <tr>
+      <td class="eventDay"><span class="date day1">1</span></td>
+      <td class="eventDay"><span class="date day2">2</span></td>
+      <td class="eventDay"><span class="date">3</span></td>
+      <td class="eventDay"><span class="date">4</span></td>
+      <td class="eventDay"><span class="date">5</span></td>
+      <td class="eventDay"><span class="date">6</span></td>
+      <td class="eventDay"><span class="date">7</span></td>
+   </tr>
+   <tr>
+      <td class="eventDay"><span class="date">8</span></td>
+      <td class="eventDay"><span class="date">9</span></td>
+      <td class="eventDay"><span class="date">10</span></td>
+      <td class="eventDay"><span class="date">11</span></td>
+      <td class="eventDay"><span class="date">12</span></td>
+      <td class="eventDay"><span class="date">13</span></td>
+      <td class="eventDay"><span class="date">14</span></td>
+   </tr>
+   <tr>
+      <td class="eventDay"><span class="date">15</span></td>
+      <td class="eventDay"><span class="date">16</span></td>
+      <td class="eventDay"><span class="date">17</span></td>
+      <td class="eventDay"><span class="date">18</span></td>
+      <td class="eventDay"><span class="date">19</span></td>
+      <td class="eventDay"><span class="date">20</span></td>
+      <td class="eventDay"><span class="date">21</span></td>
+   </tr>
+   <tr>
+      <td class="eventDay"><span class="date">22</span></td>
+      <td class="eventDay"><span class="date">23</span></td>
+      <td class="eventDay"><span class="date">24</span></td>
+      <td class="eventDay"><span class="date">25</span></td>
+      <td class="eventDay"><span class="date">26</span></td>
+      <td class="eventDay"><span class="date">27</span></td>
+      <td class="eventDay"><span class="date">28</span></td>
+   </tr>
+   <tr>
+      <td class="eventDay"><span class="date">29</span></td>
+      <td class="eventDay"><span class="date">30</span></td>
+      <td><span class="date">&nbsp;</span></td>
+      <td><span class="date">&nbsp;</span></td>
+      <td><span class="date">&nbsp;</span></td>
+      <td><span class="date">&nbsp;</span></td>
+      <td><span class="date">&nbsp;</span></td>
+   </tr>
 </table>
 	<div class="list-tab-event">
 		<ul class="nav nav-tabs">
