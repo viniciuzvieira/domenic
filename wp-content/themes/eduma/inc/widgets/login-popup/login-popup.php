@@ -286,44 +286,21 @@ if ( ! class_exists( 'Thim_Login_Popup_Widget' ) ) {
 
 							<div class="thim-popup-inner">
 								<div class="thim-login">
+									<div id="form-class">
 									<form name="loginpopopform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
 
-										<?php do_action( 'thim_before_login_form' ); ?>
-
-										<?php
-
-										global $wpdb;
- 										$contentSelect = '<select id="teacher" name="orderby" class="orderby">';
-										$resultsSelect = $wpdb->get_results( ' SELECT class_teacher_name, class_time_day, class_day FROM wp_classes WHERE student_id is null' );
-
-										$contentSelect .= '<option value="" selected disabled hidden>Escolher professor(a)</option>';
-										
-										foreach ( $resultsSelect AS $rowSelect ) {
-											$contentSelect .= '<option value="' . str_replace(' ', '', $rowSelect->class_teacher_name) .'">' . $rowSelect->class_teacher_name . '</option>';
-										}
-										
-										$contentSelect .= '</select>';
-
-										foreach ( $resultsSelect AS $rowSelect ) {
-											$contentButton .= '<button style="display: none;" type="button" class="button button-small buttonTime ' . str_replace(' ', '', $rowSelect->class_teacher_name) .  '">' . $rowSelect->class_time_day . '</button>';
-										}
-									
-										echo $contentSelect;
-										echo $contentButton;
-
-										?>
-
-										<?php do_action( 'thim_after_login_form' ); ?>
+										<select id="teacher" name="orderby" class="message">
 
 									</form>
 
-		
 									<?php
 									if ( $registration_enabled ) {
 										echo '<p class="link-bottom">' . esc_html__( 'Not a member yet? ', 'eduma' ) . ' <a class="register" href="' . esc_url( thim_get_register_url() ) . '">' . esc_html__( 'Register now', 'eduma' ) . '</a></p>';
 									}
 									?>
+									</div>
 								</div>
+								
 
 								<?php $registration_enabled = get_option( 'users_can_register' );
 				?>

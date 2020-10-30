@@ -317,6 +317,7 @@ if ( ! function_exists( 'thim_get_login_page_url' ) ) {
  */
 add_action( 'wp_ajax_nopriv_thim_login_ajax', 'thim_login_ajax_callback' );
 add_action( 'wp_ajax_thim_login_ajax', 'thim_login_ajax_callback' );
+add_action( 'wp_ajax_thim_class_ajax', 'thim_class_ajax_callback' );
 if ( ! function_exists( 'thim_login_ajax_callback' ) ) {
 	function thim_login_ajax_callback() {
 		//ob_start();
@@ -370,6 +371,47 @@ if ( ! function_exists( 'thim_login_ajax_callback' ) ) {
 				$response_data['redirect'] = $login_data['redirect_to'];
 			}
 		}
+		echo json_encode( $response_data );
+		die(); // this is required to return a proper result
+	}
+}
+
+if ( ! function_exists( 'thim_class_ajax_callback' ) ) {
+	function thim_class_ajax_callback() {
+
+			parse_str( $_REQUEST['data'], $login_data );
+
+			foreach ( $login_data as $k => $v ) {
+				$_POST[ $k ] = $v;
+			}
+
+			$daySelect = $_POST['data'];
+									
+			global $wpdb;
+			$contentSelect = '<select id="teacher" name="orderby" class="orderby">';
+			$resultsSelect = $wpdb->get_results('SELECT DISTINCT(class_teacher_name) FROM wp_classes WHERE DAY(class_day) = ' . $daySelect . ' AND student_id is null');
+			
+			
+			$contentSelect .= '<option value="" selected disabled hidden>Escolher professor(a)</option>';
+			
+			foreach ( $resultsSelect AS $rowSelect ) {
+				$contentSelect .= '<option value="' . str_replace(' ', '', $rowSelect->class_teacher_name) .'">' . $rowSelect->class_teacher_name . '</option>';
+			}
+			
+			$contentSelect .= '</select>';
+
+			foreach ( $resultsSelect AS $rowSelect ) {
+				$contentButton .= '<button style="display: none;" type="button" class="button button-small buttonTime ' . str_replace(' ', '', $rowSelect->class_teacher_name) .  '">' . $rowSelect->class_time_day . '</button>';
+			}
+
+			$code = 1;
+
+			$response_data = array(
+				'code'    => $code,
+				'contentSelect' => $contentSelect,
+				'contentButton' => $contentButton
+			);
+	
 		echo json_encode( $response_data );
 		die(); // this is required to return a proper result
 	}

@@ -145,8 +145,31 @@
             $('.eventDay').on('click', function(event) {
                 event.preventDefault();
 
-                var monthClass = document.getElementById('monthClass').innerHTML;
-                var dayClass = '2';
+                $("#teacher").remove();
+
+                var daySelect = $(event.target).text();
+
+                var form = $(this),
+                $elem = $('#thim-popup-login .thim-login-container');
+                $elem.addClass('loading');
+                $elem.find('.message').slideDown().remove();
+
+                var data = {
+                    action: 'thim_class_ajax',
+                    data : daySelect,
+                };
+
+                $("#form-class").hide();
+
+                $.post(ajaxurl, data, function(response) {
+                    try {
+                        response = JSON.parse(response);
+                        $elem.find('.thim-login').append(response.contentSelect).append(response.contentButton);
+                    } catch (e) {
+                        return false;
+                    }
+                    $elem.removeClass('loading');
+                });
 
                 let $popup = $('#thim-popup-login');
                 $('body').addClass('thim-popup-active');
@@ -180,6 +203,8 @@
 
                     document.querySelector(value).style.display='block';
                 });
+
+                return false;
             });
 
             $('#thim-popup-login .link-bottom a').on('click', function(e) {
