@@ -318,6 +318,7 @@ if ( ! function_exists( 'thim_get_login_page_url' ) ) {
 add_action( 'wp_ajax_nopriv_thim_login_ajax', 'thim_login_ajax_callback' );
 add_action( 'wp_ajax_thim_login_ajax', 'thim_login_ajax_callback' );
 add_action( 'wp_ajax_thim_class_ajax', 'thim_class_ajax_callback' );
+add_action( 'wp_ajax_nopriv_thim_class_ajax', 'thim_login_ajax_callback' );
 if ( ! function_exists( 'thim_login_ajax_callback' ) ) {
 	function thim_login_ajax_callback() {
 		//ob_start();
