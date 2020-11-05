@@ -390,20 +390,24 @@ if ( ! function_exists( 'thim_class_ajax_callback' ) ) {
 									
 			global $wpdb;
 			$contentSelect = '<select id="teacher" name="orderby" class="orderby">';
-			$resultsSelect = $wpdb->get_results('SELECT DISTINCT(class_teacher_name) FROM wp_classes WHERE DAY(class_day) = ' . $daySelect . ' AND student_id is null');
+			$resultsSelect = $wpdb->get_results('SELECT DISTINCT(class_teacher_name), class_time_day FROM wp_classes WHERE DAY(class_day) = ' . $daySelect . ' AND student_id is null');
 			
 			
 			$contentSelect .= '<option value="" selected disabled hidden>Escolher professor(a)</option>';
 			
 			foreach ( $resultsSelect AS $rowSelect ) {
-				$contentSelect .= '<option value="' . str_replace(' ', '', $rowSelect->class_teacher_name) .'">' . $rowSelect->class_teacher_name . '</option>';
+				$contentSelect .= '<option value="' . str_replace(' ', '-', $rowSelect->class_teacher_name) .'">' . $rowSelect->class_teacher_name . '</option>';
 			}
 			
 			$contentSelect .= '</select>';
 
+			$contentButton = '<div class="buttonsDay">';
+
 			foreach ( $resultsSelect AS $rowSelect ) {
-				$contentButton .= '<button style="display: none;" type="button" class="button button-small buttonTime ' . str_replace(' ', '', $rowSelect->class_teacher_name) .  '">' . $rowSelect->class_time_day . '</button>';
+				$contentButton .= '<button style="display: none;" type="button" class="button button-small buttonTime ' . str_replace(' ', '-', $rowSelect->class_teacher_name) .  '">' . $rowSelect->class_time_day . '</button>';
 			}
+
+			$contentButton .= '</div>';
 
 			$code = 1;
 

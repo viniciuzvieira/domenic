@@ -145,6 +145,7 @@
             $('.eventDay').on('click', function(event) {
                 event.preventDefault();
 
+                $(".buttonsDay").remove();
                 $("#teacher").remove();
 
                 var daySelect = $(event.target).text();
@@ -181,29 +182,6 @@
                     $popup.addClass('sign-up');
                 }
 
-                $('#teacher').change(function(){ 
-                    var value = $(this).val();
-                                            
-                    value = "button.button.button-small.buttonTime." + value;
-
-                    var arr = new Array();
-                    $('#teacher option').each(function(){
-                    arr.push($(this).val());
-                    });
-                    
-                    var i;
-                    var classTeacher = '';
-                    for (i = 1; i < arr.length; ++i) {
-                        arr[i];
-
-                        classTeacher = "." + arr[i];
-                        
-                        document.querySelector(classTeacher).style.display='none';
-                    }
-
-                    document.querySelector(value).style.display='block';
-                });
-
                 return false;
             });
 
@@ -239,6 +217,52 @@
                     $('#thim-popup-login').removeClass();
                 }
             });
+
+            $(document).on('change', '#teacher', function() {
+                var value = $(this).val();
+                                        
+                value = "button.button.button-small.buttonTime." + value;
+        
+                var arr = new Array();
+                $('#teacher option').each(function(){
+                    arr.push($(this).val());
+                });
+                
+                var i;
+                var classTeacher = '';
+                for (i = 1; i < arr.length; ++i) {
+                    arr[i];
+        
+                    classTeacher = "button.button.button-small.buttonTime." + arr[i];
+                    
+                    document.querySelector(classTeacher).style.display='none';
+                }
+        
+                document.querySelector(value).style.display='block';
+            });
+
+            // $('#teacher').change(function(){ 
+            //     var value = $(this).val();
+                                        
+            //     value = "button.button.button-small.buttonTime." + value;
+        
+            //     var arr = new Array();
+            //     $('#teacher option').each(function(){
+            //         arr.push($(this).val());
+            //     });
+                
+            //     var i;
+            //     var classTeacher = '';
+            //     for (i = 1; i < arr.length; ++i) {
+            //         arr[i];
+        
+            //         classTeacher = "." + arr[i];
+                    
+            //         document.querySelector(classTeacher).style.display='none';
+            //     }
+        
+            //     document.querySelector(value).style.display='block';
+            // });
         },
 
         register_ajax: function() {
