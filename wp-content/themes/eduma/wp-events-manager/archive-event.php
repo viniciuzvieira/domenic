@@ -121,7 +121,7 @@ th.month {
     $Friday = 'Friday';
     $Saturday = 'Saturday';
 
-    $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes ORDER BY class_day ASC');
+    $daySelect = $wpdb->get_results('SELECT DISTINCT(DAY(class_day)) AS class_day, class_teacher_name, student_id FROM wp_classes ORDER BY class_day ASC');
 
     $daysTeachers = $wpdb->get_results('SELECT 
                                             DAY(A.class_day) AS class_day, 

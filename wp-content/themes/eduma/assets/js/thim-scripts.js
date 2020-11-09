@@ -25,6 +25,8 @@
 
     }
 
+    var requestEvent;
+
     var thim_eduma = {
         ready: function() {
             this.register_ajax();
@@ -162,7 +164,7 @@
 
                 $("#form-class").hide();
 
-                $.post(ajaxurl, data, function(response) {
+                requestEvent = $.post(ajaxurl, data, function(response) {
                     try {
                         response = JSON.parse(response);
                         $elem.find('.thim-login').append(response.contentSelect).append(response.contentButton);
@@ -215,6 +217,7 @@
                 if ($(e.target).attr('id') === 'thim-popup-login') {
                     $('body').removeClass('thim-popup-active');
                     $('#thim-popup-login').removeClass();
+                    requestEvent.abort();
                 }
             });
 
@@ -232,13 +235,12 @@
                 var classTeacher = '';
                 for (i = 1; i < arr.length; ++i) {
                     arr[i];
-        
                     classTeacher = "button.button.button-small.buttonTime." + arr[i];
-                    
-                    document.querySelector(classTeacher).style.display='none';
+                    document.querySelectorAll(classTeacher).forEach(a=>a.style.display = "none");
                 }
         
-                document.querySelector(value).style.display='block';
+                document.querySelectorAll(value).forEach(a=>a.style.display = "block");
+
             });
 
         },

@@ -389,14 +389,18 @@ if ( ! function_exists( 'thim_class_ajax_callback' ) ) {
 			$daySelect = $_POST['data'];
 									
 			global $wpdb;
-			$contentSelect = '<select id="teacher" name="orderby" class="orderby">';
+			$contentSelect = '<select id="teacher" name="orderby" class="orderby selectTeacher">';
 			$resultsSelect = $wpdb->get_results('SELECT DISTINCT(class_teacher_name), class_time_day FROM wp_classes WHERE DAY(class_day) = ' . $daySelect . ' AND student_id is null');
-			
 			
 			$contentSelect .= '<option value="" selected disabled hidden>Escolher professor(a)</option>';
 			
+			$listTeachersSelect = array();
+
 			foreach ( $resultsSelect AS $rowSelect ) {
-				$contentSelect .= '<option value="' . str_replace(' ', '-', $rowSelect->class_teacher_name) .'">' . $rowSelect->class_teacher_name . '</option>';
+				if (in_array($rowSelect->class_teacher_name, $listTeachersSelect) == false){
+					array_push($listTeachersSelect, $rowSelect->class_teacher_name);
+					$contentSelect .= '<option value="' . str_replace(' ', '-', $rowSelect->class_teacher_name) .'">' . $rowSelect->class_teacher_name . '</option>';
+				}
 			}
 			
 			$contentSelect .= '</select>';
