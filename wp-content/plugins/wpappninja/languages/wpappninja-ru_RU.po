@@ -1,0 +1,3316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPMobile.App\n"
+"POT-Creation-Date: 2019-03-01 08:05+0100\n"
+"PO-Revision-Date: 2019-11-29 10:45+0100\n"
+"Last-Translator: Arseno <arsenpopoff@gmail.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpappninja.php\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/import.php:291 inc/functions/shortcodes.php:1031
+#: inc/functions/shortcodes.php:1045
+#, fuzzy
+msgid "My home"
+msgstr "мой дом"
+
+#: inc/admin/import.php:296 inc/functions/shortcodes.php:838
+msgid "Share"
+msgstr "Поделиться"
+
+#: inc/admin/import.php:301
+#, fuzzy
+msgid "QRCode reader"
+msgstr "QR Код"
+
+#: inc/admin/import.php:306 inc/admin/import.php:413 inc/admin/import.php:507
+#: inc/admin/ui/options.php:2893 inc/admin/ui/options.php:2947
+#, fuzzy
+msgid "Push config"
+msgstr "Нажмите настройки"
+
+#: inc/admin/import.php:311 inc/admin/import.php:404 inc/admin/import.php:500
+#: inc/admin/ui/options.php:2886 inc/admin/ui/options.php:2940
+#, fuzzy
+msgid "Notification history"
+msgstr "История уведомлений для"
+
+#: inc/admin/import.php:316 inc/functions/shortcodes.php:278
+msgid "Login"
+msgstr "Войти"
+
+#: inc/admin/import.php:321 inc/admin/import.php:386 inc/admin/import.php:395
+#: inc/admin/import.php:493 inc/admin/ui/auto.php:198 inc/admin/ui/auto.php:206
+#: inc/admin/ui/options.php:2879 inc/admin/ui/options.php:2933
+#: inc/api/json.php:159 inc/api/json.php:361 inc/stats/render.php:30
+msgid "Recent posts"
+msgstr "Недавние Посты"
+
+#: inc/admin/import.php:444
+#, fuzzy
+msgid "Contact"
+msgstr "Контактная информация"
+
+#: inc/admin/menu.php:46 inc/admin/ui/home.php:218 inc/admin/ui/menu.php:352
+#, fuzzy
+msgid "Preview"
+msgstr "Предыдущий"
+
+#: inc/admin/menu.php:49 inc/admin/menu.php:51 inc/admin/plugins.php:12
+#: inc/admin/ui/home.php:333 inc/admin/ui/menu.php:356
+#, fuzzy
+msgid "Configuration"
+msgstr "уведомление"
+
+#: inc/admin/menu.php:53 inc/admin/ui/pwa.php:136 inc/admin/ui/submenu.php:71
+#: inc/common/admin-bar.php:67
+msgid "Design"
+msgstr "Дизайн"
+
+#: inc/admin/menu.php:54 inc/admin/ui/home.php:334 inc/admin/ui/menu.php:359
+#: inc/common/admin-bar.php:75
+msgid "Statistics"
+msgstr "Статистика"
+
+#: inc/admin/menu.php:55 inc/common/admin-bar.php:85
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: inc/admin/menu.php:58 inc/admin/menu.php:61 inc/admin/ui/home.php:338
+#: inc/admin/ui/menu.php:363 inc/common/admin-bar.php:93
+msgid "QR Code"
+msgstr "QR Код"
+
+#: inc/admin/menu.php:59 inc/admin/menu.php:62 inc/common/admin-bar.php:101
+#, fuzzy
+msgid "Adserver"
+msgstr "Adserver"
+
+#: inc/admin/menu.php:59 inc/admin/menu.php:62 inc/admin/ui/home.php:339
+#: inc/admin/ui/menu.php:364
+msgid "Advertising"
+msgstr "Реклама"
+
+#: inc/admin/menu.php:65 inc/admin/ui/home.php:345
+msgid "Promote"
+msgstr "Продвигать"
+
+#: inc/admin/menu.php:66 inc/admin/ui/home.php:346
+msgid "Publication"
+msgstr "Издание"
+
+#: inc/admin/menu.php:67 inc/admin/ui/home.php:353 inc/common/admin-bar.php:129
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/admin/menu.php:68
+#, fuzzy
+msgid "iOS Certificate"
+msgstr "iOS сертификат"
+
+#: inc/admin/menu.php:69
+msgid "Update"
+msgstr "Обновить"
+
+#: inc/admin/menu.php:70 inc/admin/ui/home.php:342
+#, fuzzy
+msgid "Progressive Web App"
+msgstr "Прогрессивных веб-приложение"
+
+#: inc/admin/menu.php:71 inc/admin/ui/submenu.php:69 inc/admin/ui/theme.php:223
+msgid "Theme"
+msgstr "Тема"
+
+#: inc/admin/metabox.php:24
+#, fuzzy
+msgid "Send a push notification"
+msgstr "Отправить push-уведомление"
+
+#: inc/admin/metabox.php:58
+msgid "Action required"
+msgstr "Требуемые действия"
+
+#: inc/admin/metabox.php:59
+#, fuzzy
+msgid "You must add an API KEY"
+msgstr "Вам необходимо добавить ключ API"
+
+#: inc/admin/metabox.php:84
+msgid "at"
+msgstr "в"
+
+#: inc/admin/metabox.php:88
+msgid "Sended"
+msgstr "Отправлено"
+
+#: inc/admin/metabox.php:88
+msgid "Scheduled"
+msgstr "Запланировано"
+
+#: inc/admin/metabox.php:122
+#, fuzzy
+msgid "This post is already published. Notification off."
+msgstr "Этот пост уже опубликованы. Уведомление о выкл."
+
+#: inc/admin/metabox.php:126
+#, fuzzy
+msgid "Set a notification?"
+msgstr "Задать уведомление?"
+
+#: inc/admin/metabox.php:129 inc/admin/ui/push.php:580
+#, fuzzy
+msgid "Send date"
+msgstr "Дата Отправки"
+
+#: inc/admin/metabox.php:134
+#, fuzzy
+msgid "On post publish"
+msgstr "На пост опубликовать"
+
+#: inc/admin/metabox.php:135
+#, fuzzy
+msgid "Set a date"
+msgstr "Задать дату"
+
+#: inc/admin/metabox.php:143 inc/admin/ui/push.php:494
+#, fuzzy
+msgid "Categorie"
+msgstr "Категории"
+
+#: inc/admin/metabox.php:146 inc/admin/ui/push.php:500
+#: inc/admin/ui/stats.php:198
+msgid "All"
+msgstr "Все"
+
+#: inc/admin/metabox.php:163 inc/stats/display.php:532
+msgid "Lang"
+msgstr "Язык"
+
+#: inc/admin/metabox.php:181
+msgid "Set as default"
+msgstr "Задать по умолчанию"
+
+#: inc/admin/sdkupdate.php:34
+msgid ""
+"<h4 style=\"font-size:18px;margin-top:0\">🚀 New WPMobile.App SDK available</"
+"h4>&bull; 3x faster<br/>&bull; Embed the last Apple & Google framework<br/"
+">&bull; GDPR ready (no more 3rd library)<br/><br/>iOS available 1st March - "
+"Android available 15 March"
+msgstr ""
+
+#: inc/admin/sdkupdate.php:37 inc/admin/sdkupdate.php:72
+msgid "This action cant be undone. Are you sure?"
+msgstr ""
+
+#: inc/admin/sdkupdate.php:37
+msgid "Enable the new SDK"
+msgstr ""
+
+#: inc/admin/sdkupdate.php:70
+#, php-format
+msgid ""
+"<h4 style=\"font-size:18px;margin-top:0\">⚠ Features deprecated in the new "
+"SDK</h4>From February 28 you can continue to use <b>%s</b> but you will not "
+"be able to update the application."
+msgstr ""
+
+#: inc/admin/sdkupdate.php:72
+#, fuzzy
+msgid "Disable deprecated features"
+msgstr "Специальные Особенности "
+
+#: inc/admin/talkus.php:16
+msgid "Enable the light app mode (beta)"
+msgstr ""
+
+#: inc/admin/talkus.php:37
+#, fuzzy
+msgid "You love WPMobile.App?"
+msgstr "WPAPP. НИНДЗЯ"
+
+#: inc/admin/talkus.php:38
+msgid "Spread the word"
+msgstr ""
+
+#: inc/admin/ui/adserver.php:87 inc/admin/ui/pwa.php:102
+#, fuzzy
+msgid "Learn how to send a notification when you publish"
+msgstr "Не удается отправить уведомление с бесплатным планом"
+
+#: inc/admin/ui/adserver.php:91 inc/admin/ui/push.php:216
+#: inc/admin/ui/pwa.php:106
+#, fuzzy
+msgid "Progressive Web App is a free feature"
+msgstr "Прогрессивных веб-приложение"
+
+#: inc/admin/ui/adserver.php:95 inc/admin/ui/push.php:220
+#: inc/admin/ui/pwa.php:110
+msgid "Learn how to turn on advertising on the app"
+msgstr ""
+
+#: inc/admin/ui/adserver.php:102 inc/admin/ui/push.php:227
+#: inc/admin/ui/pwa.php:117 inc/admin/ui/submenu.php:56
+msgid "+ more"
+msgstr ""
+
+#: inc/admin/ui/adserver.php:107
+#, fuzzy
+msgid "You can't use or modify the adserver without a PREMIUM pack"
+msgstr "Нельзя использовать или изменять adserver без премиум пакет"
+
+#: inc/admin/ui/adserver.php:107 inc/admin/ui/home.php:230
+#: inc/admin/ui/menu.php:309 inc/admin/ui/stats.php:106
+#: inc/functions/check.php:264
+#, fuzzy
+msgid "UPDATE MY PLAN"
+msgstr "ОБНОВИТЬ МОЙ ПЛАН"
+
+#: inc/admin/ui/adserver.php:111
+msgid "New ad"
+msgstr "Новое объявление"
+
+#: inc/admin/ui/adserver.php:112 inc/admin/ui/promote.php:43
+#: inc/admin/ui/push.php:243
+msgid "settings"
+msgstr "настройки"
+
+#: inc/admin/ui/adserver.php:116
+#, fuzzy
+msgid "AdBuddiz"
+msgstr "AdBuddiz"
+
+#: inc/admin/ui/adserver.php:118
+#, fuzzy
+msgid "AdMob"
+msgstr "AdMob"
+
+#: inc/admin/ui/adserver.php:120 inc/admin/ui/adserver.php:206
+#, fuzzy
+msgid "HTML Code"
+msgstr "Объявление HTML"
+
+#: inc/admin/ui/adserver.php:129 inc/admin/ui/adserver.php:241
+#: inc/admin/ui/push.php:414 inc/admin/ui/stats.php:154
+#: inc/admin/ui/stats.php:169 inc/functions/shortcodes.php:457
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/admin/ui/adserver.php:135
+#, fuzzy
+msgid "Add an ad before and after the content"
+msgstr "Добавить объявление до и после содержание"
+
+#: inc/admin/ui/adserver.php:138 inc/admin/ui/auto.php:381
+#: inc/admin/ui/auto.php:395 inc/admin/ui/auto.php:478
+#: inc/admin/ui/auto.php:511 inc/admin/ui/auto.php:524
+#: inc/admin/ui/auto.php:663 inc/admin/ui/auto.php:674
+#: inc/admin/ui/auto.php:686 inc/admin/ui/auto.php:770
+#: inc/admin/ui/auto.php:782 inc/admin/ui/auto.php:791
+#: inc/admin/ui/auto.php:797 inc/admin/ui/auto.php:804
+#: inc/admin/ui/auto.php:810 inc/admin/ui/auto.php:823
+#: inc/admin/ui/auto.php:843 inc/admin/ui/auto.php:924
+#: inc/admin/ui/auto.php:1040 inc/admin/ui/auto.php:1108
+#: inc/admin/ui/auto.php:1124 inc/admin/ui/auto.php:1184
+#: inc/admin/ui/auto.php:1198 inc/admin/ui/auto.php:1212
+#: inc/admin/ui/auto.php:1267 inc/admin/ui/auto.php:1308
+#: inc/admin/ui/auto.php:1322 inc/admin/ui/auto.php:1373
+#: inc/admin/ui/auto.php:1490 inc/admin/ui/auto.php:1509
+#: inc/admin/ui/auto.php:1523 inc/admin/ui/auto.php:1537
+#: inc/admin/ui/auto.php:1551 inc/admin/ui/auto.php:1565
+#: inc/admin/ui/auto.php:1579 inc/admin/ui/auto.php:1648
+#: inc/admin/ui/auto.php:1764 inc/admin/ui/auto.php:1778
+#: inc/admin/ui/auto.php:1792 inc/admin/ui/auto.php:1806
+#: inc/admin/ui/auto.php:1893 inc/admin/ui/auto.php:1923
+#: inc/admin/ui/auto.php:1934 inc/admin/ui/cert.php:107
+#: inc/admin/ui/cert.php:132 inc/admin/ui/cert.php:146
+#: inc/admin/ui/cert.php:158 inc/admin/ui/cert.php:170
+#: inc/admin/ui/cert.php:337 inc/admin/ui/options.php:503
+#: inc/admin/ui/options.php:538 inc/admin/ui/options.php:1061
+#: inc/admin/ui/options.php:1493 inc/admin/ui/options.php:1497
+#: inc/admin/ui/options.php:1501 inc/admin/ui/options.php:1505
+#: inc/admin/ui/options.php:1509 inc/admin/ui/options.php:1521
+#: inc/admin/ui/options.php:1526 inc/admin/ui/options.php:1531
+#: inc/admin/ui/options.php:1615 inc/admin/ui/options.php:1620
+#: inc/admin/ui/options.php:1625 inc/admin/ui/options.php:1636
+#: inc/admin/ui/options.php:1654 inc/admin/ui/options.php:1658
+#: inc/admin/ui/options.php:1669 inc/admin/ui/options.php:1673
+#: inc/admin/ui/options.php:1677 inc/admin/ui/options.php:2387
+#: inc/admin/ui/options.php:2562 inc/admin/ui/promote.php:161
+msgid "Yes"
+msgstr "Да"
+
+#: inc/admin/ui/adserver.php:138 inc/admin/ui/auto.php:381
+#: inc/admin/ui/auto.php:395 inc/admin/ui/auto.php:478
+#: inc/admin/ui/auto.php:511 inc/admin/ui/auto.php:524
+#: inc/admin/ui/auto.php:663 inc/admin/ui/auto.php:674
+#: inc/admin/ui/auto.php:686 inc/admin/ui/auto.php:770
+#: inc/admin/ui/auto.php:782 inc/admin/ui/auto.php:791
+#: inc/admin/ui/auto.php:797 inc/admin/ui/auto.php:804
+#: inc/admin/ui/auto.php:810 inc/admin/ui/auto.php:823
+#: inc/admin/ui/auto.php:843 inc/admin/ui/auto.php:924
+#: inc/admin/ui/auto.php:1040 inc/admin/ui/auto.php:1108
+#: inc/admin/ui/auto.php:1124 inc/admin/ui/auto.php:1184
+#: inc/admin/ui/auto.php:1198 inc/admin/ui/auto.php:1212
+#: inc/admin/ui/auto.php:1267 inc/admin/ui/auto.php:1308
+#: inc/admin/ui/auto.php:1322 inc/admin/ui/auto.php:1373
+#: inc/admin/ui/auto.php:1490 inc/admin/ui/auto.php:1509
+#: inc/admin/ui/auto.php:1523 inc/admin/ui/auto.php:1537
+#: inc/admin/ui/auto.php:1551 inc/admin/ui/auto.php:1565
+#: inc/admin/ui/auto.php:1579 inc/admin/ui/auto.php:1648
+#: inc/admin/ui/auto.php:1764 inc/admin/ui/auto.php:1778
+#: inc/admin/ui/auto.php:1792 inc/admin/ui/auto.php:1806
+#: inc/admin/ui/auto.php:1893 inc/admin/ui/auto.php:1923
+#: inc/admin/ui/auto.php:1934 inc/admin/ui/cert.php:107
+#: inc/admin/ui/cert.php:132 inc/admin/ui/cert.php:146
+#: inc/admin/ui/cert.php:158 inc/admin/ui/cert.php:170
+#: inc/admin/ui/cert.php:337 inc/admin/ui/options.php:503
+#: inc/admin/ui/options.php:538 inc/admin/ui/options.php:1061
+#: inc/admin/ui/options.php:1493 inc/admin/ui/options.php:1497
+#: inc/admin/ui/options.php:1501 inc/admin/ui/options.php:1505
+#: inc/admin/ui/options.php:1509 inc/admin/ui/options.php:1521
+#: inc/admin/ui/options.php:1526 inc/admin/ui/options.php:1531
+#: inc/admin/ui/options.php:1615 inc/admin/ui/options.php:1620
+#: inc/admin/ui/options.php:1625 inc/admin/ui/options.php:1636
+#: inc/admin/ui/options.php:1654 inc/admin/ui/options.php:1658
+#: inc/admin/ui/options.php:1669 inc/admin/ui/options.php:1673
+#: inc/admin/ui/options.php:1677 inc/admin/ui/options.php:2562
+#: inc/admin/ui/promote.php:161
+msgid "No"
+msgstr "Нет"
+
+#: inc/admin/ui/adserver.php:148 inc/admin/ui/adserver.php:162
+#: inc/admin/ui/options.php:1164 inc/admin/ui/options.php:1179
+#, fuzzy, php-format
+msgid "Follow %sthe guide%s to create a new ad block"
+msgstr "Следуйте руководство sthe %%s для создания нового блока объявлений"
+
+#: inc/admin/ui/adserver.php:151 inc/admin/ui/adserver.php:165
+#: inc/admin/ui/options.php:1167 inc/admin/ui/options.php:1182
+#, fuzzy
+msgid "Splash screen"
+msgstr "Заставка Blender'а"
+
+#: inc/admin/ui/adserver.php:174 inc/admin/ui/options.php:1191
+#, fuzzy
+msgid "Floating bar"
+msgstr "Плавающий бар"
+
+#: inc/admin/ui/adserver.php:183 inc/admin/ui/options.php:1200
+#, fuzzy
+msgid "300x250 before post"
+msgstr "300 x 250 до поста"
+
+#: inc/admin/ui/adserver.php:192 inc/admin/ui/options.php:1209
+#, fuzzy
+msgid "300x250 after post"
+msgstr "300 x 250 после поста"
+
+#: inc/admin/ui/adserver.php:208 inc/admin/ui/options.php:1083
+#, fuzzy
+msgid ""
+"Useful to add your html banners or communicate an event.<br/><b>Note that "
+"you can not use CSS or Javascript. Only HTML tags (img, a, b, i, p, ...).</b>"
+msgstr ""
+"Полезно для добавления html баннеры или общаться события.<br><b>Обратите "
+"внимание, что вы не можете использовать CSS или Javascript. Только HTML-теги "
+"(img, а, b, i, p,...).</b>"
+
+#: inc/admin/ui/adserver.php:212 inc/admin/ui/options.php:1085
+msgid "Before the post"
+msgstr "Перед статьей"
+
+#: inc/admin/ui/adserver.php:218 inc/admin/ui/options.php:1095
+msgid "After the post"
+msgstr "После статьи"
+
+#: inc/admin/ui/adserver.php:233 inc/admin/ui/adserver.php:326
+msgid "Submit"
+msgstr "Отправить"
+
+#: inc/admin/ui/adserver.php:280
+#, fuzzy
+msgid "HTML ad"
+msgstr "Объявление HTML"
+
+#: inc/admin/ui/adserver.php:283
+#, fuzzy
+msgid "Color of the title"
+msgstr "Цвет заголовка"
+
+#: inc/admin/ui/adserver.php:288
+#, fuzzy
+msgid "The ad"
+msgstr "Объявление"
+
+#: inc/admin/ui/adserver.php:289 inc/admin/ui/auto.php:857
+#: inc/admin/ui/auto.php:1446 inc/admin/ui/auto.php:1713
+#: inc/admin/ui/cert.php:232 inc/admin/ui/cert.php:345
+#: inc/admin/ui/options.php:581 inc/admin/ui/options.php:845
+#: inc/admin/ui/options.php:896 inc/admin/ui/options.php:1307
+#: inc/admin/ui/options.php:1569 inc/admin/ui/options.php:1632
+#: inc/admin/ui/options.php:2182 inc/admin/ui/options.php:2347
+#: inc/admin/ui/options.php:2615 inc/admin/ui/push.php:478
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/admin/ui/adserver.php:292
+msgid "Text"
+msgstr "Текст"
+
+#: inc/admin/ui/adserver.php:295 inc/admin/ui/push.php:486
+msgid "Link"
+msgstr "Ссылка"
+
+#: inc/admin/ui/adserver.php:298 inc/admin/ui/publish.php:376
+#: inc/admin/ui/pwa.php:154
+msgid "Logo"
+msgstr "Логотип"
+
+#: inc/admin/ui/adserver.php:302 inc/admin/ui/publish.php:418
+#: inc/admin/ui/push.php:483
+msgid "Choose an image"
+msgstr "Выберите изображение"
+
+#: inc/admin/ui/adserver.php:306 inc/admin/ui/push.php:557
+msgid "Language"
+msgstr "Язык"
+
+#: inc/admin/ui/adserver.php:313 inc/admin/ui/push.php:592
+msgid "Schedule"
+msgstr "Расписание"
+
+#: inc/admin/ui/adserver.php:314
+msgid "Start date"
+msgstr "Дата начала"
+
+#: inc/admin/ui/adserver.php:319
+msgid "End date"
+msgstr "Дата окончания"
+
+#: inc/admin/ui/adserver.php:335
+msgid "ads"
+msgstr "Объявления"
+
+#: inc/admin/ui/adserver.php:335
+#, fuzzy
+msgid "displays"
+msgstr "."
+
+#: inc/admin/ui/adserver.php:335
+msgid "clicks"
+msgstr "клики"
+
+#: inc/admin/ui/adserver.php:359
+msgid "LIVE"
+msgstr "ЖИВОЙ"
+
+#: inc/admin/ui/adserver.php:361
+msgid "PLANNED"
+msgstr "ЗАПЛАНИРОВАНО"
+
+#: inc/admin/ui/adserver.php:363
+msgid "ENDED"
+msgstr "ЗАКОНЧЕН"
+
+#: inc/admin/ui/adserver.php:366
+#, fuzzy
+msgid "Displays:"
+msgstr "Дисплеи"
+
+#: inc/admin/ui/adserver.php:366
+msgid "Clicks:"
+msgstr "Клики:"
+
+#: inc/admin/ui/adserver.php:368
+#, fuzzy
+msgid "Lang:"
+msgstr "Язык:"
+
+#: inc/admin/ui/adserver.php:370
+msgid "Start date:"
+msgstr "Дата начала:"
+
+#: inc/admin/ui/adserver.php:371
+msgid "End date:"
+msgstr "Дата окончания:"
+
+#: inc/admin/ui/adserver.php:373 inc/admin/ui/cert.php:310
+#: inc/admin/ui/options.php:389 inc/admin/ui/options.php:395
+#: inc/admin/ui/options.php:408 inc/admin/ui/options.php:1908
+#: inc/admin/ui/options.php:1943 inc/admin/ui/options.php:2138
+#: inc/admin/ui/options.php:2170 inc/admin/ui/publish.php:295
+#: inc/admin/ui/publish.php:297 inc/admin/ui/push.php:475
+#: inc/admin/ui/stats.php:117
+msgid "Edit"
+msgstr "Редактировать"
+
+#: inc/admin/ui/adserver.php:375 inc/admin/ui/options.php:2229
+#: inc/admin/ui/push.php:348 inc/admin/ui/push.php:382
+#: inc/admin/ui/push.php:595 inc/admin/ui/push.php:606
+#: inc/admin/ui/qrcode.php:120
+msgid "Delete"
+msgstr "Удалить"
+
+#: inc/admin/ui/auto.php:265
+msgid "Some options require the WPMobile.App theme"
+msgstr ""
+
+#: inc/admin/ui/auto.php:369 inc/admin/ui/auto.php:1096
+#: inc/admin/ui/auto.php:1752
+#, fuzzy
+msgid "Links management"
+msgstr "Обратные ссылки управления"
+
+#: inc/admin/ui/auto.php:376 inc/admin/ui/auto.php:1103
+#: inc/admin/ui/auto.php:1759 inc/admin/ui/options.php:1520
+#, fuzzy
+msgid "Open all links in the internal browser"
+msgstr "Открыть все ссылки во встроенном браузере"
+
+#: inc/admin/ui/auto.php:390 inc/admin/ui/auto.php:1119
+#: inc/admin/ui/auto.php:1773
+#, fuzzy
+msgid "Open all pdf link with the Drive reader"
+msgstr "Открыть все ссылки во встроенном браузере"
+
+#: inc/admin/ui/auto.php:403 inc/admin/ui/auto.php:577
+#: inc/admin/ui/auto.php:696 inc/admin/ui/auto.php:699
+#: inc/admin/ui/auto.php:1816 inc/functions/colors.php:294
+#: inc/functions/colors.php:296 inc/functions/colors.php:298
+#: inc/functions/colors.php:300
+msgid "Extra"
+msgstr "Экстра"
+
+#: inc/admin/ui/auto.php:408 inc/admin/ui/auto.php:705
+#: inc/admin/ui/auto.php:1823 inc/admin/ui/options.php:1782
+msgid "Administrator"
+msgstr "Администратор"
+
+#: inc/admin/ui/auto.php:409 inc/admin/ui/auto.php:706
+#: inc/admin/ui/auto.php:1824 inc/admin/ui/options.php:1783
+msgid "Editor"
+msgstr "Редактор"
+
+#: inc/admin/ui/auto.php:410 inc/admin/ui/auto.php:707
+#: inc/admin/ui/auto.php:855 inc/admin/ui/auto.php:1444
+#: inc/admin/ui/auto.php:1711 inc/admin/ui/auto.php:1825
+#: inc/admin/ui/options.php:1567 inc/admin/ui/options.php:1784
+#: inc/admin/ui/options.php:2613
+msgid "Author"
+msgstr "Автор"
+
+#: inc/admin/ui/auto.php:411 inc/admin/ui/auto.php:708
+#: inc/admin/ui/auto.php:1826 inc/admin/ui/options.php:1785
+msgid "Subscriber"
+msgstr "Подписчик"
+
+#: inc/admin/ui/auto.php:416 inc/admin/ui/auto.php:713
+#: inc/admin/ui/auto.php:1831
+#, fuzzy
+msgid "Minimal role to send notification"
+msgstr "Удаленные уведомления"
+
+#: inc/admin/ui/auto.php:436 inc/admin/ui/auto.php:730
+#: inc/admin/ui/auto.php:1851
+msgid "Minimal role to view statistics"
+msgstr ""
+
+#: inc/admin/ui/auto.php:454 inc/admin/ui/auto.php:748
+#: inc/admin/ui/auto.php:1869
+msgid "Minimal role to view qrcode"
+msgstr ""
+
+#: inc/admin/ui/auto.php:474 inc/admin/ui/auto.php:766
+#: inc/admin/ui/auto.php:1889
+#, fuzzy
+msgid "Show the download banner on the website"
+msgstr "Показать Загрузка баннер на веб-сайте"
+
+#: inc/admin/ui/auto.php:487 inc/admin/ui/auto.php:636
+#: inc/admin/ui/auto.php:640 inc/admin/ui/auto.php:1900
+msgid "Cache and speed"
+msgstr ""
+
+#: inc/admin/ui/auto.php:494 inc/admin/ui/auto.php:647
+#: inc/admin/ui/auto.php:1907
+msgid "Cache everything"
+msgstr ""
+
+#: inc/admin/ui/auto.php:496 inc/admin/ui/auto.php:649
+#: inc/admin/ui/auto.php:1909
+msgid "Cache only for offline"
+msgstr ""
+
+#: inc/admin/ui/auto.php:507 inc/admin/ui/auto.php:659
+#: inc/admin/ui/auto.php:1919
+msgid "Enable fastclick"
+msgstr ""
+
+#: inc/admin/ui/auto.php:520 inc/admin/ui/auto.php:670
+#: inc/admin/ui/auto.php:1930
+#, fuzzy
+msgid "Improve the compatibility with cache plugin"
+msgstr "[Beta] Улучшение совместимости с кэш плагин"
+
+#: inc/admin/ui/auto.php:579
+#, fuzzy
+msgid "User Homepage"
+msgstr "Главная страница"
+
+#: inc/admin/ui/auto.php:584
+#, fuzzy
+msgid "Home type"
+msgstr "Главная страница"
+
+#: inc/admin/ui/auto.php:588
+msgid "List with all posts"
+msgstr ""
+
+#: inc/admin/ui/auto.php:588
+#, fuzzy
+msgid "Show 3 posts by category"
+msgstr "Показать больше категорий"
+
+#: inc/admin/ui/auto.php:597
+msgid "Category available to users"
+msgstr ""
+
+#: inc/admin/ui/auto.php:682
+#, fuzzy
+msgid "Always refresh the app content"
+msgstr "Перед содержанием"
+
+#: inc/admin/ui/auto.php:696 inc/functions/colors.php:255
+#: inc/functions/colors.php:257
+msgid "Background"
+msgstr "Фон"
+
+#: inc/admin/ui/auto.php:779
+#, fuzzy
+msgid "Use the website theme (not recommanded)"
+msgstr "Использовать веб-сайт тему (не рекомендованы)"
+
+#: inc/admin/ui/auto.php:785 inc/admin/ui/auto.php:1498
+#: inc/admin/ui/cert.php:371 inc/admin/ui/options.php:1311
+#: inc/admin/ui/pwa.php:186 inc/common/admin-bar.php:59
+#: inc/functions/colors.php:200 inc/functions/colors.php:201
+#: inc/functions/colors.php:203 inc/functions/colors.php:204
+#: inc/functions/colors.php:206 inc/functions/colors.php:207
+#: inc/functions/colors.php:209 inc/functions/colors.php:210
+#: inc/functions/colors.php:280 inc/functions/colors.php:281
+#: inc/functions/colors.php:285 inc/functions/colors.php:286
+#: inc/functions/colors.php:287 inc/functions/colors.php:289
+#: inc/stats/display.php:111 inc/stats/display.php:344
+msgid "Content"
+msgstr "Содержание"
+
+#: inc/admin/ui/auto.php:788
+msgid "Animate page load"
+msgstr ""
+
+#: inc/admin/ui/auto.php:794
+msgid "Lazy load images"
+msgstr ""
+
+#: inc/admin/ui/auto.php:801
+#, fuzzy
+msgid "Infinite scroll pages"
+msgstr "Бесконечной прокрутки страниц"
+
+#: inc/admin/ui/auto.php:807
+msgid "Pull to refresh"
+msgstr "Потяните для обновления"
+
+#: inc/admin/ui/auto.php:816 inc/admin/ui/home.php:101
+#: inc/admin/ui/options.php:1961 inc/functions/colors.php:193
+#: inc/functions/colors.php:194 inc/functions/colors.php:266
+#: inc/functions/colors.php:268 inc/functions/colors.php:270
+#: inc/functions/colors.php:271 inc/functions/colors.php:272
+#: inc/functions/colors.php:273 inc/functions/colors.php:274
+#: inc/functions/colors.php:276 inc/functions/colors.php:277
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/admin/ui/auto.php:820
+#, fuzzy
+msgid "Slide to open the menu"
+msgstr "Слайд, чтобы открыть меню"
+
+#: inc/admin/ui/auto.php:837 inc/functions/colors.php:214
+#: inc/functions/colors.php:215 inc/functions/colors.php:217
+#: inc/functions/colors.php:291
+msgid "List"
+msgstr "Список"
+
+#: inc/admin/ui/auto.php:840
+#, fuzzy
+msgid "Show the title of the list"
+msgstr "Показать заголовок списка"
+
+#: inc/admin/ui/auto.php:846
+#, fuzzy
+msgid "Order list by"
+msgstr "Lista degli ordini"
+
+#: inc/admin/ui/auto.php:851 inc/admin/ui/auto.php:1440
+#: inc/admin/ui/auto.php:1705 inc/admin/ui/options.php:1563
+#: inc/admin/ui/options.php:2607
+msgid "Date"
+msgstr "Дата"
+
+#: inc/admin/ui/auto.php:853 inc/admin/ui/auto.php:1442
+#: inc/admin/ui/auto.php:1709 inc/admin/ui/options.php:1565
+#: inc/admin/ui/options.php:2611
+msgid "Comment count"
+msgstr "Количество комментариев"
+
+#: inc/admin/ui/auto.php:859 inc/admin/ui/auto.php:1448
+#: inc/admin/ui/auto.php:1715 inc/admin/ui/options.php:1571
+#: inc/admin/ui/options.php:2617
+msgid "Last modified date"
+msgstr "Дата последнего изменения"
+
+#: inc/admin/ui/auto.php:861 inc/admin/ui/auto.php:1450
+#: inc/admin/ui/auto.php:1717 inc/admin/ui/options.php:1573
+#: inc/admin/ui/options.php:2619
+msgid "Random"
+msgstr "Случайно"
+
+#: inc/admin/ui/auto.php:864 inc/admin/ui/auto.php:1453
+#: inc/admin/ui/auto.php:1720 inc/admin/ui/options.php:1576
+#: inc/admin/ui/options.php:2622
+msgid "No order"
+msgstr "Без очередности"
+
+#: inc/admin/ui/auto.php:869
+#, fuzzy
+msgid "Sort rule"
+msgstr "Правило сортировки"
+
+#: inc/admin/ui/auto.php:874 inc/admin/ui/auto.php:1472
+#: inc/admin/ui/auto.php:1737 inc/admin/ui/options.php:1589
+#: inc/admin/ui/options.php:2634
+#, fuzzy
+msgid "Ascending order from lowest to highest values"
+msgstr "ASC - по возрастанию от наименьшего до наибольшего значения"
+
+#: inc/admin/ui/auto.php:876 inc/admin/ui/auto.php:1474
+#: inc/admin/ui/auto.php:1739 inc/admin/ui/options.php:1591
+#: inc/admin/ui/options.php:2636
+#, fuzzy
+msgid "Descending order from highest to lowest values"
+msgstr "DESC - убыванию от большего к меньшему значения"
+
+#: inc/admin/ui/auto.php:886
+msgid "Item number"
+msgstr "№"
+
+#: inc/admin/ui/auto.php:907 inc/admin/ui/auto.php:1356
+#: inc/admin/ui/options.php:2548
+#, fuzzy
+msgid "Hide posts older than X days"
+msgstr "Скрыть сообщения старше X дней"
+
+#: inc/admin/ui/auto.php:911 inc/admin/ui/auto.php:1360
+#: inc/admin/ui/options.php:2551
+msgid "Days"
+msgstr "Дней"
+
+#: inc/admin/ui/auto.php:920 inc/admin/ui/auto.php:1369
+#: inc/admin/ui/options.php:2558
+#, fuzzy
+msgid "Show password protected posts"
+msgstr "Показать защищенные паролем должности"
+
+#: inc/admin/ui/auto.php:934 inc/admin/ui/auto.php:1382
+#, fuzzy
+msgid "Exclude by direct tag name"
+msgstr "Исключать по имени прямой тега"
+
+#: inc/admin/ui/auto.php:947 inc/admin/ui/auto.php:1395
+#, fuzzy
+msgid "Exclude by tags"
+msgstr "Исключить Теги"
+
+#: inc/admin/ui/auto.php:992
+msgid "Hide"
+msgstr "Скрыть"
+
+#: inc/admin/ui/auto.php:992 inc/admin/ui/options.php:2561
+msgid "Show"
+msgstr "Показать"
+
+#: inc/admin/ui/auto.php:1014 inc/admin/ui/auto.php:1241
+#: inc/admin/ui/options.php:1605
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/admin/ui/auto.php:1021 inc/admin/ui/auto.php:1248
+#: inc/admin/ui/options.php:1609
+#, fuzzy
+msgid "Default image url (optional)"
+msgstr "По умолчанию URL-адрес изображения (необязательно)"
+
+#: inc/admin/ui/auto.php:1035 inc/admin/ui/auto.php:1262
+#, fuzzy
+msgid "Use any image on the post as featured"
+msgstr "Использовать любое изображение на пост как лучшее"
+
+#: inc/admin/ui/auto.php:1048 inc/admin/ui/auto.php:1589
+#, fuzzy
+msgid "Similars posts"
+msgstr "Similars сообщения"
+
+#: inc/admin/ui/auto.php:1054 inc/admin/ui/auto.php:1595
+#: inc/admin/ui/options.php:1689
+msgid "Number"
+msgstr "Номер"
+
+#: inc/admin/ui/auto.php:1075 inc/admin/ui/auto.php:1616
+#: inc/admin/ui/options.php:1700
+#, fuzzy
+msgid "Selection rule"
+msgstr "Правила выбора"
+
+#: inc/admin/ui/auto.php:1171
+msgid "Features"
+msgstr "Особенности"
+
+#: inc/admin/ui/auto.php:1179 inc/admin/ui/options.php:1496
+#, fuzzy
+msgid "Subscribe system"
+msgstr "Подписаться системы"
+
+#: inc/admin/ui/auto.php:1193 inc/admin/ui/options.php:1500
+#, fuzzy
+msgid "Favorite system"
+msgstr "Любимые системы"
+
+#: inc/admin/ui/auto.php:1207 inc/admin/ui/options.php:1504
+#, fuzzy
+msgid "Sharing system"
+msgstr "Система распределения"
+
+#: inc/admin/ui/auto.php:1280 inc/admin/ui/options.php:1643
+msgid "Date and time"
+msgstr "Дата и время"
+
+#: inc/admin/ui/auto.php:1286 inc/admin/ui/options.php:1646
+msgid "Date type"
+msgstr "Тип даты"
+
+#: inc/admin/ui/auto.php:1293 inc/admin/ui/options.php:1649
+#, fuzzy
+msgid "5 days ago"
+msgstr "5 дней назад"
+
+#: inc/admin/ui/auto.php:1303
+#, fuzzy
+msgid "Show date on list and post"
+msgstr "Показать дату на списке и пост"
+
+#: inc/admin/ui/auto.php:1317
+#, fuzzy
+msgid "Show hour"
+msgstr "Показать час"
+
+#: inc/admin/ui/auto.php:1330
+msgid "Lists"
+msgstr "Списки"
+
+#: inc/admin/ui/auto.php:1337
+#, fuzzy
+msgid "Item size"
+msgstr "Размер элемента"
+
+#: inc/admin/ui/auto.php:1344 inc/admin/ui/options.php:1550
+#, fuzzy
+msgid "Big cards"
+msgstr "Большие карты"
+
+#: inc/admin/ui/auto.php:1345 inc/admin/ui/options.php:1551
+#, fuzzy
+msgid "Small cards"
+msgstr "Небольшие карты"
+
+#: inc/admin/ui/auto.php:1432 inc/admin/ui/auto.php:1699
+#: inc/admin/ui/options.php:1558 inc/admin/ui/options.php:2603
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: inc/admin/ui/auto.php:1464 inc/admin/ui/auto.php:1731
+#: inc/admin/ui/options.php:1584 inc/admin/ui/options.php:2630
+msgid "Order"
+msgstr "Заказ"
+
+#: inc/admin/ui/auto.php:1485
+#, fuzzy
+msgid "Show image on lists"
+msgstr "Показать изображение на списки"
+
+#: inc/admin/ui/auto.php:1504
+#, fuzzy
+msgid "Show image on pages"
+msgstr "Показать изображение на страницах"
+
+#: inc/admin/ui/auto.php:1518
+#, fuzzy
+msgid "Show the title before content"
+msgstr "Показать этот титул до содержания"
+
+#: inc/admin/ui/auto.php:1532 inc/admin/ui/options.php:1668
+#, fuzzy
+msgid "Show author name and avatar before post"
+msgstr "Показать имя автора и аватар до поста"
+
+#: inc/admin/ui/auto.php:1546 inc/admin/ui/options.php:1672
+#, fuzzy
+msgid "Show date before post"
+msgstr "Показать дату до поста"
+
+#: inc/admin/ui/auto.php:1560 inc/admin/ui/options.php:1676
+#, fuzzy
+msgid "Show author bio after post"
+msgstr "Скрыть биографию автора после поста"
+
+#: inc/admin/ui/auto.php:1574 inc/admin/ui/options.php:1492
+msgid "Comments"
+msgstr "Комментарии"
+
+#: inc/admin/ui/auto.php:1636 inc/admin/ui/auto.php:1643
+#: inc/admin/ui/options.php:1508
+msgid "Search engine"
+msgstr "Поисковая система"
+
+#: inc/admin/ui/auto.php:1659
+#, fuzzy
+msgid "Exclude by category"
+msgstr "Исключать по категориям"
+
+#: inc/admin/ui/auto.php:1682
+#, fuzzy
+msgid "Show more category"
+msgstr "Показать больше категорий"
+
+#: inc/admin/ui/auto.php:1707 inc/admin/ui/options.php:2609
+msgid "Relevance"
+msgstr "Актуальность"
+
+#: inc/admin/ui/auto.php:1787
+#, fuzzy
+msgid "Open all links on the same screen (not recommended)"
+msgstr "Открыть все ссылки на одном экране (не рекомендуется)"
+
+#: inc/admin/ui/auto.php:1801 inc/admin/ui/options.php:1530
+#, fuzzy
+msgid "Open in browser menu option (Android only)"
+msgstr "Открыть в браузере меню (только для Android)"
+
+#: inc/admin/ui/cert.php:75 inc/admin/ui/options.php:604
+msgid "General"
+msgstr "Общие"
+
+#: inc/admin/ui/cert.php:79
+#, fuzzy
+msgid "Comma separated category"
+msgstr "Разделённые запятыми ярлыки категорий"
+
+#: inc/admin/ui/cert.php:91
+#, fuzzy
+msgid "Action on notification click"
+msgstr "Задать уведомление?"
+
+#: inc/admin/ui/cert.php:95
+msgid "Open the linked page"
+msgstr ""
+
+#: inc/admin/ui/cert.php:95
+#, fuzzy
+msgid "Display the notification message"
+msgstr "Удаленные уведомления"
+
+#: inc/admin/ui/cert.php:103
+#, fuzzy
+msgid "Show the box to send push on page editor"
+msgstr "Показать поле для отправки нажмите на странице Редактор"
+
+#: inc/admin/ui/cert.php:122
+#, fuzzy
+msgid "Automatic push"
+msgstr "Авто нажмите"
+
+#: inc/admin/ui/cert.php:128
+#, fuzzy
+msgid "When a post is published"
+msgstr "На пост опубликовать"
+
+#: inc/admin/ui/cert.php:142
+#, fuzzy
+msgid "When a WooCommerce order status change"
+msgstr "После WooCommerce магазин"
+
+#: inc/admin/ui/cert.php:154
+#, fuzzy
+msgid "When a BuddyPress notification is sent"
+msgstr "Отправить push-уведомление"
+
+#: inc/admin/ui/cert.php:166
+msgid "When a mail is sended to an user"
+msgstr ""
+
+#: inc/admin/ui/cert.php:185 inc/admin/ui/options.php:1066
+msgid "iOS"
+msgstr "iOS"
+
+#: inc/admin/ui/cert.php:191
+#, fuzzy
+msgid "You need to buy and publish your app before the iOS configuration."
+msgstr "Вам нужно купить и публиковать приложение до iOS конфигурации."
+
+#: inc/admin/ui/cert.php:196
+msgid "Certificate"
+msgstr "Сертификат"
+
+#: inc/admin/ui/cert.php:196
+#, fuzzy
+msgid "download here"
+msgstr "Загрузка здесь"
+
+#: inc/admin/ui/cert.php:207
+msgid "Valid until"
+msgstr "Действует до"
+
+#: inc/admin/ui/cert.php:212
+msgid "Expired"
+msgstr "Истекший"
+
+#: inc/admin/ui/cert.php:215
+msgid "Missing"
+msgstr "Отсутствует"
+
+#: inc/admin/ui/cert.php:228
+#, fuzzy
+msgid "Content of the push"
+msgstr "Материал для показа"
+
+#: inc/admin/ui/cert.php:232
+msgid "Title + Text"
+msgstr ""
+
+#: inc/admin/ui/cert.php:242 inc/admin/ui/options.php:1066
+msgid "Android"
+msgstr "Андроид"
+
+#: inc/admin/ui/cert.php:248
+#, fuzzy
+msgid ""
+"Follow <a href=\"https://support.wpmobile.app/article/248-how-to-get-an-api-"
+"key-for-android-notifications?lang=en\" target=\"_blank\">this guide</a> to "
+"get the Google API Key"
+msgstr ""
+"Следуйте <b><a href=\"https://wpmobile.app/en/send-push-notifications/\" "
+"target=\"_blank\">Краткое руководство</a></b> , чтобы получить ключ API "
+"Google"
+
+#: inc/admin/ui/cert.php:253 inc/admin/ui/options.php:523
+msgid "Server API Key"
+msgstr "Сервер API ключа"
+
+#: inc/admin/ui/cert.php:269 inc/admin/ui/options.php:527
+msgid "Sender ID"
+msgstr "Отправитель ID"
+
+#: inc/admin/ui/cert.php:287
+#, fuzzy
+msgid "Notification icon"
+msgstr "Значок уведомления"
+
+#: inc/admin/ui/cert.php:329
+#, fuzzy
+msgid "Welcome notification"
+msgstr "Добро пожаловать уведомления"
+
+#: inc/admin/ui/cert.php:333 inc/admin/ui/options.php:502
+#: inc/admin/ui/options.php:537
+#, fuzzy
+msgid "Send a welcome notification"
+msgstr "Отправить уведомление Добро пожаловать"
+
+#: inc/admin/ui/cert.php:358 inc/admin/ui/options.php:585
+msgid "Sub title"
+msgstr "Подзаголовок"
+
+#: inc/admin/ui/home.php:14 inc/admin/ui/home.php:169
+msgid "Done! App auto configured"
+msgstr ""
+
+#: inc/admin/ui/home.php:100 inc/admin/ui/submenu.php:67
+#, fuzzy
+msgid "Name and logo"
+msgstr "Выбрать логотип"
+
+#: inc/admin/ui/home.php:102
+#, fuzzy
+msgid "Theme and colors"
+msgstr "Выбрать логотип"
+
+#: inc/admin/ui/home.php:103
+#, fuzzy
+msgid "Block design"
+msgstr "Расположение блока"
+
+#: inc/admin/ui/home.php:104
+#, fuzzy
+msgid "CSS and JavaScript"
+msgstr "CSS и JavaScript"
+
+#: inc/admin/ui/home.php:105
+#, fuzzy
+msgid "Translation"
+msgstr "nessuna traduzione"
+
+#: inc/admin/ui/home.php:106
+#, fuzzy
+msgid "Options"
+msgstr "Действия"
+
+#: inc/admin/ui/home.php:203
+msgid "unlimited"
+msgstr "неограниченный"
+
+#: inc/admin/ui/home.php:222 inc/admin/ui/menu.php:248
+#, fuzzy
+msgid "Create my app"
+msgstr "Создать мой app"
+
+#: inc/admin/ui/home.php:230 inc/functions/check.php:264
+msgid "Downloads:"
+msgstr "Загрузки:"
+
+#: inc/admin/ui/home.php:253 inc/admin/ui/home.php:297
+msgid "downloads"
+msgstr "загрузки"
+
+#: inc/admin/ui/home.php:264 inc/admin/ui/home.php:310
+#, fuzzy
+msgid "Update and files"
+msgstr "Обновление и файлов"
+
+#: inc/admin/ui/home.php:269 inc/admin/ui/home.php:318
+#: inc/admin/upgrader.php:66
+msgid "BUY"
+msgstr "Купить"
+
+#: inc/admin/ui/home.php:277
+#, fuzzy
+msgid "Build the app"
+msgstr "Цвета приложения"
+
+#: inc/admin/ui/home.php:323 inc/admin/ui/menu.php:323
+msgid "UPDATE"
+msgstr "ОБНОВИТЬ"
+
+#: inc/admin/ui/home.php:336 inc/admin/ui/menu.php:360
+#: inc/admin/ui/options.php:322 inc/admin/ui/options.php:495
+#: inc/functions/shortcodes.php:616 inc/stats/display.php:107
+msgid "Push notifications"
+msgstr "Push-уведомления"
+
+#: inc/admin/ui/menu.php:230
+#, fuzzy
+msgid "Your application is almost ready!"
+msgstr "Ваше приложение готово!"
+
+#: inc/admin/ui/menu.php:232
+#, fuzzy
+msgid "Name of the application"
+msgstr "Основы приложения"
+
+#: inc/admin/ui/menu.php:233
+msgid "SHORTER IS BETTER"
+msgstr ""
+
+#: inc/admin/ui/menu.php:236
+msgid "Logo for the app launcher"
+msgstr ""
+
+#: inc/admin/ui/menu.php:237
+msgid "BEST SIZE: 1024x1024"
+msgstr ""
+
+#: inc/admin/ui/menu.php:241
+#, fuzzy
+msgid "Select a logo"
+msgstr "Выбрать логотип"
+
+#: inc/admin/ui/menu.php:244 inc/admin/ui/pwa.php:174
+#, fuzzy
+msgid "Main color"
+msgstr "Цвет ссылок"
+
+#: inc/admin/ui/menu.php:300
+#, fuzzy
+msgid "Push notifications are not yet fully configured"
+msgstr "Push-уведомления еще не настроены полностью"
+
+#: inc/admin/ui/menu.php:300 inc/admin/ui/options.php:1898
+#, fuzzy
+msgid "CONFIGURE"
+msgstr "Configurare"
+
+#: inc/admin/ui/menu.php:309
+#, fuzzy
+msgid ""
+"On December 15, 2016 notifications and statistics will no longer be "
+"available with the free package"
+msgstr ""
+"На 15 декабря 2016 статистика и уведомления больше не будет доступен с "
+"бесплатный пакет"
+
+#: inc/admin/ui/menu.php:323
+#, fuzzy
+msgid "Your app need to be updated on stores"
+msgstr "Приложения должны быть обновлены на магазины"
+
+#: inc/admin/ui/menu.php:351
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: inc/admin/ui/options.php:148
+#, fuzzy
+msgid "Please review the form"
+msgstr "Пожалуйста, просмотрите формы"
+
+#: inc/admin/ui/options.php:195
+msgid "Important notice"
+msgstr "Важное замечание"
+
+#: inc/admin/ui/options.php:196
+#, fuzzy
+msgid ""
+"To optimize performance, the application uses a cache system. Changes made "
+"from WordPress can take up to 1 hour to be available on apps."
+msgstr ""
+"Для оптимизации производительности, приложение использует систему кэш. "
+"Изменения, сделанные из WordPress может занять до 1 часа на apps."
+
+#: inc/admin/ui/options.php:197
+#, fuzzy
+msgid "GOT IT"
+msgstr "ГОТОВО!"
+
+#: inc/admin/ui/options.php:241
+#, fuzzy
+msgid "Language(s) of the app"
+msgstr "Язык приложения"
+
+#: inc/admin/ui/options.php:243
+#, fuzzy
+msgid "Colors of the app"
+msgstr "Цвета приложения"
+
+#: inc/admin/ui/options.php:257 inc/admin/ui/options.php:258
+#, fuzzy
+msgid "Home page and menu"
+msgstr "Домашняя страница и меню"
+
+#: inc/admin/ui/options.php:283 inc/admin/ui/options.php:333
+#, fuzzy
+msgid "Smart banner"
+msgstr "Смарт-баннер"
+
+#: inc/admin/ui/options.php:285 inc/admin/ui/options.php:1326
+msgid "Main content"
+msgstr "Основное содержание"
+
+#: inc/admin/ui/options.php:300 inc/admin/ui/options.php:1247
+#, fuzzy
+msgid "Rating popup"
+msgstr "Рейтинг всплывающее"
+
+#: inc/admin/ui/options.php:302 inc/admin/ui/options.php:1485
+#, fuzzy
+msgid "App interface"
+msgstr "Интерфейс приложения"
+
+#: inc/admin/ui/options.php:304
+msgid "Content to show"
+msgstr "Материал для показа"
+
+#: inc/admin/ui/options.php:320
+#, fuzzy
+msgid "About page"
+msgstr "О странице"
+
+#: inc/admin/ui/options.php:325
+msgid "Plugins"
+msgstr "Плагины"
+
+#: inc/admin/ui/options.php:336 inc/admin/ui/options.php:340
+#: inc/admin/ui/options.php:1131
+msgid "DEBUG"
+msgstr "ОТЛАД"
+
+#: inc/admin/ui/options.php:338
+#, fuzzy
+msgid "I'm a web developer"
+msgstr "Я веб-разработчик"
+
+#: inc/admin/ui/options.php:341
+#, fuzzy
+msgid "HTML injection"
+msgstr "Инъекции HTML"
+
+#: inc/admin/ui/options.php:342 inc/admin/ui/options.php:1233
+#, fuzzy
+msgid "Regex modifications"
+msgstr "Regex модификации"
+
+#: inc/admin/ui/options.php:347
+#, fuzzy
+msgid "Access right of the plugin"
+msgstr "Право доступа плагин"
+
+#: inc/admin/ui/options.php:354
+#, fuzzy
+msgid "All changes are instantly reflected on the app"
+msgstr "Все изменения немедленно отражаются на app"
+
+#: inc/admin/ui/options.php:365
+#, fuzzy
+msgid "UPDATE NOW ON STORES FOR"
+msgstr "ОБНОВЛЕНИЕ: ТЕПЕРЬ МАГАЗИНЫ ДЛЯ"
+
+#: inc/admin/ui/options.php:367
+#, fuzzy
+msgid "PUBLISH ON STORES FOR"
+msgstr "ОПУБЛИКОВАТЬ НА МАГАЗИНЫ"
+
+#: inc/admin/ui/options.php:369 inc/admin/ui/publish.php:301
+#, fuzzy
+msgid "Your app"
+msgstr "Ваше приложение"
+
+#: inc/admin/ui/options.php:378 inc/admin/ui/options.php:1867
+#: inc/admin/ui/options.php:1877 inc/admin/ui/options.php:2379
+#: inc/admin/ui/publish.php:310 inc/admin/ui/pwa.php:191
+msgid "Homepage"
+msgstr "Главная страница"
+
+#: inc/admin/ui/options.php:379 inc/admin/ui/publish.php:311
+msgid "Support"
+msgstr "Поддержка"
+
+#: inc/admin/ui/options.php:380 inc/admin/ui/publish.php:312
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+#: inc/admin/ui/options.php:384 inc/admin/ui/publish.php:316
+msgid "Category:"
+msgstr "Категория:"
+
+#: inc/admin/ui/options.php:384 inc/admin/ui/publish.php:316
+msgid "Keywords:"
+msgstr "Ключевые слова:"
+
+#: inc/admin/ui/options.php:391 inc/admin/ui/options.php:445
+#, fuzzy
+msgid "Custom theme"
+msgstr "Пользовательская Тема"
+
+#: inc/admin/ui/options.php:398 inc/admin/ui/publish.php:328
+msgid "Contact info"
+msgstr "Контактная информация"
+
+#: inc/admin/ui/options.php:428
+#, fuzzy
+msgid "Your App"
+msgstr "Ваше приложение"
+
+#: inc/admin/ui/options.php:429
+#, fuzzy
+msgid "App title"
+msgstr "Название приложения"
+
+#: inc/admin/ui/options.php:431
+#, fuzzy
+msgid "Blog url"
+msgstr "URL блога"
+
+#: inc/admin/ui/options.php:436
+#, fuzzy
+msgid "App logo"
+msgstr "App логотип"
+
+#: inc/admin/ui/options.php:439 inc/admin/ui/publish.php:383
+#: inc/admin/ui/pwa.php:164
+#, fuzzy
+msgid "Choose a logo"
+msgstr "Выбрать логотип"
+
+#: inc/admin/ui/options.php:441
+#, fuzzy
+msgid "Background color for iOS logo (if transparency on logo)"
+msgstr "Цвет для iOS логотип фона (если прозрачность на логотип)"
+
+#: inc/admin/ui/options.php:446 inc/admin/ui/options.php:1765
+#: inc/admin/ui/theme.php:403
+msgid "Primary color"
+msgstr "Основной цвет"
+
+#: inc/admin/ui/options.php:448 inc/admin/ui/options.php:1767
+#: inc/admin/ui/theme.php:414
+msgid "Secondary color"
+msgstr "Вторичный цвет"
+
+#: inc/admin/ui/options.php:498 inc/admin/ui/options.php:533
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: inc/admin/ui/options.php:499 inc/admin/ui/options.php:534
+#, fuzzy
+msgid "You can send a welcome notification on the first app launch."
+msgstr ""
+"Вы можете отправить уведомление приветствия при первом запуске приложения."
+
+#: inc/admin/ui/options.php:499
+#, fuzzy
+msgid "Go on the language section to configure it."
+msgstr "Перейти на раздел языка для его настройки."
+
+#: inc/admin/ui/options.php:511
+#, fuzzy, php-format
+msgid ""
+"You must upload a certificate to enable iOS notifications.<br/>You'll "
+"receive it by mail when the app is under publication on the App Store.<br/>"
+"%sI got the certificate, go to the upload page%s"
+msgstr ""
+"Вам необходимо загрузить сертификат для включения уведомлений iOS.<br>Вы "
+"получите его по почте, когда приложение находится в стадии публикации на App "
+"Store.<br>%sI получил сертификат, перейдите на страницу загрузки %s"
+
+#: inc/admin/ui/options.php:520
+#, fuzzy
+msgid ""
+"Follow the <b><a href=\"https://wpmobile.app/en/send-push-notifications/\" "
+"target=\"_blank\">quick guide</a></b> to get the Google API Key"
+msgstr ""
+"Следуйте <b><a href=\"https://wpmobile.app/en/send-push-notifications/\" "
+"target=\"_blank\">Краткое руководство</a></b> , чтобы получить ключ API "
+"Google"
+
+#: inc/admin/ui/options.php:605
+#, fuzzy
+msgid "Muted categories do not trigger notifications"
+msgstr "Приглушенные категории не активизируют уведомления"
+
+#: inc/admin/ui/options.php:608
+#, fuzzy
+msgid "Muted category"
+msgstr "Приглушенные Категория"
+
+#: inc/admin/ui/options.php:665
+#, fuzzy
+msgid "You can enter here your legal terms."
+msgstr "Здесь можно ввести ваши юридические термины."
+
+#: inc/admin/ui/options.php:688 inc/stats/display.php:135
+msgid "Languages"
+msgstr "Языки"
+
+#: inc/admin/ui/options.php:696
+#, fuzzy
+msgid "Auto detected users languages"
+msgstr "Auto обнаруженных пользователей языки"
+
+#: inc/admin/ui/options.php:716
+#, fuzzy
+msgid "Add a language"
+msgstr "Добавление языка"
+
+#: inc/admin/ui/options.php:748
+msgid "Translation system"
+msgstr "Машинный перевод"
+
+#: inc/admin/ui/options.php:752
+#, fuzzy
+msgid "No translation"
+msgstr "nessuna traduzione"
+
+#: inc/admin/ui/options.php:753
+msgid "Manual"
+msgstr "Вручную"
+
+#: inc/admin/ui/options.php:756
+#, fuzzy
+msgid "Automatic (with Weglot)"
+msgstr "Автоматическая (с Weglot)"
+
+#: inc/admin/ui/options.php:771
+#, fuzzy
+msgid "Weglot"
+msgstr "Weglot"
+
+#: inc/admin/ui/options.php:776 inc/admin/ui/options.php:779
+msgid "API Key"
+msgstr "Ключ API"
+
+#: inc/admin/ui/options.php:786
+#, fuzzy
+msgid "Original language (2 letters code)"
+msgstr "Оригинальные langage (2 буквы кода)"
+
+#: inc/admin/ui/options.php:855 inc/admin/ui/options.php:937
+msgid "Url"
+msgstr "Url"
+
+#: inc/admin/ui/options.php:978
+#, fuzzy
+msgid "Smart Banner"
+msgstr "Смарт-баннер"
+
+#: inc/admin/ui/options.php:980 inc/admin/ui/promote.php:79
+#, fuzzy
+msgid ""
+"Display a banner on top of your site pointing on the store for your mobile "
+"visitors."
+msgstr ""
+"Отображение баннера на верхней части вашего сайта, указывая на хранилище для "
+"ваших мобильных посетителей."
+
+#: inc/admin/ui/options.php:1050 inc/admin/ui/promote.php:148
+#: inc/functions/banner.php:126
+msgid "FREE"
+msgstr "БЕСПЛАТНО"
+
+#: inc/admin/ui/options.php:1051 inc/admin/ui/promote.php:149
+#: inc/functions/banner.php:47
+#, fuzzy
+msgid "In App Store"
+msgstr "APP STORE"
+
+#: inc/admin/ui/options.php:1054 inc/admin/ui/promote.php:152
+#: inc/functions/banner.php:130
+msgid "VIEW"
+msgstr "ПОСМОТРЕТЬ"
+
+#: inc/admin/ui/options.php:1060 inc/admin/ui/promote.php:160
+#, fuzzy
+msgid "Show the smart banner"
+msgstr "Показать смарт-баннер"
+
+#: inc/admin/ui/options.php:1065
+#, fuzzy
+msgid "Display the smart banner on"
+msgstr "Отображение смарт-баннер на"
+
+#: inc/admin/ui/options.php:1066
+#, fuzzy
+msgid "Android and iOS"
+msgstr "Android и iOS"
+
+#: inc/admin/ui/options.php:1075
+#, fuzzy
+msgid "App indexing (SEO)"
+msgstr "Приложение индексации (SEO)"
+
+#: inc/admin/ui/options.php:1077
+#, fuzzy, php-format
+msgid "Follow %sthe guide%s for activate the app indexing api"
+msgstr ""
+"Следуйте %sthe руководство %s для активировать приложение индексации api"
+
+#: inc/admin/ui/options.php:1082
+#, fuzzy
+msgid "Inject HTML"
+msgstr "Вставки HTML"
+
+#: inc/admin/ui/options.php:1133
+msgid "Cron"
+msgstr "Cron"
+
+#: inc/admin/ui/options.php:1142
+msgid "Package"
+msgstr "Пакет"
+
+#: inc/admin/ui/options.php:1145
+msgid "Package name"
+msgstr "Название пакета"
+
+#: inc/admin/ui/options.php:1145 inc/admin/ui/options.php:1154
+#, fuzzy
+msgid "Get it"
+msgstr "Понятно?"
+
+#: inc/admin/ui/options.php:1153
+#, fuzzy
+msgid "App Store ID"
+msgstr "APP STORE"
+
+#: inc/admin/ui/options.php:1219 inc/admin/ui/stats.php:121
+#: inc/admin/ui/stats.php:157
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: inc/admin/ui/options.php:1221
+#, fuzzy, php-format
+msgid "Follow %sthe guide%s to get a Google Analytics UA id"
+msgstr ""
+"Следуйте руководство sthe %%s, чтобы получить идентификатор Google Analytics "
+"UA"
+
+#: inc/admin/ui/options.php:1224
+#, fuzzy
+msgid "Identifiant"
+msgstr "Identifiant"
+
+#: inc/admin/ui/options.php:1234
+#, fuzzy
+msgid ""
+"<b>'Expert' function, use only if you know what you are doing.</b><br/>If "
+"you have any doubt, please contact us on the chat (bottom right) to see what "
+"we can do ;)<br/><br/>You can via a regular expression delete some portions "
+"of your articles. Useful for example to remove tags or shortcodes that are "
+"not automatically deleted or element that is not useful in the application."
+msgstr ""
+"<b>Функция «Экспертов», используйте только если вы знаете, что вы делаете.</"
+"b><br>Если у вас есть какие-либо сомнения, пожалуйста, свяжитесь с нами в "
+"чате (внизу справа), чтобы увидеть, что мы можем сделать ;)<br><br>Вы можете "
+"через регулярное выражение удалить некоторые части ваших статей. Полезно, "
+"например, чтобы удалить теги или короткие номера, автоматически не удаляются "
+"или элемент, который не является полезной в приложении."
+
+#: inc/admin/ui/options.php:1236
+#, fuzzy
+msgid "Add your regex rules (line break separated)"
+msgstr "Добавьте ваши правила regex (разрыв строки отделены)"
+
+#: inc/admin/ui/options.php:1237
+#, fuzzy
+msgid "Example: /&lt;strong&gt;.*&lt;\\/strong&gt;/i"
+msgstr "Пример: / < strong >. * / < \\/strong > i"
+
+#: inc/admin/ui/options.php:1249
+#, fuzzy
+msgid "The rating popup allow the users to go on the store and leave a review."
+msgstr ""
+"Рейтинг popup позволяют пользователям перейти на хранилище и оставить отзыв."
+
+#: inc/admin/ui/options.php:1252
+msgid "Trigger rule"
+msgstr "\"Предупредительное\" правило"
+
+#: inc/admin/ui/options.php:1256
+#, fuzzy
+msgid "After reading X posts (0 = deactivate)"
+msgstr "После чтения X должности (0 = отключить)"
+
+#: inc/admin/ui/options.php:1330
+#, fuzzy
+msgid "Additionnal CSS for the Android night mode"
+msgstr "Дополнительные CSS для Android ночной режим"
+
+#: inc/admin/ui/options.php:1341
+msgid "Display type"
+msgstr "Тип отображения"
+
+#: inc/admin/ui/options.php:1344
+#, fuzzy
+msgid "WPMobile.App (best)"
+msgstr "WPAPP. НИНДЗЯ"
+
+#: inc/admin/ui/options.php:1345 inc/admin/ui/options.php:1464
+msgid "Simple (text only)"
+msgstr "Простой (только текст)"
+
+#: inc/admin/ui/options.php:1346 inc/admin/ui/options.php:1465
+msgid "Website theme (not app friendly)"
+msgstr "Тема сайта (не app дружественных)"
+
+#: inc/admin/ui/options.php:1350 inc/admin/ui/options.php:1469
+msgid "Optimal"
+msgstr "Оптимально"
+
+#: inc/admin/ui/options.php:1390
+#, fuzzy
+msgid "Only on some page?"
+msgstr "Только некоторые страницы?"
+
+#: inc/admin/ui/options.php:1405
+#, fuzzy
+msgid "Custom CSS (only on app)"
+msgstr "Пользовательские CSS (эксперт)"
+
+#: inc/admin/ui/options.php:1406 inc/admin/ui/options.php:1419
+#, fuzzy
+msgid "You can use CSS to customize the content"
+msgstr "Вы можете использовать CSS для настройки содержимого"
+
+#: inc/admin/ui/options.php:1418
+#, fuzzy
+msgid "Custom CSS (only on website)"
+msgstr "Пользовательские CSS (эксперт)"
+
+#: inc/admin/ui/options.php:1432
+msgid "Custom rules"
+msgstr "Пользовательский URL"
+
+#: inc/admin/ui/options.php:1433
+#, fuzzy
+msgid "You can use a different mode for some pages"
+msgstr "Вы можете использовать другой режим для некоторых страниц"
+
+#: inc/admin/ui/options.php:1437
+msgid "Page url"
+msgstr "Адрес страницы"
+
+#: inc/admin/ui/options.php:1475
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/admin/ui/options.php:1488
+msgid "Special features"
+msgstr "Специальные Особенности "
+
+#: inc/admin/ui/options.php:1489
+#, fuzzy
+msgid ""
+"&bull; <b>Comments</b>: show the comments and a form to publish on posts<br/"
+">&bull; <b>Subscribe system</b>: add an item on the menu pointing to "
+"subscribed category and a button on each post to (un)subscribe<br/>&bull; "
+"<b>Favorite system</b>: add an item on the menu to list all favorited posts "
+"and a button on each post to favorite<br/>&bull; <b>Share bubble</b>: show a "
+"button on each post to share it on social networks"
+msgstr ""
+"• <b>Комментарии</b>: Показать комментарии и формы для публикации на "
+"должности<br>• <b>Система подписаться</b>: добавить элемент меню, указывая "
+"на подписанные категории и подписаться кнопку на каждой должности (ООН)<br>• "
+"<b>Любимый система</b>: в меню Добавить элемент в список все избранное "
+"должности и кнопки на каждый пост для любимых<br>• <b>Поделиться пузырь</b>: "
+"Показать кнопки на каждый пост, чтобы поделиться в социальных сетях"
+
+#: inc/admin/ui/options.php:1516
+msgid "Links"
+msgstr "Ссылки"
+
+#: inc/admin/ui/options.php:1525
+#, fuzzy
+msgid "Open all links on the same screen (faster)"
+msgstr "Открыть все ссылки на одном экране (быстрее)"
+
+#: inc/admin/ui/options.php:1542
+#, fuzzy
+msgid "Posts listing"
+msgstr "Отображение списка постов"
+
+#: inc/admin/ui/options.php:1543
+#, fuzzy
+msgid ""
+"<b>Small cards</b> Little image on left and title on right of the image<br/"
+"><b>Big cards</b> Big image and title below"
+msgstr ""
+"<b>Небольшие карты</b> Маленькие изображения слева и титула на право "
+"изображения<br><b>Большие карты</b> Большое изображение и название ниже"
+
+#: inc/admin/ui/options.php:1546
+msgid "Default view"
+msgstr "Просмотр деталей"
+
+#: inc/admin/ui/options.php:1606
+#, fuzzy
+msgid ""
+"If a post is published without image, you can define here a default image."
+msgstr ""
+"Если сообщение публикуется без изображения, изображение можно указать здесь "
+"по умолчанию."
+
+#: inc/admin/ui/options.php:1614
+#, fuzzy
+msgid "Use any image on the post as featured?"
+msgstr "Использовать любое изображение на пост как лучшее?"
+
+#: inc/admin/ui/options.php:1619
+#, fuzzy
+msgid "Hide image on lists?"
+msgstr "Скрыть изображение в списках?"
+
+#: inc/admin/ui/options.php:1624
+#, fuzzy
+msgid "Hide image on pages?"
+msgstr "Скрыть изображения на страницах?"
+
+#: inc/admin/ui/options.php:1635
+#, fuzzy
+msgid "Show the title before content?"
+msgstr "Показать название перед содержимым?"
+
+#: inc/admin/ui/options.php:1653
+#, fuzzy
+msgid "Show date on list/post?"
+msgstr "Показать дату на список/пост?"
+
+#: inc/admin/ui/options.php:1657
+#, fuzzy
+msgid "Show hour?"
+msgstr "Показать час?"
+
+#: inc/admin/ui/options.php:1665
+msgid "Posts content"
+msgstr "Содержание постов"
+
+#: inc/admin/ui/options.php:1683
+#, fuzzy
+msgid "Similar posts"
+msgstr "Похожие записи"
+
+#: inc/admin/ui/options.php:1684
+#, fuzzy
+msgid "You can show similar posts after an article to engage your users."
+msgstr ""
+"Вы можете показать аналогичные должности после статьи привлечь пользователей."
+
+#: inc/admin/ui/options.php:1715 inc/admin/ui/options.php:1756
+#, fuzzy
+msgid "Theme of the app"
+msgstr "Тема приложения"
+
+#: inc/admin/ui/options.php:1716 inc/admin/ui/options.php:1757
+#, fuzzy
+msgid ""
+"You can change the theme of your app when you want, it will be modified in "
+"real time on all devices."
+msgstr ""
+"Вы можете изменить тему вашего приложения, когда вы хотите, он будет изменен "
+"в режиме реального времени на всех устройствах."
+
+#: inc/admin/ui/options.php:1774
+#, fuzzy
+msgid "Access right"
+msgstr "Право доступа"
+
+#: inc/admin/ui/options.php:1775
+#, fuzzy
+msgid ""
+"You change the level of right needed to access the statistics, notifications "
+"and settings panel."
+msgstr ""
+"Вы измените уровень права, необходимые для доступа к статистике, уведомлений "
+"и панель настроек."
+
+#: inc/admin/ui/options.php:1778
+msgid "Level"
+msgstr "Уровень"
+
+#: inc/admin/ui/options.php:1814 inc/admin/ui/options.php:1975
+#, fuzzy
+msgid "Build the app menu with your theme"
+msgstr "Построить меню приложения с вашей теме"
+
+#: inc/admin/ui/options.php:1831
+#, fuzzy
+msgid "Language to enable"
+msgstr "Язык для включения"
+
+#: inc/admin/ui/options.php:1873
+#, fuzzy
+msgid "SELECT HOMEPAGE"
+msgstr "ВЫБРАТЬ ГЛАВНУЮ СТРАНИЦУ"
+
+#: inc/admin/ui/options.php:1878
+#, fuzzy
+msgid "The homepage is the main screen of your application."
+msgstr "На главной странице является главный экран приложения."
+
+#: inc/admin/ui/options.php:1897
+#, fuzzy
+msgid "User homepage"
+msgstr "Импорт главной страницы"
+
+#: inc/admin/ui/options.php:1956
+msgid "Latest posts"
+msgstr "Свежие статьи"
+
+#: inc/admin/ui/options.php:1982
+#, fuzzy
+msgid "Menu builder"
+msgstr "Меню builder"
+
+#: inc/admin/ui/options.php:2044
+#, fuzzy
+msgid "+ ADD AN ITEM TO THE MENU"
+msgstr "+ ДОБАВИТЬ ЭЛЕМЕНТ МЕНЮ"
+
+#: inc/admin/ui/options.php:2046
+msgid "Reset"
+msgstr "Сброс"
+
+#: inc/admin/ui/options.php:2102 inc/admin/ui/options.php:2202
+msgid "Not logged in"
+msgstr ""
+
+#: inc/admin/ui/options.php:2104 inc/admin/ui/options.php:2207
+msgid "Logged in"
+msgstr ""
+
+#: inc/admin/ui/options.php:2107
+msgid "Restricted to"
+msgstr ""
+
+#: inc/admin/ui/options.php:2112 inc/admin/ui/options.php:2191
+#, fuzzy
+msgid "Left menu"
+msgstr "Меню слева"
+
+#: inc/admin/ui/options.php:2114 inc/admin/ui/options.php:2191
+#, fuzzy
+msgid "Toolbar menu"
+msgstr "Панель инструментов"
+
+#: inc/admin/ui/options.php:2116 inc/admin/ui/options.php:2191
+#, fuzzy
+msgid "Floating Action Bar"
+msgstr "Плавающий бар"
+
+#: inc/admin/ui/options.php:2121
+msgid "Group end"
+msgstr ""
+
+#: inc/admin/ui/options.php:2122
+msgid "Group start"
+msgstr ""
+
+#: inc/admin/ui/options.php:2175
+msgid "URL"
+msgstr ""
+
+#: inc/admin/ui/options.php:2191
+#, fuzzy
+msgid "Location"
+msgstr "Действие"
+
+#: inc/admin/ui/options.php:2196
+#, fuzzy
+msgid "Assigned to a role (optional)"
+msgstr "По умолчанию URL-адрес изображения (необязательно)"
+
+#: inc/admin/ui/options.php:2228
+msgid "OK"
+msgstr "OK"
+
+#: inc/admin/ui/options.php:2236
+msgid "Empty"
+msgstr "Пусто"
+
+#: inc/admin/ui/options.php:2340
+#, fuzzy
+msgid "Menu title (ios only)"
+msgstr "Название меню (только для iOS-устройств)"
+
+#: inc/admin/ui/options.php:2372
+msgid "Import"
+msgstr "Импорт"
+
+#: inc/admin/ui/options.php:2400
+#, fuzzy
+msgid "WordPress menu"
+msgstr "Меню в WordPress"
+
+#: inc/admin/ui/options.php:2437
+#, fuzzy
+msgid "Posts visibles in the app"
+msgstr "Visibles сообщения в приложении"
+
+#: inc/admin/ui/options.php:2439 inc/admin/ui/options.php:2443
+msgid "Content type"
+msgstr "Тип контента"
+
+#: inc/admin/ui/options.php:2440
+#, fuzzy
+msgid "Leave only `post` if you do not know what you are doing"
+msgstr "Оставить только «post», если вы не знаете, что вы делаете"
+
+#: inc/admin/ui/options.php:2468 inc/admin/ui/options.php:2472
+msgid "Category type"
+msgstr "Категория/тип"
+
+#: inc/admin/ui/options.php:2469
+#, fuzzy
+msgid "Leave only `category` if you do not know what you are doing"
+msgstr "Оставить только «категория», если вы не знаете, что вы делаете"
+
+#: inc/admin/ui/options.php:2496
+msgid "Posts"
+msgstr "Записи"
+
+#: inc/admin/ui/options.php:2513
+#, fuzzy
+msgid "Exclude some posts by tags"
+msgstr "Исключить некоторые посты по тегам"
+
+#: inc/admin/ui/options.php:2517
+#, fuzzy
+msgid "Direct tag name"
+msgstr "Имя тега прямой"
+
+#: inc/admin/ui/options.php:2524
+msgid "Tags"
+msgstr "Теги"
+
+#: inc/admin/ui/options.php:2568
+#, fuzzy
+msgid "Search restriction"
+msgstr "Ограничение поиска"
+
+#: inc/admin/ui/options.php:2569
+#, fuzzy
+msgid "You can restrict the search engine to only some category of the blog."
+msgstr "Двигатель поиска можно ограничить только некоторые категории блога."
+
+#: inc/admin/ui/options.php:2572
+msgid "Number of category to show"
+msgstr "Число категорий для отображения"
+
+#: inc/admin/ui/options.php:2583
+msgid "By category"
+msgstr "По категории"
+
+#: inc/admin/ui/options.php:2864
+#, fuzzy
+msgid "Start a group"
+msgstr "Фона строки состояния"
+
+#: inc/admin/ui/options.php:2872
+msgid "End a group"
+msgstr ""
+
+#: inc/admin/ui/options.php:2900
+#, fuzzy
+msgid "Custom homepage"
+msgstr "Пользовательская Тема"
+
+#: inc/admin/ui/options.php:2907
+#, fuzzy
+msgid "Login page"
+msgstr "О странице"
+
+#: inc/admin/ui/options.php:2914
+#, fuzzy
+msgid "Share box"
+msgstr "Поделиться"
+
+#: inc/admin/ui/options.php:2921
+#, fuzzy
+msgid "QRCode Scanner"
+msgstr "Сканер QR Code в app: включено"
+
+#: inc/admin/ui/preview.php:153
+msgid "Open this link from your phone to download the app"
+msgstr ""
+
+#: inc/admin/ui/preview.php:161
+msgid "Chromebook"
+msgstr ""
+
+#: inc/admin/ui/preview.php:162
+msgid "Tablet"
+msgstr ""
+
+#: inc/admin/ui/preview.php:163
+#, fuzzy
+msgid "Smartphone"
+msgstr "Смарт-баннер"
+
+#: inc/admin/ui/preview.php:164
+#, fuzzy
+msgid "Orientation"
+msgstr "уведомление"
+
+#: inc/admin/ui/preview.php:169
+msgid "Open in a new tab"
+msgstr ""
+
+#: inc/admin/ui/preview.php:177
+#, fuzzy
+msgid "Splashscreen"
+msgstr "Заставка Blender'а"
+
+#: inc/admin/ui/preview.php:178
+msgid "App"
+msgstr ""
+
+#: inc/admin/ui/preview.php:190 inc/admin/ui/theme.php:566
+#, fuzzy
+msgid "You have to test on a real device"
+msgstr "Вы должны проверить на реальном устройстве"
+
+#: inc/admin/ui/promote.php:40
+#, fuzzy
+msgid "Your app is not yet live on stores, you can't promote it"
+msgstr "Ваше приложение не пока живут на магазинах, вы не поощрять его"
+
+#: inc/admin/ui/publish.php:166
+#, fuzzy
+msgid "Fast configuration"
+msgstr "уведомление"
+
+#: inc/admin/ui/publish.php:182
+msgid "Expert mode"
+msgstr ""
+
+#: inc/admin/ui/publish.php:285 inc/functions/shortcodes.php:1287
+msgid "Hello!"
+msgstr "Здравствуйте!"
+
+#: inc/admin/ui/publish.php:287
+#, fuzzy
+msgid "Automatically create my menu"
+msgstr "Автоматически создавать мое меню"
+
+#: inc/admin/ui/publish.php:322
+#, fuzzy
+msgid "Your app theme"
+msgstr "Ваша тема app"
+
+#: inc/admin/ui/publish.php:348
+#, fuzzy
+msgid "Buy an update"
+msgstr "Купить обновление"
+
+#: inc/admin/ui/publish.php:348
+#, fuzzy
+msgid "Delete and unpublish"
+msgstr "Удаление и Отмена публикации"
+
+#: inc/admin/ui/publish.php:354
+#, fuzzy
+msgid ""
+"Any change on this page <u>after the first publication</u> will be billed "
+"49€.<br/><b>Take your time and make sure everything is ok.</b>"
+msgstr ""
+"Любые изменения на этой странице <u>после первой публикации</u> будет счета "
+"49€.<br><b>Примите ваше время и убедитесь, что все в порядке.</b>"
+
+#: inc/admin/ui/publish.php:355
+#, fuzzy
+msgid "App design"
+msgstr "Дизайн списка"
+
+#: inc/admin/ui/publish.php:359 inc/admin/ui/pwa.php:141
+#: themes/wpappninja-full/comments.php:55 themes/wpappninja/comments.php:52
+msgid "Name"
+msgstr "Имя"
+
+#: inc/admin/ui/publish.php:376
+#, fuzzy
+msgid "Optimal size: 512x512 pixels"
+msgstr "Оптимальный размер: 512 x 512 пикселей"
+
+#: inc/admin/ui/publish.php:398
+#, fuzzy
+msgid "Logo background color"
+msgstr "Цвет Фона логотипа"
+
+#: inc/admin/ui/publish.php:412
+#, fuzzy
+msgid "Launchscreen"
+msgstr "Launchscreen"
+
+#: inc/admin/ui/publish.php:412
+#, fuzzy
+msgid "Optimal size: 600x900 pixels"
+msgstr "Оптимальный размер: 600 x 900 пикселей"
+
+#: inc/admin/ui/publish.php:433
+msgid "Show the splashscreen for maximum"
+msgstr ""
+
+#: inc/admin/ui/push.php:117
+msgid "Upload successful"
+msgstr "Файл успешно загружен."
+
+#: inc/admin/ui/push.php:231
+#, fuzzy
+msgid "You can't send notification until the app is published"
+msgstr "Не удается отправить уведомление с бесплатным планом"
+
+#: inc/admin/ui/push.php:243
+#, fuzzy
+msgid "+ New notification"
+msgstr "Новое уведомление"
+
+#: inc/admin/ui/push.php:345
+#, fuzzy
+msgid "deleted - not sended"
+msgstr "удален - не отправлено"
+
+#: inc/admin/ui/push.php:354
+#, fuzzy
+msgid "device"
+msgid_plural "devices"
+msgstr[0] "устройства"
+msgstr[1] "устройства"
+msgstr[2] "устройства"
+
+#: inc/admin/ui/push.php:363 inc/functions/shortcodes.php:939
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: inc/admin/ui/push.php:364
+#, php-format
+msgid "in %s"
+msgstr "в %s"
+
+#: inc/admin/ui/push.php:391
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: inc/admin/ui/push.php:397 inc/functions/shortcodes.php:1554
+msgid "Next"
+msgstr "Следующий"
+
+#: inc/admin/ui/push.php:400
+msgid "Delete history"
+msgstr "Удалить историю"
+
+#: inc/admin/ui/push.php:489
+msgid "Add link"
+msgstr "Добавить ссылку"
+
+#: inc/admin/ui/push.php:499 inc/admin/ui/push.php:512
+#: inc/admin/ui/push.php:530
+msgid "subscriber"
+msgid_plural "subscribers"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/admin/ui/push.php:530
+msgid "All users"
+msgstr ""
+
+#: inc/admin/ui/push.php:539 inc/stats/display.php:115
+msgid "Users"
+msgstr "Пользователи"
+
+#: inc/admin/ui/pwa.php:123
+#, fuzzy
+msgid "Progressive Web App: DISABLED"
+msgstr "Прогрессивных веб-приложение: инвалидов"
+
+#: inc/admin/ui/pwa.php:125
+#, fuzzy
+msgid "Progressive Web App: ENABLED"
+msgstr "Прогрессивных веб-приложение: включено"
+
+#: inc/admin/ui/pwa.php:195
+#, fuzzy
+msgid "Select page"
+msgstr "Правила выбора"
+
+#: inc/admin/ui/pwa.php:204
+msgid "Pages to preload and cache"
+msgstr ""
+
+#: inc/admin/ui/pwa.php:205
+msgid "One per line"
+msgstr ""
+
+#: inc/admin/ui/qrcode.php:40
+msgid "New QR Code"
+msgstr "Nuovo Codice QR"
+
+#: inc/admin/ui/qrcode.php:43
+#, fuzzy
+msgid "In-app QR Code scanner: DISABLED"
+msgstr "Сканер QR Code в app: инвалидов"
+
+#: inc/admin/ui/qrcode.php:45
+#, fuzzy
+msgid "In-app QR Code scanner: ENABLED"
+msgstr "Сканер QR Code в app: включено"
+
+#: inc/admin/ui/stats.php:106
+#, fuzzy
+msgid "You can't have statistics with the free plan"
+msgstr "Вы не можете иметь статистику с бесплатным планом"
+
+#: inc/admin/ui/stats.php:117
+msgid "days"
+msgstr "дней"
+
+#: inc/admin/ui/stats.php:117
+msgid "results"
+msgstr "результаты"
+
+#: inc/admin/ui/stats.php:173
+msgid "How many days?"
+msgstr "Количество дней"
+
+#: inc/admin/ui/stats.php:177
+msgid "day"
+msgid_plural "days"
+msgstr[0] "день"
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/admin/ui/stats.php:181
+#, fuzzy
+msgid "How many maximum results?"
+msgstr "Как много максимальных результатов?"
+
+#: inc/admin/ui/stats.php:185
+msgid "result"
+msgid_plural "results"
+msgstr[0] "результат"
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/admin/ui/stats.php:189
+#, fuzzy
+msgid "On all platform?"
+msgstr "На все платформы?"
+
+#: inc/admin/ui/stats.php:196
+#, fuzzy
+msgid "All languages included?"
+msgstr "Все языки включены?"
+
+#: inc/admin/ui/stats.php:205
+#, fuzzy
+msgid "Block disposition"
+msgstr "Расположение блока"
+
+#: inc/admin/ui/stats.php:232
+#, fuzzy
+msgid "Reset all stats"
+msgstr "Сбросить все статистика"
+
+#: inc/admin/ui/submenu.php:9
+#, fuzzy
+msgid "The logo is an important step for the publication"
+msgstr "На главной странице является главный экран приложения."
+
+#: inc/admin/ui/submenu.php:13
+#, fuzzy
+msgid "You can do a lot of things with the menu"
+msgstr "Не удается отправить уведомление с бесплатным планом"
+
+#: inc/admin/ui/submenu.php:17
+#, fuzzy
+msgid "You can customize your theme for the app"
+msgstr "Вы можете использовать CSS для настройки содержимого"
+
+#: inc/admin/ui/submenu.php:23
+msgid ""
+"Your application should not just display your site as in a web browser, "
+"<b>It's better to use the WPMobile.App theme.</b>"
+msgstr ""
+
+#: inc/admin/ui/submenu.php:28
+msgid "Learn how to play with the app elements"
+msgstr ""
+
+#: inc/admin/ui/submenu.php:32
+msgid "You can modify with CSS each elements of the app"
+msgstr ""
+
+#: inc/admin/ui/submenu.php:36
+msgid "2 ways to translate your app"
+msgstr ""
+
+#: inc/admin/ui/submenu.php:68
+#, fuzzy
+msgid "Homepage and menu"
+msgstr "Главная страница и меню"
+
+#: inc/admin/ui/submenu.php:70
+#, fuzzy
+msgid "Style and Javascript"
+msgstr "CSS и JavaScript"
+
+#: inc/admin/ui/submenu.php:72
+msgid "Translate"
+msgstr "Переведите"
+
+#: inc/admin/ui/submenu.php:73
+msgid "Others"
+msgstr ""
+
+#: inc/admin/ui/submenu.php:76
+msgid "Automatic configuration"
+msgstr ""
+
+#: inc/admin/ui/submenu.php:83
+msgid "< Back"
+msgstr ""
+
+#: inc/admin/ui/submenu.php:90
+msgid "If you continue, you will lose all previous settings"
+msgstr ""
+
+#: inc/admin/ui/theme.php:228
+#, fuzzy
+msgid "App theme"
+msgstr "Тема приложения"
+
+#: inc/admin/ui/theme.php:296
+#, fuzzy
+msgid "WPMobile.App themes"
+msgstr "WPAPP. НИНДЗЯ"
+
+#: inc/admin/ui/theme.php:298
+msgid "Webapp"
+msgstr ""
+
+#: inc/admin/ui/theme.php:302
+msgid "Overlay"
+msgstr ""
+
+#: inc/admin/ui/theme.php:305
+msgid "Super light"
+msgstr ""
+
+#: inc/admin/ui/theme.php:312
+#, fuzzy
+msgid "WordPress themes"
+msgstr "Тема Wordpress"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: inc/admin/ui/theme.php:335
+#, fuzzy
+msgid "WPMobile.App"
+msgstr "WPAPP. НИНДЗЯ"
+
+#: inc/admin/ui/theme.php:339 inc/admin/ui/theme.php:379
+msgid "Hybrid"
+msgstr "Гибрид"
+
+#: inc/admin/ui/theme.php:344
+#, fuzzy
+msgid "Light (only text and image)"
+msgstr "Свет (только текст и изображения)"
+
+#: inc/admin/ui/theme.php:351
+msgid "WordPress Theme"
+msgstr "Тема Wordpress"
+
+#: inc/admin/ui/theme.php:362
+#, fuzzy
+msgid "WordPress Theme (without UI)"
+msgstr "WordPress тема (без пользовательского интерфейса)"
+
+#: inc/admin/ui/theme.php:378
+msgid "Old"
+msgstr "Старый"
+
+#: inc/admin/ui/theme.php:395
+msgid "Colors"
+msgstr "Цвета"
+
+#: inc/admin/ui/theme.php:466
+#, fuzzy
+msgid "On the app"
+msgstr "Цвета приложения"
+
+#: inc/admin/ui/theme.php:471 inc/admin/ui/theme.php:499
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: inc/admin/ui/theme.php:483
+#, fuzzy
+msgid "Custom JS [jQuery, framework7.io]"
+msgstr "Пользовательские JS [jQuery, framework7.io]"
+
+#: inc/admin/ui/theme.php:492
+#, fuzzy
+msgid "On website"
+msgstr "Сайт"
+
+#: inc/admin/ui/theme.php:509
+#, fuzzy
+msgid "Custom JS [jQuery]"
+msgstr "Пользовательские JS [jQuery, framework7.io]"
+
+#: inc/admin/ui/theme.php:538
+#, fuzzy
+msgid "You can test on a real device"
+msgstr "Вы должны проверить на реальном устройстве"
+
+#: inc/admin/upgrader.php:64
+#, fuzzy
+msgid "Your mobile application is ready!"
+msgstr "Ваше приложение готово!"
+
+#: inc/admin/upgrader.php:68
+#, fuzzy
+msgid "support"
+msgstr "Поддержка"
+
+#: inc/admin/upgrader.php:83
+#, fuzzy, php-format
+msgid ""
+"<b>WPMobile.App</b> We've made major improvements on the content render <a "
+"target=\"_blank\" style=\"%s\" href=\"%s\">Test now my enhanced app</a>"
+msgstr ""
+"<b>WPAPP. НИНДЗЯ</b> мы сделали значительные улучшения на содержание "
+"отображения <a target=\"_blank\" style=\"%s\" href=\"%s\">Тест теперь мое "
+"расширение app</a>"
+
+#: inc/admin/upgrader.php:83
+#, fuzzy, php-format
+msgid "<a href=\"%s\">dismiss</a>"
+msgstr "<a href=\\\"%1$s\\\">Отклонить</a>"
+
+#: inc/admin/upgrader.php:134
+msgid "News"
+msgstr "Новости"
+
+#: inc/admin/upgrader.php:134
+msgid "Offers"
+msgstr "Акции и предложения"
+
+#: inc/api/json.php:306 inc/api/json.php:363
+#, fuzzy
+msgid "You like this app?"
+msgstr "Вам нравится этот app?"
+
+#: inc/api/json.php:307 inc/api/json.php:364
+#, fuzzy
+msgid "Take 5 seconds to rate it on the Play Store"
+msgstr "5 секунд, чтобы оценить его в магазине Play"
+
+#: inc/api/json.php:711 inc/api/read_enhanced.php:84
+#: inc/functions/format.php:308
+msgid "Read"
+msgstr "Читать"
+
+#: inc/api/push.php:551 inc/api/push.php:600
+msgid "Order updates"
+msgstr ""
+
+#: inc/api/push.php:594
+#, php-format
+msgid "Order status changed from %s to %s"
+msgstr ""
+
+#: inc/api/read_enhanced.php:153
+#, fuzzy
+msgid "Push notifications are disabled."
+msgstr "Push-уведомления"
+
+#: inc/api/read_enhanced.php:154 inc/api/read_enhanced.php:178
+#, fuzzy
+msgid "Enable push notifications"
+msgstr "Включить push-уведомлений"
+
+#: inc/api/read_enhanced.php:173 inc/functions/shortcodes.php:571
+#: inc/functions/shortcodes.php:1031
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: inc/api/read_enhanced.php:183
+msgid "Subscriptions"
+msgstr "Подписки"
+
+#: inc/api/read_enhanced.php:202 inc/functions/shortcodes.php:483
+#: inc/functions/shortcodes.php:665 inc/functions/shortcodes.php:1109
+msgid "Save"
+msgstr "Сохранить"
+
+#: inc/common/admin-bar.php:35 inc/functions/shortcodes.php:571
+msgid "Push notification"
+msgstr "Отправить уведомление"
+
+#: inc/common/admin-bar.php:52
+#, fuzzy
+msgid "My app"
+msgstr "Мое приложение"
+
+#: inc/common/cron.php:14
+#, fuzzy
+msgid "Every 3 Minutes"
+msgstr "Каждые 3 минуты"
+
+#: inc/functions/banner.php:43
+#, fuzzy
+msgid "In Google Play"
+msgstr "Google Play"
+
+#: inc/functions/check.php:264
+#, fuzzy
+msgid "Allowed on your plan:"
+msgstr "Допускается на ваш план:"
+
+#: inc/functions/colors.php:193
+#, fuzzy
+msgid "Before the left menu"
+msgstr "До левого меню"
+
+#: inc/functions/colors.php:194
+#, fuzzy
+msgid "After the left menu"
+msgstr "После меню слева"
+
+#: inc/functions/colors.php:195
+#, fuzzy
+msgid "Middle of the navbar"
+msgstr "Середина navbar"
+
+#: inc/functions/colors.php:195 inc/functions/colors.php:196
+#: inc/functions/colors.php:260 inc/functions/colors.php:262
+#: inc/functions/colors.php:264
+msgid "Toolbar"
+msgstr "Панель инструментов"
+
+#: inc/functions/colors.php:196
+#, fuzzy
+msgid "Right of the navbar"
+msgstr "Справа от панели навигации"
+
+#: inc/functions/colors.php:200
+#, fuzzy
+msgid "Before a page"
+msgstr "Перед статьей"
+
+#: inc/functions/colors.php:201
+#, fuzzy
+msgid "After a page"
+msgstr "О странице"
+
+#: inc/functions/colors.php:203
+#, fuzzy
+msgid "Before a WooCommerce page"
+msgstr "До магазина WooCommerce"
+
+#: inc/functions/colors.php:204
+#, fuzzy
+msgid "After a WooCommerce page"
+msgstr "После WooCommerce магазин"
+
+#: inc/functions/colors.php:206
+msgid "Before a BuddyPress page"
+msgstr ""
+
+#: inc/functions/colors.php:207
+msgid "After a BuddyPress page"
+msgstr ""
+
+#: inc/functions/colors.php:209
+#, fuzzy
+msgid "Before other post type"
+msgstr "Перед статьей"
+
+#: inc/functions/colors.php:210
+#, fuzzy
+msgid "After other post type"
+msgstr "После статьи"
+
+#: inc/functions/colors.php:214
+#, fuzzy
+msgid "Before lists"
+msgstr "Перед статьей"
+
+#: inc/functions/colors.php:215
+#, fuzzy
+msgid "After lists"
+msgstr "После статьи"
+
+#: inc/functions/colors.php:217
+#, fuzzy
+msgid "Card content on lists"
+msgstr "Содержание карты на списках"
+
+#: inc/functions/colors.php:255
+#, fuzzy
+msgid "App background"
+msgstr "Фон приложения"
+
+#: inc/functions/colors.php:257
+#, fuzzy
+msgid "Main content background"
+msgstr "Фон главного контента"
+
+#: inc/functions/colors.php:260
+#, fuzzy
+msgid "Status bar background"
+msgstr "Фона строки состояния"
+
+#: inc/functions/colors.php:262
+#, fuzzy
+msgid "Navigation bar background"
+msgstr "Фон панели навигации"
+
+#: inc/functions/colors.php:264
+#, fuzzy
+msgid "Navigation bar icon color"
+msgstr "Навигационной панели цвет значка"
+
+#: inc/functions/colors.php:266
+#, fuzzy
+msgid "Bottom menu background"
+msgstr "фон iOS внизу меню"
+
+#: inc/functions/colors.php:268
+#, fuzzy
+msgid "Bottom menu icon color"
+msgstr "цвет значка меню снизу iOS"
+
+#: inc/functions/colors.php:270
+#, fuzzy
+msgid "Left menu background"
+msgstr "Фон области левого меню"
+
+#: inc/functions/colors.php:271
+#, fuzzy
+msgid "Left menu item background"
+msgstr "Фон элементов меню"
+
+#: inc/functions/colors.php:272
+#, fuzzy
+msgid "Left menu icon color"
+msgstr "Цвет значка меню"
+
+#: inc/functions/colors.php:273
+#, fuzzy
+msgid "Left menu text color"
+msgstr "Цвет текста меню"
+
+#: inc/functions/colors.php:274
+#, fuzzy
+msgid "Left menu icon"
+msgstr "Цвет значка меню"
+
+#: inc/functions/colors.php:276
+#, fuzzy
+msgid "Floating menu item background"
+msgstr "Плавающие меню пункт фон"
+
+#: inc/functions/colors.php:277
+#, fuzzy
+msgid "Floating round menu icon color"
+msgstr "Плавающие меню цвет значка"
+
+#: inc/functions/colors.php:280
+msgid "Title color"
+msgstr "Цвет заголовка"
+
+#: inc/functions/colors.php:281
+msgid "Content text color"
+msgstr "Цвет текста контента"
+
+#: inc/functions/colors.php:285
+msgid "Links color"
+msgstr "Цвет ссылок"
+
+#: inc/functions/colors.php:286
+msgid "Button border color"
+msgstr "Цвет границы кнопуи"
+
+#: inc/functions/colors.php:287
+msgid "Button text color"
+msgstr "Цвет текста кнопки"
+
+#: inc/functions/colors.php:289
+#, fuzzy
+msgid "Badge background"
+msgstr "Новый фон значка"
+
+#: inc/functions/colors.php:291
+#, fuzzy
+msgid "List items background"
+msgstr "Фон элементов списка"
+
+#: inc/functions/colors.php:294
+#, fuzzy
+msgid "Loading bar color"
+msgstr "Цвет шара панели"
+
+#: inc/functions/colors.php:296
+#, fuzzy
+msgid "Search bar background"
+msgstr "﻿Выбрать фоновый цвет панели"
+
+#: inc/functions/colors.php:298
+#, fuzzy
+msgid "Base text size"
+msgstr "Размер базового текста"
+
+#: inc/functions/colors.php:300
+msgid "Font family"
+msgstr "Семейство шрифтов"
+
+#: inc/functions/format.php:70
+#, php-format
+msgid "%s years ago"
+msgstr "%s лет назад"
+
+#: inc/functions/format.php:72
+#, fuzzy, php-format
+msgid "%s year ago"
+msgstr "%s год назад"
+
+#: inc/functions/format.php:76
+#, php-format
+msgid "%s months ago"
+msgstr "%s месяцев назад"
+
+#: inc/functions/format.php:78
+#, php-format
+msgid "%s month ago"
+msgstr "%s  месяц назад"
+
+#: inc/functions/format.php:83
+#, php-format
+msgid "%s days ago"
+msgstr "%s дней назад"
+
+#: inc/functions/format.php:85
+#, php-format
+msgid "%s day ago"
+msgstr "%s день назад"
+
+#: inc/functions/format.php:90
+#, php-format
+msgid "%s hours ago"
+msgstr "%s часов назад"
+
+#: inc/functions/format.php:92
+#, php-format
+msgid "%s hour ago"
+msgstr "%s часов назад"
+
+#: inc/functions/format.php:97
+#, php-format
+msgid "%s minutes ago"
+msgstr "%s минут назад"
+
+#: inc/functions/format.php:99
+#, php-format
+msgid "%s minute ago"
+msgstr "%s минут назад"
+
+#: inc/functions/format.php:103
+#, php-format
+msgid "%s seconds ago"
+msgstr "%s секунд назад"
+
+#: inc/functions/menu.php:194 inc/functions/menu.php:204
+#: inc/functions/shortcodes.php:1005
+msgid "Scan code"
+msgstr "Скан-код"
+
+#: inc/functions/menu.php:215
+msgid "Exit"
+msgstr "Выход"
+
+#: inc/functions/shortcodes.php:55
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: inc/functions/shortcodes.php:57
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: inc/functions/shortcodes.php:58
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: inc/functions/shortcodes.php:61
+msgid "Click this link"
+msgstr ""
+
+#: inc/functions/shortcodes.php:71
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: inc/functions/shortcodes.php:95
+msgid "Please enter a username."
+msgstr ""
+
+#: inc/functions/shortcodes.php:97
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+
+#: inc/functions/shortcodes.php:100
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: inc/functions/shortcodes.php:106
+#, fuzzy
+msgid "Sorry, that username is not allowed."
+msgstr "К сожалению, эта страница не существует."
+
+#: inc/functions/shortcodes.php:112
+msgid "Please type your email address."
+msgstr ""
+
+#: inc/functions/shortcodes.php:114
+msgid "The email address isn&#8217;t correct."
+msgstr ""
+
+#: inc/functions/shortcodes.php:117
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: inc/functions/shortcodes.php:125
+msgid "Please type a password."
+msgstr ""
+
+#: inc/functions/shortcodes.php:127
+msgid "The password need to contain at least 6 characters."
+msgstr ""
+
+#: inc/functions/shortcodes.php:142
+#, php-format
+msgid ""
+"Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s"
+"\">webmaster</a> !"
+msgstr ""
+
+#: inc/functions/shortcodes.php:172
+msgid "Impossible to reset the password for this email."
+msgstr ""
+
+#: inc/functions/shortcodes.php:172
+msgid "Error"
+msgstr ""
+
+#: inc/functions/shortcodes.php:175
+#, fuzzy
+msgid "Reset link sended. Check your mailbox."
+msgstr "В прогресс (проверьте ваш почтовый ящик)..."
+
+#: inc/functions/shortcodes.php:175
+#, fuzzy
+msgid "Reset successfull"
+msgstr "Файл успешно загружен."
+
+#: inc/functions/shortcodes.php:206 inc/functions/shortcodes.php:280
+#: inc/functions/shortcodes.php:356
+msgid "Register"
+msgstr "Регистрация"
+
+#: inc/functions/shortcodes.php:213
+msgid "Account successfully created."
+msgstr ""
+
+#: inc/functions/shortcodes.php:213
+msgid "You are now connected"
+msgstr ""
+
+#: inc/functions/shortcodes.php:295 inc/functions/shortcodes.php:345
+#: themes/wpappninja-full/comments.php:65 themes/wpappninja/comments.php:62
+msgid "Email"
+msgstr "Email"
+
+#: inc/functions/shortcodes.php:299
+#, fuzzy
+msgid "Send reset link"
+msgstr "Отправить моя реакция"
+
+#: inc/functions/shortcodes.php:303 inc/functions/shortcodes.php:317
+#: inc/functions/shortcodes.php:377
+#, fuzzy
+msgid "cancel"
+msgstr "Отмена"
+
+#: inc/functions/shortcodes.php:315
+msgid "Password lost?"
+msgstr ""
+
+#: inc/functions/shortcodes.php:341
+#, fuzzy
+msgid "Username"
+msgstr "Пользователь"
+
+#: inc/functions/shortcodes.php:350
+msgid "Password"
+msgstr ""
+
+#: inc/functions/shortcodes.php:393
+msgid "Logout"
+msgstr "Выход"
+
+#: inc/functions/shortcodes.php:544
+msgid "Push settings"
+msgstr "Настройки"
+
+#: inc/functions/shortcodes.php:629 inc/functions/shortcodes.php:631
+msgid "Refresh"
+msgstr ""
+
+#: inc/functions/shortcodes.php:682
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/functions/shortcodes.php:686
+msgid "Cancel"
+msgstr "Отмена"
+
+#: inc/functions/shortcodes.php:763
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/functions/shortcodes.php:996
+msgid "No informations for now."
+msgstr ""
+
+#: inc/functions/shortcodes.php:1288
+#, fuzzy
+msgid "Configure your app homepage"
+msgstr "Настройка на другой странице"
+
+#: inc/stats/display.php:91
+msgid "Timeline"
+msgstr "График"
+
+#: inc/stats/display.php:95
+msgid "Chart"
+msgstr "Диаграмма"
+
+#: inc/stats/display.php:99
+msgid "Installations"
+msgstr "Установки"
+
+#: inc/stats/display.php:103
+msgid "Actions"
+msgstr "Действия"
+
+#: inc/stats/display.php:119
+msgid "Platforms"
+msgstr "Операционные системы"
+
+#: inc/stats/display.php:123
+msgid "Hours"
+msgstr "Часов"
+
+#: inc/stats/display.php:127
+msgid "Continents"
+msgstr "Континенты"
+
+#: inc/stats/display.php:131 inc/stats/display.php:504
+msgid "Country"
+msgstr "Страна"
+
+#: inc/stats/display.php:230 inc/stats/display.php:345
+msgid "Action"
+msgstr "Действие"
+
+#: inc/stats/display.php:258
+msgid "Push"
+msgstr "От себя"
+
+#: inc/stats/display.php:259
+msgid "Dispatch"
+msgstr "Отправка"
+
+#: inc/stats/display.php:260
+msgid "Open"
+msgstr "Открыть"
+
+#: inc/stats/display.php:372
+msgid "User"
+msgstr "Пользователь"
+
+#: inc/stats/display.php:409
+msgid "Platform"
+msgstr "Платформа"
+
+#: inc/stats/display.php:476
+msgid "Continent"
+msgstr "Континент"
+
+#: inc/stats/render.php:12
+msgid "(not set)"
+msgstr ""
+
+#: inc/stats/render.php:20
+#, fuzzy
+msgid "Deleted notification"
+msgstr "Удаленные уведомления"
+
+#: inc/stats/render.php:39 inc/stats/render.php:76
+msgid "install"
+msgstr "установить"
+
+#: inc/stats/render.php:55
+msgid "notification"
+msgstr "уведомление"
+
+#: inc/stats/render.php:58
+msgid "comment"
+msgstr "комментарий"
+
+#: inc/stats/render.php:61
+#, fuzzy
+msgid "screen"
+msgstr "Launchscreen"
+
+#: inc/stats/render.php:64
+msgid "category"
+msgstr "Категория"
+
+#: inc/stats/render.php:67
+msgid "recent post"
+msgstr "последний пост"
+
+#: inc/stats/render.php:70
+msgid "form"
+msgstr "форма"
+
+#: inc/stats/render.php:73
+msgid "search"
+msgstr "поиск"
+
+#: inc/stats/render.php:79
+msgid "login"
+msgstr "Войти"
+
+#: inc/stats/render.php:82
+msgid "register"
+msgstr "Регистрация"
+
+#: inc/stats/render.php:278
+#, fuzzy
+msgid "App activity"
+msgstr "Активность приложения"
+
+#: inc/stats/render.php:278
+msgid "By day"
+msgstr "По дате"
+
+#: themes/wpappninja-full/404.php:12
+#, fuzzy
+msgid "Sorry, this page is not available offline."
+msgstr "К сожалению, эта страница не существует."
+
+#: themes/wpappninja-full/404.php:14
+msgid "Check your connection."
+msgstr ""
+
+#: themes/wpappninja-full/404.php:16 themes/wpappninja/404.php:11
+msgid "Sorry, this page does not exist."
+msgstr "К сожалению, эта страница не существует."
+
+#: themes/wpappninja-full/comments.php:11 themes/wpappninja/comments.php:12
+#, fuzzy
+msgid "<span class=\"badge bg-red\">0</span> reaction"
+msgstr "<span class=\"badge bg-red\">0</span> реакция"
+
+#: themes/wpappninja-full/comments.php:20
+#, fuzzy, php-format
+msgid "<span class=\"badge bg-red\">%1$s</span> reactions"
+msgstr "<span class=\"badge bg-red\">0</span> реакция"
+
+#: themes/wpappninja-full/comments.php:22
+#, fuzzy
+msgid "<span class=\"badge bg-red\">1</span> reaction"
+msgstr "<span class=\"badge bg-red\">0</span> реакция"
+
+#: themes/wpappninja-full/comments.php:45 themes/wpappninja/comments.php:42
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: themes/wpappninja-full/comments.php:75 themes/wpappninja/comments.php:72
+msgid "Website"
+msgstr "Сайт"
+
+#: themes/wpappninja-full/comments.php:93
+msgid "Your reaction"
+msgstr "Ваш комментарий"
+
+#: themes/wpappninja-full/comments.php:102
+#, fuzzy, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a reaction."
+msgstr "Вы должны быть <a href=\"%s\">войти</a> должность реакции."
+
+#: themes/wpappninja-full/comments.php:108 themes/wpappninja/comments.php:105
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Вы пишите комментарий как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title="
+"\"Log out of this account\">Хотите выйти?</a>"
+
+#: themes/wpappninja-full/comments.php:115
+msgid "Send my reaction"
+msgstr "Отправить сообщение"
+
+#: themes/wpappninja-full/index.php:48
+#, fuzzy
+msgid "No results"
+msgstr "результаты"
+
+#: themes/wpappninja/comments.php:20
+#, php-format
+msgctxt "wpappninja"
+msgid "<span class=\"badge bg-red\">1</span> reaction"
+msgid_plural "<span class=\"badge bg-wpappninja\">%1$s</span> reactions"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: themes/wpappninja/comments.php:90
+msgid "Comment"
+msgstr "Комментарий"
+
+#: themes/wpappninja/comments.php:99
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">войти</a>, чтобы оставить комментарий."
+
+#: themes/wpappninja/functions.php:23
+#, fuzzy
+msgid "WPMobile.App (before content)"
+msgstr "WPAPP. НИНДЗЯ (до содержания)"
+
+#: themes/wpappninja/functions.php:25
+#, fuzzy
+msgid "Appears as the sidebar on top of the page"
+msgstr "Появляется в боковом меню вверху страницы"
+
+#: themes/wpappninja/functions.php:34
+#, fuzzy
+msgid "WPMobile.App (after content)"
+msgstr "WPAPP. НИНДЗЯ (после содержимого)"
+
+#: themes/wpappninja/functions.php:36
+#, fuzzy
+msgid "Appears as the sidebar on bottom of the page"
+msgstr "Появляется в боковом меню в нижней части страницы"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://wpmobile.app/"
+msgstr "HTTPS://wpapp.Ninja/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Android and iOS mobile application for any WordPress wesbite. Easy setup, "
+"free test."
+msgstr ""
+"Строить ваше мобильное приложение для WordPress. Android и iOS. Простая "
+"установка, бесплатный тест."

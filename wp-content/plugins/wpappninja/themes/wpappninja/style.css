@@ -1,0 +1,152 @@
+/*
+Theme Name: WPMobile.App
+Theme URI: https://wpmobile.app/
+Version: 0.1
+Description: A WordPress theme for WPMobile.App.
+Author: WPMobile.App
+Author URI: https://pjrvs.com
+Details URI: https://pondertheme.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpappninja
+*/
+
+html body * {
+    transform: none!important;
+}
+img {
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+div.page {
+    background: #fff!important;
+}
+.page-content {
+	padding-bottom: 0!important;
+	padding-top: 0!important;
+}
+
+.content-block {
+	margin: 0!important;
+}
+
+.framework7-root, body, html {
+    height: auto!important;
+    overflow-x: auto;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    line-height: 0.1;
+}
+
+.item-inner {
+    width: 100%!important;
+}
+
+.item-title.label {
+    font-weight: 500!important;
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 1.5em;
+}
+
+#wpappninja_auteur {
+    margin: 20px 0;
+}
+
+.content-block-inner {
+    padding: 0 16px!important;
+}
+
+.content-block-inner:before {
+    content: none!important;
+}
+
+.content-block-inner:after {
+    content: none!important;
+}
+
+.panel {
+    background: transparent!important;
+    position: initial!important;
+    width: auto!important;
+    transform:none!important;
+    height: auto!important;
+}
+
+.list-block li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ebebed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    overflow: hidden;
+    margin: 16px 0!important;
+    white-space: initial;
+    text-overflow: initial;
+    text-align:left;
+    font-size: 17px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    color: rgba(0,0,0,.54);
+}
+h1 {font-size: 20px!important;}
+
+h5, h6 {
+    font-size: 14px!important;
+}
+
+html.wpappninja body, html.wpappninja {
+    position: initial!important;
+}
+
+ul li {
+    display: block!important;
+}
+
+html.wpappninja {
+    height: 100%!important;
+}
+
+body, .view, .pages, .page-content, div.page {
+    height: auto!important;
+    overflow: initial!important;
+    overflow-x: initial!important;
+}
+
+h3#reply-title {
+    display:none;
+}
+
+html.wpappninja frame, html.wpappninja iframe {
+    max-width: 100%!important;
+    height: auto!important;
+}
+
+html.wpappninja pre {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}

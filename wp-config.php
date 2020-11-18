@@ -104,7 +104,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
 
-define('WP_TEMP_DIR', 'C:\Bitnami\wordpress-5.2.3-0/apps/wordpress/tmp');
+define('WP_TEMP_DIR', 'C:\Bitnami\wordpress-5.4-1\apps\wordpress\tmp');
 
 
 //  Disable pingback.ping xmlrpc method to prevent Wordpress from participating in DDoS attacks

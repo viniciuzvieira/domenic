@@ -1,0 +1,2879 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPMobile.App\n"
+"POT-Creation-Date: 2018-02-25 19:16+0100\n"
+"PO-Revision-Date: 2018-02-25 19:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wpappninja.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/import.php:191 inc/admin/import.php:199 inc/admin/import.php:286
+#: inc/admin/ui/auto.php:198 inc/admin/ui/auto.php:206
+#: inc/admin/ui/options.php:2790 inc/api/json.php:159 inc/api/json.php:351
+#: inc/stats/render.php:30
+#, fuzzy
+msgid "Recent posts"
+msgstr "최근 게시물"
+
+#: inc/admin/import.php:207 inc/admin/import.php:293
+#: inc/admin/ui/options.php:2797 inc/admin/upgrader.php:119
+#, fuzzy
+msgid "Notification history"
+msgstr "알림 기록"
+
+#: inc/admin/import.php:215 inc/admin/import.php:300
+#: inc/admin/ui/options.php:2804 inc/admin/upgrader.php:111
+msgid "Push config"
+msgstr ""
+
+#: inc/admin/menu.php:41 inc/admin/ui/menu.php:189 inc/common/admin-bar.php:47
+#, fuzzy
+msgid "My app"
+msgstr "내 애플 리 케이 션"
+
+#: inc/admin/menu.php:42 inc/admin/ui/auto.php:230 inc/admin/ui/options.php:288
+#: inc/admin/ui/publish.php:156 inc/admin/ui/theme.php:199
+#: inc/common/admin-bar.php:62
+#, fuzzy
+msgid "Design"
+msgstr "디자인"
+
+#: inc/admin/menu.php:43 inc/admin/ui/home.php:160 inc/admin/ui/menu.php:191
+#: inc/common/admin-bar.php:70
+#, fuzzy
+msgid "Statistics"
+msgstr "통계"
+
+#: inc/admin/menu.php:44 inc/common/admin-bar.php:80
+#, fuzzy
+msgid "Notifications"
+msgstr "알림"
+
+#: inc/admin/menu.php:45 inc/admin/ui/home.php:164 inc/admin/ui/menu.php:193
+#: inc/common/admin-bar.php:88
+#, fuzzy
+msgid "QR Code"
+msgstr "QR 코드"
+
+#: inc/admin/menu.php:46 inc/common/admin-bar.php:96
+#, fuzzy
+msgid "Adserver"
+msgstr "Adserver"
+
+#: inc/admin/menu.php:47 inc/admin/ui/home.php:166
+#, fuzzy
+msgid "Promote"
+msgstr "승격"
+
+#: inc/admin/menu.php:48 inc/admin/ui/home.php:167
+#, fuzzy
+msgid "Publication"
+msgstr "공표"
+
+#: inc/admin/menu.php:49 inc/admin/plugins.php:12 inc/admin/ui/auto.php:238
+#: inc/admin/ui/home.php:174 inc/admin/ui/options.php:296
+#: inc/admin/ui/publish.php:164 inc/admin/ui/theme.php:207
+#: inc/common/admin-bar.php:124
+#, fuzzy
+msgid "Settings"
+msgstr "설정"
+
+#: inc/admin/menu.php:50
+#, fuzzy
+msgid "iOS Certificate"
+msgstr "iOS 인증서"
+
+#: inc/admin/menu.php:51
+#, fuzzy
+msgid "Update"
+msgstr "업데이트"
+
+#: inc/admin/menu.php:52
+msgid "Progressive Web App"
+msgstr ""
+
+#: inc/admin/menu.php:53 inc/admin/ui/theme.php:220
+msgid "Theme"
+msgstr ""
+
+#: inc/admin/metabox.php:24
+#, fuzzy
+msgid "Send a push notification"
+msgstr "알림 보내기"
+
+#: inc/admin/metabox.php:58
+#, fuzzy
+msgid "Action required"
+msgstr "조치 필요&#x0D;"
+
+#: inc/admin/metabox.php:59
+#, fuzzy
+msgid "You must add an API KEY"
+msgstr "API 키를 추가 해야 합니다."
+
+#: inc/admin/metabox.php:80
+#, fuzzy
+msgid "at"
+msgstr "에서"
+
+#: inc/admin/metabox.php:84
+#, fuzzy
+msgid "Sended"
+msgstr "Sended"
+
+#: inc/admin/metabox.php:84
+#, fuzzy
+msgid "Scheduled"
+msgstr "예정된"
+
+#: inc/admin/metabox.php:92 inc/admin/metabox.php:120 inc/admin/ui/push.php:372
+#, fuzzy
+msgid "Send date"
+msgstr "날짜를 보내기"
+
+#: inc/admin/metabox.php:92 inc/admin/metabox.php:134 inc/admin/ui/push.php:323
+msgid "Categorie"
+msgstr ""
+
+#: inc/admin/metabox.php:92 inc/admin/metabox.php:152 inc/stats/display.php:468
+#, fuzzy
+msgid "Lang"
+msgstr "언어"
+
+#: inc/admin/metabox.php:100 inc/admin/ui/adserver.php:310
+#: inc/admin/ui/cert.php:185 inc/admin/ui/options.php:474
+#: inc/admin/ui/options.php:480 inc/admin/ui/options.php:493
+#: inc/admin/ui/options.php:1960 inc/admin/ui/options.php:1990
+#: inc/admin/ui/options.php:2148 inc/admin/ui/options.php:2179
+#: inc/admin/ui/publish.php:204 inc/admin/ui/publish.php:206
+#: inc/admin/ui/push.php:304 inc/admin/ui/push.php:472
+#: inc/admin/ui/stats.php:117
+#, fuzzy
+msgid "Edit"
+msgstr "수정&#x0D;"
+
+#: inc/admin/metabox.php:113
+#, fuzzy
+msgid "This post is already published. Notification off."
+msgstr "이 이미 게시. 알림입니다."
+
+#: inc/admin/metabox.php:117
+#, fuzzy
+msgid "Set a notification?"
+msgstr "알림 설정?"
+
+#: inc/admin/metabox.php:125
+#, fuzzy
+msgid "On post publish"
+msgstr "게시물에 게시"
+
+#: inc/admin/metabox.php:126
+#, fuzzy
+msgid "Set a date"
+msgstr "기한 설정"
+
+#: inc/admin/metabox.php:137 inc/admin/ui/push.php:327
+#: inc/admin/ui/stats.php:196
+#, fuzzy
+msgid "All"
+msgstr "모두"
+
+#: inc/admin/metabox.php:170
+#, fuzzy
+msgid "Set as default"
+msgstr "기본 값으로 설정"
+
+#: inc/admin/ui/adserver.php:80
+#, fuzzy
+msgid "You can't use or modify the adserver without a PREMIUM pack"
+msgstr "사용 하거나 프리미엄 팩 없이 adserver 수정 수 없습니다."
+
+#: inc/admin/ui/adserver.php:80 inc/admin/ui/home.php:67
+#: inc/admin/ui/menu.php:148 inc/admin/ui/push.php:178
+#: inc/admin/ui/stats.php:106 inc/functions/check.php:268
+#, fuzzy
+msgid "UPDATE MY PLAN"
+msgstr "내 계획 업데이트"
+
+#: inc/admin/ui/adserver.php:84
+#, fuzzy
+msgid "New ad"
+msgstr "새 광고"
+
+#: inc/admin/ui/adserver.php:85 inc/admin/ui/promote.php:43
+#: inc/admin/ui/push.php:192 inc/admin/ui/push.php:197
+#, fuzzy
+msgid "settings"
+msgstr "설정"
+
+#: inc/admin/ui/adserver.php:89
+msgid "AdBuddiz"
+msgstr ""
+
+#: inc/admin/ui/adserver.php:91
+msgid "AdMob"
+msgstr ""
+
+#: inc/admin/ui/adserver.php:100 inc/admin/ui/adserver.php:179
+#: inc/admin/ui/push.php:247 inc/admin/ui/stats.php:152
+#: inc/admin/ui/stats.php:167 themes/wpappninja-full/functions.php:320
+#: themes/wpappninja-full/functions.php:659
+#, fuzzy
+msgid "Close"
+msgstr "닫기"
+
+#: inc/admin/ui/adserver.php:106
+msgid "Add an ad before and after the content"
+msgstr ""
+
+#: inc/admin/ui/adserver.php:109 inc/admin/ui/auto.php:371
+#: inc/admin/ui/auto.php:391 inc/admin/ui/auto.php:403
+#: inc/admin/ui/auto.php:465 inc/admin/ui/auto.php:477
+#: inc/admin/ui/auto.php:487 inc/admin/ui/auto.php:495
+#: inc/admin/ui/auto.php:501 inc/admin/ui/auto.php:514
+#: inc/admin/ui/auto.php:523 inc/admin/ui/auto.php:604
+#: inc/admin/ui/auto.php:747 inc/admin/ui/auto.php:808
+#: inc/admin/ui/auto.php:822 inc/admin/ui/auto.php:836
+#: inc/admin/ui/auto.php:891 inc/admin/ui/auto.php:932
+#: inc/admin/ui/auto.php:946 inc/admin/ui/auto.php:997
+#: inc/admin/ui/auto.php:1107 inc/admin/ui/auto.php:1126
+#: inc/admin/ui/auto.php:1140 inc/admin/ui/auto.php:1154
+#: inc/admin/ui/auto.php:1168 inc/admin/ui/auto.php:1182
+#: inc/admin/ui/auto.php:1196 inc/admin/ui/auto.php:1265
+#: inc/admin/ui/auto.php:1383 inc/admin/ui/auto.php:1397
+#: inc/admin/ui/auto.php:1411 inc/admin/ui/auto.php:1432
+#: inc/admin/ui/auto.php:1444 inc/admin/ui/cert.php:222
+#: inc/admin/ui/cert.php:239 inc/admin/ui/options.php:588
+#: inc/admin/ui/options.php:623 inc/admin/ui/options.php:1144
+#: inc/admin/ui/options.php:1560 inc/admin/ui/options.php:1564
+#: inc/admin/ui/options.php:1568 inc/admin/ui/options.php:1572
+#: inc/admin/ui/options.php:1576 inc/admin/ui/options.php:1588
+#: inc/admin/ui/options.php:1593 inc/admin/ui/options.php:1598
+#: inc/admin/ui/options.php:1682 inc/admin/ui/options.php:1687
+#: inc/admin/ui/options.php:1692 inc/admin/ui/options.php:1703
+#: inc/admin/ui/options.php:1721 inc/admin/ui/options.php:1725
+#: inc/admin/ui/options.php:1736 inc/admin/ui/options.php:1740
+#: inc/admin/ui/options.php:1744 inc/admin/ui/options.php:2356
+#: inc/admin/ui/options.php:2531 inc/admin/ui/promote.php:161
+#, fuzzy
+msgid "Yes"
+msgstr "예"
+
+#: inc/admin/ui/adserver.php:109 inc/admin/ui/auto.php:371
+#: inc/admin/ui/auto.php:391 inc/admin/ui/auto.php:403
+#: inc/admin/ui/auto.php:465 inc/admin/ui/auto.php:477
+#: inc/admin/ui/auto.php:487 inc/admin/ui/auto.php:495
+#: inc/admin/ui/auto.php:501 inc/admin/ui/auto.php:514
+#: inc/admin/ui/auto.php:523 inc/admin/ui/auto.php:604
+#: inc/admin/ui/auto.php:747 inc/admin/ui/auto.php:808
+#: inc/admin/ui/auto.php:822 inc/admin/ui/auto.php:836
+#: inc/admin/ui/auto.php:891 inc/admin/ui/auto.php:932
+#: inc/admin/ui/auto.php:946 inc/admin/ui/auto.php:997
+#: inc/admin/ui/auto.php:1107 inc/admin/ui/auto.php:1126
+#: inc/admin/ui/auto.php:1140 inc/admin/ui/auto.php:1154
+#: inc/admin/ui/auto.php:1168 inc/admin/ui/auto.php:1182
+#: inc/admin/ui/auto.php:1196 inc/admin/ui/auto.php:1265
+#: inc/admin/ui/auto.php:1383 inc/admin/ui/auto.php:1397
+#: inc/admin/ui/auto.php:1411 inc/admin/ui/auto.php:1432
+#: inc/admin/ui/auto.php:1444 inc/admin/ui/cert.php:222
+#: inc/admin/ui/cert.php:239 inc/admin/ui/options.php:588
+#: inc/admin/ui/options.php:623 inc/admin/ui/options.php:1144
+#: inc/admin/ui/options.php:1560 inc/admin/ui/options.php:1564
+#: inc/admin/ui/options.php:1568 inc/admin/ui/options.php:1572
+#: inc/admin/ui/options.php:1576 inc/admin/ui/options.php:1588
+#: inc/admin/ui/options.php:1593 inc/admin/ui/options.php:1598
+#: inc/admin/ui/options.php:1682 inc/admin/ui/options.php:1687
+#: inc/admin/ui/options.php:1692 inc/admin/ui/options.php:1703
+#: inc/admin/ui/options.php:1721 inc/admin/ui/options.php:1725
+#: inc/admin/ui/options.php:1736 inc/admin/ui/options.php:1740
+#: inc/admin/ui/options.php:1744 inc/admin/ui/options.php:2531
+#: inc/admin/ui/promote.php:161
+#, fuzzy
+msgid "No"
+msgstr "아니"
+
+#: inc/admin/ui/adserver.php:119 inc/admin/ui/adserver.php:133
+#: inc/admin/ui/options.php:1247 inc/admin/ui/options.php:1262
+#, fuzzy, php-format
+msgid "Follow %sthe guide%s to create a new ad block"
+msgstr "새 광고 블록을 %sthe 가이드 %s"
+
+#: inc/admin/ui/adserver.php:122 inc/admin/ui/adserver.php:136
+#: inc/admin/ui/options.php:1250 inc/admin/ui/options.php:1265
+#, fuzzy
+msgid "Splash screen"
+msgstr "시작 화면"
+
+#: inc/admin/ui/adserver.php:145 inc/admin/ui/options.php:1274
+#, fuzzy
+msgid "Floating bar"
+msgstr "플로팅 바"
+
+#: inc/admin/ui/adserver.php:154 inc/admin/ui/options.php:1283
+#, fuzzy
+msgid "300x250 before post"
+msgstr "게시 하기 전에 300 x 250"
+
+#: inc/admin/ui/adserver.php:163 inc/admin/ui/options.php:1292
+#, fuzzy
+msgid "300x250 after post"
+msgstr "300 x 250 게시물 후"
+
+#: inc/admin/ui/adserver.php:171 inc/admin/ui/adserver.php:263
+#, fuzzy
+msgid "Submit"
+msgstr "제출"
+
+#: inc/admin/ui/adserver.php:218
+msgid "HTML ad"
+msgstr ""
+
+#: inc/admin/ui/adserver.php:221
+#, fuzzy
+msgid "Color of the title"
+msgstr "제목 색"
+
+#: inc/admin/ui/adserver.php:226
+#, fuzzy
+msgid "The ad"
+msgstr "광고"
+
+#: inc/admin/ui/adserver.php:227 inc/admin/ui/auto.php:537
+#: inc/admin/ui/auto.php:1063 inc/admin/ui/auto.php:1330
+#: inc/admin/ui/cert.php:247 inc/admin/ui/options.php:666
+#: inc/admin/ui/options.php:928 inc/admin/ui/options.php:979
+#: inc/admin/ui/options.php:1390 inc/admin/ui/options.php:1636
+#: inc/admin/ui/options.php:1699 inc/admin/ui/options.php:2316
+#: inc/admin/ui/options.php:2584 inc/admin/ui/push.php:259
+#, fuzzy
+msgid "Title"
+msgstr "제목"
+
+#: inc/admin/ui/adserver.php:230
+#, fuzzy
+msgid "Text"
+msgstr "제목"
+
+#: inc/admin/ui/adserver.php:233 inc/admin/ui/push.php:315
+#, fuzzy
+msgid "Link"
+msgstr "링크"
+
+#: inc/admin/ui/adserver.php:236 inc/admin/ui/publish.php:285
+#, fuzzy
+msgid "Logo"
+msgstr "로그"
+
+#: inc/admin/ui/adserver.php:240 inc/admin/ui/publish.php:327
+#: inc/admin/ui/push.php:312
+#, fuzzy
+msgid "Choose an image"
+msgstr "이미지 선택"
+
+#: inc/admin/ui/adserver.php:244 inc/admin/ui/push.php:349
+#, fuzzy
+msgid "Language"
+msgstr "언어"
+
+#: inc/admin/ui/adserver.php:250 inc/admin/ui/push.php:384
+#, fuzzy
+msgid "Schedule"
+msgstr "일정"
+
+#: inc/admin/ui/adserver.php:251
+#, fuzzy
+msgid "Start date"
+msgstr "시작 일자"
+
+#: inc/admin/ui/adserver.php:256
+#, fuzzy
+msgid "End date"
+msgstr "체크 아웃"
+
+#: inc/admin/ui/adserver.php:272
+#, fuzzy
+msgid "ads"
+msgstr "광고"
+
+#: inc/admin/ui/adserver.php:272
+#, fuzzy
+msgid "displays"
+msgstr "디스플레이"
+
+#: inc/admin/ui/adserver.php:272
+#, fuzzy
+msgid "clicks"
+msgstr "클릭"
+
+#: inc/admin/ui/adserver.php:296
+#, fuzzy
+msgid "LIVE"
+msgstr "라이브"
+
+#: inc/admin/ui/adserver.php:298
+#, fuzzy
+msgid "PLANNED"
+msgstr "계획"
+
+#: inc/admin/ui/adserver.php:300
+#, fuzzy
+msgid "ENDED"
+msgstr "시험종료"
+
+#: inc/admin/ui/adserver.php:303
+#, fuzzy
+msgid "Displays:"
+msgstr "디스플레이"
+
+#: inc/admin/ui/adserver.php:303
+#, fuzzy
+msgid "Clicks:"
+msgstr "클릭"
+
+#: inc/admin/ui/adserver.php:305
+#, fuzzy
+msgid "Lang:"
+msgstr "언어"
+
+#: inc/admin/ui/adserver.php:307
+#, fuzzy
+msgid "Start date:"
+msgstr "시작일:"
+
+#: inc/admin/ui/adserver.php:308
+#, fuzzy
+msgid "End date:"
+msgstr "마감일"
+
+#: inc/admin/ui/adserver.php:312 inc/admin/ui/options.php:2198
+#: inc/admin/ui/push.php:387 inc/admin/ui/push.php:398
+#: inc/admin/ui/qrcode.php:120
+#, fuzzy
+msgid "Delete"
+msgstr "삭제"
+
+#: inc/admin/ui/auto.php:227 inc/admin/ui/options.php:285
+#: inc/admin/ui/publish.php:153 inc/admin/ui/theme.php:196
+msgid "Basics"
+msgstr ""
+
+#: inc/admin/ui/auto.php:233 inc/admin/ui/options.php:291
+#: inc/admin/ui/publish.php:159 inc/admin/ui/theme.php:202
+#, fuzzy
+msgid "Homepage and menu"
+msgstr "홈페이지 및 메뉴"
+
+#: inc/admin/ui/auto.php:236 inc/admin/ui/options.php:294
+#: inc/admin/ui/publish.php:162 inc/admin/ui/theme.php:205
+msgid "Translate"
+msgstr ""
+
+#: inc/admin/ui/auto.php:359 inc/admin/ui/auto.php:735
+#: inc/admin/ui/auto.php:1371
+msgid "Links management"
+msgstr ""
+
+#: inc/admin/ui/auto.php:366 inc/admin/ui/auto.php:742
+#: inc/admin/ui/auto.php:1378 inc/admin/ui/options.php:1587
+#, fuzzy
+msgid "Open all links in the internal browser"
+msgstr "내부 브라우저에서 모든 링크를 열"
+
+#: inc/admin/ui/auto.php:381 inc/admin/ui/auto.php:454
+#: inc/admin/ui/auto.php:1421 inc/functions/colors.php:262
+#: inc/functions/colors.php:264 inc/functions/colors.php:266
+#: inc/functions/colors.php:268
+msgid "Extra"
+msgstr ""
+
+#: inc/admin/ui/auto.php:387 inc/admin/ui/auto.php:461
+#: inc/admin/ui/auto.php:1428
+msgid "Show the download banner on the website"
+msgstr ""
+
+#: inc/admin/ui/auto.php:399 inc/admin/ui/auto.php:473
+#: inc/admin/ui/auto.php:1440
+msgid "[Beta] Improve the compatibility with cache plugin"
+msgstr ""
+
+#: inc/admin/ui/auto.php:484
+msgid "Use the website theme (not recommanded)"
+msgstr ""
+
+#: inc/admin/ui/auto.php:490 inc/admin/ui/auto.php:1115
+#: inc/admin/ui/cert.php:273 inc/admin/ui/options.php:1394
+#: inc/admin/ui/push.php:260 inc/common/admin-bar.php:54
+#: inc/functions/colors.php:181 inc/functions/colors.php:182
+#: inc/functions/colors.php:183 inc/functions/colors.php:184
+#: inc/functions/colors.php:248 inc/functions/colors.php:249
+#: inc/functions/colors.php:253 inc/functions/colors.php:254
+#: inc/functions/colors.php:255 inc/functions/colors.php:257
+#: inc/stats/display.php:111 inc/stats/display.php:291
+#, fuzzy
+msgid "Content"
+msgstr "내용"
+
+#: inc/admin/ui/auto.php:492
+msgid "Infinite scroll pages"
+msgstr ""
+
+#: inc/admin/ui/auto.php:498
+msgid "Pull to refresh"
+msgstr ""
+
+#: inc/admin/ui/auto.php:507 inc/admin/ui/options.php:2008
+#: inc/functions/colors.php:175 inc/functions/colors.php:176
+#: inc/functions/colors.php:234 inc/functions/colors.php:236
+#: inc/functions/colors.php:238 inc/functions/colors.php:239
+#: inc/functions/colors.php:240 inc/functions/colors.php:241
+#: inc/functions/colors.php:242 inc/functions/colors.php:244
+#: inc/functions/colors.php:245
+msgid "Menu"
+msgstr ""
+
+#: inc/admin/ui/auto.php:511
+msgid "Slide to open the menu"
+msgstr ""
+
+#: inc/admin/ui/auto.php:517 inc/functions/colors.php:185
+#: inc/functions/colors.php:259
+msgid "List"
+msgstr ""
+
+#: inc/admin/ui/auto.php:520
+msgid "Show the title of the list"
+msgstr ""
+
+#: inc/admin/ui/auto.php:526
+msgid "Order list by"
+msgstr ""
+
+#: inc/admin/ui/auto.php:531 inc/admin/ui/auto.php:1057
+#: inc/admin/ui/auto.php:1322 inc/admin/ui/options.php:1630
+#: inc/admin/ui/options.php:2576
+#, fuzzy
+msgid "Date"
+msgstr "등록일"
+
+#: inc/admin/ui/auto.php:533 inc/admin/ui/auto.php:1059
+#: inc/admin/ui/auto.php:1326 inc/admin/ui/options.php:1632
+#: inc/admin/ui/options.php:2580
+#, fuzzy
+msgid "Comment count"
+msgstr "댓글 수"
+
+#: inc/admin/ui/auto.php:535 inc/admin/ui/auto.php:1061
+#: inc/admin/ui/auto.php:1328 inc/admin/ui/options.php:1634
+#: inc/admin/ui/options.php:1851 inc/admin/ui/options.php:2582
+#, fuzzy
+msgid "Author"
+msgstr "작성자"
+
+#: inc/admin/ui/auto.php:539 inc/admin/ui/auto.php:1065
+#: inc/admin/ui/auto.php:1332 inc/admin/ui/options.php:1638
+#: inc/admin/ui/options.php:2586
+#, fuzzy
+msgid "Last modified date"
+msgstr "최종 수정일"
+
+#: inc/admin/ui/auto.php:541 inc/admin/ui/auto.php:1067
+#: inc/admin/ui/auto.php:1334 inc/admin/ui/options.php:1640
+#: inc/admin/ui/options.php:2588
+#, fuzzy
+msgid "Random"
+msgstr "무작위"
+
+#: inc/admin/ui/auto.php:544 inc/admin/ui/auto.php:1070
+#: inc/admin/ui/auto.php:1337 inc/admin/ui/options.php:1643
+#: inc/admin/ui/options.php:2591
+#, fuzzy
+msgid "No order"
+msgstr "No order"
+
+#: inc/admin/ui/auto.php:549
+msgid "Sort rule"
+msgstr ""
+
+#: inc/admin/ui/auto.php:554 inc/admin/ui/auto.php:1089
+#: inc/admin/ui/auto.php:1354 inc/admin/ui/options.php:1656
+#: inc/admin/ui/options.php:2603
+#, fuzzy
+msgid "Ascending order from lowest to highest values"
+msgstr "가장 높은 값에서 낮은 오름차순"
+
+#: inc/admin/ui/auto.php:556 inc/admin/ui/auto.php:1091
+#: inc/admin/ui/auto.php:1356 inc/admin/ui/options.php:1658
+#: inc/admin/ui/options.php:2605
+#, fuzzy
+msgid "Descending order from highest to lowest values"
+msgstr "가장 낮은 값에서 가장 높은 내림차순"
+
+#: inc/admin/ui/auto.php:566
+msgid "Item number"
+msgstr ""
+
+#: inc/admin/ui/auto.php:587 inc/admin/ui/auto.php:980
+#: inc/admin/ui/options.php:2517
+#, fuzzy
+msgid "Hide posts older than X days"
+msgstr "X 일 보다 오래 된 게시물을 숨기기"
+
+#: inc/admin/ui/auto.php:591 inc/admin/ui/auto.php:984
+#: inc/admin/ui/options.php:2520
+#, fuzzy
+msgid "Days"
+msgstr "일"
+
+#: inc/admin/ui/auto.php:600 inc/admin/ui/auto.php:993
+#: inc/admin/ui/options.php:2527
+#, fuzzy
+msgid "Show password protected posts"
+msgstr "암호로 보호 된 게시물 보기"
+
+#: inc/admin/ui/auto.php:614 inc/admin/ui/auto.php:1006
+msgid "Exclude by direct tag name"
+msgstr ""
+
+#: inc/admin/ui/auto.php:627 inc/admin/ui/auto.php:1019
+msgid "Exclude by tags"
+msgstr ""
+
+#: inc/admin/ui/auto.php:666
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/ui/auto.php:666 inc/admin/ui/options.php:2530
+#, fuzzy
+msgid "Show"
+msgstr "보기"
+
+#: inc/admin/ui/auto.php:687 inc/admin/ui/auto.php:1206
+msgid "Similars posts"
+msgstr ""
+
+#: inc/admin/ui/auto.php:693 inc/admin/ui/auto.php:1212
+#: inc/admin/ui/options.php:1756
+#, fuzzy
+msgid "Number"
+msgstr "예약번호"
+
+#: inc/admin/ui/auto.php:714 inc/admin/ui/auto.php:1233
+#: inc/admin/ui/options.php:1767
+#, fuzzy
+msgid "Selection rule"
+msgstr "선택 규칙"
+
+#: inc/admin/ui/auto.php:795
+msgid "Features"
+msgstr ""
+
+#: inc/admin/ui/auto.php:803 inc/admin/ui/options.php:1563
+#, fuzzy
+msgid "Subscribe system"
+msgstr "구독 시스템"
+
+#: inc/admin/ui/auto.php:817 inc/admin/ui/options.php:1567
+#, fuzzy
+msgid "Favorite system"
+msgstr "좋아하는 시스템"
+
+#: inc/admin/ui/auto.php:831 inc/admin/ui/options.php:1571
+#, fuzzy
+msgid "Sharing system"
+msgstr "공유 시스템"
+
+#: inc/admin/ui/auto.php:865 inc/admin/ui/options.php:1672
+#, fuzzy
+msgid "Image"
+msgstr "이미지"
+
+#: inc/admin/ui/auto.php:872 inc/admin/ui/options.php:1676
+#, fuzzy
+msgid "Default image url (optional)"
+msgstr "기본 이미지 url (선택 사항)"
+
+#: inc/admin/ui/auto.php:886
+msgid "Use any image on the post as featured"
+msgstr ""
+
+#: inc/admin/ui/auto.php:904 inc/admin/ui/options.php:1710
+#, fuzzy
+msgid "Date and time"
+msgstr "날짜와 시간"
+
+#: inc/admin/ui/auto.php:910 inc/admin/ui/options.php:1713
+#, fuzzy
+msgid "Date type"
+msgstr "날짜 형식"
+
+#: inc/admin/ui/auto.php:917 inc/admin/ui/options.php:1716
+#, fuzzy
+msgid "5 days ago"
+msgstr "5 일 전"
+
+#: inc/admin/ui/auto.php:927
+msgid "Show date on list and post"
+msgstr ""
+
+#: inc/admin/ui/auto.php:941
+msgid "Show hour"
+msgstr ""
+
+#: inc/admin/ui/auto.php:954
+msgid "Lists"
+msgstr ""
+
+#: inc/admin/ui/auto.php:961
+msgid "Item size"
+msgstr ""
+
+#: inc/admin/ui/auto.php:968 inc/admin/ui/options.php:1617
+#, fuzzy
+msgid "Big cards"
+msgstr "큰 카드"
+
+#: inc/admin/ui/auto.php:969 inc/admin/ui/options.php:1618
+#, fuzzy
+msgid "Small cards"
+msgstr "작은 카드"
+
+#: inc/admin/ui/auto.php:1049 inc/admin/ui/auto.php:1316
+#: inc/admin/ui/options.php:1625 inc/admin/ui/options.php:2572
+#, fuzzy
+msgid "Order by"
+msgstr "주문"
+
+#: inc/admin/ui/auto.php:1081 inc/admin/ui/auto.php:1348
+#: inc/admin/ui/options.php:1651 inc/admin/ui/options.php:2599
+#, fuzzy
+msgid "Order"
+msgstr "주문"
+
+#: inc/admin/ui/auto.php:1102
+msgid "Show image on lists"
+msgstr ""
+
+#: inc/admin/ui/auto.php:1121
+msgid "Show image on pages"
+msgstr ""
+
+#: inc/admin/ui/auto.php:1135
+msgid "Show the title before content"
+msgstr ""
+
+#: inc/admin/ui/auto.php:1149 inc/admin/ui/options.php:1735
+#, fuzzy
+msgid "Show author name and avatar before post"
+msgstr "만든이 이름 및 게시 하기 전에 아바타 표시"
+
+#: inc/admin/ui/auto.php:1163 inc/admin/ui/options.php:1739
+#, fuzzy
+msgid "Show date before post"
+msgstr "게시 하기 전에 날짜 표시"
+
+#: inc/admin/ui/auto.php:1177 inc/admin/ui/options.php:1743
+#, fuzzy
+msgid "Show author bio after post"
+msgstr "게시물 보기 저자 바이오"
+
+#: inc/admin/ui/auto.php:1191 inc/admin/ui/options.php:1559
+#, fuzzy
+msgid "Comments"
+msgstr "댓글"
+
+#: inc/admin/ui/auto.php:1253 inc/admin/ui/auto.php:1260
+#: inc/admin/ui/options.php:1575
+#, fuzzy
+msgid "Search engine"
+msgstr "검색 엔진"
+
+#: inc/admin/ui/auto.php:1276
+msgid "Exclude by category"
+msgstr ""
+
+#: inc/admin/ui/auto.php:1299
+msgid "Show more category"
+msgstr ""
+
+#: inc/admin/ui/auto.php:1324 inc/admin/ui/options.php:2578
+#, fuzzy
+msgid "Relevance"
+msgstr "관련성"
+
+#: inc/admin/ui/auto.php:1392
+msgid "Open all links on the same screen (not recommended)"
+msgstr ""
+
+#: inc/admin/ui/auto.php:1406 inc/admin/ui/options.php:1597
+#, fuzzy
+msgid "Open in browser menu option (Android only)"
+msgstr "브라우저 메뉴 옵션 (안 드 로이드만) 오픈"
+
+#: inc/admin/ui/cert.php:75 inc/admin/ui/options.php:1149
+#, fuzzy
+msgid "iOS"
+msgstr "애플. iOS"
+
+#: inc/admin/ui/cert.php:81
+msgid "You need to buy and publish your app before the iOS configuration."
+msgstr ""
+
+#: inc/admin/ui/cert.php:86
+msgid "Certificate"
+msgstr ""
+
+#: inc/admin/ui/cert.php:86
+msgid "download here"
+msgstr ""
+
+#: inc/admin/ui/cert.php:97
+msgid "Valid until"
+msgstr ""
+
+#: inc/admin/ui/cert.php:102
+msgid "Expired"
+msgstr ""
+
+#: inc/admin/ui/cert.php:105
+msgid "Missing"
+msgstr ""
+
+#: inc/admin/ui/cert.php:117 inc/admin/ui/options.php:1149
+#, fuzzy
+msgid "Android"
+msgstr "Android"
+
+#: inc/admin/ui/cert.php:123
+#, php-format
+msgid ""
+"Follow this guide to get the Google API Key:<br/><br/>&nbsp;&nbsp;-&nbsp;"
+"Connect to the <a href=\"https://developers.google.com/mobile/add?"
+"platform=android&cntapi=gcm\" target=\"_blank\" style=\"text-decoration:"
+"underline\">Google Service</a><br/>&nbsp;&nbsp;-&nbsp;Enter your app name: "
+"<b>%s</b><br/>&nbsp;&nbsp;-&nbsp;Enter your package name: <b>%s</b><br/"
+">&nbsp;&nbsp;-&nbsp;Choose ‘Cloud Messaging‘<br/>&nbsp;&nbsp;-&nbsp;Click on "
+"‘Enable Google Cloud Messaging‘<br/>&nbsp;&nbsp;-&nbsp;Copy/paste the "
+"‘Server API Key’ and ‘Sender ID’ here"
+msgstr ""
+
+#: inc/admin/ui/cert.php:128 inc/admin/ui/options.php:608
+#, fuzzy
+msgid "Server API Key"
+msgstr "서버 API 키"
+
+#: inc/admin/ui/cert.php:144 inc/admin/ui/options.php:612
+#, fuzzy
+msgid "Sender ID"
+msgstr "보내는 사람 ID( S):"
+
+#: inc/admin/ui/cert.php:162
+#, fuzzy
+msgid "Notification icon"
+msgstr "알림 아이콘"
+
+#: inc/admin/ui/cert.php:202 inc/admin/ui/options.php:689
+#, fuzzy
+msgid "General"
+msgstr "일반"
+
+#: inc/admin/ui/cert.php:206
+msgid "Comma separated category"
+msgstr ""
+
+#: inc/admin/ui/cert.php:218
+msgid "Show the box to send push on page editor"
+msgstr ""
+
+#: inc/admin/ui/cert.php:231
+msgid "Welcome notification"
+msgstr ""
+
+#: inc/admin/ui/cert.php:235 inc/admin/ui/options.php:587
+#: inc/admin/ui/options.php:622
+#, fuzzy
+msgid "Send a welcome notification"
+msgstr "환영 합니다 알림 보내기"
+
+#: inc/admin/ui/cert.php:260 inc/admin/ui/options.php:670
+#, fuzzy
+msgid "Sub title"
+msgstr "서브 제목"
+
+#: inc/admin/ui/home.php:42
+#, fuzzy
+msgid "unlimited"
+msgstr "무제한"
+
+#: inc/admin/ui/home.php:43 inc/admin/ui/menu.php:197
+#: inc/admin/ui/options.php:464 inc/admin/ui/publish.php:220
+#, fuzzy
+msgid "Support"
+msgstr "상담 지원"
+
+#: inc/admin/ui/home.php:57
+msgid "Edit my app"
+msgstr ""
+
+#: inc/admin/ui/home.php:59
+msgid "Create my app"
+msgstr ""
+
+#: inc/admin/ui/home.php:67 inc/functions/check.php:268
+#, fuzzy
+msgid "Downloads:"
+msgstr "다운로드:"
+
+#: inc/admin/ui/home.php:94 inc/admin/ui/home.php:124
+#, fuzzy
+msgid "downloads"
+msgstr "다운로드"
+
+#: inc/admin/ui/home.php:100
+msgid "View on Google Play"
+msgstr ""
+
+#: inc/admin/ui/home.php:105 inc/admin/ui/home.php:136
+msgid "Update and files"
+msgstr ""
+
+#: inc/admin/ui/home.php:111 inc/admin/ui/home.php:141
+msgid "BUY"
+msgstr ""
+
+#: inc/admin/ui/home.php:113 inc/admin/ui/home.php:142
+#, fuzzy
+msgid "test my app"
+msgstr "내 응용 프로그램을 테스트"
+
+#: inc/admin/ui/home.php:130
+msgid "View on the App Store"
+msgstr ""
+
+#: inc/admin/ui/home.php:145
+msgid "In progress (check your mailbox)..."
+msgstr ""
+
+#: inc/admin/ui/home.php:150 inc/admin/ui/menu.php:161
+#, fuzzy
+msgid "UPDATE"
+msgstr "업데이트"
+
+#: inc/admin/ui/home.php:162 inc/admin/ui/menu.php:192
+#: inc/admin/ui/options.php:407 inc/admin/ui/options.php:580
+#: inc/stats/display.php:107
+#, fuzzy
+msgid "Push notifications"
+msgstr "알림표시"
+
+#: inc/admin/ui/home.php:165 inc/admin/ui/menu.php:194
+#, fuzzy
+msgid "Advertising"
+msgstr "광고"
+
+#: inc/admin/ui/menu.php:8
+#, fuzzy
+msgid "You can't test or publish an app on a local website."
+msgstr "테스트 또는 로컬 웹 사이트에서 응용 프로그램을 게시할 수 없습니다."
+
+#: inc/admin/ui/menu.php:139
+#, fuzzy
+msgid "Push notifications are not yet fully configured"
+msgstr "푸시 알림은 아직 완전히 구성 되지 않은"
+
+#: inc/admin/ui/menu.php:139
+#, fuzzy
+msgid "CONFIGURE"
+msgstr "구성"
+
+#: inc/admin/ui/menu.php:148
+#, fuzzy
+msgid ""
+"On December 15, 2016 notifications and statistics will no longer be "
+"available with the free package"
+msgstr "12 월 15 일, 2016에 알림 및 통계 더 이상 사용할 수 무료 패키지"
+
+#: inc/admin/ui/menu.php:161
+#, fuzzy
+msgid "Your app need to be updated on stores"
+msgstr "귀하의 응용 프로그램 저장소에 업데이트 될 필요가"
+
+#: inc/admin/ui/menu.php:186
+#, fuzzy
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: inc/admin/ui/options.php:148
+#, fuzzy
+msgid "Please review the form"
+msgstr "양식을 검토 하십시오"
+
+#: inc/admin/ui/options.php:172
+#, fuzzy
+msgid "About you"
+msgstr "당신에  관해"
+
+#: inc/admin/ui/options.php:173
+#, fuzzy
+msgid "First and last name:"
+msgstr "성과 이ㄹ"
+
+#: inc/admin/ui/options.php:175
+#, fuzzy
+msgid "Mail address:"
+msgstr "메일 주소"
+
+#: inc/admin/ui/options.php:178 inc/admin/ui/options.php:513
+#, fuzzy
+msgid "Your App"
+msgstr "귀하의 응용 프로그램"
+
+#: inc/admin/ui/options.php:179
+#, fuzzy
+msgid "Blog name:"
+msgstr "블로그 명"
+
+#: inc/admin/ui/options.php:181
+#, fuzzy
+msgid "Blog url:"
+msgstr "블로그 주소(URL)"
+
+#: inc/admin/ui/options.php:184 inc/admin/ui/options.php:521
+#, fuzzy
+msgid "App logo"
+msgstr "응용 프로그램 로고"
+
+#: inc/admin/ui/options.php:185
+#, fuzzy
+msgid ""
+"/!\\ In HD (512x512), squared and with transparency, no white background."
+msgstr "/! \\ HD (512 x 512), 제곱에 투명도, 아니 흰색 배경."
+
+#: inc/admin/ui/options.php:188 inc/admin/ui/options.php:524
+#: inc/admin/ui/publish.php:292
+#, fuzzy
+msgid "Choose a logo"
+msgstr "로고 선택"
+
+#: inc/admin/ui/options.php:193
+#, fuzzy
+msgid "Validate"
+msgstr "인증"
+
+#: inc/admin/ui/options.php:267
+#, fuzzy
+msgid "Important notice"
+msgstr "중요 알림"
+
+#: inc/admin/ui/options.php:268
+#, fuzzy
+msgid ""
+"To optimize performance, the application uses a cache system. Changes made "
+"from WordPress can take up to 1 hour to be available on apps."
+msgstr ""
+"성능을 최적화 하려면 응용 프로그램 캐시 시스템을 사용 합니다. WordPress에서 "
+"변경한 애플 리 케이 션에 사용할 수 최대 1 시간까지 걸릴 수 있습니다."
+
+#: inc/admin/ui/options.php:269
+#, fuzzy
+msgid "GOT IT"
+msgstr "됐습니다"
+
+#: inc/admin/ui/options.php:326
+#, fuzzy
+msgid "Language(s) of the app"
+msgstr "응용 프로그램의 언어"
+
+#: inc/admin/ui/options.php:328
+#, fuzzy
+msgid "Colors of the app"
+msgstr "응용 프로그램의 색상"
+
+#: inc/admin/ui/options.php:342 inc/admin/ui/options.php:343
+#, fuzzy
+msgid "Home page and menu"
+msgstr "홈 페이지 및 메뉴"
+
+#: inc/admin/ui/options.php:368 inc/admin/ui/options.php:418
+#, fuzzy
+msgid "Smart banner"
+msgstr "스마트 배너"
+
+#: inc/admin/ui/options.php:370 inc/admin/ui/options.php:1409
+#, fuzzy
+msgid "Main content"
+msgstr "메인 콘텐츠"
+
+#: inc/admin/ui/options.php:385 inc/admin/ui/options.php:1330
+#, fuzzy
+msgid "Rating popup"
+msgstr "등급 팝업"
+
+#: inc/admin/ui/options.php:387 inc/admin/ui/options.php:1552
+#, fuzzy
+msgid "App interface"
+msgstr "응용 프로그램 인터페이스"
+
+#: inc/admin/ui/options.php:389
+#, fuzzy
+msgid "Content to show"
+msgstr "콘텐츠 표시를"
+
+#: inc/admin/ui/options.php:405
+#, fuzzy
+msgid "About page"
+msgstr "정보 페이지"
+
+#: inc/admin/ui/options.php:410
+#, fuzzy
+msgid "Plugins"
+msgstr "플러그인"
+
+#: inc/admin/ui/options.php:421 inc/admin/ui/options.php:425
+#: inc/admin/ui/options.php:1214
+#, fuzzy
+msgid "DEBUG"
+msgstr "디버그"
+
+#: inc/admin/ui/options.php:423
+#, fuzzy
+msgid "I'm a web developer"
+msgstr "나는 웹 개발자"
+
+#: inc/admin/ui/options.php:426
+#, fuzzy
+msgid "HTML injection"
+msgstr "HTML 삽입"
+
+#: inc/admin/ui/options.php:427 inc/admin/ui/options.php:1316
+#, fuzzy
+msgid "Regex modifications"
+msgstr "정규 표현식 수정"
+
+#: inc/admin/ui/options.php:432
+#, fuzzy
+msgid "Access right of the plugin"
+msgstr "플러그인의 액세스"
+
+#: inc/admin/ui/options.php:439
+#, fuzzy
+msgid "All changes are instantly reflected on the app"
+msgstr "모든 변경 내용이 응용 프로그램에 즉시 반영"
+
+#: inc/admin/ui/options.php:450
+#, fuzzy
+msgid "UPDATE NOW ON STORES FOR"
+msgstr "지금 매장에 업데이트"
+
+#: inc/admin/ui/options.php:452
+#, fuzzy
+msgid "PUBLISH ON STORES FOR"
+msgstr "매장에 게시"
+
+#: inc/admin/ui/options.php:454 inc/admin/ui/publish.php:210
+#, fuzzy
+msgid "Your app"
+msgstr "귀하의 응용 프로그램"
+
+#: inc/admin/ui/options.php:463 inc/admin/ui/options.php:1934
+#: inc/admin/ui/options.php:1944 inc/admin/ui/options.php:2348
+#: inc/admin/ui/publish.php:219
+#, fuzzy
+msgid "Homepage"
+msgstr "홈페이지"
+
+#: inc/admin/ui/options.php:465 inc/admin/ui/publish.php:221
+#, fuzzy
+msgid "Privacy policy"
+msgstr "개⁠인⁠정⁠보 취⁠급⁠방⁠침"
+
+#: inc/admin/ui/options.php:469 inc/admin/ui/publish.php:225
+#, fuzzy
+msgid "Category:"
+msgstr "카테고리:"
+
+#: inc/admin/ui/options.php:469 inc/admin/ui/publish.php:225
+#, fuzzy
+msgid "Keywords:"
+msgstr "키워드:"
+
+#: inc/admin/ui/options.php:476 inc/admin/ui/options.php:530
+#, fuzzy
+msgid "Custom theme"
+msgstr "사용자 지정 테마"
+
+#: inc/admin/ui/options.php:483 inc/admin/ui/publish.php:237
+#, fuzzy
+msgid "Contact info"
+msgstr "상담안내"
+
+#: inc/admin/ui/options.php:514
+#, fuzzy
+msgid "App title"
+msgstr "응용 프로그램 제목"
+
+#: inc/admin/ui/options.php:516
+#, fuzzy
+msgid "Blog url"
+msgstr "블로그 주소(URL)"
+
+#: inc/admin/ui/options.php:526
+#, fuzzy
+msgid "Background color for iOS logo (if transparency on logo)"
+msgstr "IOS 로고 배경색 (경우 로고에 대 한 투명성)"
+
+#: inc/admin/ui/options.php:531 inc/admin/ui/options.php:1832
+#: inc/admin/ui/theme.php:300
+#, fuzzy
+msgid "Primary color"
+msgstr "기본색"
+
+#: inc/admin/ui/options.php:533 inc/admin/ui/options.php:1834
+#: inc/admin/ui/theme.php:311
+#, fuzzy
+msgid "Secondary color"
+msgstr "보조 색상"
+
+#: inc/admin/ui/options.php:583 inc/admin/ui/options.php:618
+#, fuzzy
+msgid "Welcome"
+msgstr "반갑습니다"
+
+#: inc/admin/ui/options.php:584 inc/admin/ui/options.php:619
+#, fuzzy
+msgid "You can send a welcome notification on the first app launch."
+msgstr "첫 번째 애플 리 케이 션 출시에 환영 알림을 보낼 수 있습니다."
+
+#: inc/admin/ui/options.php:584
+#, fuzzy
+msgid "Go on the language section to configure it."
+msgstr "그것을 구성 하는 언어 섹션에서 이동 합니다."
+
+#: inc/admin/ui/options.php:596
+#, fuzzy, php-format
+msgid ""
+"You must upload a certificate to enable iOS notifications.<br/>You'll "
+"receive it by mail when the app is under publication on the App Store.<br/>"
+"%sI got the certificate, go to the upload page%s"
+msgstr ""
+"IOS 알림 사용 인증서를 업로드 해야 합니다.<br>응용 프로그램은 응용 프로그램 "
+"저장소에 게시 하는 경우 우편으로 그것을 받게 됩니다.<br>% 시 인증서, 업로드 "
+"페이지 %s 이동"
+
+#: inc/admin/ui/options.php:605
+#, fuzzy
+msgid ""
+"Follow the <b><a href=\"https://wpmobile.app/en/send-push-notifications/\" "
+"target=\"_blank\">quick guide</a></b> to get the Google API Key"
+msgstr ""
+"구글 API 키를 <b><a href=\"https://wpmobile.app/en/send-push-notifications/\" "
+"target=\"_blank\">퀵 가이드</a></b> 를 따르십시오"
+
+#: inc/admin/ui/options.php:690
+#, fuzzy
+msgid "Muted categories do not trigger notifications"
+msgstr "음소거 카테고리 알림을 트리거하지 않습니다."
+
+#: inc/admin/ui/options.php:693
+#, fuzzy
+msgid "Muted category"
+msgstr "음소거 카테고리"
+
+#: inc/admin/ui/options.php:750
+#, fuzzy
+msgid "You can enter here your legal terms."
+msgstr "입력할 수 여기 당신의 법률 용어."
+
+#: inc/admin/ui/options.php:773 inc/stats/display.php:135
+#, fuzzy
+msgid "Languages"
+msgstr "언어"
+
+#: inc/admin/ui/options.php:781
+msgid "Auto detected users languages"
+msgstr ""
+
+#: inc/admin/ui/options.php:801
+msgid "Add a langage"
+msgstr ""
+
+#: inc/admin/ui/options.php:832
+msgid "Translation system"
+msgstr ""
+
+#: inc/admin/ui/options.php:836
+msgid "No translation"
+msgstr ""
+
+#: inc/admin/ui/options.php:837
+msgid "Manual"
+msgstr ""
+
+#: inc/admin/ui/options.php:840
+msgid "Automatic (with Weglot)"
+msgstr ""
+
+#: inc/admin/ui/options.php:855
+msgid "Weglot"
+msgstr ""
+
+#: inc/admin/ui/options.php:860 inc/admin/ui/options.php:863
+msgid "API Key"
+msgstr ""
+
+#: inc/admin/ui/options.php:870
+msgid "Original langage (2 letters code)"
+msgstr ""
+
+#: inc/admin/ui/options.php:938 inc/admin/ui/options.php:1020
+msgid "Url"
+msgstr ""
+
+#: inc/admin/ui/options.php:1061
+#, fuzzy
+msgid "Smart Banner"
+msgstr "스마트 배너"
+
+#: inc/admin/ui/options.php:1063 inc/admin/ui/promote.php:79
+#, fuzzy
+msgid ""
+"Display a banner on top of your site pointing on the store for your mobile "
+"visitors."
+msgstr ""
+"귀하의 사이트를 귀하의 모바일 방문자에 대 한 저장소에 가리키는 상단 배너를 표"
+"시 합니다."
+
+#: inc/admin/ui/options.php:1133 inc/admin/ui/promote.php:148
+#: inc/functions/banner.php:172
+#, fuzzy
+msgid "FREE"
+msgstr "무료"
+
+#: inc/admin/ui/options.php:1134 inc/admin/ui/promote.php:149
+#: inc/functions/banner.php:157
+#, fuzzy
+msgid "In App Store"
+msgstr "앱 스토어"
+
+#: inc/admin/ui/options.php:1137 inc/admin/ui/promote.php:152
+#: inc/functions/banner.php:176
+#, fuzzy
+msgid "VIEW"
+msgstr "보기"
+
+#: inc/admin/ui/options.php:1143 inc/admin/ui/promote.php:160
+#, fuzzy
+msgid "Show the smart banner"
+msgstr "스마트 배너 표시"
+
+#: inc/admin/ui/options.php:1148
+#, fuzzy
+msgid "Display the smart banner on"
+msgstr "스마트 배너에 표시"
+
+#: inc/admin/ui/options.php:1149
+#, fuzzy
+msgid "Android and iOS"
+msgstr "안 드 로이드와 iOS"
+
+#: inc/admin/ui/options.php:1158
+#, fuzzy
+msgid "App indexing (SEO)"
+msgstr "응용 프로그램 (SEO)를 인덱싱"
+
+#: inc/admin/ui/options.php:1160
+#, fuzzy, php-format
+msgid "Follow %sthe guide%s for activate the app indexing api"
+msgstr "따라 %sthe 가이드 %s 대 한 인덱싱 api 응용 프로그램 활성화"
+
+#: inc/admin/ui/options.php:1165
+#, fuzzy
+msgid "Inject HTML"
+msgstr "HTML 삽입"
+
+#: inc/admin/ui/options.php:1166
+#, fuzzy
+msgid ""
+"Useful to add your html banners or communicate an event.<br/><b>Note that "
+"you can not use CSS or Javascript. Only HTML tags (img, a, b, i, p, ...).</b>"
+msgstr ""
+"Html 배너를 추가 하거나 이벤트를 의사 소통에 유용 합니다.<br><b>참고 CSS 또"
+"는 javascript를 사용 하지 않을 수 있습니다. HTML 태그에만 (img, a, b, i, "
+"p,...).</b>"
+
+#: inc/admin/ui/options.php:1168
+#, fuzzy
+msgid "Before the post"
+msgstr "게시 하기 전에"
+
+#: inc/admin/ui/options.php:1178
+#, fuzzy
+msgid "After the post"
+msgstr "게시 후"
+
+#: inc/admin/ui/options.php:1216
+#, fuzzy
+msgid "Cron"
+msgstr "크론(Cron)"
+
+#: inc/admin/ui/options.php:1225
+#, fuzzy
+msgid "Package"
+msgstr "패키지"
+
+#: inc/admin/ui/options.php:1228
+#, fuzzy
+msgid "Package name"
+msgstr "红包名称"
+
+#: inc/admin/ui/options.php:1228 inc/admin/ui/options.php:1237
+#, fuzzy
+msgid "Get it"
+msgstr "그것을 얻을"
+
+#: inc/admin/ui/options.php:1236
+#, fuzzy
+msgid "App Store ID"
+msgstr "앱 스토어"
+
+#: inc/admin/ui/options.php:1302 inc/admin/ui/stats.php:120
+#: inc/admin/ui/stats.php:155
+#, fuzzy
+msgid "Google Analytics"
+msgstr "구글 애널리틱스"
+
+#: inc/admin/ui/options.php:1304
+#, fuzzy, php-format
+msgid "Follow %sthe guide%s to get a Google Analytics UA id"
+msgstr "Google Analytics UA id를 얻으려면 %sthe 가이드 %s"
+
+#: inc/admin/ui/options.php:1307
+#, fuzzy
+msgid "Identifiant"
+msgstr "Identifiant"
+
+#: inc/admin/ui/options.php:1317
+#, fuzzy
+msgid ""
+"<b>'Expert' function, use only if you know what you are doing.</b><br/>If "
+"you have any doubt, please contact us on the chat (bottom right) to see what "
+"we can do ;)<br/><br/>You can via a regular expression delete some portions "
+"of your articles. Useful for example to remove tags or shortcodes that are "
+"not automatically deleted or element that is not useful in the application."
+msgstr ""
+"<b>'전문가' 기능, 무엇을 하 고 알고 있는 경우에 사용.</b><br>만약 당신이 어"
+"떤 의심, 우리;) 무엇을 할 수 있는지에 (오른쪽 아래)에 문의 하시기 바랍니다"
+"<br><br>삭제할 수 있습니다 정규 표현식을 통해 귀하의 문서 일부. 예를 들어 제"
+"거 태그 또는 단축은 자동으로 삭제 되지 않습니다 또는 요소를 응용 프로그램에 "
+"유용 하지 않습니다 유용 합니다."
+
+#: inc/admin/ui/options.php:1319
+#, fuzzy
+msgid "Add your regex rules (line break separated)"
+msgstr "Regex 규칙 (줄 바꿈 구분) 추가"
+
+#: inc/admin/ui/options.php:1320
+#, fuzzy
+msgid "Example: /&lt;strong&gt;.*&lt;\\/strong&gt;/i"
+msgstr "예: / < >. * < \\/strong > /i"
+
+#: inc/admin/ui/options.php:1332
+#, fuzzy
+msgid "The rating popup allow the users to go on the store and leave a review."
+msgstr "등급 팝업 스토어에 이동 하 고 리뷰를 떠나 사용자 수 있습니다."
+
+#: inc/admin/ui/options.php:1335
+#, fuzzy
+msgid "Trigger rule"
+msgstr "트리거 규칙"
+
+#: inc/admin/ui/options.php:1339
+#, fuzzy
+msgid "After reading X posts (0 = deactivate)"
+msgstr "읽기 X 게시물 후 (0 = 비활성화)"
+
+#: inc/admin/ui/options.php:1413
+#, fuzzy
+msgid "Additionnal CSS for the Android night mode"
+msgstr "안 드 로이드 밤 모드 Additionnal CSS"
+
+#: inc/admin/ui/options.php:1424
+#, fuzzy
+msgid "Display type"
+msgstr "디스플레이 형식"
+
+#: inc/admin/ui/options.php:1427
+msgid "Full mobile (best)"
+msgstr ""
+
+#: inc/admin/ui/options.php:1428 inc/admin/ui/options.php:1531
+msgid "Simple (text only)"
+msgstr ""
+
+#: inc/admin/ui/options.php:1429 inc/admin/ui/options.php:1532
+msgid "Website theme (not app friendly)"
+msgstr ""
+
+#: inc/admin/ui/options.php:1433 inc/admin/ui/options.php:1536
+#, fuzzy
+msgid "Optimal"
+msgstr "최적"
+
+#: inc/admin/ui/options.php:1473
+#, fuzzy
+msgid "Only on some page?"
+msgstr "일부 페이지에만?"
+
+#: inc/admin/ui/options.php:1488 inc/admin/ui/theme.php:334
+#, fuzzy
+msgid "Custom CSS"
+msgstr "사용자 정의 CSS"
+
+#: inc/admin/ui/options.php:1489
+#, fuzzy
+msgid "You can use CSS to customize the content"
+msgstr "CSS를 사용 하 여 콘텐츠를 사용자 지정할 수 있습니다."
+
+#: inc/admin/ui/options.php:1499
+#, fuzzy
+msgid "Custom rules"
+msgstr "사용자 지정 규칙"
+
+#: inc/admin/ui/options.php:1500
+#, fuzzy
+msgid "You can use a different mode for some pages"
+msgstr "일부 페이지에 대해 다른 모드를 사용할 수 있습니다."
+
+#: inc/admin/ui/options.php:1504
+#, fuzzy
+msgid "Page url"
+msgstr "페이지 URL :"
+
+#: inc/admin/ui/options.php:1542
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/ui/options.php:1555
+#, fuzzy
+msgid "Special features"
+msgstr "특수 기능"
+
+#: inc/admin/ui/options.php:1556
+#, fuzzy
+msgid ""
+"&bull; <b>Comments</b>: show the comments and a form to publish on posts<br/"
+">&bull; <b>Subscribe system</b>: add an item on the menu pointing to "
+"subscribed category and a button on each post to (un)subscribe<br/>&bull; "
+"<b>Favorite system</b>: add an item on the menu to list all favorited posts "
+"and a button on each post to favorite<br/>&bull; <b>Share bubble</b>: show a "
+"button on each post to share it on social networks"
+msgstr ""
+"• <b>코멘트</b>: 코멘트와 게시물에 게시 양식 표시<br>• <b>구독 시스템</b>: 구"
+"독된 범주를 가리키는 메뉴에 항목을 추가 하 고 단추 (유엔) 각 게시물에 가입"
+"<br>• <b>좋아하는 시스템</b>: 모든 즐겨찾기 게시물 및 각 버튼에 좋아하는 게시"
+"물 목록 메뉴에서 항목 추가<br>• <b>거품 공유</b>: 소셜 네트워크에 그것을 공"
+"유 하는 각 게시물에 대 한 단추를 표시"
+
+#: inc/admin/ui/options.php:1583
+#, fuzzy
+msgid "Links"
+msgstr "링크"
+
+#: inc/admin/ui/options.php:1592
+#, fuzzy
+msgid "Open all links on the same screen (faster)"
+msgstr "(빠른) 동일한 화면에서 모든 링크를 열"
+
+#: inc/admin/ui/options.php:1609
+#, fuzzy
+msgid "Posts listing"
+msgstr "게시물 목록"
+
+#: inc/admin/ui/options.php:1610
+#, fuzzy
+msgid ""
+"<b>Small cards</b> Little image on left and title on right of the image<br/"
+"><b>Big cards</b> Big image and title below"
+msgstr ""
+"<b>작은 카드</b> 왼쪽과 오른쪽 이미지의 제목에 작은 이미지<br><b>큰 카드</b> "
+"큰 이미지와 제목 아래의"
+
+#: inc/admin/ui/options.php:1613
+#, fuzzy
+msgid "Default view"
+msgstr "기본보기"
+
+#: inc/admin/ui/options.php:1673
+#, fuzzy
+msgid ""
+"If a post is published without image, you can define here a default image."
+msgstr "이미지 없이 게시 하는 경우 정의할 수 있습니다 여기 기본 이미지."
+
+#: inc/admin/ui/options.php:1681
+#, fuzzy
+msgid "Use any image on the post as featured?"
+msgstr "게시물에 이미지를 사용 하 여 기능?"
+
+#: inc/admin/ui/options.php:1686
+#, fuzzy
+msgid "Hide image on lists?"
+msgstr "목록에 이미지를 숨기기?"
+
+#: inc/admin/ui/options.php:1691
+#, fuzzy
+msgid "Hide image on pages?"
+msgstr "페이지에 이미지를 숨기기?"
+
+#: inc/admin/ui/options.php:1702
+#, fuzzy
+msgid "Show the title before content?"
+msgstr "콘텐츠 전에 제목 표시?"
+
+#: inc/admin/ui/options.php:1720
+#, fuzzy
+msgid "Show date on list/post?"
+msgstr "목록/게시물에 날짜를 표시?"
+
+#: inc/admin/ui/options.php:1724
+#, fuzzy
+msgid "Show hour?"
+msgstr "쇼 시간?"
+
+#: inc/admin/ui/options.php:1732
+#, fuzzy
+msgid "Posts content"
+msgstr "콘텐츠 게시물"
+
+#: inc/admin/ui/options.php:1750
+#, fuzzy
+msgid "Similar posts"
+msgstr "관련 글"
+
+#: inc/admin/ui/options.php:1751
+#, fuzzy
+msgid "You can show similar posts after an article to engage your users."
+msgstr "사용자 참여 기사 후 비슷한 게시물을 표시할 수 있습니다."
+
+#: inc/admin/ui/options.php:1782 inc/admin/ui/options.php:1823
+#, fuzzy
+msgid "Theme of the app"
+msgstr "응용 프로그램의 테마"
+
+#: inc/admin/ui/options.php:1783 inc/admin/ui/options.php:1824
+#, fuzzy
+msgid ""
+"You can change the theme of your app when you want, it will be modified in "
+"real time on all devices."
+msgstr ""
+"때 응용 프로그램의 테마를 변경할 수 있습니다, 그것은 모든 장치에서 실시간으로"
+"에서 변경 됩니다."
+
+#: inc/admin/ui/options.php:1841
+#, fuzzy
+msgid "Access right"
+msgstr "읽기 권한"
+
+#: inc/admin/ui/options.php:1842
+#, fuzzy
+msgid ""
+"You change the level of right needed to access the statistics, notifications "
+"and settings panel."
+msgstr ""
+"당신이 통계, 알림 및 설정 패널에 액세스 하는 데 필요한 권리의 수준을 변경 합"
+"니다."
+
+#: inc/admin/ui/options.php:1845
+#, fuzzy
+msgid "Level"
+msgstr "레벨"
+
+#: inc/admin/ui/options.php:1849
+#, fuzzy
+msgid "Administrator"
+msgstr "관리자"
+
+#: inc/admin/ui/options.php:1850
+#, fuzzy
+msgid "Editor"
+msgstr "편집자"
+
+#: inc/admin/ui/options.php:1852
+#, fuzzy
+msgid "Subscriber"
+msgstr "구독자"
+
+#: inc/admin/ui/options.php:1881 inc/admin/ui/options.php:2021
+msgid "Build the app menu with your theme"
+msgstr ""
+
+#: inc/admin/ui/options.php:1898
+#, fuzzy
+msgid "Language to enable"
+msgstr "사용 하는 언어"
+
+#: inc/admin/ui/options.php:1940
+#, fuzzy
+msgid "SELECT HOMEPAGE"
+msgstr "홈페이지 선택"
+
+#: inc/admin/ui/options.php:1945
+#, fuzzy
+msgid "The homepage is the main screen of your application."
+msgstr "홈페이지에는 응용 프로그램의 메인 화면입니다."
+
+#: inc/admin/ui/options.php:2003
+#, fuzzy
+msgid "Latest posts"
+msgstr "최근 게시물"
+
+#: inc/admin/ui/options.php:2027
+#, fuzzy
+msgid "Menu builder"
+msgstr "메뉴 빌더"
+
+#: inc/admin/ui/options.php:2089
+msgid "+ ADD AN ITEM TO THE MENU"
+msgstr ""
+
+#: inc/admin/ui/options.php:2091
+#, fuzzy
+msgid "Reset"
+msgstr "초기화"
+
+#: inc/admin/ui/options.php:2128 inc/admin/ui/options.php:2189
+msgid "Left menu"
+msgstr ""
+
+#: inc/admin/ui/options.php:2130 inc/admin/ui/options.php:2189
+msgid "Bottom floating menu"
+msgstr ""
+
+#: inc/admin/ui/options.php:2132 inc/admin/ui/options.php:2189
+msgid "Floating round button"
+msgstr ""
+
+#: inc/admin/ui/options.php:2197
+#, fuzzy
+msgid "OK"
+msgstr "승인"
+
+#: inc/admin/ui/options.php:2205
+#, fuzzy
+msgid "Empty"
+msgstr "없음"
+
+#: inc/admin/ui/options.php:2309
+#, fuzzy
+msgid "Menu title (ios only)"
+msgstr "메뉴 제목 (ios만)"
+
+#: inc/admin/ui/options.php:2341
+msgid "Import"
+msgstr ""
+
+#: inc/admin/ui/options.php:2369
+msgid "WordPress menu"
+msgstr ""
+
+#: inc/admin/ui/options.php:2406
+#, fuzzy
+msgid "Posts visibles in the app"
+msgstr "응용 프로그램에서 visibles 게시물"
+
+#: inc/admin/ui/options.php:2408 inc/admin/ui/options.php:2412
+#, fuzzy
+msgid "Content type"
+msgstr "컨텐츠 타입"
+
+#: inc/admin/ui/options.php:2409
+#, fuzzy
+msgid "Leave only `post` if you do not know what you are doing"
+msgstr "'게시물' 당신이 무엇을 하 고 알 수 없는 두고"
+
+#: inc/admin/ui/options.php:2437 inc/admin/ui/options.php:2441
+#, fuzzy
+msgid "Category type"
+msgstr "카테고리 타입"
+
+#: inc/admin/ui/options.php:2438
+#, fuzzy
+msgid "Leave only `category` if you do not know what you are doing"
+msgstr "당신이 무엇을 하 고 알 수 없는 '카테고리'를 두고합니다"
+
+#: inc/admin/ui/options.php:2465 themes/wpappninja-full/functions.php:664
+#, fuzzy
+msgid "Posts"
+msgstr "포스트"
+
+#: inc/admin/ui/options.php:2482
+#, fuzzy
+msgid "Exclude some posts by tags"
+msgstr "일부 게시물 태그 제외"
+
+#: inc/admin/ui/options.php:2486
+#, fuzzy
+msgid "Direct tag name"
+msgstr "직접 태그 이름"
+
+#: inc/admin/ui/options.php:2493
+#, fuzzy
+msgid "Tags"
+msgstr "태그"
+
+#: inc/admin/ui/options.php:2537
+#, fuzzy
+msgid "Search restriction"
+msgstr "검색 제한"
+
+#: inc/admin/ui/options.php:2538
+#, fuzzy
+msgid "You can restrict the search engine to only some category of the blog."
+msgstr "블로그의 몇몇 카테고리에 검색 엔진을 제한할 수 있습니다."
+
+#: inc/admin/ui/options.php:2541
+msgid "Number of category to show"
+msgstr ""
+
+#: inc/admin/ui/options.php:2552
+#, fuzzy
+msgid "By category"
+msgstr "By 카테고리"
+
+#: inc/admin/ui/promote.php:40
+#, fuzzy
+msgid "Your app is not yet live on stores, you can't promote it"
+msgstr ""
+"당신의 애플 리 케이 션은 아직 라이브 상점에, 당신은 그것을 승격할 수 없습니"
+"다."
+
+#: inc/admin/ui/publish.php:194
+#, fuzzy
+msgid "Hello!"
+msgstr "반가워!"
+
+#: inc/admin/ui/publish.php:196
+#, fuzzy
+msgid "Automatically create my menu"
+msgstr "내 메뉴를 자동으로 만들기"
+
+#: inc/admin/ui/publish.php:231
+#, fuzzy
+msgid "Your app theme"
+msgstr "응용 프로그램 테마"
+
+#: inc/admin/ui/publish.php:257
+#, fuzzy
+msgid "Buy an update"
+msgstr "업데이트 구입"
+
+#: inc/admin/ui/publish.php:257
+#, fuzzy
+msgid "Delete and unpublish"
+msgstr "삭제 및 게시 취소"
+
+#: inc/admin/ui/publish.php:263
+#, fuzzy
+msgid ""
+"Any change on this page <u>after the first publication</u> will be billed "
+"49€.<br/><b>Take your time and make sure everything is ok.</b>"
+msgstr ""
+"이 페이지 <u>는 첫 번째 게시 후</u> 에 어떤 변경 청구 49€ 될 것입니다.<br><b>"
+"당신의 시간이 걸릴 하 고 모든 것은 ok 다는 것을 확인.</b>"
+
+#: inc/admin/ui/publish.php:264
+msgid "Basics of the application"
+msgstr ""
+
+#: inc/admin/ui/publish.php:268 themes/wpappninja-full/comments.php:51
+#: themes/wpappninja/comments.php:52
+msgid "Name"
+msgstr ""
+
+#: inc/admin/ui/publish.php:285
+msgid "Optimal size: 512x512 pixels"
+msgstr ""
+
+#: inc/admin/ui/publish.php:307
+msgid "Logo background color"
+msgstr ""
+
+#: inc/admin/ui/publish.php:321
+msgid "Launchscreen"
+msgstr ""
+
+#: inc/admin/ui/publish.php:321
+msgid "Optimal size: 600x900 pixels"
+msgstr ""
+
+#: inc/admin/ui/push.php:117
+#, fuzzy
+msgid "Upload successful"
+msgstr "업로드 성공"
+
+#: inc/admin/ui/push.php:178
+#, fuzzy
+msgid "You can't send notification with the free plan"
+msgstr "무료 계획 알림 보낼 수 없습니다."
+
+#: inc/admin/ui/push.php:188 inc/admin/ui/push.php:190
+#: inc/admin/ui/push.php:197
+#, fuzzy
+msgid "+ New notification"
+msgstr "+ 새로운 알림"
+
+#: inc/admin/ui/push.php:318
+#, fuzzy
+msgid "Add link"
+msgstr "링크 추가"
+
+#: inc/admin/ui/push.php:328 inc/admin/ui/push.php:339
+msgid "subscriber"
+msgid_plural "subscribers"
+msgstr[0] ""
+
+#: inc/admin/ui/push.php:404
+#, fuzzy
+msgid "subscribers"
+msgstr "구독자"
+
+#: inc/admin/ui/push.php:469
+#, fuzzy
+msgid "deleted - not sended"
+msgstr "삭제-하지 sended"
+
+#: inc/admin/ui/push.php:476
+#, fuzzy
+msgid "Sent to"
+msgstr "전송"
+
+#: inc/admin/ui/push.php:476
+#, fuzzy
+msgid "devices"
+msgstr "장치"
+
+#: inc/admin/ui/push.php:482 themes/wpappninja-full/functions.php:594
+#, fuzzy, php-format
+msgid "%s ago"
+msgstr "%s 전에"
+
+#: inc/admin/ui/push.php:483
+#, fuzzy, php-format
+msgid "in %s"
+msgstr "위치 - %s /"
+
+#: inc/admin/ui/push.php:507
+#, fuzzy
+msgid "Previous"
+msgstr "이전"
+
+#: inc/admin/ui/push.php:513 themes/wpappninja-full/functions.php:235
+#, fuzzy
+msgid "Next"
+msgstr "다음"
+
+#: inc/admin/ui/push.php:516
+#, fuzzy
+msgid "Delete history"
+msgstr "내역 삭제"
+
+#: inc/admin/ui/pwa.php:28
+msgid "Progressive Web App: DISABLED"
+msgstr ""
+
+#: inc/admin/ui/pwa.php:30
+msgid "Progressive Web App: ENABLED"
+msgstr ""
+
+#: inc/admin/ui/qrcode.php:40
+#, fuzzy
+msgid "New QR Code"
+msgstr "새로운 QR 코드"
+
+#: inc/admin/ui/qrcode.php:43
+#, fuzzy
+msgid "In-app QR Code scanner: DISABLED"
+msgstr "애플 리 케이 션 QR 코드 스캐너: 사용 안 함"
+
+#: inc/admin/ui/qrcode.php:45
+#, fuzzy
+msgid "In-app QR Code scanner: ENABLED"
+msgstr "애플 리 케이 션 QR 코드 스캐너: 사용"
+
+#: inc/admin/ui/stats.php:106
+#, fuzzy
+msgid "You can't have statistics with the free plan"
+msgstr "무료 계획 통계를 가질 수 없습니다."
+
+#: inc/admin/ui/stats.php:117
+#, fuzzy
+msgid "days"
+msgstr "일"
+
+#: inc/admin/ui/stats.php:117
+#, fuzzy
+msgid "results"
+msgstr "결과"
+
+#: inc/admin/ui/stats.php:171
+#, fuzzy
+msgid "How many days?"
+msgstr "얼마나 많은 일?"
+
+#: inc/admin/ui/stats.php:175
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+
+#: inc/admin/ui/stats.php:179
+#, fuzzy
+msgid "How many maximum results?"
+msgstr "최대 결과 수?"
+
+#: inc/admin/ui/stats.php:183
+msgid "result"
+msgid_plural "results"
+msgstr[0] ""
+
+#: inc/admin/ui/stats.php:187
+#, fuzzy
+msgid "On all platform?"
+msgstr "모든 플랫폼?"
+
+#: inc/admin/ui/stats.php:194
+#, fuzzy
+msgid "All languages included?"
+msgstr "모든 언어 포함?"
+
+#: inc/admin/ui/stats.php:203
+#, fuzzy
+msgid "Block disposition"
+msgstr "블록 처리"
+
+#: inc/admin/ui/stats.php:230
+msgid "Reset all stats"
+msgstr ""
+
+#: inc/admin/ui/theme.php:225
+msgid "App theme"
+msgstr ""
+
+#: inc/admin/ui/theme.php:237
+msgid "Full Mobile"
+msgstr ""
+
+#: inc/admin/ui/theme.php:241 inc/admin/ui/theme.php:281
+msgid "Hybrid"
+msgstr ""
+
+#: inc/admin/ui/theme.php:246
+msgid "Light (only text and image)"
+msgstr ""
+
+#: inc/admin/ui/theme.php:253
+msgid "WordPress Theme"
+msgstr ""
+
+#: inc/admin/ui/theme.php:264
+msgid "WordPress Theme (without UI)"
+msgstr ""
+
+#: inc/admin/ui/theme.php:280
+msgid "Old"
+msgstr ""
+
+#: inc/admin/ui/theme.php:292
+#, fuzzy
+msgid "Colors"
+msgstr "색상"
+
+#: inc/admin/ui/theme.php:329
+msgid "CSS and JavaScript"
+msgstr ""
+
+#: inc/admin/ui/theme.php:344
+msgid "Custom JS [jQuery, framework7.io]"
+msgstr ""
+
+#: inc/admin/ui/theme.php:437
+msgid "You have to test on a real device"
+msgstr ""
+
+#: inc/admin/ui/theme.php:444
+msgid "Test on a real device"
+msgstr ""
+
+#: inc/admin/upgrader.php:54
+#, fuzzy, php-format
+msgid "<b>Everything is ok!</b> <a href=\"%s\">Create my mobile app</a>"
+msgstr ""
+"<b>다 괜찮습니다!</b> <a href=\"%s\">내 모바일 애플 리 케이 션 만들기</a>"
+
+#: inc/admin/upgrader.php:62
+#, fuzzy, php-format
+msgid ""
+"<b>WPMobile.App</b> We've made major improvements on the content render <a "
+"target=\"_blank\" style=\"%s\" href=\"%s\">Test now my enhanced app</a>"
+msgstr ""
+"<b>WPAPP입니다. 닌자</b> <a target=\"_blank\" style=\"%s\" href=\"%s\">테스"
+"트 지금 내 향상 된 애플 리 케이 션을</a> 렌더링 콘텐츠에 대 한 주요 개선 했습"
+"니다."
+
+#: inc/admin/upgrader.php:62
+#, fuzzy, php-format
+msgid "<a href=\"%s\">dismiss</a>"
+msgstr ""
+"<em style=\"position: absolute; top: 18px; right: 20px;\"><a href=\"%1$s\">무"
+"시하기</a></em>"
+
+#: inc/admin/upgrader.php:105
+msgid "News"
+msgstr ""
+
+#: inc/api/json.php:298 inc/api/json.php:353
+#, fuzzy
+msgid "You like this app?"
+msgstr "당신은이 app를 좋아한다?"
+
+#: inc/api/json.php:299 inc/api/json.php:354
+#, fuzzy
+msgid "Take 5 seconds to rate it on the Play Store"
+msgstr "플레이 스토어에 그것을 평가 하려면 5 초"
+
+#: inc/api/json.php:696 inc/api/read_enhanced.php:84
+#: themes/wpappninja-full/functions.php:174
+#, fuzzy
+msgid "Read"
+msgstr "확인 중"
+
+#: inc/api/read_enhanced.php:164 themes/wpappninja-full/functions.php:309
+msgid "Settings saved"
+msgstr ""
+
+#: inc/api/read_enhanced.php:169 themes/wpappninja-full/functions.php:322
+#: themes/wpappninja-full/functions.php:324
+msgid "Enable push notifications"
+msgstr ""
+
+#: inc/api/read_enhanced.php:174 themes/wpappninja-full/functions.php:331
+msgid "Subscriptions"
+msgstr ""
+
+#: inc/api/read_enhanced.php:193 themes/wpappninja-full/functions.php:357
+#: themes/wpappninja-full/functions.php:695
+msgid "Save"
+msgstr ""
+
+#: inc/common/admin-bar.php:31 themes/wpappninja-full/functions.php:309
+#, fuzzy
+msgid "Push notification"
+msgstr "푸시 알림"
+
+#: inc/common/cron.php:14
+#, fuzzy
+msgid "Every 3 Minutes"
+msgstr "매 3분 마다"
+
+#: inc/functions/banner.php:150
+#, fuzzy
+msgid "In Google Play"
+msgstr "구글 PLAY로지불"
+
+#: inc/functions/check.php:268
+#, fuzzy
+msgid "Allowed on your plan:"
+msgstr "당신의 계획에 사용할 수 있습니다."
+
+#: inc/functions/colors.php:175
+msgid "Before the left menu"
+msgstr ""
+
+#: inc/functions/colors.php:176
+msgid "After the left menu"
+msgstr ""
+
+#: inc/functions/colors.php:177
+msgid "Middle of the navbar"
+msgstr ""
+
+#: inc/functions/colors.php:177 inc/functions/colors.php:178
+#: inc/functions/colors.php:228 inc/functions/colors.php:230
+#: inc/functions/colors.php:232
+msgid "Toolbar"
+msgstr ""
+
+#: inc/functions/colors.php:178
+msgid "Right of the navbar"
+msgstr ""
+
+#: inc/functions/colors.php:181
+#, fuzzy
+msgid "Before the content"
+msgstr "콘텐츠 전에"
+
+#: inc/functions/colors.php:182
+#, fuzzy
+msgid "After the content"
+msgstr "콘텐츠 후"
+
+#: inc/functions/colors.php:183
+msgid "Before the WooCommerce store"
+msgstr ""
+
+#: inc/functions/colors.php:184
+msgid "After the WooCommerce store"
+msgstr ""
+
+#: inc/functions/colors.php:185
+msgid "Card content on lists"
+msgstr ""
+
+#: inc/functions/colors.php:223
+msgid "App background"
+msgstr ""
+
+#: inc/functions/colors.php:223 inc/functions/colors.php:225
+msgid "Background"
+msgstr ""
+
+#: inc/functions/colors.php:225
+msgid "Main content background"
+msgstr ""
+
+#: inc/functions/colors.php:228
+msgid "Status bar background"
+msgstr ""
+
+#: inc/functions/colors.php:230
+msgid "Navigation bar background"
+msgstr ""
+
+#: inc/functions/colors.php:232
+msgid "Navigation bar icon color"
+msgstr ""
+
+#: inc/functions/colors.php:234
+msgid "iOS bottom menu background"
+msgstr ""
+
+#: inc/functions/colors.php:236
+msgid "iOS bottom menu icon color"
+msgstr ""
+
+#: inc/functions/colors.php:238
+msgid "Left menu background"
+msgstr ""
+
+#: inc/functions/colors.php:239
+msgid "Left menu item background"
+msgstr ""
+
+#: inc/functions/colors.php:240
+msgid "Left menu icon color"
+msgstr ""
+
+#: inc/functions/colors.php:241
+msgid "Left menu text color"
+msgstr ""
+
+#: inc/functions/colors.php:242
+msgid "Icon in left menu"
+msgstr ""
+
+#: inc/functions/colors.php:244
+msgid "Floating round menu item background"
+msgstr ""
+
+#: inc/functions/colors.php:245
+msgid "Floating round menu icon color"
+msgstr ""
+
+#: inc/functions/colors.php:248
+msgid "Title color"
+msgstr ""
+
+#: inc/functions/colors.php:249
+msgid "Content text color"
+msgstr ""
+
+#: inc/functions/colors.php:253
+msgid "Links color"
+msgstr ""
+
+#: inc/functions/colors.php:254
+msgid "Button border color"
+msgstr ""
+
+#: inc/functions/colors.php:255
+msgid "Button text color"
+msgstr ""
+
+#: inc/functions/colors.php:257
+msgid "Badge background"
+msgstr ""
+
+#: inc/functions/colors.php:259
+msgid "List items background"
+msgstr ""
+
+#: inc/functions/colors.php:262
+msgid "Loading bar color"
+msgstr ""
+
+#: inc/functions/colors.php:264
+msgid "Search bar background"
+msgstr ""
+
+#: inc/functions/colors.php:266
+msgid "Base text size"
+msgstr ""
+
+#: inc/functions/colors.php:268
+msgid "Font family"
+msgstr ""
+
+#: inc/functions/format.php:70
+#, fuzzy, php-format
+msgid "%s years ago"
+msgstr "%s년 전"
+
+#: inc/functions/format.php:72
+#, fuzzy, php-format
+msgid "%s year ago"
+msgstr "%s 년 전"
+
+#: inc/functions/format.php:76
+#, fuzzy, php-format
+msgid "%s months ago"
+msgstr "%s 달 전"
+
+#: inc/functions/format.php:78
+#, fuzzy, php-format
+msgid "%s month ago"
+msgstr "%s 달 전"
+
+#: inc/functions/format.php:83
+#, fuzzy, php-format
+msgid "%s days ago"
+msgstr "%s 일 전"
+
+#: inc/functions/format.php:85
+#, fuzzy, php-format
+msgid "%s day ago"
+msgstr "%s 일 전"
+
+#: inc/functions/format.php:90
+#, fuzzy, php-format
+msgid "%s hours ago"
+msgstr "%s시"
+
+#: inc/functions/format.php:92
+#, fuzzy, php-format
+msgid "%s hour ago"
+msgstr "%s 시간 전"
+
+#: inc/functions/format.php:97
+#, fuzzy, php-format
+msgid "%s minutes ago"
+msgstr "%s분 전"
+
+#: inc/functions/format.php:99
+#, fuzzy, php-format
+msgid "%s minute ago"
+msgstr "%s분"
+
+#: inc/functions/format.php:103
+#, fuzzy, php-format
+msgid "%s seconds ago"
+msgstr "%s초"
+
+#: inc/functions/menu.php:194 inc/functions/menu.php:204
+#: themes/wpappninja-full/functions.php:627
+msgid "Scan code"
+msgstr ""
+
+#: inc/functions/menu.php:215
+msgid "Exit"
+msgstr ""
+
+#: inc/stats/display.php:91
+#, fuzzy
+msgid "Timeline"
+msgstr "타임라이"
+
+#: inc/stats/display.php:95
+#, fuzzy
+msgid "Chart"
+msgstr "차트"
+
+#: inc/stats/display.php:99
+#, fuzzy
+msgid "Installations"
+msgstr "설치"
+
+#: inc/stats/display.php:103
+#, fuzzy
+msgid "Actions"
+msgstr "작업"
+
+#: inc/stats/display.php:115
+#, fuzzy
+msgid "Users"
+msgstr "사용자"
+
+#: inc/stats/display.php:119
+#, fuzzy
+msgid "Platforms"
+msgstr "플랫폼"
+
+#: inc/stats/display.php:123
+#, fuzzy
+msgid "Hours"
+msgstr "시간"
+
+#: inc/stats/display.php:127
+#, fuzzy
+msgid "Continents"
+msgstr "대륙"
+
+#: inc/stats/display.php:131 inc/stats/display.php:440
+#, fuzzy
+msgid "Country"
+msgstr "국가"
+
+#: inc/stats/display.php:230 inc/stats/display.php:292
+#, fuzzy
+msgid "Action"
+msgstr "세부 내용"
+
+#: inc/stats/display.php:258
+#, fuzzy
+msgid "Push"
+msgstr "푸시"
+
+#: inc/stats/display.php:259
+#, fuzzy
+msgid "Dispatch"
+msgstr "디스패치"
+
+#: inc/stats/display.php:260
+#, fuzzy
+msgid "Open"
+msgstr "열기"
+
+#: inc/stats/display.php:319
+#, fuzzy
+msgid "User"
+msgstr "고객"
+
+#: inc/stats/display.php:356
+#, fuzzy
+msgid "Platform"
+msgstr "플랫폼"
+
+#: inc/stats/display.php:384
+#, fuzzy
+msgid "Hour"
+msgstr "시간"
+
+#: inc/stats/display.php:412
+#, fuzzy
+msgid "Continent"
+msgstr "대륙"
+
+#: inc/stats/render.php:20
+#, fuzzy
+msgid "Deleted notification"
+msgstr "삭제 알림"
+
+#: inc/stats/render.php:39 inc/stats/render.php:76
+#, fuzzy
+msgid "install"
+msgstr "설치"
+
+#: inc/stats/render.php:55
+#, fuzzy
+msgid "notification"
+msgstr "알림"
+
+#: inc/stats/render.php:58
+#, fuzzy
+msgid "comment"
+msgstr "덧글"
+
+#: inc/stats/render.php:61
+#, fuzzy
+msgid "read"
+msgstr "읽기"
+
+#: inc/stats/render.php:64
+#, fuzzy
+msgid "category"
+msgstr "카테고리"
+
+#: inc/stats/render.php:67
+#, fuzzy
+msgid "recent post"
+msgstr "최근 글"
+
+#: inc/stats/render.php:70
+#, fuzzy
+msgid "form"
+msgstr "폼"
+
+#: inc/stats/render.php:73
+#, fuzzy
+msgid "search"
+msgstr "검색"
+
+#: inc/stats/render.php:250
+#, fuzzy
+msgid "App activity"
+msgstr "응용 프로그램 활동"
+
+#: inc/stats/render.php:250
+#, fuzzy
+msgid "By day"
+msgstr "하루"
+
+#: themes/wpappninja-full/404.php:2 themes/wpappninja/404.php:11
+#, fuzzy
+msgid "Sorry, this page does not exist."
+msgstr "죄송 합니다,이 페이지는 존재 하지 않습니다."
+
+#: themes/wpappninja-full/comments.php:11 themes/wpappninja/comments.php:12
+msgid "<span class=\"badge bg-red\">0</span> reaction"
+msgstr ""
+
+#: themes/wpappninja-full/comments.php:19 themes/wpappninja/comments.php:20
+#, php-format
+msgctxt "wpappninja"
+msgid "<span class=\"badge bg-red\">1</span> reaction"
+msgid_plural "<span class=\"badge bg-wpappninja\">%1$s</span> reactions"
+msgstr[0] ""
+
+#: themes/wpappninja-full/comments.php:41 themes/wpappninja/comments.php:42
+msgid "Comments are closed."
+msgstr ""
+
+#: themes/wpappninja-full/comments.php:61 themes/wpappninja/comments.php:62
+msgid "Email"
+msgstr ""
+
+#: themes/wpappninja-full/comments.php:71 themes/wpappninja/comments.php:72
+msgid "Website"
+msgstr ""
+
+#: themes/wpappninja-full/comments.php:89
+msgid "Your reaction"
+msgstr ""
+
+#: themes/wpappninja-full/comments.php:98
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a reaction."
+msgstr ""
+
+#: themes/wpappninja-full/comments.php:104 themes/wpappninja/comments.php:105
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: themes/wpappninja-full/comments.php:111
+msgid "Send my reaction"
+msgstr ""
+
+#: themes/wpappninja-full/functions.php:315
+msgid "My notifications"
+msgstr ""
+
+#: themes/wpappninja-full/functions.php:373
+msgid "Search"
+msgstr ""
+
+#: themes/wpappninja-full/functions.php:376
+msgid "Cancel"
+msgstr ""
+
+#: themes/wpappninja-full/functions.php:515
+msgid "Share"
+msgstr ""
+
+#: themes/wpappninja-full/functions.php:654
+msgid "My home"
+msgstr ""
+
+#: themes/wpappninja/comments.php:90
+msgid "Comment"
+msgstr ""
+
+#: themes/wpappninja/comments.php:99
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: themes/wpappninja/functions.php:23
+msgid "WPMobile.App (before content)"
+msgstr ""
+
+#: themes/wpappninja/functions.php:25
+msgid "Appears as the sidebar on top of the page"
+msgstr ""
+
+#: themes/wpappninja/functions.php:34
+msgid "WPMobile.App (after content)"
+msgstr ""
+
+#: themes/wpappninja/functions.php:36
+msgid "Appears as the sidebar on bottom of the page"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WPMobile.App"
+msgstr "WPAPP입니다. 닌자"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://wpmobile.app/en/"
+msgstr "https://wpmobile.app/en/"
+
+#. Description of the plugin/theme
+msgid ""
+"Build your mobile app for WordPress. Android and iOS. Easy setup, free test."
+msgstr ""
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://wpmobile.app/"
+msgstr "https://wpmobile.app/"
+
+#, fuzzy
+#~ msgid "Love WPMobile.App? Give us 5 stars on WordPress.org :)"
+#~ msgstr "사랑 WPAPP입니다. 닌자? 우리에 게 5 개의 별에 WordPress.org:)"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you need any help, you can contact us on our live chat on <a href="
+#~ "\"https://wpmobile.app/\" target=\"_blank\">wpapp.ninja</a> or email us at "
+#~ "support@wpapp.ninja"
+#~ msgstr ""
+#~ "<a href=\"https://wpmobile.app/\" target=\"_blank\">Wpapp.ninja</a> 에 우리"
+#~ "의 라이브 채팅에 저희에 게 연락 하거나 support@wpapp.ninja에 이메일을 수 "
+#~ "있습니다 어떤 도움을 필요로 하는 경우"
+
+#, fuzzy
+#~ msgid "Position and color"
+#~ msgstr "위치 및 색상"
+
+#, fuzzy
+#~ msgid "Position"
+#~ msgstr "위치"
+
+#, fuzzy
+#~ msgid "Format:"
+#~ msgstr "포맷:"
+
+#, fuzzy
+#~ msgid "List design"
+#~ msgstr "게시물 목록 디자인"
+
+#, fuzzy
+#~ msgid "Display mode"
+#~ msgstr "표시 방법"
+
+#, fuzzy
+#~ msgid "Image on lists"
+#~ msgstr "이미지 목록에"
+
+#, fuzzy
+#~ msgid "HIDE"
+#~ msgstr "숨김"
+
+#, fuzzy
+#~ msgid "SHOW"
+#~ msgstr "보기"
+
+#, fuzzy
+#~ msgid "Image on pages"
+#~ msgstr "페이지에 이미지"
+
+#, fuzzy
+#~ msgid "Page design"
+#~ msgstr "페이지 디자인"
+
+#, fuzzy
+#~ msgid ""
+#~ "Click on an element to hide it on the app (the element will turn red, "
+#~ "click again to unselect the element)."
+#~ msgstr ""
+#~ "응용 프로그램에 그것을 숨길 요소에 클릭 (요소, 것입니다 빨간색 요소를 선택"
+#~ "을 취소를 다시 클릭 합니다)."
+
+#, fuzzy
+#~ msgid "Configure on a different page"
+#~ msgstr "다른 페이지에 구성"
+
+#, fuzzy
+#~ msgid "Simple (fastest)"
+#~ msgstr "간단한 (가장 빠른)"
+
+#, fuzzy
+#~ msgid "Full (compatible with all plugins)"
+#~ msgstr "전체 (모든 플러그인과 호환)"
+
+#, fuzzy
+#~ msgid "Full mobile"
+#~ msgstr "전체 모바일"
+
+#, fuzzy
+#~ msgid "Avatar and name"
+#~ msgstr "아바타 및 이름"
+
+#, fuzzy
+#~ msgid "Custom CSS (expert)"
+#~ msgstr "사용자 정의 CSS (전문가)"
+
+#, fuzzy
+#~ msgid "Auto push"
+#~ msgstr "자동 푸시"
+
+#, fuzzy
+#~ msgid "Disable the box to send push on post publication?"
+#~ msgstr "게시물 게시에 밀어넣기를 보낼 상자를 비활성화?"
+
+#, fuzzy
+#~ msgid ""
+#~ "You must upload the certificate that you received by email to enable iOS "
+#~ "notifications."
+#~ msgstr "IOS 알림 사용 이메일로 받은 인증서를 업로드 해야 합니다."
+
+#, fuzzy
+#~ msgid "No certificate"
+#~ msgstr "수료증 없음"
+
+#, fuzzy
+#~ msgid "Certificate uploaded"
+#~ msgstr "인증서 업로드"
+
+#, fuzzy
+#~ msgid "Select the CertAndKey.pem file to upload"
+#~ msgstr "CertAndKey.pem 파일을 업로드 선택"
+
+#, fuzzy
+#~ msgid "manage"
+#~ msgstr "관리"
+
+#, fuzzy
+#~ msgid "BUY ANDROID VERSION"
+#~ msgstr "안드로이드 버전"
+
+#, fuzzy
+#~ msgid "BUY IOS VERSION"
+#~ msgstr "IOS 버전 구매"
+
+#, fuzzy
+#~ msgid "Icon, name, splashscreen"
+#~ msgstr "아이콘, 이름, splashscreen"
+
+#, fuzzy
+#~ msgid "Your app is not yet ready"
+#~ msgstr "당신의 애플 리 케이 션은 아직 준비"
+
+#, fuzzy
+#~ msgid "configure my app"
+#~ msgstr "내 응용 프로그램을 구성"
+
+#, fuzzy
+#~ msgid "Your app is ready!"
+#~ msgstr "귀하의 응용 프로그램은 준비!"
+
+#, fuzzy
+#~ msgid "BUY MY APP"
+#~ msgstr "내 애플 리 케이 션을 구입"
+
+#, fuzzy
+#~ msgid "edit"
+#~ msgstr "편지"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your application can be multilingual.<br/><br/>&bull; If your site <b>is "
+#~ "multilingual</b>, enable all the language you have on your site so you "
+#~ "can create 1 menu by language and link to translated content,<br/>&bull; "
+#~ "If your site <b>is not multilingual</b>, just enable your main language"
+#~ msgstr ""
+#~ "다국어 응용 프로그램 수 있습니다.<br><br>• 만약 당신의 사이트는 <b>는 다국"
+#~ "어</b>, 사용 언어 1 메뉴를 만들 수 있도록 링크를 귀하의 사이트에 있는 모"
+#~ "든 언어 번역 콘텐츠,<br>• 만약 귀하 <b>는 하지 다국어</b>사이트, 주요 언어"
+#~ "를 활성화"
+
+#, fuzzy
+#~ msgid "you can import a WordPress menu that you use on your site."
+#~ msgstr "귀하의 사이트에 사용 하는 WordPress 메뉴를 가져올 수 있습니다."
+
+#, fuzzy
+#~ msgid "Import menu"
+#~ msgstr "가져오기 메뉴"
+
+#, fuzzy
+#~ msgid "Import homepage"
+#~ msgstr "가져오기 홈페이지"
+
+#, fuzzy
+#~ msgid "+ ADD AN ITEM"
+#~ msgstr "항목 추가"
+
+#, fuzzy
+#~ msgid "The title is the app name on smartphones (the shorter the better)"
+#~ msgstr "제목은 스마트폰 (더 짧은 더)에 응용 프로그램 이름"
+
+#, fuzzy
+#~ msgid "App name"
+#~ msgstr "앱 이름"
+
+#, fuzzy
+#~ msgid ""
+#~ "This image will be the app icon of your app. Avoid big areas of "
+#~ "transparency in your logo. <b>Square format required, minimum 512 pixels "
+#~ "wide</b>"
+#~ msgstr ""
+#~ "이 이미지는 귀하의 로고에 있는 투명도의 당신의 app. 피하 큰 분야의 애플 "
+#~ "리 케이 션 아이콘을 될 것입니다. <b>사각형 형식이 필요한 최소 512 픽셀</b>"
+
+#, fuzzy
+#~ msgid "App launchscreen"
+#~ msgstr "응용 프로그램 launchscreen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This image will visible during the app launch. <b>Optimal size: 600x900</"
+#~ "b>"
+#~ msgstr ""
+#~ "이 이미지는 응용 프로그램 실행 하는 동안 표시 됩니다. <b>최적의 크기: 600 "
+#~ "x 900</b>"
+
+#, fuzzy
+#~ msgid "Read Post"
+#~ msgstr "게시물 읽기"
+
+#, fuzzy
+#~ msgid ""
+#~ "Native Android and iOS mobile app. Publish your mobile app on the App "
+#~ "Store in 20 minutes. No coding skill required."
+#~ msgstr ""
+#~ "네이티브 안 드 로이드와 iOS에 대 한 모바일 응용 프로그램 20 분에 App 스토"
+#~ "어에서 모바일 응용 프로그램을 게시 합니다. 필요한 없음 코딩 기술"

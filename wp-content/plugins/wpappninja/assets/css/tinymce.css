@@ -1,0 +1,13 @@
+.my-view-wrapper{
+	text-align:left;
+	line-height:1.5em;
+	padding:1em;
+	background-color:#fff;
+	font-family:monospace;
+	color:white;
+}
+
+.my-view-wrapper p{
+	margin:0;
+	padding:0;
+}

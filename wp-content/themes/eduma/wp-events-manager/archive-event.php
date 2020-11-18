@@ -121,7 +121,7 @@ th.month {
     $Friday = 'Friday';
     $Saturday = 'Saturday';
 
-    $daySelect = $wpdb->get_results('SELECT DISTINCT(DAY(class_day)) AS class_day, class_teacher_name, student_id FROM wp_classes ORDER BY class_day ASC');
+    $daySelect = $wpdb->get_results('SELECT DISTINCT(DAY(class_day)) AS class_day, class_teacher_name, student_id, available FROM wp_classes ORDER BY class_day ASC');
 
     $daysTeachers = $wpdb->get_results('SELECT 
                                             DAY(A.class_day) AS class_day, 
@@ -145,6 +145,7 @@ th.month {
     $concTeachers = '';
     $counter = 0;
     $daysRemaining = 0;
+    $concDay = '';
 
     foreach ( $daySelect AS $rowSelect ) {
         $listTeachers = array();
@@ -186,93 +187,93 @@ th.month {
             
             if ($firstDay->class_week == $Monday) {
                 $daysRemaining = 5;
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
                 $contentSchedule .= $buildFirstDay;
             }  
             
             if ($firstDay->class_week == $Tuesday) {
                 $daysRemaining = 4;
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
                 $contentSchedule .= $buildFirstDay;
             } 
             
             if ($firstDay->class_week == $Wednesday) {
                 $daysRemaining = 3;
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
                 $contentSchedule .= $buildFirstDay;
             } 
             
             if ($firstDay->class_week == $Thursday) {
                 $daysRemaining = 2;
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
                 $contentSchedule .= $buildFirstDay;
             }
             
             if ($firstDay->class_week == $Friday) {
                 $daysRemaining = 1;
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
                 $contentSchedule .= $buildFirstDay;
             } 
             
             if ($firstDay->class_week == $Saturday) {
                 $daysRemaining = 0;
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Sunday
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Monday
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Tuesday
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Wednesday
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Thursday
-                $contentSchedule .= '<td><span class="date">&nbsp;</span></td>'; //Friday
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>'; //Sunday
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>'; //Monday
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>'; //Tuesday
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>'; //Wednesday
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>'; //Thursday
+                $contentSchedule .= '<td class="soldOut"><span class="date">&nbsp;</span></td>'; //Friday
                 $contentSchedule .= $buildFirstDay;
             }
 
             //Build final part of the calendar
             if ($lastDayName->class_week == $Sunday){
-                $contentScheduleFinal = '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td></tr></table>';
+                $contentScheduleFinal = '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td></tr></table>';
             }
             
             if ($lastDayName->class_week == $Monday) {
-                $contentScheduleFinal = '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td></tr></table>';
+                $contentScheduleFinal = '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td></tr></table>';
             }  
             
             if ($lastDayName->class_week == $Tuesday) {
-                $contentScheduleFinal = '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td></tr></table>';
+                $contentScheduleFinal = '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td></tr></table>';
             } 
             
             if ($lastDayName->class_week == $Wednesday) {
-                $contentScheduleFinal = '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td></tr></table>';
+                $contentScheduleFinal = '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"<span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td></tr></table>';
             } 
             
             if ($lastDayName->class_week == $Thursday) {
-                $contentScheduleFinal = '<td><span class="date">&nbsp;</span></td>';
-                $contentScheduleFinal .= '<td><span class="date">&nbsp;</span></td></tr></table>';
+                $contentScheduleFinal = '<td class="soldOut"><span class="date">&nbsp;</span></td>';
+                $contentScheduleFinal .= '<td class="soldOut"><span class="date">&nbsp;</span></td></tr></table>';
             }
             
             if ($lastDayName->class_week == $Friday) {
-                $contentScheduleFinal = '<td><span class="date">&nbsp;</span></td></tr></table>';
+                $contentScheduleFinal = '<td class="soldOut"><span class="date">&nbsp;</span></td></tr></table>';
             } 
             
             if ($lastDayName->class_week == $Saturday) {
@@ -300,8 +301,13 @@ th.month {
                              array_push($listTeachers, $rowSelect->class_teacher_name);
                              $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
                         }
-                        $buildFirstWeek .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
-                        $daysRemaining--;
+
+                        if($dayContinue != $concDay){
+                            $buildFirstWeek .= '<td class="' . $rowSelect->available . '"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                            $daysRemaining--;
+                        }
+
+                        $concDay = $rowSelect->class_day;
                     }
                 } else {
                     break;
@@ -312,7 +318,7 @@ th.month {
             $buildSecondWeek = '';
             $buildSecondWeek .= '</tr><tr>';
             $daysRemaining = 7;
-            $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
+            $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id, available FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
 
             foreach ( $daySelect AS $rowSelect ) {
                 $dayContinue = $rowSelect->class_day;
@@ -333,8 +339,13 @@ th.month {
                              array_push($listTeachers, $rowSelect->class_teacher_name);
                              $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
                         }
-                        $buildSecondWeek .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
-                        $daysRemaining--;
+                        
+                        if($dayContinue != $concDay){
+                            $buildSecondWeek .= '<td class="' . $rowSelect->available . '"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                            $daysRemaining--;
+                        }
+
+                        $concDay = $rowSelect->class_day;
                     }
                 } else {
                     break;
@@ -345,7 +356,7 @@ th.month {
             $buildThirdWeek = '';
             $buildThirdWeek .= '</tr><tr>';
             $daysRemaining = 7;
-            $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
+            $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id, available FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
 
             foreach ( $daySelect AS $rowSelect ) {
                 $dayContinue = $rowSelect->class_day;
@@ -366,8 +377,13 @@ th.month {
                              array_push($listTeachers, $rowSelect->class_teacher_name);
                              $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
                         }
-                        $buildThirdWeek .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
-                        $daysRemaining--;
+
+                        if($dayContinue != $concDay){
+                            $buildThirdWeek .= '<td class="' . $rowSelect->available . '"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                            $daysRemaining--;
+                        }
+
+                        $concDay = $rowSelect->class_day;
                     }
                 } else {
                     break;
@@ -378,7 +394,7 @@ th.month {
             $buildFourthWeek = '';
             $buildFourthWeek .= '</tr><tr>';
             $daysRemaining = 7;
-            $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
+            $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id, available FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
 
             foreach ( $daySelect AS $rowSelect ) {
                 $dayContinue = $rowSelect->class_day;
@@ -401,8 +417,12 @@ th.month {
                              $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
                         }
 
-                        $buildFourthWeek .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
-                        $daysRemaining--;
+                        if($dayContinue != $concDay){
+                            $buildFourthWeek .= '<td class="' . $rowSelect->available . '"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                            $daysRemaining--;
+                        }
+
+                        $concDay = $rowSelect->class_day;
 
                         if ($dayContinue == $lastDay->class_day){
                             $buildFourthWeek .= $contentScheduleFinal;
@@ -418,7 +438,7 @@ th.month {
                 $buildFifthWeek = '';
                 $buildFifthWeek .= '</tr><tr>';
                 $daysRemaining = 7;
-                $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
+                $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id, available FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
 
                 foreach ( $daySelect AS $rowSelect ) {
                     $dayContinue = $rowSelect->class_day;
@@ -441,8 +461,12 @@ th.month {
                                 $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
                             }
 
-                            $buildFifthWeek .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
-                            $daysRemaining--;
+                            if($dayContinue != $concDay){
+                                $buildFifthWeek .= '<td class="' . $rowSelect->available . '"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                                $daysRemaining--;
+                            }
+    
+                            $concDay = $rowSelect->class_day;
                             
                             if ($dayContinue == $lastDay->class_day){
                                 $buildFifthWeek .= $contentScheduleFinal;
@@ -459,7 +483,7 @@ th.month {
                 $buildSixthWeek = '';
                 $buildSixthWeek .= '</tr><tr>';
                 $daysRemaining = 7;
-                $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
+                $daySelect = $wpdb->get_results('SELECT DAY(class_day) AS class_day, class_teacher_name, student_id, available FROM wp_classes WHERE DAY(class_day) >= ' . $dayContinue . ' ORDER BY class_day ASC');
 
                 foreach ( $daySelect AS $rowSelect ) {
                     $dayContinue = $rowSelect->class_day;
@@ -482,8 +506,12 @@ th.month {
                                 $concTeachers .= str_replace(' ', '-', $rowSelect->class_teacher_name) . ' ';
                             }
 
-                            $buildSixthWeek .= '<td class="eventDay"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
-                            $daysRemaining--;
+                            if($dayContinue != $concDay){
+                                $buildSixthWeek .= '<td class="' . $rowSelect->available . '"><span class="date"><a class="' . $concTeachers . '"></a>'. $rowSelect->class_day .'</span></td>';
+                                $daysRemaining--;
+                            }
+    
+                            $concDay = $rowSelect->class_day;
 
                             if ($dayContinue == $lastDay->class_day){
                                 $buildSixthWeek .= $contentScheduleFinal;
@@ -504,32 +532,6 @@ th.month {
             echo $buildSixthWeek;
 
 ?>
-
-	<div class="list-tab-event">
-		<ul class="nav nav-tabs">
-			<?php
-			$first_tab = true;
-			foreach ( $output_tab as $k => $v ) {
-				if ( $first_tab ) {
-					$first_tab = false;
-					echo '<li class="active"><a href="#tab-' . ( $k ) . '" data-toggle="tab">' . ( $v ) . '</a></li>';
-				} else {
-					echo '<li><a href="#tab-' . ( $k ) . '" data-toggle="tab">' . ( $v ) . '</a></li>';
-				}
-				?>
-				<?php
-			}
-			?>
-		</ul>
-
-		<div class="tab-content thim-list-event">
-			<?php
-			foreach ( $output_tab as $type => $title ) :
-				get_template_part( 'wp-events-manager/archive-event', $type );
-			endforeach;
-			?>
-		</div>
-	</div>
 
 <?php
 /**

@@ -1,0 +1,3 @@
+#wpadminbar #wp-admin-bar-wpappninja .ab-icon:before {content: "\f470";top: 3px;}
+.mce-i-wpappninja_tinymce:before {font-family: dashicons;content: "\f470";top: 3px;}
+#wpadminbar #wp-admin-bar-wpappninja_push .ab-icon:before {content: "\f488";top: 3px;}
