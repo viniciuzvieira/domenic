@@ -135,7 +135,20 @@ th.month {
                                         AND A.class_teacher_name <> B.class_teacher_name
                                         ORDER BY A.class_day ASC');
 
-    $firstDay = $wpdb->get_row('SELECT DAY(class_day), DAYNAME(class_day) AS class_week, MONTHNAME(class_day) AS class_month, student_id FROM wp_classes WHERE DAY(class_day) = 1');
+    $firstDay = $wpdb->get_row('SELECT DAY(class_day), DAYNAME(class_day) AS class_week, (CASE MONTHNAME(class_day) 
+                                                                                            when "January" then "Janeiro"
+                                                                                            when "February" then "Fevereiro"
+                                                                                            when "March" then "Março"
+                                                                                            when "April" then "Abril"
+                                                                                            when "May" then "Maio"
+                                                                                            when "June" then "Junho"
+                                                                                            when "July" then "Julho"
+                                                                                            when "August" then "Agosto"
+                                                                                            when "September" then "Setembro"
+                                                                                            when "October" then "Outubro"
+                                                                                            when "November" then "Novembro"
+                                                                                            when "December" then "Dezembro"
+                                                                                            END) AS class_month, student_id FROM wp_classes WHERE DAY(class_day) = 1');
 
     $lastDay = $wpdb->get_row('SELECT MAX(DAY(class_day)) AS class_day FROM wp_classes');
 
@@ -170,13 +183,13 @@ th.month {
     $contentSchedule = '<div id="monthClass" class="title">' . $firstDay->class_month . '</div>';
     $contentSchedule.= '<table border="1">
                         <tr>
-                            <th>Sunday</th>
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wednesday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
+                            <th>Domingo</th>
+                            <th>Segunda</th>
+                            <th>Terça</th>
+                            <th>Quarta</th>
+                            <th>Quinta</th>
+                            <th>Sexta</th>
+                            <th>Sábado</th>
                         </tr>
                         <tr>';
         
