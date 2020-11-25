@@ -179,8 +179,6 @@ class WPCF7Submissions
                  if (!empty($attachments)) {
 
                      $wpcf7s_dir = $this->get_wpcf7s_dir();
-                     // add a sub directory of the submission post id
-                     $wpcf7s_dir .= '/' . $post_id;
 
                      mkdir($wpcf7s_dir, 0755, true);
 
