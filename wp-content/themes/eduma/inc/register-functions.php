@@ -390,7 +390,7 @@ if ( ! function_exists( 'thim_class_ajax_callback' ) ) {
 									
 			global $wpdb;
 			$contentSelect = '<select id="teacher" name="orderby" class="orderby selectTeacher">';
-			$resultsSelect = $wpdb->get_results('SELECT DISTINCT(class_teacher_name), class_time_day FROM wp_classes WHERE DAY(class_day) = ' . $daySelect . ' AND student_id is null');
+			$resultsSelect = $wpdb->get_results('SELECT DISTINCT(class_teacher_name), class_time_day FROM wp_classes WHERE DAY(class_day) = ' . $daySelect . ' AND student_id = 0');
 			
 			$contentSelect .= '<option value="" selected disabled hidden>Escolher professor(a)</option>';
 			
