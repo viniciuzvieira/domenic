@@ -202,6 +202,9 @@ class WPCF7Submissions
                 }
             }
 
+                    session_start();
+                    $_SESSION["create_schedule"] = true;
+
                     $objReader = new PHPExcel_Reader_Excel5();
                     $objReader->setReadDataOnly(true);
 

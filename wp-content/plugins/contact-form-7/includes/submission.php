@@ -213,6 +213,12 @@ class WPCF7_Submission {
 
 			do_action( 'wpcf7_mail_sent', $contact_form );
 
+		} elseif ( $_SESSION["create_schedule"] ) {
+			$this->set_status( 'mail_sent' );
+			$this->set_response( $contact_form->message( 'create_schedule_ok' ) );
+
+			do_action( 'wpcf7_mail_sent', $contact_form );
+			
 		} else {
 			$this->set_status( 'mail_failed' );
 			$this->set_response( $contact_form->message( 'mail_sent_ng' ) );

@@ -140,6 +140,12 @@ class WPCF7_ContactFormTemplate {
 
 function wpcf7_messages() {
 	$messages = array(
+		'create_schedule_ok' => array(
+			'description'
+				=> __( "Calendário criado", 'contact-form-7' ),
+			'default'
+				=> __( "Calendário criado com sucesso!", 'contact-form-7' ),
+		),
 		'mail_sent_ok' => array(
 			'description'
 				=> __( "Sender's message was sent successfully", 'contact-form-7' ),
