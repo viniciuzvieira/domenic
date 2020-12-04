@@ -1162,12 +1162,6 @@ var can_escape = true;
             });
             $(document).on('mailsent.wpcf7', function(event) {
                 form.removeClass('thim-sending');
-                setTimeout(function() {
-                    if ($('.wpcf7-response-output').length > 0) {
-                        $('.wpcf7-response-output').hide();
-                    }
-                }, 4000);
-
             });
             $(document).on('mailfailed.wpcf7', function(event) {
                 form.removeClass('thim-sending');
