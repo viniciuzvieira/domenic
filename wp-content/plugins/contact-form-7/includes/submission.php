@@ -216,7 +216,8 @@ class WPCF7_Submission {
 		} elseif ( $_SESSION["create_schedule"] ) {
 			$this->set_status( 'mail_sent' );
 			$this->set_response( $contact_form->message( 'create_schedule_ok' ) );
-			
+
+			$_SESSION["create_schedule"] = false;
 		} else {
 			$this->set_status( 'mail_failed' );
 			$this->set_response( $contact_form->message( 'mail_sent_ng' ) );

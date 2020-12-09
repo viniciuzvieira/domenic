@@ -20,37 +20,37 @@
  *
  * @return bool Whether the admin bar was successfully initialized.
  */
-function _wp_admin_bar_init() {
-	global $wp_admin_bar;
+// function _wp_admin_bar_init() {
+// 	global $wp_admin_bar;
 
-	if ( ! is_admin_bar_showing() ) {
-		return false;
-	}
+// 	if ( ! is_admin_bar_showing() ) {
+// 		return false;
+// 	}
 
-	/* Load the admin bar class code ready for instantiation */
-	require_once( ABSPATH . WPINC . '/class-wp-admin-bar.php' );
+// 	/* Load the admin bar class code ready for instantiation */
+// 	require_once( ABSPATH . WPINC . '/class-wp-admin-bar.php' );
 
-	/* Instantiate the admin bar */
+// 	/* Instantiate the admin bar */
 
-	/**
-	 * Filters the admin bar class to instantiate.
-	 *
-	 * @since 3.1.0
-	 *
-	 * @param string $wp_admin_bar_class Admin bar class to use. Default 'WP_Admin_Bar'.
-	 */
-	$admin_bar_class = apply_filters( 'wp_admin_bar_class', 'WP_Admin_Bar' );
-	if ( class_exists( $admin_bar_class ) ) {
-		$wp_admin_bar = new $admin_bar_class;
-	} else {
-		return false;
-	}
+// 	/**
+// 	 * Filters the admin bar class to instantiate.
+// 	 *
+// 	 * @since 3.1.0
+// 	 *
+// 	 * @param string $wp_admin_bar_class Admin bar class to use. Default 'WP_Admin_Bar'.
+// 	 */
+// 	$admin_bar_class = apply_filters( 'wp_admin_bar_class', 'WP_Admin_Bar' );
+// 	if ( class_exists( $admin_bar_class ) ) {
+// 		$wp_admin_bar = new $admin_bar_class;
+// 	} else {
+// 		return false;
+// 	}
 
-	$wp_admin_bar->initialize();
-	$wp_admin_bar->add_menus();
+// 	$wp_admin_bar->initialize();
+// 	$wp_admin_bar->add_menus();
 
-	return true;
-}
+// 	return true;
+// }
 
 /**
  * Renders the admin bar to the page based on the $wp_admin_bar->menu member var.

@@ -1144,8 +1144,24 @@ var can_escape = true;
             }
         });
 
+        var interval;
         //wpcf7-form-submit
         $(document).on('click', '.wpcf7-form-control.wpcf7-submit', function() {
+
+            $(function() {
+                var current_progress = 6;
+                interval = setInterval(function() {
+                    current_progress += Math.floor(Math.random() * (10 - 1 + 1) + 1);
+                    $("#dynamic")
+                    .css("width", current_progress + "%")
+                    .attr("aria-valuenow", current_progress)
+                    .text(current_progress + "% Complete");
+                    if (current_progress > 70)
+                        clearInterval(interval);
+                }, 8000);
+              });
+
+            $('.wpcf7-mail-sent-ok').hide();
             var elem = $(this),
                 form = elem.parents('.wpcf7-form');
             form.addClass('thim-sending');
@@ -1162,6 +1178,13 @@ var can_escape = true;
             });
             $(document).on('mailsent.wpcf7', function(event) {
                 form.removeClass('thim-sending');
+
+                $("#dynamic")
+                    .css("width", 100 + "%")
+                    .attr("aria-valuenow", 100)
+                    .text(100 + "% Complete");
+
+                    clearInterval(interval);
             });
             $(document).on('mailfailed.wpcf7', function(event) {
                 form.removeClass('thim-sending');

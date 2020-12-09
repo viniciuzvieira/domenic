@@ -240,7 +240,6 @@
 			detail.apiResponse = data;
 
 			var $message = $( '.wpcf7-response-output', $form );
-
 			switch ( data.status ) {
 				case 'validation_failed':
 					$.each( data.invalidFields, function( i, n ) {
@@ -277,7 +276,6 @@
 				case 'mail_sent':
 					$message.addClass( 'wpcf7-mail-sent-ok' );
 					$form.addClass( 'sent' );
-
 					wpcf7.triggerEvent( data.into, 'mailsent', detail );
 					break;
 				case 'mail_failed':
@@ -350,7 +348,7 @@
 			ajaxSuccess( data, status, xhr, $form );
 			$( '.ajax-loader', $form ).removeClass( 'is-active' );
 		} ).fail( function( xhr, status, error ) {
-			var $e = $( '<div class="ajax-error"></div>' ).text( error.message );
+			var $e = $( '<div class="wpcf7-display-none wpcf7-fail-ajax" style="display: block;" role="alert">Ocorreu um erro, favor tentar mais tarde.</div>');
 			$form.after( $e );
 		} );
 	};
