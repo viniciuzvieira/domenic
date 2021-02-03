@@ -1148,6 +1148,8 @@ var can_escape = true;
         //wpcf7-form-submit
         $(document).on('click', '.wpcf7-form-control.wpcf7-submit', function() {
 
+            $(".progress").show();
+
             $(function() {
                 var current_progress = 6;
                 interval = setInterval(function() {

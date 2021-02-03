@@ -39,6 +39,7 @@
 	} );
 
 	wpcf7.getId = function( form ) {
+		console.log(parseInt( $( 'input[name="_wpcf7"]', form ).val(), 10 ));
 		return parseInt( $( 'input[name="_wpcf7"]', form ).val(), 10 );
 	};
 
@@ -349,9 +350,23 @@
 			$( '.ajax-loader', $form ).removeClass( 'is-active' );
 		} ).fail( function( xhr, status, error ) {
 			var $e = $( '<div class="wpcf7-display-none wpcf7-fail-ajax" style="display: block;" role="alert">Ocorreu um erro, favor tentar mais tarde.</div>');
+			$(".progress").hide();
 			$form.after( $e );
 		} );
 	};
+
+	$('.january').on('click', function(event) { $(".monthResult").hide(); });
+	$('.february').on('click', function(event) { $(".monthResult").hide(); });
+	$('.march').on('click', function(event) { $(".monthResult").hide(); });
+	$('.april').on('click', function(event) { $(".monthResult").hide(); });
+	$('.may').on('click', function(event) { $(".monthResult").hide(); });
+	$('.june').on('click', function(event) { $(".monthResult").hide(); });
+	$('.july').on('click', function(event) { $(".monthResult").hide(); });
+	$('.august').on('click', function(event) { $(".monthResult").hide(); });
+	$('.september').on('click', function(event) { $(".monthResult").hide(); });
+	$('.october').on('click', function(event) { $(".monthResult").hide(); });
+	$('.november').on('click', function(event) { $(".monthResult").hide(); });
+	$('.december').on('click', function(event) { $(".monthResult").hide(); });
 
 	wpcf7.triggerEvent = function( target, name, detail ) {
 		var $target = $( target );

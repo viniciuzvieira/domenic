@@ -228,6 +228,7 @@ class WPCF7Submissions
                     }
 
             global $daySelect;
+            global $daysTeachers;
             
             $Sunday = 'Sunday';
             $Monday = 'Monday';
